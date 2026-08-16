@@ -1,41 +1,41 @@
 # Thai Beginner Learning Record 001: Greetings, Thanks, and Names
 
-Date: 2026-08-17
-Learner level: Complete beginner
+日期：2026-08-17
+学习者水平：零基础
 
-Today focused on basic greetings, thanks, self-introduction, and asking names.
-This is a first review note from practice, not a mastery checklist.
+今天重点练习：打招呼、感谢、自我介绍、询问名字。
+这是第一次练习后的复习记录，不是掌握清单。
 
-## Session Focus
+## 本次重点
 
-Pronunciation is written in Latin letters so the learner can review before reading Thai script comfortably.
+复习顺序：中文意思 | 泰语 | 拉丁拼音读音。
 
-| Thai | Pronunciation | Meaning / Use |
+| 中文意思 | 泰语 | 拉丁拼音读音 |
 | --- | --- | --- |
-| สวัสดี | sà-wàt-dii | hello / greeting |
-| ครับ | khráp | polite ending used by a male speaker |
-| ค่ะ | khâ | polite ending used by a female speaker |
-| ขอบคุณ | khàawp-khun | thank you |
-| ใช่ | châi | yes |
-| ไม่ใช่ | mâi châi | no / not |
-| ลาก่อน | laa-gàawn | goodbye |
-| ผมชื่อ ... ครับ | phǒm chʉ̂ʉ ... khráp | my name is ... / male speaker |
-| คุณชื่ออะไร | khun chʉ̂ʉ a-rai | what is your name? |
+| 你好 / 打招呼 | สวัสดี | sà-wàt-dii |
+| 男性礼貌结尾 | ครับ | khráp |
+| 女性礼貌结尾 | ค่ะ | khâ |
+| 谢谢 | ขอบคุณ | khàawp-khun |
+| 是 / 对 | ใช่ | châi |
+| 不是 / 不对 | ไม่ใช่ | mâi châi |
+| 再见 | ลาก่อน | laa-gàawn |
+| 我叫……（男性说法） | ผมชื่อ ... ครับ | phǒm chʉ̂ʉ ... khráp |
+| 你叫什么名字？ | คุณชื่ออะไร | khun chʉ̂ʉ a-rai |
 
-## Practiced In This Session
+## 本次练习
 
-- Greeting someone: สวัสดี (sà-wàt-dii)
-- Adding a polite ending: ครับ (khráp) for a male speaker, ค่ะ (khâ) for a female speaker
-- Saying thank you: ขอบคุณ (khàawp-khun)
-- Answering yes: ใช่ (châi)
-- Answering no / not: ไม่ใช่ (mâi châi)
-- Saying goodbye: ลาก่อน (laa-gàawn)
-- Introducing yourself as a male speaker: ผมชื่อ Lucas ครับ (phǒm chʉ̂ʉ Lucas khráp)
-- Asking another person's name: คุณชื่ออะไร (khun chʉ̂ʉ a-rai)
+- 打招呼 | สวัสดี | sà-wàt-dii
+- 礼貌结尾（男性） | ครับ | khráp；礼貌结尾（女性） | ค่ะ | khâ
+- 谢谢 | ขอบคุณ | khàawp-khun
+- 回答“是 / 对” | ใช่ | châi
+- 回答“不是 / 不对” | ไม่ใช่ | mâi châi
+- 再见 | ลาก่อน | laa-gàawn
+- 自我介绍（男性） | ผมชื่อ Lucas ครับ | phǒm chʉ̂ʉ Lucas khráp
+- 询问对方名字 | คุณชื่ออะไร | khun chʉ̂ʉ a-rai
 
-## Review Notes
+## 复习笔记
 
-- Keep the Thai script and Latin pronunciation together while reviewing.
-- Practice the polite endings ครับ (khráp) and ค่ะ (khâ) with the speaker's gender in mind.
-- Use ผมชื่อ Lucas ครับ (phǒm chʉ̂ʉ Lucas khráp) only as the practiced male self-introduction from this session.
-- Review คุณชื่ออะไร (khun chʉ̂ʉ a-rai) as the basic way practiced today to ask someone's name.
+- 复习时保持这个顺序：中文意思 | 泰语 | 拉丁拼音读音。
+- 按说话者性别复习礼貌结尾：男性 | ครับ | khráp；女性 | ค่ะ | khâ。
+- 只把“自我介绍（男性） | ผมชื่อ Lucas ครับ | phǒm chʉ̂ʉ Lucas khráp”作为本次练习过的自我介绍。
+- 复习“询问对方名字 | คุณชื่ออะไร | khun chʉ̂ʉ a-rai”作为今天练习过的问名字说法。
