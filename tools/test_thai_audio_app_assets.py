@@ -17,7 +17,7 @@ def load_builder():
 def test_collect_items_adds_audio_to_thai_word_blocks_only():
     builder = load_builder()
     items = builder.collect_items()
-    assert len(items) >= 393
+    assert len(items) >= 400
 
     thai_words = [
         word
@@ -94,3 +94,11 @@ def test_record_008_new_sleep_phrase_keeps_split_words_and_rules():
         "ครับ",
     ]
     assert item["pronunciationRules"]
+
+
+def test_record_008_loei_usage_table_is_collected():
+    builder = load_builder()
+    items = builder.collect_items()
+
+    assert any(item["thai"] == "ไม่ดีเลย" for item in items)
+    assert any(item["thai"] == "ผมง่วง ก็เลยนอน" for item in items)
