@@ -140,6 +140,11 @@ def audio_filename(index: int, thai: str) -> str:
     return f"{index:03d}-{digest}.mp3"
 
 
+def word_audio_filename(thai: str) -> str:
+    digest = hashlib.sha1(thai.encode("utf-8")).hexdigest()[:10]
+    return f"word-audio/{digest}.mp3"
+
+
 def add_item(items: list[dict], seen: set[tuple[str, str]], item: dict) -> None:
     key = (item["thai"], item["meaning"])
     if key in seen:
@@ -463,6 +468,9 @@ def annotate_words(items: list[dict], lexicon: dict[str, dict]) -> None:
 
     for item in items:
         item["words"] = item_words_from_lexicon(item, lexicon)
+        for word in item["words"]:
+            if THAI_RE.search(word["thai"]):
+                word["audio"] = word_audio_filename(word["thai"])
 
 
 def collect_items() -> list[dict]:
@@ -502,18 +510,52 @@ def write_data(items: list[dict]) -> None:
     )
 
 
+def collect_audio_targets(items: list[dict]) -> list[dict]:
+    targets: list[dict] = []
+    seen_audio: set[str] = set()
+
+    for item in items:
+        if item["audio"] not in seen_audio:
+            seen_audio.add(item["audio"])
+            targets.append(
+                {
+                    "meaning": item["meaning"],
+                    "thai": item["thai"],
+                    "audio": item["audio"],
+                }
+            )
+
+    for item in items:
+        for word in item.get("words", []):
+            audio = word.get("audio")
+            if not audio or audio in seen_audio:
+                continue
+            seen_audio.add(audio)
+            targets.append(
+                {
+                    "meaning": word["meaning"],
+                    "thai": word["thai"],
+                    "audio": audio,
+                }
+            )
+
+    return targets
+
+
 async def generate_audio(items: list[dict], overwrite: bool) -> None:
     import edge_tts
 
     AUDIO_DIR.mkdir(parents=True, exist_ok=True)
+    targets = collect_audio_targets(items)
     failures: list[dict] = []
-    for index, item in enumerate(items, 1):
+    for index, item in enumerate(targets, 1):
         output = APP_DIR / item["audio"]
+        output.parent.mkdir(parents=True, exist_ok=True)
         if output.exists() and output.stat().st_size > 0 and not overwrite:
             continue
         if output.exists() and output.stat().st_size == 0:
             output.unlink()
-        print(f"[{index}/{len(items)}] -> {output.name}")
+        print(f"[{index}/{len(targets)}] -> {output.relative_to(AUDIO_DIR.parent)}")
         for attempt in range(1, 4):
             try:
                 communicate = edge_tts.Communicate(item["thai"], VOICE)

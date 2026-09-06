@@ -14,7 +14,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "你好 / 打招呼",
         "thai": "สวัสดี",
-        "pinyin": "sà-wàt-dii"
+        "pinyin": "sà-wàt-dii",
+        "audio": "word-audio/c7bcb12d8b.mp3"
       }
     ],
     "id": "thai-001",
@@ -35,7 +36,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "id": "thai-002",
@@ -55,7 +57,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "女性礼貌结尾",
         "thai": "ค่ะ",
-        "pinyin": "khâ"
+        "pinyin": "khâ",
+        "audio": "word-audio/fbd3f12059.mp3"
       }
     ],
     "id": "thai-003",
@@ -76,7 +79,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "谢谢",
         "thai": "ขอบคุณ",
-        "pinyin": "khàawp-khun"
+        "pinyin": "khàawp-khun",
+        "audio": "word-audio/87eeb6a8c3.mp3"
       }
     ],
     "id": "thai-004",
@@ -96,7 +100,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "是 / 对",
         "thai": "ใช่",
-        "pinyin": "châi"
+        "pinyin": "châi",
+        "audio": "word-audio/2d09568c10.mp3"
       }
     ],
     "id": "thai-005",
@@ -116,12 +121,14 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "不",
         "thai": "ไม่",
-        "pinyin": "mâi"
+        "pinyin": "mâi",
+        "audio": "word-audio/d73fba748e.mp3"
       },
       {
         "meaning": "是 / 对",
         "thai": "ใช่",
-        "pinyin": "châi"
+        "pinyin": "châi",
+        "audio": "word-audio/2d09568c10.mp3"
       }
     ],
     "id": "thai-006",
@@ -141,7 +148,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "再见",
         "thai": "ลาก่อน",
-        "pinyin": "laa-gàawn"
+        "pinyin": "laa-gàawn",
+        "audio": "word-audio/bf0a0836c4.mp3"
       }
     ],
     "id": "thai-007",
@@ -165,12 +173,14 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我（男性用）",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "名字 / 叫",
         "thai": "ชื่อ",
-        "pinyin": "chʉ̂ʉ"
+        "pinyin": "chʉ̂ʉ",
+        "audio": "word-audio/0b1fcfc407.mp3"
       },
       {
         "meaning": "替换姓名的位置",
@@ -180,7 +190,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "id": "thai-008",
@@ -200,17 +211,20 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "你",
         "thai": "คุณ",
-        "pinyin": "khun"
+        "pinyin": "khun",
+        "audio": "word-audio/2f5855175b.mp3"
       },
       {
         "meaning": "名字 / 叫",
         "thai": "ชื่อ",
-        "pinyin": "chʉ̂ʉ"
+        "pinyin": "chʉ̂ʉ",
+        "audio": "word-audio/0b1fcfc407.mp3"
       },
       {
         "meaning": "什么",
         "thai": "อะไร",
-        "pinyin": "a-rai"
+        "pinyin": "a-rai",
+        "audio": "word-audio/b63888f232.mp3"
       }
     ],
     "id": "thai-009",
@@ -233,12 +247,14 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "很好 / 状态好",
         "thai": "สบายดี",
-        "pinyin": "sà-baai dii"
+        "pinyin": "sà-baai dii",
+        "audio": "word-audio/d34a46e071.mp3"
       },
       {
         "meaning": "吗 / 疑问语气",
         "thai": "ไหม",
-        "pinyin": "mái"
+        "pinyin": "mái",
+        "audio": "word-audio/4a80f2d016.mp3"
       }
     ],
     "id": "thai-010",
@@ -259,7 +275,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "很好 / 状态好",
         "thai": "สบายดี",
-        "pinyin": "sà-baai dii"
+        "pinyin": "sà-baai dii",
+        "audio": "word-audio/d34a46e071.mp3"
       }
     ],
     "id": "thai-011",
@@ -280,17 +297,20 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "然后 / 那么",
         "thai": "แล้ว",
-        "pinyin": "láew"
+        "pinyin": "láew",
+        "audio": "word-audio/354ea34dd5.mp3"
       },
       {
         "meaning": "你",
         "thai": "คุณ",
-        "pinyin": "khun"
+        "pinyin": "khun",
+        "audio": "word-audio/2f5855175b.mp3"
       },
       {
         "meaning": "呢 / 反问语气",
         "thai": "ล่ะ",
-        "pinyin": "lâ"
+        "pinyin": "lâ",
+        "audio": "word-audio/87c765302e.mp3"
       }
     ],
     "id": "thai-012",
@@ -312,7 +332,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "对不起",
         "thai": "ขอโทษ",
-        "pinyin": "khǎaw thôot"
+        "pinyin": "khǎaw thôot",
+        "audio": "word-audio/fd047e1679.mp3"
       }
     ],
     "id": "thai-013",
@@ -332,17 +353,20 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "不",
         "thai": "ไม่",
-        "pinyin": "mâi"
+        "pinyin": "mâi",
+        "audio": "word-audio/d73fba748e.mp3"
       },
       {
         "meaning": "是 / 在",
         "thai": "เป็น",
-        "pinyin": "pen"
+        "pinyin": "pen",
+        "audio": "word-audio/f15d6f0da2.mp3"
       },
       {
         "meaning": "事 / 什么事",
         "thai": "ไร",
-        "pinyin": "rai"
+        "pinyin": "rai",
+        "audio": "word-audio/eee0e744ab.mp3"
       }
     ],
     "id": "thai-014",
@@ -362,12 +386,14 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "不",
         "thai": "ไม่",
-        "pinyin": "mâi"
+        "pinyin": "mâi",
+        "audio": "word-audio/d73fba748e.mp3"
       },
       {
         "meaning": "明白",
         "thai": "เข้าใจ",
-        "pinyin": "khâo jai"
+        "pinyin": "khâo jai",
+        "audio": "word-audio/474d9aa750.mp3"
       }
     ],
     "id": "thai-015",
@@ -389,22 +415,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "高兴",
         "thai": "ยินดี",
-        "pinyin": "yin-dii"
+        "pinyin": "yin-dii",
+        "audio": "word-audio/84a6c3aed0.mp3"
       },
       {
         "meaning": "在 / 地点连接词",
         "thai": "ที่",
-        "pinyin": "thîi"
+        "pinyin": "thîi",
+        "audio": "word-audio/2bcfc8ec12.mp3"
       },
       {
         "meaning": "能 / 得到",
         "thai": "ได้",
-        "pinyin": "dâai"
+        "pinyin": "dâai",
+        "audio": "word-audio/d45e7f861d.mp3"
       },
       {
         "meaning": "认识某个人",
         "thai": "รู้จัก",
-        "pinyin": "rúu jàk"
+        "pinyin": "rúu jàk",
+        "audio": "word-audio/0f02bea766.mp3"
       }
     ],
     "id": "thai-016",
@@ -425,17 +455,20 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "你",
         "thai": "คุณ",
-        "pinyin": "khun"
+        "pinyin": "khun",
+        "audio": "word-audio/2f5855175b.mp3"
       },
       {
         "meaning": "来自",
         "thai": "มาจาก",
-        "pinyin": "maa jàak"
+        "pinyin": "maa jàak",
+        "audio": "word-audio/ef59942e6f.mp3"
       },
       {
         "meaning": "哪里",
         "thai": "ไหน",
-        "pinyin": "nǎi"
+        "pinyin": "nǎi",
+        "audio": "word-audio/6122d34bed.mp3"
       }
     ],
     "id": "thai-017",
@@ -460,27 +493,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "来自",
         "thai": "มาจาก",
-        "pinyin": "maa jàak"
+        "pinyin": "maa jàak",
+        "audio": "word-audio/ef59942e6f.mp3"
       },
       {
         "meaning": "国家",
         "thai": "ประเทศ",
-        "pinyin": "bprà-thêet"
+        "pinyin": "bprà-thêet",
+        "audio": "word-audio/862f10aa04.mp3"
       },
       {
         "meaning": "中国",
         "thai": "จีน",
-        "pinyin": "jiin"
+        "pinyin": "jiin",
+        "audio": "word-audio/23fc70e4ef.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "id": "thai-018",
@@ -503,12 +541,14 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "谢谢",
         "thai": "ขอบคุณ",
-        "pinyin": "khàawp-khun"
+        "pinyin": "khàawp-khun",
+        "audio": "word-audio/87eeb6a8c3.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "id": "thai-019",
@@ -529,17 +569,20 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "什么",
         "thai": "อะไร",
-        "pinyin": "a-rai"
+        "pinyin": "a-rai",
+        "audio": "word-audio/b63888f232.mp3"
       },
       {
         "meaning": "让语气更自然柔和",
         "thai": "นะ",
-        "pinyin": "ná"
+        "pinyin": "ná",
+        "audio": "word-audio/97dee3ff62.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "id": "thai-020",
@@ -559,7 +602,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "幸福",
         "thai": "ความสุข",
-        "pinyin": "khwaam suk"
+        "pinyin": "khwaam suk",
+        "audio": "word-audio/89312eee58.mp3"
       }
     ],
     "id": "thai-021",
@@ -579,12 +623,14 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "幸福",
         "thai": "ความสุข",
-        "pinyin": "khwaam suk"
+        "pinyin": "khwaam suk",
+        "audio": "word-audio/89312eee58.mp3"
       }
     ],
     "id": "thai-022",
@@ -604,17 +650,20 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "以……方式 / ……地",
         "thai": "อย่าง",
-        "pinyin": "yàang"
+        "pinyin": "yàang",
+        "audio": "word-audio/f94b09f855.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "幸福",
         "thai": "ความสุข",
-        "pinyin": "khwaam suk"
+        "pinyin": "khwaam suk",
+        "audio": "word-audio/89312eee58.mp3"
       }
     ],
     "id": "thai-023",
@@ -634,12 +683,14 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "年长者 / 哥哥姐姐",
         "thai": "พี่",
-        "pinyin": "phîi"
+        "pinyin": "phîi",
+        "audio": "word-audio/2fbbc5027b.mp3"
       },
       {
         "meaning": "男性",
         "thai": "ชาย",
-        "pinyin": "chaai"
+        "pinyin": "chaai",
+        "audio": "word-audio/4cbc52d8dc.mp3"
       }
     ],
     "id": "thai-024",
@@ -660,12 +711,14 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "年幼者 / 弟弟妹妹",
         "thai": "น้อง",
-        "pinyin": "nóng"
+        "pinyin": "nóng",
+        "audio": "word-audio/851ddd4d9f.mp3"
       },
       {
         "meaning": "女性 / 女孩",
         "thai": "สาว",
-        "pinyin": "sǎao"
+        "pinyin": "sǎao",
+        "audio": "word-audio/bb6d0d9855.mp3"
       }
     ],
     "id": "thai-025",
@@ -685,7 +738,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "中国",
         "thai": "จีน",
-        "pinyin": "jiin"
+        "pinyin": "jiin",
+        "audio": "word-audio/23fc70e4ef.mp3"
       }
     ],
     "id": "thai-026",
@@ -708,22 +762,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "你",
         "thai": "คุณ",
-        "pinyin": "khun"
+        "pinyin": "khun",
+        "audio": "word-audio/2f5855175b.mp3"
       },
       {
         "meaning": "来自",
         "thai": "มาจาก",
-        "pinyin": "maa jàak"
+        "pinyin": "maa jàak",
+        "audio": "word-audio/ef59942e6f.mp3"
       },
       {
         "meaning": "哪里",
         "thai": "ไหน",
-        "pinyin": "nǎi"
+        "pinyin": "nǎi",
+        "audio": "word-audio/6122d34bed.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "id": "thai-027",
@@ -747,22 +805,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "来自",
         "thai": "มาจาก",
-        "pinyin": "maa jàak"
+        "pinyin": "maa jàak",
+        "audio": "word-audio/ef59942e6f.mp3"
       },
       {
         "meaning": "中国",
         "thai": "จีน",
-        "pinyin": "jiin"
+        "pinyin": "jiin",
+        "audio": "word-audio/23fc70e4ef.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "id": "thai-028",
@@ -785,27 +847,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "声音",
         "thai": "เสียง",
-        "pinyin": "sǐang"
+        "pinyin": "sǐang",
+        "audio": "word-audio/793c122b62.mp3"
       },
       {
         "meaning": "你",
         "thai": "คุณ",
-        "pinyin": "khun"
+        "pinyin": "khun",
+        "audio": "word-audio/2f5855175b.mp3"
       },
       {
         "meaning": "好听 / 悦耳",
         "thai": "เพราะ",
-        "pinyin": "phráw"
+        "pinyin": "phráw",
+        "audio": "word-audio/9f759ed34c.mp3"
       },
       {
         "meaning": "非常 / 很",
         "thai": "มาก",
-        "pinyin": "mâak"
+        "pinyin": "mâak",
+        "audio": "word-audio/8d2b538d3c.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "id": "thai-029",
@@ -826,27 +893,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "今天",
         "thai": "วันนี้",
-        "pinyin": "wan-níi"
+        "pinyin": "wan-níi",
+        "audio": "word-audio/cdf390d5bd.mp3"
       },
       {
         "meaning": "你",
         "thai": "คุณ",
-        "pinyin": "khun"
+        "pinyin": "khun",
+        "audio": "word-audio/2f5855175b.mp3"
       },
       {
         "meaning": "吃",
         "thai": "กิน",
-        "pinyin": "gin"
+        "pinyin": "gin",
+        "audio": "word-audio/f75afbf51f.mp3"
       },
       {
         "meaning": "什么",
         "thai": "อะไร",
-        "pinyin": "a-rai"
+        "pinyin": "a-rai",
+        "audio": "word-audio/b63888f232.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "id": "thai-030",
@@ -866,7 +938,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "害羞 / 不好意思 / 尴尬",
         "thai": "เขิน",
-        "pinyin": "khǒoen"
+        "pinyin": "khǒoen",
+        "audio": "word-audio/e6fcafe3bc.mp3"
       }
     ],
     "id": "thai-031",
@@ -889,22 +962,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "想念",
         "thai": "คิดถึง",
-        "pinyin": "khít thǔeng"
+        "pinyin": "khít thǔeng",
+        "audio": "word-audio/399101d650.mp3"
       },
       {
         "meaning": "你",
         "thai": "คุณ",
-        "pinyin": "khun"
+        "pinyin": "khun",
+        "audio": "word-audio/2f5855175b.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "id": "thai-032",
@@ -928,27 +1005,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "爱",
         "thai": "รัก",
-        "pinyin": "rák"
+        "pinyin": "rák",
+        "audio": "word-audio/f21ddef415.mp3"
       },
       {
         "meaning": "你",
         "thai": "คุณ",
-        "pinyin": "khun"
+        "pinyin": "khun",
+        "audio": "word-audio/2f5855175b.mp3"
       },
       {
         "meaning": "非常 / 很",
         "thai": "มาก",
-        "pinyin": "mâak"
+        "pinyin": "mâak",
+        "audio": "word-audio/8d2b538d3c.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "id": "thai-033",
@@ -965,7 +1047,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "吃",
         "thai": "กิน",
-        "pinyin": "gin"
+        "pinyin": "gin",
+        "audio": "word-audio/f75afbf51f.mp3"
       }
     ],
     "pronunciationRules": [
@@ -985,22 +1068,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "吃",
         "thai": "กิน",
-        "pinyin": "gin"
+        "pinyin": "gin",
+        "audio": "word-audio/f75afbf51f.mp3"
       },
       {
         "meaning": "水果",
         "thai": "ผลไม้",
-        "pinyin": "phǒn-lá-máai"
+        "pinyin": "phǒn-lá-máai",
+        "audio": "word-audio/6e74842236.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1020,7 +1107,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "喝",
         "thai": "ดื่ม",
-        "pinyin": "dʉ̀ʉm"
+        "pinyin": "dʉ̀ʉm",
+        "audio": "word-audio/b8d93fc1af.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1040,22 +1128,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "喝",
         "thai": "ดื่ม",
-        "pinyin": "dùuem"
+        "pinyin": "dùuem",
+        "audio": "word-audio/b8d93fc1af.mp3"
       },
       {
         "meaning": "水",
         "thai": "น้ำ",
-        "pinyin": "náam"
+        "pinyin": "náam",
+        "audio": "word-audio/9ebf4d22ac.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1075,7 +1167,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "走",
         "thai": "เดิน",
-        "pinyin": "dəən"
+        "pinyin": "dəən",
+        "audio": "word-audio/abc3015b17.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1095,27 +1188,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "走",
         "thai": "เดิน",
-        "pinyin": "deern"
+        "pinyin": "deern",
+        "audio": "word-audio/abc3015b17.mp3"
       },
       {
         "meaning": "去",
         "thai": "ไป",
-        "pinyin": "bpai"
+        "pinyin": "bpai",
+        "audio": "word-audio/ed56a62b35.mp3"
       },
       {
         "meaning": "市场",
         "thai": "ตลาด",
-        "pinyin": "dtà-làat"
+        "pinyin": "dtà-làat",
+        "audio": "word-audio/90c56fb66f.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1135,7 +1233,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "跑",
         "thai": "วิ่ง",
-        "pinyin": "wîng"
+        "pinyin": "wîng",
+        "audio": "word-audio/f682068564.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1155,27 +1254,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "跑",
         "thai": "วิ่ง",
-        "pinyin": "wîng"
+        "pinyin": "wîng",
+        "audio": "word-audio/f682068564.mp3"
       },
       {
         "meaning": "时候 / 在……时",
         "thai": "ตอน",
-        "pinyin": "dtaawn"
+        "pinyin": "dtaawn",
+        "audio": "word-audio/8fd9dd6e41.mp3"
       },
       {
         "meaning": "早上",
         "thai": "เช้า",
-        "pinyin": "cháo"
+        "pinyin": "cháo",
+        "audio": "word-audio/6dc7837f1f.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1195,7 +1299,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "看",
         "thai": "ดู",
-        "pinyin": "duu"
+        "pinyin": "duu",
+        "audio": "word-audio/27ef78088a.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1215,22 +1320,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "看",
         "thai": "ดู",
-        "pinyin": "duu"
+        "pinyin": "duu",
+        "audio": "word-audio/27ef78088a.mp3"
       },
       {
         "meaning": "电视",
         "thai": "ทีวี",
-        "pinyin": "thii-wii"
+        "pinyin": "thii-wii",
+        "audio": "word-audio/5a9e184d51.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1250,7 +1359,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "听",
         "thai": "ฟัง",
-        "pinyin": "fang"
+        "pinyin": "fang",
+        "audio": "word-audio/12f4c0dac5.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1270,22 +1380,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "听",
         "thai": "ฟัง",
-        "pinyin": "fang"
+        "pinyin": "fang",
+        "audio": "word-audio/12f4c0dac5.mp3"
       },
       {
         "meaning": "歌",
         "thai": "เพลง",
-        "pinyin": "phleeng"
+        "pinyin": "phleeng",
+        "audio": "word-audio/a86340bd44.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1305,7 +1419,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "说",
         "thai": "พูด",
-        "pinyin": "phûut"
+        "pinyin": "phûut",
+        "audio": "word-audio/5bc9b7819e.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1325,32 +1440,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "说",
         "thai": "พูด",
-        "pinyin": "phûut"
+        "pinyin": "phûut",
+        "audio": "word-audio/5bc9b7819e.mp3"
       },
       {
         "meaning": "语言",
         "thai": "ภาษา",
-        "pinyin": "phaa-sǎa"
+        "pinyin": "phaa-sǎa",
+        "audio": "word-audio/485e684ba6.mp3"
       },
       {
         "meaning": "泰语 / 泰国",
         "thai": "ไทย",
-        "pinyin": "thai"
+        "pinyin": "thai",
+        "audio": "word-audio/7160c86e70.mp3"
       },
       {
         "meaning": "一点",
         "thai": "นิดหน่อย",
-        "pinyin": "nít-nàwy"
+        "pinyin": "nít-nàwy",
+        "audio": "word-audio/a7aef19494.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1370,7 +1491,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "写",
         "thai": "เขียน",
-        "pinyin": "khǐan"
+        "pinyin": "khǐan",
+        "audio": "word-audio/c8cc9e2883.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1390,22 +1512,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "写",
         "thai": "เขียน",
-        "pinyin": "khǐan"
+        "pinyin": "khǐan",
+        "audio": "word-audio/c8cc9e2883.mp3"
       },
       {
         "meaning": "名字",
         "thai": "ชื่อ",
-        "pinyin": "chûue"
+        "pinyin": "chûue",
+        "audio": "word-audio/0b1fcfc407.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1425,7 +1551,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "读",
         "thai": "อ่าน",
-        "pinyin": "àan"
+        "pinyin": "àan",
+        "audio": "word-audio/08eae5f475.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1445,22 +1572,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "读",
         "thai": "อ่าน",
-        "pinyin": "àan"
+        "pinyin": "àan",
+        "audio": "word-audio/08eae5f475.mp3"
       },
       {
         "meaning": "书",
         "thai": "หนังสือ",
-        "pinyin": "nǎng-sǔue"
+        "pinyin": "nǎng-sǔue",
+        "audio": "word-audio/c400fe56af.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1480,7 +1611,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "买",
         "thai": "ซื้อ",
-        "pinyin": "sʉ́ʉ"
+        "pinyin": "sʉ́ʉ",
+        "audio": "word-audio/bd821deefa.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1500,22 +1632,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "买",
         "thai": "ซื้อ",
-        "pinyin": "súue"
+        "pinyin": "súue",
+        "audio": "word-audio/bd821deefa.mp3"
       },
       {
         "meaning": "水",
         "thai": "น้ำ",
-        "pinyin": "náam"
+        "pinyin": "náam",
+        "audio": "word-audio/9ebf4d22ac.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1535,7 +1671,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "卖",
         "thai": "ขาย",
-        "pinyin": "khǎai"
+        "pinyin": "khǎai",
+        "audio": "word-audio/1e878b5c40.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1555,22 +1692,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "他",
         "thai": "เขา",
-        "pinyin": "khǎo"
+        "pinyin": "khǎo",
+        "audio": "word-audio/8f1e1a4e42.mp3"
       },
       {
         "meaning": "卖",
         "thai": "ขาย",
-        "pinyin": "khǎai"
+        "pinyin": "khǎai",
+        "audio": "word-audio/1e878b5c40.mp3"
       },
       {
         "meaning": "水果",
         "thai": "ผลไม้",
-        "pinyin": "phǒn-lá-máai"
+        "pinyin": "phǒn-lá-máai",
+        "audio": "word-audio/6e74842236.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1590,7 +1731,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "做饭",
         "thai": "ทำอาหาร",
-        "pinyin": "tham aa-hǎan"
+        "pinyin": "tham aa-hǎan",
+        "audio": "word-audio/9f53c96606.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1610,27 +1752,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "做",
         "thai": "ทำ",
-        "pinyin": "tham"
+        "pinyin": "tham",
+        "audio": "word-audio/012a49a1ab.mp3"
       },
       {
         "meaning": "饭 / 食物",
         "thai": "อาหาร",
-        "pinyin": "aa-hǎan"
+        "pinyin": "aa-hǎan",
+        "audio": "word-audio/a5a1bd8e87.mp3"
       },
       {
         "meaning": "晚上 / 晚",
         "thai": "เย็น",
-        "pinyin": "yen"
+        "pinyin": "yen",
+        "audio": "word-audio/e80f54ef8a.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1650,7 +1797,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "上班",
         "thai": "ไปทำงาน",
-        "pinyin": "bpai tham-ngaan"
+        "pinyin": "bpai tham-ngaan",
+        "audio": "word-audio/80d910936e.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1670,37 +1818,44 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "去",
         "thai": "ไป",
-        "pinyin": "bpai"
+        "pinyin": "bpai",
+        "audio": "word-audio/ed56a62b35.mp3"
       },
       {
         "meaning": "做",
         "thai": "ทำ",
-        "pinyin": "tham"
+        "pinyin": "tham",
+        "audio": "word-audio/012a49a1ab.mp3"
       },
       {
         "meaning": "工作",
         "thai": "งาน",
-        "pinyin": "ngaan"
+        "pinyin": "ngaan",
+        "audio": "word-audio/18d2ce007d.mp3"
       },
       {
         "meaning": "时候 / 在……时",
         "thai": "ตอน",
-        "pinyin": "dtaawn"
+        "pinyin": "dtaawn",
+        "audio": "word-audio/8fd9dd6e41.mp3"
       },
       {
         "meaning": "早上",
         "thai": "เช้า",
-        "pinyin": "cháo"
+        "pinyin": "cháo",
+        "audio": "word-audio/6dc7837f1f.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1720,7 +1875,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "上学",
         "thai": "ไปโรงเรียน",
-        "pinyin": "bpai roong-rian"
+        "pinyin": "bpai roong-rian",
+        "audio": "word-audio/5107ec7a7d.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1740,22 +1896,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "孩子",
         "thai": "เด็ก",
-        "pinyin": "dèk"
+        "pinyin": "dèk",
+        "audio": "word-audio/ff9a904d37.mp3"
       },
       {
         "meaning": "去",
         "thai": "ไป",
-        "pinyin": "bpai"
+        "pinyin": "bpai",
+        "audio": "word-audio/ed56a62b35.mp3"
       },
       {
         "meaning": "学校",
         "thai": "โรงเรียน",
-        "pinyin": "roong-rian"
+        "pinyin": "roong-rian",
+        "audio": "word-audio/5814c602e7.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1775,7 +1935,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "学习",
         "thai": "เรียน",
-        "pinyin": "rian"
+        "pinyin": "rian",
+        "audio": "word-audio/fa050566d5.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1795,27 +1956,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "学习",
         "thai": "เรียน",
-        "pinyin": "rian"
+        "pinyin": "rian",
+        "audio": "word-audio/fa050566d5.mp3"
       },
       {
         "meaning": "语言",
         "thai": "ภาษา",
-        "pinyin": "phaa-sǎa"
+        "pinyin": "phaa-sǎa",
+        "audio": "word-audio/485e684ba6.mp3"
       },
       {
         "meaning": "泰语 / 泰国",
         "thai": "ไทย",
-        "pinyin": "thai"
+        "pinyin": "thai",
+        "audio": "word-audio/7160c86e70.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1835,7 +2001,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "工作",
         "thai": "ทำงาน",
-        "pinyin": "tham-ngaan"
+        "pinyin": "tham-ngaan",
+        "audio": "word-audio/a2a62e8b32.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1855,32 +2022,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "做",
         "thai": "ทำ",
-        "pinyin": "tham"
+        "pinyin": "tham",
+        "audio": "word-audio/012a49a1ab.mp3"
       },
       {
         "meaning": "工作",
         "thai": "งาน",
-        "pinyin": "ngaan"
+        "pinyin": "ngaan",
+        "audio": "word-audio/18d2ce007d.mp3"
       },
       {
         "meaning": "在 / 地点连接词",
         "thai": "ที่",
-        "pinyin": "thîi"
+        "pinyin": "thîi",
+        "audio": "word-audio/2bcfc8ec12.mp3"
       },
       {
         "meaning": "家",
         "thai": "บ้าน",
-        "pinyin": "bâan"
+        "pinyin": "bâan",
+        "audio": "word-audio/e36aa72166.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1900,7 +2073,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "休息",
         "thai": "พักผ่อน",
-        "pinyin": "phák-phàawn"
+        "pinyin": "phák-phàawn",
+        "audio": "word-audio/40dc0f597b.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1921,27 +2095,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "休息",
         "thai": "พักผ่อน",
-        "pinyin": "phák-phàawn"
+        "pinyin": "phák-phàawn",
+        "audio": "word-audio/40dc0f597b.mp3"
       },
       {
         "meaning": "时候 / 在……时",
         "thai": "ตอน",
-        "pinyin": "dtaawn"
+        "pinyin": "dtaawn",
+        "audio": "word-audio/8fd9dd6e41.mp3"
       },
       {
         "meaning": "晚上",
         "thai": "เย็น",
-        "pinyin": "yen"
+        "pinyin": "yen",
+        "audio": "word-audio/e80f54ef8a.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1961,7 +2140,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "睡觉",
         "thai": "นอน",
-        "pinyin": "naawn"
+        "pinyin": "naawn",
+        "audio": "word-audio/f61e39bed0.mp3"
       }
     ],
     "pronunciationRules": [
@@ -1981,22 +2161,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "睡觉",
         "thai": "นอน",
-        "pinyin": "naawn"
+        "pinyin": "naawn",
+        "audio": "word-audio/f61e39bed0.mp3"
       },
       {
         "meaning": "早 / 快",
         "thai": "เร็ว",
-        "pinyin": "reo"
+        "pinyin": "reo",
+        "audio": "word-audio/6ad168d930.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2016,7 +2200,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "洗",
         "thai": "ล้าง",
-        "pinyin": "láang"
+        "pinyin": "láang",
+        "audio": "word-audio/6dacc8466f.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2036,22 +2221,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "洗",
         "thai": "ล้าง",
-        "pinyin": "láang"
+        "pinyin": "láang",
+        "audio": "word-audio/6dacc8466f.mp3"
       },
       {
         "meaning": "手",
         "thai": "มือ",
-        "pinyin": "muue"
+        "pinyin": "muue",
+        "audio": "word-audio/c95e274a01.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2071,7 +2260,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "打扫",
         "thai": "ทำความสะอาด",
-        "pinyin": "tham khwaam sà-àat"
+        "pinyin": "tham khwaam sà-àat",
+        "audio": "word-audio/bebb7339a4.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2091,27 +2281,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "做",
         "thai": "ทำ",
-        "pinyin": "tham"
+        "pinyin": "tham",
+        "audio": "word-audio/012a49a1ab.mp3"
       },
       {
         "meaning": "清洁",
         "thai": "ความสะอาด",
-        "pinyin": "khwaam sà-àat"
+        "pinyin": "khwaam sà-àat",
+        "audio": "word-audio/e419bbe392.mp3"
       },
       {
         "meaning": "房间",
         "thai": "ห้อง",
-        "pinyin": "hâwng"
+        "pinyin": "hâwng",
+        "audio": "word-audio/90e8bbb932.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2131,7 +2326,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "开",
         "thai": "เปิด",
-        "pinyin": "bpə̀ət"
+        "pinyin": "bpə̀ət",
+        "audio": "word-audio/22aadbcdfd.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2151,22 +2347,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "开",
         "thai": "เปิด",
-        "pinyin": "bpèert"
+        "pinyin": "bpèert",
+        "audio": "word-audio/22aadbcdfd.mp3"
       },
       {
         "meaning": "门",
         "thai": "ประตู",
-        "pinyin": "bprà-dtuu"
+        "pinyin": "bprà-dtuu",
+        "audio": "word-audio/45b6d457cd.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2186,7 +2386,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "关",
         "thai": "ปิด",
-        "pinyin": "bpìt"
+        "pinyin": "bpìt",
+        "audio": "word-audio/96d79d763f.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2206,22 +2407,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "关",
         "thai": "ปิด",
-        "pinyin": "bpìt"
+        "pinyin": "bpìt",
+        "audio": "word-audio/96d79d763f.mp3"
       },
       {
         "meaning": "窗",
         "thai": "หน้าต่าง",
-        "pinyin": "nâa-dtàang"
+        "pinyin": "nâa-dtàang",
+        "audio": "word-audio/ead842a559.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2241,7 +2446,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "拿",
         "thai": "หยิบ",
-        "pinyin": "yìp"
+        "pinyin": "yìp",
+        "audio": "word-audio/759acae277.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2261,22 +2467,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "拿",
         "thai": "หยิบ",
-        "pinyin": "yìp"
+        "pinyin": "yìp",
+        "audio": "word-audio/759acae277.mp3"
       },
       {
         "meaning": "杯子",
         "thai": "แก้ว",
-        "pinyin": "gâew"
+        "pinyin": "gâew",
+        "audio": "word-audio/9b621855ae.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2296,7 +2506,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "放",
         "thai": "วาง",
-        "pinyin": "waang"
+        "pinyin": "waang",
+        "audio": "word-audio/c34cdd90cb.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2316,32 +2527,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "放",
         "thai": "วาง",
-        "pinyin": "waang"
+        "pinyin": "waang",
+        "audio": "word-audio/c34cdd90cb.mp3"
       },
       {
         "meaning": "书",
         "thai": "หนังสือ",
-        "pinyin": "nǎng-sǔue"
+        "pinyin": "nǎng-sǔue",
+        "audio": "word-audio/c400fe56af.mp3"
       },
       {
         "meaning": "在……上",
         "thai": "บน",
-        "pinyin": "bon"
+        "pinyin": "bon",
+        "audio": "word-audio/5902700c98.mp3"
       },
       {
         "meaning": "桌子",
         "thai": "โต๊ะ",
-        "pinyin": "dtó"
+        "pinyin": "dtó",
+        "audio": "word-audio/03829205b8.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2361,7 +2578,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "给",
         "thai": "ให้",
-        "pinyin": "hâi"
+        "pinyin": "hâi",
+        "audio": "word-audio/8a50fc91db.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2381,27 +2599,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "给",
         "thai": "ให้",
-        "pinyin": "hâi"
+        "pinyin": "hâi",
+        "audio": "word-audio/8a50fc91db.mp3"
       },
       {
         "meaning": "水",
         "thai": "น้ำ",
-        "pinyin": "náam"
+        "pinyin": "náam",
+        "audio": "word-audio/9ebf4d22ac.mp3"
       },
       {
         "meaning": "你",
         "thai": "คุณ",
-        "pinyin": "khun"
+        "pinyin": "khun",
+        "audio": "word-audio/2f5855175b.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2421,7 +2644,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "找",
         "thai": "หา",
-        "pinyin": "hǎa"
+        "pinyin": "hǎa",
+        "audio": "word-audio/008c704eb1.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2441,22 +2665,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "找",
         "thai": "หา",
-        "pinyin": "hǎa"
+        "pinyin": "hǎa",
+        "audio": "word-audio/008c704eb1.mp3"
       },
       {
         "meaning": "钥匙",
         "thai": "กุญแจ",
-        "pinyin": "gun-jae"
+        "pinyin": "gun-jae",
+        "audio": "word-audio/f538965315.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2476,7 +2704,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "等",
         "thai": "รอ",
-        "pinyin": "raaw"
+        "pinyin": "raaw",
+        "audio": "word-audio/971fe1e1b4.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2496,22 +2725,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "等",
         "thai": "รอ",
-        "pinyin": "raaw"
+        "pinyin": "raaw",
+        "audio": "word-audio/971fe1e1b4.mp3"
       },
       {
         "meaning": "你",
         "thai": "คุณ",
-        "pinyin": "khun"
+        "pinyin": "khun",
+        "audio": "word-audio/2f5855175b.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2531,7 +2764,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "帮",
         "thai": "ช่วย",
-        "pinyin": "chûai"
+        "pinyin": "chûai",
+        "audio": "word-audio/d570b4454f.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2551,22 +2785,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "帮",
         "thai": "ช่วย",
-        "pinyin": "chûai"
+        "pinyin": "chûai",
+        "audio": "word-audio/d570b4454f.mp3"
       },
       {
         "meaning": "你",
         "thai": "คุณ",
-        "pinyin": "khun"
+        "pinyin": "khun",
+        "audio": "word-audio/2f5855175b.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2586,7 +2824,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "喜欢",
         "thai": "ชอบ",
-        "pinyin": "châawp"
+        "pinyin": "châawp",
+        "audio": "word-audio/109eb055b4.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2606,22 +2845,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "喜欢",
         "thai": "ชอบ",
-        "pinyin": "châawp"
+        "pinyin": "châawp",
+        "audio": "word-audio/109eb055b4.mp3"
       },
       {
         "meaning": "咖啡",
         "thai": "กาแฟ",
-        "pinyin": "gaa-faae"
+        "pinyin": "gaa-faae",
+        "audio": "word-audio/60726f7740.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2641,7 +2884,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "想",
         "thai": "อยาก",
-        "pinyin": "yàak"
+        "pinyin": "yàak",
+        "audio": "word-audio/9693f2f707.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2661,27 +2905,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "想",
         "thai": "อยาก",
-        "pinyin": "yàak"
+        "pinyin": "yàak",
+        "audio": "word-audio/9693f2f707.mp3"
       },
       {
         "meaning": "吃",
         "thai": "กิน",
-        "pinyin": "gin"
+        "pinyin": "gin",
+        "audio": "word-audio/f75afbf51f.mp3"
       },
       {
         "meaning": "饭",
         "thai": "ข้าว",
-        "pinyin": "khâao"
+        "pinyin": "khâao",
+        "audio": "word-audio/0d256b54d9.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2701,7 +2950,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "需要",
         "thai": "ต้องการ",
-        "pinyin": "tâwng-gaan"
+        "pinyin": "tâwng-gaan",
+        "audio": "word-audio/986558813b.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2721,22 +2971,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "需要",
         "thai": "ต้องการ",
-        "pinyin": "tâwng-gaan"
+        "pinyin": "tâwng-gaan",
+        "audio": "word-audio/986558813b.mp3"
       },
       {
         "meaning": "水",
         "thai": "น้ำ",
-        "pinyin": "náam"
+        "pinyin": "náam",
+        "audio": "word-audio/9ebf4d22ac.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2756,7 +3010,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "去",
         "thai": "ไป",
-        "pinyin": "bpai"
+        "pinyin": "bpai",
+        "audio": "word-audio/ed56a62b35.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2776,22 +3031,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "去",
         "thai": "ไป",
-        "pinyin": "bpai"
+        "pinyin": "bpai",
+        "audio": "word-audio/ed56a62b35.mp3"
       },
       {
         "meaning": "家",
         "thai": "บ้าน",
-        "pinyin": "bâan"
+        "pinyin": "bâan",
+        "audio": "word-audio/e36aa72166.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2811,7 +3070,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "来",
         "thai": "มา",
-        "pinyin": "maa"
+        "pinyin": "maa",
+        "audio": "word-audio/648cd43a05.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2831,22 +3091,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "来",
         "thai": "มา",
-        "pinyin": "maa"
+        "pinyin": "maa",
+        "audio": "word-audio/648cd43a05.mp3"
       },
       {
         "meaning": "这里",
         "thai": "ที่นี่",
-        "pinyin": "thîi-nîi"
+        "pinyin": "thîi-nîi",
+        "audio": "word-audio/ef29d7d8b4.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2866,7 +3130,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "起床",
         "thai": "ตื่นนอน",
-        "pinyin": "tùuen naawn"
+        "pinyin": "tùuen naawn",
+        "audio": "word-audio/d98e9b5132.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2886,32 +3151,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "醒 / 起",
         "thai": "ตื่น",
-        "pinyin": "tùuen"
+        "pinyin": "tùuen",
+        "audio": "word-audio/cd7e503780.mp3"
       },
       {
         "meaning": "睡觉",
         "thai": "นอน",
-        "pinyin": "naawn"
+        "pinyin": "naawn",
+        "audio": "word-audio/f61e39bed0.mp3"
       },
       {
         "meaning": "六",
         "thai": "หก",
-        "pinyin": "hòk"
+        "pinyin": "hòk",
+        "audio": "word-audio/6b34cc3722.mp3"
       },
       {
         "meaning": "点钟",
         "thai": "โมง",
-        "pinyin": "moong"
+        "pinyin": "moong",
+        "audio": "word-audio/a5e130a362.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2931,7 +3202,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "洗澡",
         "thai": "อาบน้ำ",
-        "pinyin": "àap náam"
+        "pinyin": "àap náam",
+        "audio": "word-audio/bf03edf3c5.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2952,32 +3224,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "洗 / 沐浴",
         "thai": "อาบ",
-        "pinyin": "àap"
+        "pinyin": "àap",
+        "audio": "word-audio/19f1e5d404.mp3"
       },
       {
         "meaning": "水",
         "thai": "น้ำ",
-        "pinyin": "náam"
+        "pinyin": "náam",
+        "audio": "word-audio/9ebf4d22ac.mp3"
       },
       {
         "meaning": "时候 / 在……时",
         "thai": "ตอน",
-        "pinyin": "dtaawn"
+        "pinyin": "dtaawn",
+        "audio": "word-audio/8fd9dd6e41.mp3"
       },
       {
         "meaning": "早上",
         "thai": "เช้า",
-        "pinyin": "cháo"
+        "pinyin": "cháo",
+        "audio": "word-audio/6dc7837f1f.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -2997,7 +3275,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "穿衣服",
         "thai": "ใส่เสื้อผ้า",
-        "pinyin": "sài sûea-phâa"
+        "pinyin": "sài sûea-phâa",
+        "audio": "word-audio/84ab8677f9.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3018,22 +3297,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "穿 / 放入",
         "thai": "ใส่",
-        "pinyin": "sài"
+        "pinyin": "sài",
+        "audio": "word-audio/f3f7661e54.mp3"
       },
       {
         "meaning": "衣服",
         "thai": "เสื้อผ้า",
-        "pinyin": "sûea-phâa"
+        "pinyin": "sûea-phâa",
+        "audio": "word-audio/e3ee2e02f4.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3053,7 +3336,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "脱衣服",
         "thai": "ถอดเสื้อผ้า",
-        "pinyin": "thàawt sûea-phâa"
+        "pinyin": "thàawt sûea-phâa",
+        "audio": "word-audio/288c7c72ed.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3074,22 +3358,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "脱",
         "thai": "ถอด",
-        "pinyin": "thàawt"
+        "pinyin": "thàawt",
+        "audio": "word-audio/2eacc4d543.mp3"
       },
       {
         "meaning": "衣服",
         "thai": "เสื้อผ้า",
-        "pinyin": "sûea-phâa"
+        "pinyin": "sûea-phâa",
+        "audio": "word-audio/e3ee2e02f4.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3109,7 +3397,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "坐",
         "thai": "นั่ง",
-        "pinyin": "nâng"
+        "pinyin": "nâng",
+        "audio": "word-audio/271e2119d5.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3129,27 +3418,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "坐",
         "thai": "นั่ง",
-        "pinyin": "nâng"
+        "pinyin": "nâng",
+        "audio": "word-audio/271e2119d5.mp3"
       },
       {
         "meaning": "位置 / 正在……处",
         "thai": "ตรง",
-        "pinyin": "dtrong"
+        "pinyin": "dtrong",
+        "audio": "word-audio/29801ba5f6.mp3"
       },
       {
         "meaning": "这",
         "thai": "นี้",
-        "pinyin": "níi"
+        "pinyin": "níi",
+        "audio": "word-audio/a92b237a0e.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3169,7 +3463,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "站",
         "thai": "ยืน",
-        "pinyin": "yʉʉn"
+        "pinyin": "yʉʉn",
+        "audio": "word-audio/7c90ca563b.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3189,27 +3484,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "站",
         "thai": "ยืน",
-        "pinyin": "yuuen"
+        "pinyin": "yuuen",
+        "audio": "word-audio/7c90ca563b.mp3"
       },
       {
         "meaning": "前面",
         "thai": "หน้า",
-        "pinyin": "nâa"
+        "pinyin": "nâa",
+        "audio": "word-audio/c6d432aa6b.mp3"
       },
       {
         "meaning": "家",
         "thai": "บ้าน",
-        "pinyin": "bâan"
+        "pinyin": "bâan",
+        "audio": "word-audio/e36aa72166.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3229,7 +3529,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "进",
         "thai": "เข้า",
-        "pinyin": "khâo"
+        "pinyin": "khâo",
+        "audio": "word-audio/fa237e31f1.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3249,22 +3550,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "进",
         "thai": "เข้า",
-        "pinyin": "khâo"
+        "pinyin": "khâo",
+        "audio": "word-audio/fa237e31f1.mp3"
       },
       {
         "meaning": "房间",
         "thai": "ห้อง",
-        "pinyin": "hâwng"
+        "pinyin": "hâwng",
+        "audio": "word-audio/90e8bbb932.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3284,7 +3589,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "出",
         "thai": "ออก",
-        "pinyin": "àawk"
+        "pinyin": "àawk",
+        "audio": "word-audio/68e211a51b.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3304,27 +3610,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "出",
         "thai": "ออก",
-        "pinyin": "àawk"
+        "pinyin": "àawk",
+        "audio": "word-audio/68e211a51b.mp3"
       },
       {
         "meaning": "从 / 离开",
         "thai": "จาก",
-        "pinyin": "jàak"
+        "pinyin": "jàak",
+        "audio": "word-audio/16b68a65c3.mp3"
       },
       {
         "meaning": "家",
         "thai": "บ้าน",
-        "pinyin": "bâan"
+        "pinyin": "bâan",
+        "audio": "word-audio/e36aa72166.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3344,7 +3655,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "回家",
         "thai": "กลับบ้าน",
-        "pinyin": "glàp bâan"
+        "pinyin": "glàp bâan",
+        "audio": "word-audio/fcb856c95e.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3365,32 +3677,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "回",
         "thai": "กลับ",
-        "pinyin": "glàp"
+        "pinyin": "glàp",
+        "audio": "word-audio/9722e75dc3.mp3"
       },
       {
         "meaning": "家",
         "thai": "บ้าน",
-        "pinyin": "bâan"
+        "pinyin": "bâan",
+        "audio": "word-audio/e36aa72166.mp3"
       },
       {
         "meaning": "时候 / 在……时",
         "thai": "ตอน",
-        "pinyin": "dtaawn"
+        "pinyin": "dtaawn",
+        "audio": "word-audio/8fd9dd6e41.mp3"
       },
       {
         "meaning": "晚上",
         "thai": "เย็น",
-        "pinyin": "yen"
+        "pinyin": "yen",
+        "audio": "word-audio/e80f54ef8a.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3410,7 +3728,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "打电话",
         "thai": "โทร",
-        "pinyin": "thoo"
+        "pinyin": "thoo",
+        "audio": "word-audio/cf0900aad2.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3430,27 +3749,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "打电话",
         "thai": "โทร",
-        "pinyin": "thoo"
+        "pinyin": "thoo",
+        "audio": "word-audio/cf0900aad2.mp3"
       },
       {
         "meaning": "找 / 给……",
         "thai": "หา",
-        "pinyin": "hǎa"
+        "pinyin": "hǎa",
+        "audio": "word-audio/008c704eb1.mp3"
       },
       {
         "meaning": "你",
         "thai": "คุณ",
-        "pinyin": "khun"
+        "pinyin": "khun",
+        "audio": "word-audio/2f5855175b.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3470,7 +3794,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "问",
         "thai": "ถาม",
-        "pinyin": "thǎam"
+        "pinyin": "thǎam",
+        "audio": "word-audio/1ef70a8eea.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3490,22 +3815,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "问",
         "thai": "ถาม",
-        "pinyin": "thǎam"
+        "pinyin": "thǎam",
+        "audio": "word-audio/1ef70a8eea.mp3"
       },
       {
         "meaning": "老师",
         "thai": "ครู",
-        "pinyin": "khruu"
+        "pinyin": "khruu",
+        "audio": "word-audio/df028b0421.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3525,7 +3854,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "回答",
         "thai": "ตอบ",
-        "pinyin": "tàawp"
+        "pinyin": "tàawp",
+        "audio": "word-audio/4c4ee65ace.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3545,22 +3875,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "回答",
         "thai": "ตอบ",
-        "pinyin": "tàawp"
+        "pinyin": "tàawp",
+        "audio": "word-audio/4c4ee65ace.mp3"
       },
       {
         "meaning": "问题",
         "thai": "คำถาม",
-        "pinyin": "kham-thǎam"
+        "pinyin": "kham-thǎam",
+        "audio": "word-audio/f9d3fe9cb8.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3580,7 +3914,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "吃饭",
         "thai": "กินข้าว",
-        "pinyin": "gin khâao"
+        "pinyin": "gin khâao",
+        "audio": "word-audio/0bc7f34cc2.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3600,32 +3935,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "吃",
         "thai": "กิน",
-        "pinyin": "gin"
+        "pinyin": "gin",
+        "audio": "word-audio/f75afbf51f.mp3"
       },
       {
         "meaning": "饭",
         "thai": "ข้าว",
-        "pinyin": "khâao"
+        "pinyin": "khâao",
+        "audio": "word-audio/0d256b54d9.mp3"
       },
       {
         "meaning": "在 / 地点连接词",
         "thai": "ที่",
-        "pinyin": "thîi"
+        "pinyin": "thîi",
+        "audio": "word-audio/2bcfc8ec12.mp3"
       },
       {
         "meaning": "家",
         "thai": "บ้าน",
-        "pinyin": "bâan"
+        "pinyin": "bâan",
+        "audio": "word-audio/e36aa72166.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3645,7 +3986,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "点菜",
         "thai": "สั่งอาหาร",
-        "pinyin": "sàng aa-hǎan"
+        "pinyin": "sàng aa-hǎan",
+        "audio": "word-audio/4cc41ec35d.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3666,22 +4008,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "点 / 命令",
         "thai": "สั่ง",
-        "pinyin": "sàng"
+        "pinyin": "sàng",
+        "audio": "word-audio/651afe4a44.mp3"
       },
       {
         "meaning": "饭 / 食物",
         "thai": "อาหาร",
-        "pinyin": "aa-hǎan"
+        "pinyin": "aa-hǎan",
+        "audio": "word-audio/a5a1bd8e87.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3701,7 +4047,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "付钱",
         "thai": "จ่ายเงิน",
-        "pinyin": "jàai ngoen"
+        "pinyin": "jàai ngoen",
+        "audio": "word-audio/6abfd9cb9f.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3721,22 +4068,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "付",
         "thai": "จ่าย",
-        "pinyin": "jàai"
+        "pinyin": "jàai",
+        "audio": "word-audio/88a767d659.mp3"
       },
       {
         "meaning": "钱",
         "thai": "เงิน",
-        "pinyin": "ngoen"
+        "pinyin": "ngoen",
+        "audio": "word-audio/27c7e48b23.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3756,7 +4107,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "借",
         "thai": "ยืม",
-        "pinyin": "yʉʉm"
+        "pinyin": "yʉʉm",
+        "audio": "word-audio/8f87212f12.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3776,22 +4128,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "借",
         "thai": "ยืม",
-        "pinyin": "yuem"
+        "pinyin": "yuem",
+        "audio": "word-audio/8f87212f12.mp3"
       },
       {
         "meaning": "笔",
         "thai": "ปากกา",
-        "pinyin": "bpàak-gaa"
+        "pinyin": "bpàak-gaa",
+        "audio": "word-audio/70d0d4b6c6.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3811,7 +4167,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "还",
         "thai": "คืน",
-        "pinyin": "khʉʉn"
+        "pinyin": "khʉʉn",
+        "audio": "word-audio/48bce98fed.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3831,22 +4188,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "还",
         "thai": "คืน",
-        "pinyin": "khuuen"
+        "pinyin": "khuuen",
+        "audio": "word-audio/48bce98fed.mp3"
       },
       {
         "meaning": "书",
         "thai": "หนังสือ",
-        "pinyin": "nǎng-sǔue"
+        "pinyin": "nǎng-sǔue",
+        "audio": "word-audio/c400fe56af.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3866,7 +4227,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "开车",
         "thai": "ขับรถ",
-        "pinyin": "khàp rót"
+        "pinyin": "khàp rót",
+        "audio": "word-audio/916c502c6a.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3887,37 +4249,44 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "开 / 驾驶",
         "thai": "ขับ",
-        "pinyin": "khàp"
+        "pinyin": "khàp",
+        "audio": "word-audio/0a84d3e8fa.mp3"
       },
       {
         "meaning": "车",
         "thai": "รถ",
-        "pinyin": "rót"
+        "pinyin": "rót",
+        "audio": "word-audio/369419a797.mp3"
       },
       {
         "meaning": "去",
         "thai": "ไป",
-        "pinyin": "bpai"
+        "pinyin": "bpai",
+        "audio": "word-audio/ed56a62b35.mp3"
       },
       {
         "meaning": "做",
         "thai": "ทำ",
-        "pinyin": "tham"
+        "pinyin": "tham",
+        "audio": "word-audio/012a49a1ab.mp3"
       },
       {
         "meaning": "工作",
         "thai": "งาน",
-        "pinyin": "ngaan"
+        "pinyin": "ngaan",
+        "audio": "word-audio/18d2ce007d.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3937,7 +4306,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "坐车",
         "thai": "นั่งรถ",
-        "pinyin": "nâng rót"
+        "pinyin": "nâng rót",
+        "audio": "word-audio/b71269cfb2.mp3"
       }
     ],
     "pronunciationRules": [
@@ -3958,32 +4328,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "坐",
         "thai": "นั่ง",
-        "pinyin": "nâng"
+        "pinyin": "nâng",
+        "audio": "word-audio/271e2119d5.mp3"
       },
       {
         "meaning": "车",
         "thai": "รถ",
-        "pinyin": "rót"
+        "pinyin": "rót",
+        "audio": "word-audio/369419a797.mp3"
       },
       {
         "meaning": "去",
         "thai": "ไป",
-        "pinyin": "bpai"
+        "pinyin": "bpai",
+        "audio": "word-audio/ed56a62b35.mp3"
       },
       {
         "meaning": "市场",
         "thai": "ตลาด",
-        "pinyin": "dtà-làat"
+        "pinyin": "dtà-làat",
+        "audio": "word-audio/90c56fb66f.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4003,7 +4379,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "做",
         "thai": "ทำ",
-        "pinyin": "tham"
+        "pinyin": "tham",
+        "audio": "word-audio/012a49a1ab.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4023,22 +4400,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "做",
         "thai": "ทำ",
-        "pinyin": "tham"
+        "pinyin": "tham",
+        "audio": "word-audio/012a49a1ab.mp3"
       },
       {
         "meaning": "作业",
         "thai": "การบ้าน",
-        "pinyin": "gaan-bâan"
+        "pinyin": "gaan-bâan",
+        "audio": "word-audio/adc8990e10.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4058,7 +4439,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "用",
         "thai": "ใช้",
-        "pinyin": "chái"
+        "pinyin": "chái",
+        "audio": "word-audio/71454d49da.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4078,22 +4460,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "用",
         "thai": "ใช้",
-        "pinyin": "chái"
+        "pinyin": "chái",
+        "audio": "word-audio/71454d49da.mp3"
       },
       {
         "meaning": "手机 / 电话",
         "thai": "โทรศัพท์",
-        "pinyin": "thoo-rá-sàp"
+        "pinyin": "thoo-rá-sàp",
+        "audio": "word-audio/35b4d30553.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4113,7 +4499,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "换",
         "thai": "เปลี่ยน",
-        "pinyin": "bplìan"
+        "pinyin": "bplìan",
+        "audio": "word-audio/822ff80dde.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4133,22 +4520,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "换",
         "thai": "เปลี่ยน",
-        "pinyin": "bplìan"
+        "pinyin": "bplìan",
+        "audio": "word-audio/822ff80dde.mp3"
       },
       {
         "meaning": "衣服 / 上衣",
         "thai": "เสื้อ",
-        "pinyin": "sûea"
+        "pinyin": "sûea",
+        "audio": "word-audio/5352118bf3.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4168,7 +4559,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "记得",
         "thai": "จำได้",
-        "pinyin": "jam dâai"
+        "pinyin": "jam dâai",
+        "audio": "word-audio/2ceb8e2d27.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4188,32 +4580,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "记",
         "thai": "จำ",
-        "pinyin": "jam"
+        "pinyin": "jam",
+        "audio": "word-audio/fcbce1bff2.mp3"
       },
       {
         "meaning": "名字",
         "thai": "ชื่อ",
-        "pinyin": "chûue"
+        "pinyin": "chûue",
+        "audio": "word-audio/0b1fcfc407.mp3"
       },
       {
         "meaning": "你",
         "thai": "คุณ",
-        "pinyin": "khun"
+        "pinyin": "khun",
+        "audio": "word-audio/2f5855175b.mp3"
       },
       {
         "meaning": "能 / 得到",
         "thai": "ได้",
-        "pinyin": "dâai"
+        "pinyin": "dâai",
+        "audio": "word-audio/d45e7f861d.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4233,7 +4631,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "忘记",
         "thai": "ลืม",
-        "pinyin": "luuem"
+        "pinyin": "luuem",
+        "audio": "word-audio/3f540ef93e.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4253,22 +4652,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "忘记",
         "thai": "ลืม",
-        "pinyin": "luuem"
+        "pinyin": "luuem",
+        "audio": "word-audio/3f540ef93e.mp3"
       },
       {
         "meaning": "钥匙",
         "thai": "กุญแจ",
-        "pinyin": "gun-jae"
+        "pinyin": "gun-jae",
+        "audio": "word-audio/f538965315.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4288,7 +4691,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "知道",
         "thai": "รู้",
-        "pinyin": "rúu"
+        "pinyin": "rúu",
+        "audio": "word-audio/ad399247a3.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4308,27 +4712,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "知道",
         "thai": "รู้",
-        "pinyin": "rúu"
+        "pinyin": "rúu",
+        "audio": "word-audio/ad399247a3.mp3"
       },
       {
         "meaning": "词",
         "thai": "คำ",
-        "pinyin": "kham"
+        "pinyin": "kham",
+        "audio": "word-audio/a63f39f2c6.mp3"
       },
       {
         "meaning": "这",
         "thai": "นี้",
-        "pinyin": "níi"
+        "pinyin": "níi",
+        "audio": "word-audio/a92b237a0e.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4348,7 +4757,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "明白",
         "thai": "เข้าใจ",
-        "pinyin": "khâo jai"
+        "pinyin": "khâo jai",
+        "audio": "word-audio/474d9aa750.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4368,17 +4778,20 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "明白",
         "thai": "เข้าใจ",
-        "pinyin": "khâo jai"
+        "pinyin": "khâo jai",
+        "audio": "word-audio/474d9aa750.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4398,7 +4811,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "会",
         "thai": "เป็น",
-        "pinyin": "bpen"
+        "pinyin": "bpen",
+        "audio": "word-audio/f15d6f0da2.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4418,27 +4832,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "开 / 驾驶",
         "thai": "ขับ",
-        "pinyin": "khàp"
+        "pinyin": "khàp",
+        "audio": "word-audio/0a84d3e8fa.mp3"
       },
       {
         "meaning": "车",
         "thai": "รถ",
-        "pinyin": "rót"
+        "pinyin": "rót",
+        "audio": "word-audio/369419a797.mp3"
       },
       {
         "meaning": "会 / 是",
         "thai": "เป็น",
-        "pinyin": "bpen"
+        "pinyin": "bpen",
+        "audio": "word-audio/f15d6f0da2.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4458,7 +4877,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "能",
         "thai": "สามารถ",
-        "pinyin": "sǎa-mâat"
+        "pinyin": "sǎa-mâat",
+        "audio": "word-audio/07d1e443f1.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4479,27 +4899,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "能够",
         "thai": "สามารถ",
-        "pinyin": "sǎa-mâat"
+        "pinyin": "sǎa-mâat",
+        "audio": "word-audio/07d1e443f1.mp3"
       },
       {
         "meaning": "帮",
         "thai": "ช่วย",
-        "pinyin": "chûai"
+        "pinyin": "chûai",
+        "audio": "word-audio/d570b4454f.mp3"
       },
       {
         "meaning": "可以 / 能",
         "thai": "ได้",
-        "pinyin": "dâai"
+        "pinyin": "dâai",
+        "audio": "word-audio/d45e7f861d.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4519,7 +4944,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "要",
         "thai": "เอา",
-        "pinyin": "ao"
+        "pinyin": "ao",
+        "audio": "word-audio/bd47c8ff3d.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4539,22 +4965,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "要 / 拿",
         "thai": "เอา",
-        "pinyin": "ao"
+        "pinyin": "ao",
+        "audio": "word-audio/bd47c8ff3d.mp3"
       },
       {
         "meaning": "水",
         "thai": "น้ำ",
-        "pinyin": "náam"
+        "pinyin": "náam",
+        "audio": "word-audio/9ebf4d22ac.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4574,7 +5004,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "可以",
         "thai": "ได้",
-        "pinyin": "dâai"
+        "pinyin": "dâai",
+        "audio": "word-audio/d45e7f861d.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4594,22 +5025,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "进",
         "thai": "เข้า",
-        "pinyin": "khâo"
+        "pinyin": "khâo",
+        "audio": "word-audio/fa237e31f1.mp3"
       },
       {
         "meaning": "可以 / 能",
         "thai": "ได้",
-        "pinyin": "dâai"
+        "pinyin": "dâai",
+        "audio": "word-audio/d45e7f861d.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4629,7 +5064,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "不能",
         "thai": "ไม่ได้",
-        "pinyin": "mâi dâai"
+        "pinyin": "mâi dâai",
+        "audio": "word-audio/7870ebb563.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4649,27 +5085,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "去",
         "thai": "ไป",
-        "pinyin": "bpai"
+        "pinyin": "bpai",
+        "audio": "word-audio/ed56a62b35.mp3"
       },
       {
         "meaning": "不",
         "thai": "ไม่",
-        "pinyin": "mâi"
+        "pinyin": "mâi",
+        "audio": "word-audio/d73fba748e.mp3"
       },
       {
         "meaning": "可以 / 能",
         "thai": "ได้",
-        "pinyin": "dâai"
+        "pinyin": "dâai",
+        "audio": "word-audio/d45e7f861d.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4689,7 +5130,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "开始",
         "thai": "เริ่ม",
-        "pinyin": "rə̂əm"
+        "pinyin": "rə̂əm",
+        "audio": "word-audio/71925fa24e.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4709,27 +5151,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "开始",
         "thai": "เริ่ม",
-        "pinyin": "rêerm"
+        "pinyin": "rêerm",
+        "audio": "word-audio/71925fa24e.mp3"
       },
       {
         "meaning": "做",
         "thai": "ทำ",
-        "pinyin": "tham"
+        "pinyin": "tham",
+        "audio": "word-audio/012a49a1ab.mp3"
       },
       {
         "meaning": "工作",
         "thai": "งาน",
-        "pinyin": "ngaan"
+        "pinyin": "ngaan",
+        "audio": "word-audio/18d2ce007d.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4749,7 +5196,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "结束",
         "thai": "จบ",
-        "pinyin": "jòp"
+        "pinyin": "jòp",
+        "audio": "word-audio/f9cc1ca05a.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4769,22 +5217,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "工作",
         "thai": "งาน",
-        "pinyin": "ngaan"
+        "pinyin": "ngaan",
+        "audio": "word-audio/18d2ce007d.mp3"
       },
       {
         "meaning": "结束",
         "thai": "จบ",
-        "pinyin": "jòp"
+        "pinyin": "jòp",
+        "audio": "word-audio/f9cc1ca05a.mp3"
       },
       {
         "meaning": "已经 / 了",
         "thai": "แล้ว",
-        "pinyin": "láew"
+        "pinyin": "láew",
+        "audio": "word-audio/354ea34dd5.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4804,7 +5256,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "玩",
         "thai": "เล่น",
-        "pinyin": "lên"
+        "pinyin": "lên",
+        "audio": "word-audio/7e361eaab9.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4824,22 +5277,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "玩",
         "thai": "เล่น",
-        "pinyin": "lên"
+        "pinyin": "lên",
+        "audio": "word-audio/7e361eaab9.mp3"
       },
       {
         "meaning": "游戏",
         "thai": "เกม",
-        "pinyin": "geem"
+        "pinyin": "geem",
+        "audio": "word-audio/a3e2722ae7.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4859,7 +5316,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "聊天",
         "thai": "คุย",
-        "pinyin": "khui"
+        "pinyin": "khui",
+        "audio": "word-audio/073203cba0.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4879,27 +5337,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "聊天",
         "thai": "คุย",
-        "pinyin": "khui"
+        "pinyin": "khui",
+        "audio": "word-audio/073203cba0.mp3"
       },
       {
         "meaning": "和 / 跟",
         "thai": "กับ",
-        "pinyin": "gàp"
+        "pinyin": "gàp",
+        "audio": "word-audio/9a18880dbd.mp3"
       },
       {
         "meaning": "朋友",
         "thai": "เพื่อน",
-        "pinyin": "phûuean"
+        "pinyin": "phûuean",
+        "audio": "word-audio/50f037b5d9.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4919,7 +5382,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "拍照",
         "thai": "ถ่ายรูป",
-        "pinyin": "thàai rûup"
+        "pinyin": "thàai rûup",
+        "audio": "word-audio/3c2b34f9e8.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4940,22 +5404,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "拍",
         "thai": "ถ่าย",
-        "pinyin": "thàai"
+        "pinyin": "thàai",
+        "audio": "word-audio/8030da2223.mp3"
       },
       {
         "meaning": "照片 / 图",
         "thai": "รูป",
-        "pinyin": "rûup"
+        "pinyin": "rûup",
+        "audio": "word-audio/67134e3cf0.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4975,7 +5443,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "唱歌",
         "thai": "ร้องเพลง",
-        "pinyin": "ráawng phleeng"
+        "pinyin": "ráawng phleeng",
+        "audio": "word-audio/bd59a0d59b.mp3"
       }
     ],
     "pronunciationRules": [
@@ -4995,22 +5464,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "唱",
         "thai": "ร้อง",
-        "pinyin": "ráawng"
+        "pinyin": "ráawng",
+        "audio": "word-audio/67132bc80e.mp3"
       },
       {
         "meaning": "歌",
         "thai": "เพลง",
-        "pinyin": "phleeng"
+        "pinyin": "phleeng",
+        "audio": "word-audio/a86340bd44.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5030,7 +5503,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "跳舞",
         "thai": "เต้นรำ",
-        "pinyin": "dtên ram"
+        "pinyin": "dtên ram",
+        "audio": "word-audio/39ba597891.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5050,22 +5524,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "跳",
         "thai": "เต้น",
-        "pinyin": "dtên"
+        "pinyin": "dtên",
+        "audio": "word-audio/fe86785399.mp3"
       },
       {
         "meaning": "舞",
         "thai": "รำ",
-        "pinyin": "ram"
+        "pinyin": "ram",
+        "audio": "word-audio/3c5ab4696d.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5085,7 +5563,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "生病",
         "thai": "ป่วย",
-        "pinyin": "bpùai"
+        "pinyin": "bpùai",
+        "audio": "word-audio/7972eb27f2.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5105,17 +5584,20 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "生病",
         "thai": "ป่วย",
-        "pinyin": "bpùai"
+        "pinyin": "bpùai",
+        "audio": "word-audio/7972eb27f2.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5135,7 +5617,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "买单",
         "thai": "เช็กบิล",
-        "pinyin": "chék bin"
+        "pinyin": "chék bin",
+        "audio": "word-audio/8c355627fc.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5155,22 +5638,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "查 / 结",
         "thai": "เช็ก",
-        "pinyin": "chék"
+        "pinyin": "chék",
+        "audio": "word-audio/c8d4ef1fe2.mp3"
       },
       {
         "meaning": "账单",
         "thai": "บิล",
-        "pinyin": "bin"
+        "pinyin": "bin",
+        "audio": "word-audio/14331dfcfa.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5190,7 +5677,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "关机",
         "thai": "ปิดเครื่อง",
-        "pinyin": "bpìt khrûueang"
+        "pinyin": "bpìt khrûueang",
+        "audio": "word-audio/3d0c34200b.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5211,22 +5699,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "关",
         "thai": "ปิด",
-        "pinyin": "bpìt"
+        "pinyin": "bpìt",
+        "audio": "word-audio/96d79d763f.mp3"
       },
       {
         "meaning": "机器 / 设备",
         "thai": "เครื่อง",
-        "pinyin": "khrûueang"
+        "pinyin": "khrûueang",
+        "audio": "word-audio/b16e9733a4.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5246,7 +5738,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "充电",
         "thai": "ชาร์จแบต",
-        "pinyin": "cháat bàet"
+        "pinyin": "cháat bàet",
+        "audio": "word-audio/a0fd33c79d.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5267,27 +5760,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "充电",
         "thai": "ชาร์จ",
-        "pinyin": "cháat"
+        "pinyin": "cháat",
+        "audio": "word-audio/c35d63b146.mp3"
       },
       {
         "meaning": "电池",
         "thai": "แบต",
-        "pinyin": "bàet"
+        "pinyin": "bàet",
+        "audio": "word-audio/40a717247d.mp3"
       },
       {
         "meaning": "手机 / 电话",
         "thai": "โทรศัพท์",
-        "pinyin": "thoo-rá-sàp"
+        "pinyin": "thoo-rá-sàp",
+        "audio": "word-audio/35b4d30553.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5307,7 +5805,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "清晨 / 天刚亮",
         "thai": "เช้ามืด",
-        "pinyin": "cháo-mûuet"
+        "pinyin": "cháo-mûuet",
+        "audio": "word-audio/0a38d44a04.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5328,22 +5827,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "醒 / 起",
         "thai": "ตื่น",
-        "pinyin": "tùuen"
+        "pinyin": "tùuen",
+        "audio": "word-audio/cd7e503780.mp3"
       },
       {
         "meaning": "清晨 / 天刚亮",
         "thai": "เช้ามืด",
-        "pinyin": "cháo-mûuet"
+        "pinyin": "cháo-mûuet",
+        "audio": "word-audio/0a38d44a04.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5363,7 +5866,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "早上",
         "thai": "ตอนเช้า",
-        "pinyin": "dtaawn cháo"
+        "pinyin": "dtaawn cháo",
+        "audio": "word-audio/d9b8148fc6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5383,27 +5887,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "喝",
         "thai": "ดื่ม",
-        "pinyin": "dùuem"
+        "pinyin": "dùuem",
+        "audio": "word-audio/b8d93fc1af.mp3"
       },
       {
         "meaning": "水",
         "thai": "น้ำ",
-        "pinyin": "náam"
+        "pinyin": "náam",
+        "audio": "word-audio/9ebf4d22ac.mp3"
       },
       {
         "meaning": "早上",
         "thai": "ตอนเช้า",
-        "pinyin": "dtaawn cháo"
+        "pinyin": "dtaawn cháo",
+        "audio": "word-audio/d9b8148fc6.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5423,7 +5932,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "上午 / 晚一点的早上",
         "thai": "ตอนสาย",
-        "pinyin": "dtaawn sǎai"
+        "pinyin": "dtaawn sǎai",
+        "audio": "word-audio/59cf50c9d8.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5443,22 +5953,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "工作",
         "thai": "ทำงาน",
-        "pinyin": "tham-ngaan"
+        "pinyin": "tham-ngaan",
+        "audio": "word-audio/a2a62e8b32.mp3"
       },
       {
         "meaning": "上午 / 晚一点的早上",
         "thai": "ตอนสาย",
-        "pinyin": "dtaawn sǎai"
+        "pinyin": "dtaawn sǎai",
+        "audio": "word-audio/59cf50c9d8.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5478,7 +5992,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "中午",
         "thai": "ตอนเที่ยง",
-        "pinyin": "dtaawn thîang"
+        "pinyin": "dtaawn thîang",
+        "audio": "word-audio/532734b7ca.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5498,27 +6013,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "吃",
         "thai": "กิน",
-        "pinyin": "gin"
+        "pinyin": "gin",
+        "audio": "word-audio/f75afbf51f.mp3"
       },
       {
         "meaning": "饭",
         "thai": "ข้าว",
-        "pinyin": "khâao"
+        "pinyin": "khâao",
+        "audio": "word-audio/0d256b54d9.mp3"
       },
       {
         "meaning": "中午",
         "thai": "ตอนเที่ยง",
-        "pinyin": "dtaawn thîang"
+        "pinyin": "dtaawn thîang",
+        "audio": "word-audio/532734b7ca.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5538,7 +6058,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "下午",
         "thai": "ตอนบ่าย",
-        "pinyin": "dtaawn bàai"
+        "pinyin": "dtaawn bàai",
+        "audio": "word-audio/2b52766b25.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5558,22 +6079,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "学习",
         "thai": "เรียน",
-        "pinyin": "rian"
+        "pinyin": "rian",
+        "audio": "word-audio/fa050566d5.mp3"
       },
       {
         "meaning": "下午",
         "thai": "ตอนบ่าย",
-        "pinyin": "dtaawn bàai"
+        "pinyin": "dtaawn bàai",
+        "audio": "word-audio/2b52766b25.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5593,7 +6118,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "傍晚",
         "thai": "ตอนเย็น",
-        "pinyin": "dtaawn yen"
+        "pinyin": "dtaawn yen",
+        "audio": "word-audio/e7f00ee799.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5613,27 +6139,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "回",
         "thai": "กลับ",
-        "pinyin": "glàp"
+        "pinyin": "glàp",
+        "audio": "word-audio/9722e75dc3.mp3"
       },
       {
         "meaning": "家",
         "thai": "บ้าน",
-        "pinyin": "bâan"
+        "pinyin": "bâan",
+        "audio": "word-audio/e36aa72166.mp3"
       },
       {
         "meaning": "傍晚",
         "thai": "ตอนเย็น",
-        "pinyin": "dtaawn yen"
+        "pinyin": "dtaawn yen",
+        "audio": "word-audio/e7f00ee799.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5653,7 +6184,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "晚上",
         "thai": "ตอนค่ำ",
-        "pinyin": "dtaawn khâm"
+        "pinyin": "dtaawn khâm",
+        "audio": "word-audio/d546551cd3.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5673,27 +6205,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "读",
         "thai": "อ่าน",
-        "pinyin": "àan"
+        "pinyin": "àan",
+        "audio": "word-audio/08eae5f475.mp3"
       },
       {
         "meaning": "书",
         "thai": "หนังสือ",
-        "pinyin": "nǎng-sǔue"
+        "pinyin": "nǎng-sǔue",
+        "audio": "word-audio/c400fe56af.mp3"
       },
       {
         "meaning": "晚上",
         "thai": "ตอนค่ำ",
-        "pinyin": "dtaawn khâm"
+        "pinyin": "dtaawn khâm",
+        "audio": "word-audio/d546551cd3.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5713,7 +6250,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "夜里",
         "thai": "กลางคืน",
-        "pinyin": "glaang-khuuen"
+        "pinyin": "glaang-khuuen",
+        "audio": "word-audio/0979f51738.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5733,22 +6271,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "睡觉",
         "thai": "นอน",
-        "pinyin": "naawn"
+        "pinyin": "naawn",
+        "audio": "word-audio/f61e39bed0.mp3"
       },
       {
         "meaning": "夜里",
         "thai": "กลางคืน",
-        "pinyin": "glaang-khuuen"
+        "pinyin": "glaang-khuuen",
+        "audio": "word-audio/0979f51738.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5768,7 +6310,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "深夜",
         "thai": "ดึก",
-        "pinyin": "dùek"
+        "pinyin": "dùek",
+        "audio": "word-audio/ae832d03e7.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5788,27 +6331,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "回",
         "thai": "กลับ",
-        "pinyin": "glàp"
+        "pinyin": "glàp",
+        "audio": "word-audio/9722e75dc3.mp3"
       },
       {
         "meaning": "家",
         "thai": "บ้าน",
-        "pinyin": "bâan"
+        "pinyin": "bâan",
+        "audio": "word-audio/e36aa72166.mp3"
       },
       {
         "meaning": "深夜 / 很晚",
         "thai": "ดึก",
-        "pinyin": "dùek"
+        "pinyin": "dùek",
+        "audio": "word-audio/ae832d03e7.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5828,7 +6376,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "半夜 / 午夜",
         "thai": "เที่ยงคืน",
-        "pinyin": "thîang-khuuen"
+        "pinyin": "thîang-khuuen",
+        "audio": "word-audio/01ba31e98a.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5848,22 +6397,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "睡觉",
         "thai": "นอน",
-        "pinyin": "naawn"
+        "pinyin": "naawn",
+        "audio": "word-audio/f61e39bed0.mp3"
       },
       {
         "meaning": "半夜 / 午夜",
         "thai": "ตอนเที่ยงคืน",
-        "pinyin": "dtaawn thîang-khuuen"
+        "pinyin": "dtaawn thîang-khuuen",
+        "audio": "word-audio/cdb2ef4c10.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5883,7 +6436,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "现在",
         "thai": "ตอนนี้",
-        "pinyin": "dtaawn níi"
+        "pinyin": "dtaawn níi",
+        "audio": "word-audio/e8cce6065f.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5903,27 +6457,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "在",
         "thai": "อยู่",
-        "pinyin": "yùu"
+        "pinyin": "yùu",
+        "audio": "word-audio/906ad03eb0.mp3"
       },
       {
         "meaning": "家",
         "thai": "บ้าน",
-        "pinyin": "bâan"
+        "pinyin": "bâan",
+        "audio": "word-audio/e36aa72166.mp3"
       },
       {
         "meaning": "现在",
         "thai": "ตอนนี้",
-        "pinyin": "dtaawn níi"
+        "pinyin": "dtaawn níi",
+        "audio": "word-audio/e8cce6065f.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5943,7 +6502,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "今天",
         "thai": "วันนี้",
-        "pinyin": "wan-níi"
+        "pinyin": "wan-níi",
+        "audio": "word-audio/cdf390d5bd.mp3"
       }
     ],
     "pronunciationRules": [
@@ -5963,27 +6523,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "今天",
         "thai": "วันนี้",
-        "pinyin": "wan-níi"
+        "pinyin": "wan-níi",
+        "audio": "word-audio/cdf390d5bd.mp3"
       },
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "学习",
         "thai": "เรียน",
-        "pinyin": "rian"
+        "pinyin": "rian",
+        "audio": "word-audio/fa050566d5.mp3"
       },
       {
         "meaning": "泰语",
         "thai": "ภาษาไทย",
-        "pinyin": "phaa-sǎa thai"
+        "pinyin": "phaa-sǎa thai",
+        "audio": "word-audio/42e72492eb.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6003,7 +6568,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "明天",
         "thai": "พรุ่งนี้",
-        "pinyin": "phrûng-níi"
+        "pinyin": "phrûng-níi",
+        "audio": "word-audio/443675820f.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6024,27 +6590,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "明天",
         "thai": "พรุ่งนี้",
-        "pinyin": "phrûng-níi"
+        "pinyin": "phrûng-níi",
+        "audio": "word-audio/443675820f.mp3"
       },
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "去",
         "thai": "ไป",
-        "pinyin": "bpai"
+        "pinyin": "bpai",
+        "audio": "word-audio/ed56a62b35.mp3"
       },
       {
         "meaning": "工作 / 上班",
         "thai": "ทำงาน",
-        "pinyin": "tham-ngaan"
+        "pinyin": "tham-ngaan",
+        "audio": "word-audio/a2a62e8b32.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6064,7 +6635,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "昨天",
         "thai": "เมื่อวาน",
-        "pinyin": "mûuea-waan"
+        "pinyin": "mûuea-waan",
+        "audio": "word-audio/1a82497700.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6084,37 +6656,44 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "昨天",
         "thai": "เมื่อวาน",
-        "pinyin": "mûuea-waan"
+        "pinyin": "mûuea-waan",
+        "audio": "word-audio/1a82497700.mp3"
       },
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "吃",
         "thai": "กิน",
-        "pinyin": "gin"
+        "pinyin": "gin",
+        "audio": "word-audio/f75afbf51f.mp3"
       },
       {
         "meaning": "饭",
         "thai": "ข้าว",
-        "pinyin": "khâao"
+        "pinyin": "khâao",
+        "audio": "word-audio/0d256b54d9.mp3"
       },
       {
         "meaning": "在 / 地点连接词",
         "thai": "ที่",
-        "pinyin": "thîi"
+        "pinyin": "thîi",
+        "audio": "word-audio/2bcfc8ec12.mp3"
       },
       {
         "meaning": "家",
         "thai": "บ้าน",
-        "pinyin": "bâan"
+        "pinyin": "bâan",
+        "audio": "word-audio/e36aa72166.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6134,7 +6713,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "等一下 / 稍后",
         "thai": "เดี๋ยว",
-        "pinyin": "dǐao"
+        "pinyin": "dǐao",
+        "audio": "word-audio/28da9ff777.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6154,32 +6734,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "等一下 / 稍后",
         "thai": "เดี๋ยว",
-        "pinyin": "dǐao"
+        "pinyin": "dǐao",
+        "audio": "word-audio/28da9ff777.mp3"
       },
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "打电话",
         "thai": "โทร",
-        "pinyin": "thoo"
+        "pinyin": "thoo",
+        "audio": "word-audio/cf0900aad2.mp3"
       },
       {
         "meaning": "找 / 给……",
         "thai": "หา",
-        "pinyin": "hǎa"
+        "pinyin": "hǎa",
+        "audio": "word-audio/008c704eb1.mp3"
       },
       {
         "meaning": "你",
         "thai": "คุณ",
-        "pinyin": "khun"
+        "pinyin": "khun",
+        "audio": "word-audio/2f5855175b.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6199,7 +6785,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "前天",
         "thai": "เมื่อวานซืน",
-        "pinyin": "mûuea-waan-suuen"
+        "pinyin": "mûuea-waan-suuen",
+        "audio": "word-audio/b2b82874ea.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6219,27 +6806,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "前天",
         "thai": "เมื่อวานซืน",
-        "pinyin": "mûuea-waan-suuen"
+        "pinyin": "mûuea-waan-suuen",
+        "audio": "word-audio/b2b82874ea.mp3"
       },
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "去",
         "thai": "ไป",
-        "pinyin": "bpai"
+        "pinyin": "bpai",
+        "audio": "word-audio/ed56a62b35.mp3"
       },
       {
         "meaning": "市场",
         "thai": "ตลาด",
-        "pinyin": "dtà-làat"
+        "pinyin": "dtà-làat",
+        "audio": "word-audio/90c56fb66f.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6259,7 +6851,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "后天",
         "thai": "มะรืนนี้",
-        "pinyin": "má-ruuen-níi"
+        "pinyin": "má-ruuen-níi",
+        "audio": "word-audio/795621b24d.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6279,27 +6872,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "后天",
         "thai": "มะรืนนี้",
-        "pinyin": "má-ruuen-níi"
+        "pinyin": "má-ruuen-níi",
+        "audio": "word-audio/795621b24d.mp3"
       },
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "去",
         "thai": "ไป",
-        "pinyin": "bpai"
+        "pinyin": "bpai",
+        "audio": "word-audio/ed56a62b35.mp3"
       },
       {
         "meaning": "工作 / 上班",
         "thai": "ทำงาน",
-        "pinyin": "tham-ngaan"
+        "pinyin": "tham-ngaan",
+        "audio": "word-audio/a2a62e8b32.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6319,7 +6917,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "今晚",
         "thai": "คืนนี้",
-        "pinyin": "khuuen-níi"
+        "pinyin": "khuuen-níi",
+        "audio": "word-audio/c21cb49102.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6339,27 +6938,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "今晚",
         "thai": "คืนนี้",
-        "pinyin": "khuuen-níi"
+        "pinyin": "khuuen-níi",
+        "audio": "word-audio/c21cb49102.mp3"
       },
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "在",
         "thai": "อยู่",
-        "pinyin": "yùu"
+        "pinyin": "yùu",
+        "audio": "word-audio/906ad03eb0.mp3"
       },
       {
         "meaning": "家",
         "thai": "บ้าน",
-        "pinyin": "bâan"
+        "pinyin": "bâan",
+        "audio": "word-audio/e36aa72166.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6379,7 +6983,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "明天早上",
         "thai": "พรุ่งนี้เช้า",
-        "pinyin": "phrûng-níi cháo"
+        "pinyin": "phrûng-níi cháo",
+        "audio": "word-audio/a9d6ad4b2a.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6400,27 +7005,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "明天早上",
         "thai": "พรุ่งนี้เช้า",
-        "pinyin": "phrûng-níi cháo"
+        "pinyin": "phrûng-níi cháo",
+        "audio": "word-audio/a9d6ad4b2a.mp3"
       },
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "醒 / 起",
         "thai": "ตื่น",
-        "pinyin": "tùuen"
+        "pinyin": "tùuen",
+        "audio": "word-audio/cd7e503780.mp3"
       },
       {
         "meaning": "早 / 快",
         "thai": "เร็ว",
-        "pinyin": "reo"
+        "pinyin": "reo",
+        "audio": "word-audio/6ad168d930.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6440,7 +7050,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "早 / 提早",
         "thai": "เร็ว",
-        "pinyin": "reo"
+        "pinyin": "reo",
+        "audio": "word-audio/6ad168d930.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6460,22 +7071,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "来",
         "thai": "มา",
-        "pinyin": "maa"
+        "pinyin": "maa",
+        "audio": "word-audio/648cd43a05.mp3"
       },
       {
         "meaning": "早 / 提早 / 快",
         "thai": "เร็ว",
-        "pinyin": "reo"
+        "pinyin": "reo",
+        "audio": "word-audio/6ad168d930.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6495,7 +7110,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "迟到 / 晚",
         "thai": "สาย",
-        "pinyin": "sǎai"
+        "pinyin": "sǎai",
+        "audio": "word-audio/31d385cdb7.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6515,22 +7131,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "来",
         "thai": "มา",
-        "pinyin": "maa"
+        "pinyin": "maa",
+        "audio": "word-audio/648cd43a05.mp3"
       },
       {
         "meaning": "迟到 / 晚",
         "thai": "สาย",
-        "pinyin": "sǎai"
+        "pinyin": "sǎai",
+        "audio": "word-audio/31d385cdb7.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6550,7 +7170,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "小时",
         "thai": "ชั่วโมง",
-        "pinyin": "chûua-moong"
+        "pinyin": "chûua-moong",
+        "audio": "word-audio/0e28376363.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6570,27 +7191,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "学习",
         "thai": "เรียน",
-        "pinyin": "rian"
+        "pinyin": "rian",
+        "audio": "word-audio/fa050566d5.mp3"
       },
       {
         "meaning": "一",
         "thai": "หนึ่ง",
-        "pinyin": "nùeng"
+        "pinyin": "nùeng",
+        "audio": "word-audio/27ff8aebdd.mp3"
       },
       {
         "meaning": "小时",
         "thai": "ชั่วโมง",
-        "pinyin": "chûua-moong"
+        "pinyin": "chûua-moong",
+        "audio": "word-audio/0e28376363.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6610,7 +7236,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "分钟",
         "thai": "นาที",
-        "pinyin": "naa-thii"
+        "pinyin": "naa-thii",
+        "audio": "word-audio/b1ac4c44be.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6630,27 +7257,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "等",
         "thai": "รอ",
-        "pinyin": "raaw"
+        "pinyin": "raaw",
+        "audio": "word-audio/971fe1e1b4.mp3"
       },
       {
         "meaning": "五",
         "thai": "ห้า",
-        "pinyin": "hâa"
+        "pinyin": "hâa",
+        "audio": "word-audio/8af79cb3e9.mp3"
       },
       {
         "meaning": "分钟",
         "thai": "นาที",
-        "pinyin": "naa-thii"
+        "pinyin": "naa-thii",
+        "audio": "word-audio/b1ac4c44be.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6670,7 +7302,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "几点",
         "thai": "กี่โมง",
-        "pinyin": "gìi moong"
+        "pinyin": "gìi moong",
+        "audio": "word-audio/7f0301837b.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6690,17 +7323,20 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "现在",
         "thai": "ตอนนี้",
-        "pinyin": "dtaawn níi"
+        "pinyin": "dtaawn níi",
+        "audio": "word-audio/e8cce6065f.mp3"
       },
       {
         "meaning": "几点",
         "thai": "กี่โมง",
-        "pinyin": "gìi moong"
+        "pinyin": "gìi moong",
+        "audio": "word-audio/7f0301837b.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6720,7 +7356,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "零",
         "thai": "ศูนย์",
-        "pinyin": "sǔun"
+        "pinyin": "sǔun",
+        "audio": "word-audio/0867bc7fe3.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6740,32 +7377,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "钱",
         "thai": "เงิน",
-        "pinyin": "ngoen"
+        "pinyin": "ngoen",
+        "audio": "word-audio/27c7e48b23.mp3"
       },
       {
         "meaning": "零",
         "thai": "ศูนย์",
-        "pinyin": "sǔun"
+        "pinyin": "sǔun",
+        "audio": "word-audio/0867bc7fe3.mp3"
       },
       {
         "meaning": "泰铢",
         "thai": "บาท",
-        "pinyin": "bàat"
+        "pinyin": "bàat",
+        "audio": "word-audio/36346b7102.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6785,7 +7428,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "一",
         "thai": "หนึ่ง",
-        "pinyin": "nùeng"
+        "pinyin": "nùeng",
+        "audio": "word-audio/27ff8aebdd.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6805,32 +7449,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "书",
         "thai": "หนังสือ",
-        "pinyin": "nǎng-sǔue"
+        "pinyin": "nǎng-sǔue",
+        "audio": "word-audio/c400fe56af.mp3"
       },
       {
         "meaning": "一",
         "thai": "หนึ่ง",
-        "pinyin": "nùeng"
+        "pinyin": "nùeng",
+        "audio": "word-audio/27ff8aebdd.mp3"
       },
       {
         "meaning": "本 / 册",
         "thai": "เล่ม",
-        "pinyin": "lêm"
+        "pinyin": "lêm",
+        "audio": "word-audio/1627e89872.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6850,7 +7500,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "二",
         "thai": "สอง",
-        "pinyin": "sǎawng"
+        "pinyin": "sǎawng",
+        "audio": "word-audio/1b6312dfb0.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6870,32 +7521,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "笔",
         "thai": "ปากกา",
-        "pinyin": "bpàak-gaa"
+        "pinyin": "bpàak-gaa",
+        "audio": "word-audio/70d0d4b6c6.mp3"
       },
       {
         "meaning": "二",
         "thai": "สอง",
-        "pinyin": "sǎawng"
+        "pinyin": "sǎawng",
+        "audio": "word-audio/1b6312dfb0.mp3"
       },
       {
         "meaning": "支 / 把",
         "thai": "ด้าม",
-        "pinyin": "dâam"
+        "pinyin": "dâam",
+        "audio": "word-audio/7ac61f7066.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6915,7 +7572,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "三",
         "thai": "สาม",
-        "pinyin": "sǎam"
+        "pinyin": "sǎam",
+        "audio": "word-audio/4a988146cb.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6935,32 +7593,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "吃",
         "thai": "กิน",
-        "pinyin": "gin"
+        "pinyin": "gin",
+        "audio": "word-audio/f75afbf51f.mp3"
       },
       {
         "meaning": "饭",
         "thai": "ข้าว",
-        "pinyin": "khâao"
+        "pinyin": "khâao",
+        "audio": "word-audio/0d256b54d9.mp3"
       },
       {
         "meaning": "三",
         "thai": "สาม",
-        "pinyin": "sǎam"
+        "pinyin": "sǎam",
+        "audio": "word-audio/4a988146cb.mp3"
       },
       {
         "meaning": "餐 / 顿",
         "thai": "มื้อ",
-        "pinyin": "múue"
+        "pinyin": "múue",
+        "audio": "word-audio/cba470b778.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -6980,7 +7644,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "四",
         "thai": "สี่",
-        "pinyin": "sìi"
+        "pinyin": "sìi",
+        "audio": "word-audio/f3824698d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7000,32 +7665,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "杯子",
         "thai": "แก้ว",
-        "pinyin": "gâew"
+        "pinyin": "gâew",
+        "audio": "word-audio/9b621855ae.mp3"
       },
       {
         "meaning": "四",
         "thai": "สี่",
-        "pinyin": "sìi"
+        "pinyin": "sìi",
+        "audio": "word-audio/f3824698d6.mp3"
       },
       {
         "meaning": "个 / 只",
         "thai": "ใบ",
-        "pinyin": "bai"
+        "pinyin": "bai",
+        "audio": "word-audio/a88807c8b5.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7045,7 +7716,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "五",
         "thai": "ห้า",
-        "pinyin": "hâa"
+        "pinyin": "hâa",
+        "audio": "word-audio/8af79cb3e9.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7066,7 +7738,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "六",
         "thai": "หก",
-        "pinyin": "hòk"
+        "pinyin": "hòk",
+        "audio": "word-audio/6b34cc3722.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7086,27 +7759,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "醒 / 起",
         "thai": "ตื่น",
-        "pinyin": "tùuen"
+        "pinyin": "tùuen",
+        "audio": "word-audio/cd7e503780.mp3"
       },
       {
         "meaning": "六",
         "thai": "หก",
-        "pinyin": "hòk"
+        "pinyin": "hòk",
+        "audio": "word-audio/6b34cc3722.mp3"
       },
       {
         "meaning": "点钟",
         "thai": "โมง",
-        "pinyin": "moong"
+        "pinyin": "moong",
+        "audio": "word-audio/a5e130a362.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7126,7 +7804,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "七",
         "thai": "เจ็ด",
-        "pinyin": "jèt"
+        "pinyin": "jèt",
+        "audio": "word-audio/8939c31866.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7146,32 +7825,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "回",
         "thai": "กลับ",
-        "pinyin": "glàp"
+        "pinyin": "glàp",
+        "audio": "word-audio/9722e75dc3.mp3"
       },
       {
         "meaning": "家",
         "thai": "บ้าน",
-        "pinyin": "bâan"
+        "pinyin": "bâan",
+        "audio": "word-audio/e36aa72166.mp3"
       },
       {
         "meaning": "七",
         "thai": "เจ็ด",
-        "pinyin": "jèt"
+        "pinyin": "jèt",
+        "audio": "word-audio/8939c31866.mp3"
       },
       {
         "meaning": "点钟",
         "thai": "โมง",
-        "pinyin": "moong"
+        "pinyin": "moong",
+        "audio": "word-audio/a5e130a362.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7191,7 +7876,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "八",
         "thai": "แปด",
-        "pinyin": "bpàaet"
+        "pinyin": "bpàaet",
+        "audio": "word-audio/b3cad9ee48.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7211,27 +7897,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "工作",
         "thai": "ทำงาน",
-        "pinyin": "tham-ngaan"
+        "pinyin": "tham-ngaan",
+        "audio": "word-audio/a2a62e8b32.mp3"
       },
       {
         "meaning": "八",
         "thai": "แปด",
-        "pinyin": "bpàaet"
+        "pinyin": "bpàaet",
+        "audio": "word-audio/b3cad9ee48.mp3"
       },
       {
         "meaning": "小时",
         "thai": "ชั่วโมง",
-        "pinyin": "chûua-moong"
+        "pinyin": "chûua-moong",
+        "audio": "word-audio/0e28376363.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7251,7 +7942,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "九",
         "thai": "เก้า",
-        "pinyin": "gâao"
+        "pinyin": "gâao",
+        "audio": "word-audio/6d375c8d4d.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7271,32 +7963,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "开始",
         "thai": "เริ่ม",
-        "pinyin": "rêerm"
+        "pinyin": "rêerm",
+        "audio": "word-audio/71925fa24e.mp3"
       },
       {
         "meaning": "工作",
         "thai": "งาน",
-        "pinyin": "ngaan"
+        "pinyin": "ngaan",
+        "audio": "word-audio/18d2ce007d.mp3"
       },
       {
         "meaning": "九",
         "thai": "เก้า",
-        "pinyin": "gâao"
+        "pinyin": "gâao",
+        "audio": "word-audio/6d375c8d4d.mp3"
       },
       {
         "meaning": "点钟",
         "thai": "โมง",
-        "pinyin": "moong"
+        "pinyin": "moong",
+        "audio": "word-audio/a5e130a362.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7316,7 +8014,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "十",
         "thai": "สิบ",
-        "pinyin": "sìp"
+        "pinyin": "sìp",
+        "audio": "word-audio/e58a65066c.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7336,32 +8035,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "朋友",
         "thai": "เพื่อน",
-        "pinyin": "phûuean"
+        "pinyin": "phûuean",
+        "audio": "word-audio/50f037b5d9.mp3"
       },
       {
         "meaning": "十",
         "thai": "สิบ",
-        "pinyin": "sìp"
+        "pinyin": "sìp",
+        "audio": "word-audio/e58a65066c.mp3"
       },
       {
         "meaning": "人",
         "thai": "คน",
-        "pinyin": "khon"
+        "pinyin": "khon",
+        "audio": "word-audio/98ac1686cf.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7381,7 +8086,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "星期一",
         "thai": "วันจันทร์",
-        "pinyin": "wan-jan"
+        "pinyin": "wan-jan",
+        "audio": "word-audio/3d376a34de.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7401,27 +8107,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "星期一",
         "thai": "วันจันทร์",
-        "pinyin": "wan-jan"
+        "pinyin": "wan-jan",
+        "audio": "word-audio/3d376a34de.mp3"
       },
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "去",
         "thai": "ไป",
-        "pinyin": "bpai"
+        "pinyin": "bpai",
+        "audio": "word-audio/ed56a62b35.mp3"
       },
       {
         "meaning": "工作 / 上班",
         "thai": "ทำงาน",
-        "pinyin": "tham-ngaan"
+        "pinyin": "tham-ngaan",
+        "audio": "word-audio/a2a62e8b32.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7441,7 +8152,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "星期二",
         "thai": "วันอังคาร",
-        "pinyin": "wan-ang-khaan"
+        "pinyin": "wan-ang-khaan",
+        "audio": "word-audio/8b006f35ac.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7461,27 +8173,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "星期二",
         "thai": "วันอังคาร",
-        "pinyin": "wan-ang-khaan"
+        "pinyin": "wan-ang-khaan",
+        "audio": "word-audio/8b006f35ac.mp3"
       },
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "学习",
         "thai": "เรียน",
-        "pinyin": "rian"
+        "pinyin": "rian",
+        "audio": "word-audio/fa050566d5.mp3"
       },
       {
         "meaning": "泰语",
         "thai": "ภาษาไทย",
-        "pinyin": "phaa-sǎa thai"
+        "pinyin": "phaa-sǎa thai",
+        "audio": "word-audio/42e72492eb.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7501,7 +8218,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "星期三",
         "thai": "วันพุธ",
-        "pinyin": "wan-phút"
+        "pinyin": "wan-phút",
+        "audio": "word-audio/369800f359.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7521,27 +8239,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "星期三",
         "thai": "วันพุธ",
-        "pinyin": "wan-phút"
+        "pinyin": "wan-phút",
+        "audio": "word-audio/369800f359.mp3"
       },
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "读",
         "thai": "อ่าน",
-        "pinyin": "àan"
+        "pinyin": "àan",
+        "audio": "word-audio/08eae5f475.mp3"
       },
       {
         "meaning": "书",
         "thai": "หนังสือ",
-        "pinyin": "nǎng-sǔue"
+        "pinyin": "nǎng-sǔue",
+        "audio": "word-audio/c400fe56af.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7561,7 +8284,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "星期四",
         "thai": "วันพฤหัสบดี",
-        "pinyin": "wan-phá-rú-hàt-sà-baw-dii（常见口语短读：wan-phá-rú-hàt）"
+        "pinyin": "wan-phá-rú-hàt-sà-baw-dii（常见口语短读：wan-phá-rú-hàt）",
+        "audio": "word-audio/b5e5e90750.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7582,32 +8306,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "星期四",
         "thai": "วันพฤหัสบดี",
-        "pinyin": "wan-phá-rú-hàt-sà-baw-dii"
+        "pinyin": "wan-phá-rú-hàt-sà-baw-dii",
+        "audio": "word-audio/b5e5e90750.mp3"
       },
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "工作",
         "thai": "ทำงาน",
-        "pinyin": "tham-ngaan"
+        "pinyin": "tham-ngaan",
+        "audio": "word-audio/a2a62e8b32.mp3"
       },
       {
         "meaning": "在 / 地点连接词",
         "thai": "ที่",
-        "pinyin": "thîi"
+        "pinyin": "thîi",
+        "audio": "word-audio/2bcfc8ec12.mp3"
       },
       {
         "meaning": "家",
         "thai": "บ้าน",
-        "pinyin": "bâan"
+        "pinyin": "bâan",
+        "audio": "word-audio/e36aa72166.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7627,7 +8357,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "星期五",
         "thai": "วันศุกร์",
-        "pinyin": "wan-sùk"
+        "pinyin": "wan-sùk",
+        "audio": "word-audio/08dd833204.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7647,37 +8378,44 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "星期五",
         "thai": "วันศุกร์",
-        "pinyin": "wan-sùk"
+        "pinyin": "wan-sùk",
+        "audio": "word-audio/08dd833204.mp3"
       },
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "吃",
         "thai": "กิน",
-        "pinyin": "gin"
+        "pinyin": "gin",
+        "audio": "word-audio/f75afbf51f.mp3"
       },
       {
         "meaning": "饭",
         "thai": "ข้าว",
-        "pinyin": "khâao"
+        "pinyin": "khâao",
+        "audio": "word-audio/0d256b54d9.mp3"
       },
       {
         "meaning": "和 / 跟",
         "thai": "กับ",
-        "pinyin": "gàp"
+        "pinyin": "gàp",
+        "audio": "word-audio/9a18880dbd.mp3"
       },
       {
         "meaning": "朋友",
         "thai": "เพื่อน",
-        "pinyin": "phûuean"
+        "pinyin": "phûuean",
+        "audio": "word-audio/50f037b5d9.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7697,7 +8435,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "星期六",
         "thai": "วันเสาร์",
-        "pinyin": "wan-sǎo"
+        "pinyin": "wan-sǎo",
+        "audio": "word-audio/0cda06c8ad.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7717,22 +8456,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "星期六",
         "thai": "วันเสาร์",
-        "pinyin": "wan-sǎo"
+        "pinyin": "wan-sǎo",
+        "audio": "word-audio/0cda06c8ad.mp3"
       },
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "休息",
         "thai": "พักผ่อน",
-        "pinyin": "phák-phàawn"
+        "pinyin": "phák-phàawn",
+        "audio": "word-audio/40dc0f597b.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7752,7 +8495,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "星期日",
         "thai": "วันอาทิตย์",
-        "pinyin": "wan-aa-thít"
+        "pinyin": "wan-aa-thít",
+        "audio": "word-audio/09aba214b2.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7772,27 +8516,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "星期日",
         "thai": "วันอาทิตย์",
-        "pinyin": "wan-aa-thít"
+        "pinyin": "wan-aa-thít",
+        "audio": "word-audio/09aba214b2.mp3"
       },
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "去",
         "thai": "ไป",
-        "pinyin": "bpai"
+        "pinyin": "bpai",
+        "audio": "word-audio/ed56a62b35.mp3"
       },
       {
         "meaning": "市场",
         "thai": "ตลาด",
-        "pinyin": "dtà-làat"
+        "pinyin": "dtà-làat",
+        "audio": "word-audio/90c56fb66f.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7812,7 +8561,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "十一",
         "thai": "สิบเอ็ด",
-        "pinyin": "sìp-èt"
+        "pinyin": "sìp-èt",
+        "audio": "word-audio/73ad399d4f.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7832,32 +8582,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "书",
         "thai": "หนังสือ",
-        "pinyin": "nǎng-sǔue"
+        "pinyin": "nǎng-sǔue",
+        "audio": "word-audio/c400fe56af.mp3"
       },
       {
         "meaning": "十一",
         "thai": "สิบเอ็ด",
-        "pinyin": "sìp-èt"
+        "pinyin": "sìp-èt",
+        "audio": "word-audio/73ad399d4f.mp3"
       },
       {
         "meaning": "本 / 册",
         "thai": "เล่ม",
-        "pinyin": "lêm"
+        "pinyin": "lêm",
+        "audio": "word-audio/1627e89872.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7877,7 +8633,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "十二",
         "thai": "สิบสอง",
-        "pinyin": "sìp-sǎawng"
+        "pinyin": "sìp-sǎawng",
+        "audio": "word-audio/3735e1f80b.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7898,32 +8655,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "铅笔",
         "thai": "ดินสอ",
-        "pinyin": "din-sɔ̌ɔ"
+        "pinyin": "din-sɔ̌ɔ",
+        "audio": "word-audio/3a92a0c004.mp3"
       },
       {
         "meaning": "十二",
         "thai": "สิบสอง",
-        "pinyin": "sìp-sǎawng"
+        "pinyin": "sìp-sǎawng",
+        "audio": "word-audio/3735e1f80b.mp3"
       },
       {
         "meaning": "支",
         "thai": "แท่ง",
-        "pinyin": "thàeng"
+        "pinyin": "thàeng",
+        "audio": "word-audio/87bbcc4960.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7943,7 +8706,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "十三",
         "thai": "สิบสาม",
-        "pinyin": "sìp-sǎam"
+        "pinyin": "sìp-sǎam",
+        "audio": "word-audio/d8ac98caef.mp3"
       }
     ],
     "pronunciationRules": [
@@ -7964,32 +8728,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "朋友",
         "thai": "เพื่อน",
-        "pinyin": "phûuean"
+        "pinyin": "phûuean",
+        "audio": "word-audio/50f037b5d9.mp3"
       },
       {
         "meaning": "十三",
         "thai": "สิบสาม",
-        "pinyin": "sìp-sǎam"
+        "pinyin": "sìp-sǎam",
+        "audio": "word-audio/d8ac98caef.mp3"
       },
       {
         "meaning": "人",
         "thai": "คน",
-        "pinyin": "khon"
+        "pinyin": "khon",
+        "audio": "word-audio/98ac1686cf.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8009,7 +8779,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "十四",
         "thai": "สิบสี่",
-        "pinyin": "sìp-sìi"
+        "pinyin": "sìp-sìi",
+        "audio": "word-audio/38794c7ee7.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8029,27 +8800,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "工作",
         "thai": "ทำงาน",
-        "pinyin": "tham-ngaan"
+        "pinyin": "tham-ngaan",
+        "audio": "word-audio/a2a62e8b32.mp3"
       },
       {
         "meaning": "十四",
         "thai": "สิบสี่",
-        "pinyin": "sìp-sìi"
+        "pinyin": "sìp-sìi",
+        "audio": "word-audio/38794c7ee7.mp3"
       },
       {
         "meaning": "天",
         "thai": "วัน",
-        "pinyin": "wan"
+        "pinyin": "wan",
+        "audio": "word-audio/3a8f33ed5a.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8069,7 +8845,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "十五",
         "thai": "สิบห้า",
-        "pinyin": "sìp-hâa"
+        "pinyin": "sìp-hâa",
+        "audio": "word-audio/a0920aa15b.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8091,27 +8868,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "等",
         "thai": "รอ",
-        "pinyin": "raaw"
+        "pinyin": "raaw",
+        "audio": "word-audio/971fe1e1b4.mp3"
       },
       {
         "meaning": "十五",
         "thai": "สิบห้า",
-        "pinyin": "sìp-hâa"
+        "pinyin": "sìp-hâa",
+        "audio": "word-audio/a0920aa15b.mp3"
       },
       {
         "meaning": "分钟",
         "thai": "นาที",
-        "pinyin": "naa-thii"
+        "pinyin": "naa-thii",
+        "audio": "word-audio/b1ac4c44be.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8131,7 +8913,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "十六",
         "thai": "สิบหก",
-        "pinyin": "sìp-hòk"
+        "pinyin": "sìp-hòk",
+        "audio": "word-audio/45298bc982.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8151,27 +8934,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "回家",
         "thai": "กลับบ้าน",
-        "pinyin": "glàp-bâan"
+        "pinyin": "glàp-bâan",
+        "audio": "word-audio/fcb856c95e.mp3"
       },
       {
         "meaning": "在……时间",
         "thai": "ตอน",
-        "pinyin": "dtaawn"
+        "pinyin": "dtaawn",
+        "audio": "word-audio/8fd9dd6e41.mp3"
       },
       {
         "meaning": "十六点",
         "thai": "สิบหกโมง",
-        "pinyin": "sìp-hòk moong"
+        "pinyin": "sìp-hòk moong",
+        "audio": "word-audio/e6801407a6.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8191,7 +8979,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "十七",
         "thai": "สิบเจ็ด",
-        "pinyin": "sìp-jèt"
+        "pinyin": "sìp-jèt",
+        "audio": "word-audio/1890a1d4e7.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8211,27 +9000,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "醒 / 起",
         "thai": "ตื่น",
-        "pinyin": "tùuen"
+        "pinyin": "tùuen",
+        "audio": "word-audio/cd7e503780.mp3"
       },
       {
         "meaning": "在……时间",
         "thai": "ตอน",
-        "pinyin": "dtaawn"
+        "pinyin": "dtaawn",
+        "audio": "word-audio/8fd9dd6e41.mp3"
       },
       {
         "meaning": "十七点",
         "thai": "สิบเจ็ดโมง",
-        "pinyin": "sìp-jèt moong"
+        "pinyin": "sìp-jèt moong",
+        "audio": "word-audio/4d53802ef3.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8251,7 +9045,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "十八",
         "thai": "สิบแปด",
-        "pinyin": "sìp-bpàet"
+        "pinyin": "sìp-bpàet",
+        "audio": "word-audio/c10e8b84c5.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8271,27 +9066,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "年龄是",
         "thai": "มีอายุ",
-        "pinyin": "mii-aa-yú"
+        "pinyin": "mii-aa-yú",
+        "audio": "word-audio/29b766665b.mp3"
       },
       {
         "meaning": "十八",
         "thai": "สิบแปด",
-        "pinyin": "sìp-bpàet"
+        "pinyin": "sìp-bpàet",
+        "audio": "word-audio/c10e8b84c5.mp3"
       },
       {
         "meaning": "岁 / 年",
         "thai": "ปี",
-        "pinyin": "bpii"
+        "pinyin": "bpii",
+        "audio": "word-audio/1545840360.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8311,7 +9111,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "十九",
         "thai": "สิบเก้า",
-        "pinyin": "sìp-gâao"
+        "pinyin": "sìp-gâao",
+        "audio": "word-audio/ca874219f8.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8332,32 +9133,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "钱",
         "thai": "เงิน",
-        "pinyin": "ngoen"
+        "pinyin": "ngoen",
+        "audio": "word-audio/27c7e48b23.mp3"
       },
       {
         "meaning": "十九",
         "thai": "สิบเก้า",
-        "pinyin": "sìp-gâao"
+        "pinyin": "sìp-gâao",
+        "audio": "word-audio/ca874219f8.mp3"
       },
       {
         "meaning": "泰铢",
         "thai": "บาท",
-        "pinyin": "bàat"
+        "pinyin": "bàat",
+        "audio": "word-audio/36346b7102.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8377,7 +9184,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "二十",
         "thai": "ยี่สิบ",
-        "pinyin": "yîi-sìp"
+        "pinyin": "yîi-sìp",
+        "audio": "word-audio/62beb0e4ae.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8398,32 +9206,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "钱",
         "thai": "เงิน",
-        "pinyin": "ngoen"
+        "pinyin": "ngoen",
+        "audio": "word-audio/27c7e48b23.mp3"
       },
       {
         "meaning": "二十",
         "thai": "ยี่สิบ",
-        "pinyin": "yîi-sìp"
+        "pinyin": "yîi-sìp",
+        "audio": "word-audio/62beb0e4ae.mp3"
       },
       {
         "meaning": "泰铢",
         "thai": "บาท",
-        "pinyin": "bàat"
+        "pinyin": "bàat",
+        "audio": "word-audio/36346b7102.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8443,7 +9257,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "二十一",
         "thai": "ยี่สิบเอ็ด",
-        "pinyin": "yîi-sìp-èt"
+        "pinyin": "yîi-sìp-èt",
+        "audio": "word-audio/0e39666c89.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8464,27 +9279,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "年龄",
         "thai": "อายุ",
-        "pinyin": "aa-yú"
+        "pinyin": "aa-yú",
+        "audio": "word-audio/b1d4f31811.mp3"
       },
       {
         "meaning": "二十一",
         "thai": "ยี่สิบเอ็ด",
-        "pinyin": "yîi-sìp-èt"
+        "pinyin": "yîi-sìp-èt",
+        "audio": "word-audio/0e39666c89.mp3"
       },
       {
         "meaning": "岁 / 年",
         "thai": "ปี",
-        "pinyin": "bpii"
+        "pinyin": "bpii",
+        "audio": "word-audio/1545840360.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8504,7 +9324,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "二十五",
         "thai": "ยี่สิบห้า",
-        "pinyin": "yîi-sìp-hâa"
+        "pinyin": "yîi-sìp-hâa",
+        "audio": "word-audio/6432081dd3.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8526,27 +9347,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "等",
         "thai": "รอ",
-        "pinyin": "raaw"
+        "pinyin": "raaw",
+        "audio": "word-audio/971fe1e1b4.mp3"
       },
       {
         "meaning": "二十五",
         "thai": "ยี่สิบห้า",
-        "pinyin": "yîi-sìp-hâa"
+        "pinyin": "yîi-sìp-hâa",
+        "audio": "word-audio/6432081dd3.mp3"
       },
       {
         "meaning": "分钟",
         "thai": "นาที",
-        "pinyin": "naa-thii"
+        "pinyin": "naa-thii",
+        "audio": "word-audio/b1ac4c44be.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8566,7 +9392,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "二十七",
         "thai": "ยี่สิบเจ็ด",
-        "pinyin": "yîi-sìp-jèt"
+        "pinyin": "yîi-sìp-jèt",
+        "audio": "word-audio/1214795587.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8587,32 +9414,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "书",
         "thai": "หนังสือ",
-        "pinyin": "nǎng-sǔue"
+        "pinyin": "nǎng-sǔue",
+        "audio": "word-audio/c400fe56af.mp3"
       },
       {
         "meaning": "二十七",
         "thai": "ยี่สิบเจ็ด",
-        "pinyin": "yîi-sìp-jèt"
+        "pinyin": "yîi-sìp-jèt",
+        "audio": "word-audio/1214795587.mp3"
       },
       {
         "meaning": "本 / 册",
         "thai": "เล่ม",
-        "pinyin": "lêm"
+        "pinyin": "lêm",
+        "audio": "word-audio/1627e89872.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8632,7 +9465,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "二十九",
         "thai": "ยี่สิบเก้า",
-        "pinyin": "yîi-sìp-gâao"
+        "pinyin": "yîi-sìp-gâao",
+        "audio": "word-audio/448c548b14.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8653,32 +9487,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "朋友",
         "thai": "เพื่อน",
-        "pinyin": "phûuean"
+        "pinyin": "phûuean",
+        "audio": "word-audio/50f037b5d9.mp3"
       },
       {
         "meaning": "二十九",
         "thai": "ยี่สิบเก้า",
-        "pinyin": "yîi-sìp-gâao"
+        "pinyin": "yîi-sìp-gâao",
+        "audio": "word-audio/448c548b14.mp3"
       },
       {
         "meaning": "人",
         "thai": "คน",
-        "pinyin": "khon"
+        "pinyin": "khon",
+        "audio": "word-audio/98ac1686cf.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8698,7 +9538,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "三十",
         "thai": "สามสิบ",
-        "pinyin": "sǎam-sìp"
+        "pinyin": "sǎam-sìp",
+        "audio": "word-audio/a964d881e8.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8719,32 +9560,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "钱",
         "thai": "เงิน",
-        "pinyin": "ngoen"
+        "pinyin": "ngoen",
+        "audio": "word-audio/27c7e48b23.mp3"
       },
       {
         "meaning": "三十",
         "thai": "สามสิบ",
-        "pinyin": "sǎam-sìp"
+        "pinyin": "sǎam-sìp",
+        "audio": "word-audio/a964d881e8.mp3"
       },
       {
         "meaning": "泰铢",
         "thai": "บาท",
-        "pinyin": "bàat"
+        "pinyin": "bàat",
+        "audio": "word-audio/36346b7102.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8764,7 +9611,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "三十一",
         "thai": "สามสิบเอ็ด",
-        "pinyin": "sǎam-sìp-èt"
+        "pinyin": "sǎam-sìp-èt",
+        "audio": "word-audio/fa1e77c6c5.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8785,32 +9633,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "书",
         "thai": "หนังสือ",
-        "pinyin": "nǎng-sǔue"
+        "pinyin": "nǎng-sǔue",
+        "audio": "word-audio/c400fe56af.mp3"
       },
       {
         "meaning": "三十一",
         "thai": "สามสิบเอ็ด",
-        "pinyin": "sǎam-sìp-èt"
+        "pinyin": "sǎam-sìp-èt",
+        "audio": "word-audio/fa1e77c6c5.mp3"
       },
       {
         "meaning": "本 / 册",
         "thai": "เล่ม",
-        "pinyin": "lêm"
+        "pinyin": "lêm",
+        "audio": "word-audio/1627e89872.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8830,7 +9684,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "四十",
         "thai": "สี่สิบ",
-        "pinyin": "sìi-sìp"
+        "pinyin": "sìi-sìp",
+        "audio": "word-audio/663a6d2130.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8850,32 +9705,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "钱",
         "thai": "เงิน",
-        "pinyin": "ngoen"
+        "pinyin": "ngoen",
+        "audio": "word-audio/27c7e48b23.mp3"
       },
       {
         "meaning": "四十",
         "thai": "สี่สิบ",
-        "pinyin": "sìi-sìp"
+        "pinyin": "sìi-sìp",
+        "audio": "word-audio/663a6d2130.mp3"
       },
       {
         "meaning": "泰铢",
         "thai": "บาท",
-        "pinyin": "bàat"
+        "pinyin": "bàat",
+        "audio": "word-audio/36346b7102.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8895,7 +9756,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "四十一",
         "thai": "สี่สิบเอ็ด",
-        "pinyin": "sìi-sìp-èt"
+        "pinyin": "sìi-sìp-èt",
+        "audio": "word-audio/b384df135b.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8915,32 +9777,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "书",
         "thai": "หนังสือ",
-        "pinyin": "nǎng-sǔue"
+        "pinyin": "nǎng-sǔue",
+        "audio": "word-audio/c400fe56af.mp3"
       },
       {
         "meaning": "四十一",
         "thai": "สี่สิบเอ็ด",
-        "pinyin": "sìi-sìp-èt"
+        "pinyin": "sìi-sìp-èt",
+        "audio": "word-audio/b384df135b.mp3"
       },
       {
         "meaning": "本 / 册",
         "thai": "เล่ม",
-        "pinyin": "lêm"
+        "pinyin": "lêm",
+        "audio": "word-audio/1627e89872.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8960,7 +9828,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "四十二",
         "thai": "สี่สิบสอง",
-        "pinyin": "sìi-sìp-sǎawng"
+        "pinyin": "sìi-sìp-sǎawng",
+        "audio": "word-audio/ef2a78f4ac.mp3"
       }
     ],
     "pronunciationRules": [
@@ -8981,32 +9850,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "笔",
         "thai": "ปากกา",
-        "pinyin": "bpàak-gaa"
+        "pinyin": "bpàak-gaa",
+        "audio": "word-audio/70d0d4b6c6.mp3"
       },
       {
         "meaning": "四十二",
         "thai": "สี่สิบสอง",
-        "pinyin": "sìi-sìp-sǎawng"
+        "pinyin": "sìi-sìp-sǎawng",
+        "audio": "word-audio/ef2a78f4ac.mp3"
       },
       {
         "meaning": "支 / 把",
         "thai": "ด้าม",
-        "pinyin": "dâam"
+        "pinyin": "dâam",
+        "audio": "word-audio/7ac61f7066.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9026,7 +9901,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "四十三",
         "thai": "สี่สิบสาม",
-        "pinyin": "sìi-sìp-sǎam"
+        "pinyin": "sìi-sìp-sǎam",
+        "audio": "word-audio/0ec7f67cfc.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9047,32 +9923,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "朋友",
         "thai": "เพื่อน",
-        "pinyin": "phûuean"
+        "pinyin": "phûuean",
+        "audio": "word-audio/50f037b5d9.mp3"
       },
       {
         "meaning": "四十三",
         "thai": "สี่สิบสาม",
-        "pinyin": "sìi-sìp-sǎam"
+        "pinyin": "sìi-sìp-sǎam",
+        "audio": "word-audio/0ec7f67cfc.mp3"
       },
       {
         "meaning": "人",
         "thai": "คน",
-        "pinyin": "khon"
+        "pinyin": "khon",
+        "audio": "word-audio/98ac1686cf.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9092,7 +9974,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "四十四",
         "thai": "สี่สิบสี่",
-        "pinyin": "sìi-sìp-sìi"
+        "pinyin": "sìi-sìp-sìi",
+        "audio": "word-audio/7b402de08a.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9112,27 +9995,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "工作",
         "thai": "ทำงาน",
-        "pinyin": "tham-ngaan"
+        "pinyin": "tham-ngaan",
+        "audio": "word-audio/a2a62e8b32.mp3"
       },
       {
         "meaning": "四十四",
         "thai": "สี่สิบสี่",
-        "pinyin": "sìi-sìp-sìi"
+        "pinyin": "sìi-sìp-sìi",
+        "audio": "word-audio/7b402de08a.mp3"
       },
       {
         "meaning": "天",
         "thai": "วัน",
-        "pinyin": "wan"
+        "pinyin": "wan",
+        "audio": "word-audio/3a8f33ed5a.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9152,7 +10040,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "四十五",
         "thai": "สี่สิบห้า",
-        "pinyin": "sìi-sìp-hâa"
+        "pinyin": "sìi-sìp-hâa",
+        "audio": "word-audio/ed7e4a425f.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9174,27 +10063,32 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "等",
         "thai": "รอ",
-        "pinyin": "raaw"
+        "pinyin": "raaw",
+        "audio": "word-audio/971fe1e1b4.mp3"
       },
       {
         "meaning": "四十五",
         "thai": "สี่สิบห้า",
-        "pinyin": "sìi-sìp-hâa"
+        "pinyin": "sìi-sìp-hâa",
+        "audio": "word-audio/ed7e4a425f.mp3"
       },
       {
         "meaning": "分钟",
         "thai": "นาที",
-        "pinyin": "naa-thii"
+        "pinyin": "naa-thii",
+        "audio": "word-audio/b1ac4c44be.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9214,7 +10108,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "四十六",
         "thai": "สี่สิบหก",
-        "pinyin": "sìi-sìp-hòk"
+        "pinyin": "sìi-sìp-hòk",
+        "audio": "word-audio/96f9f9a34e.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9234,32 +10129,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "笔",
         "thai": "ปากกา",
-        "pinyin": "bpàak-gaa"
+        "pinyin": "bpàak-gaa",
+        "audio": "word-audio/70d0d4b6c6.mp3"
       },
       {
         "meaning": "四十六",
         "thai": "สี่สิบหก",
-        "pinyin": "sìi-sìp-hòk"
+        "pinyin": "sìi-sìp-hòk",
+        "audio": "word-audio/96f9f9a34e.mp3"
       },
       {
         "meaning": "支 / 把",
         "thai": "ด้าม",
-        "pinyin": "dâam"
+        "pinyin": "dâam",
+        "audio": "word-audio/7ac61f7066.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9279,7 +10180,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "四十七",
         "thai": "สี่สิบเจ็ด",
-        "pinyin": "sìi-sìp-jèt"
+        "pinyin": "sìi-sìp-jèt",
+        "audio": "word-audio/f84870c0d1.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9299,32 +10201,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "书",
         "thai": "หนังสือ",
-        "pinyin": "nǎng-sǔue"
+        "pinyin": "nǎng-sǔue",
+        "audio": "word-audio/c400fe56af.mp3"
       },
       {
         "meaning": "四十七",
         "thai": "สี่สิบเจ็ด",
-        "pinyin": "sìi-sìp-jèt"
+        "pinyin": "sìi-sìp-jèt",
+        "audio": "word-audio/f84870c0d1.mp3"
       },
       {
         "meaning": "本 / 册",
         "thai": "เล่ม",
-        "pinyin": "lêm"
+        "pinyin": "lêm",
+        "audio": "word-audio/1627e89872.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9344,7 +10252,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "四十八",
         "thai": "สี่สิบแปด",
-        "pinyin": "sìi-sìp-bpàet"
+        "pinyin": "sìi-sìp-bpàet",
+        "audio": "word-audio/4d9485123b.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9364,32 +10273,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "钱",
         "thai": "เงิน",
-        "pinyin": "ngoen"
+        "pinyin": "ngoen",
+        "audio": "word-audio/27c7e48b23.mp3"
       },
       {
         "meaning": "四十八",
         "thai": "สี่สิบแปด",
-        "pinyin": "sìi-sìp-bpàet"
+        "pinyin": "sìi-sìp-bpàet",
+        "audio": "word-audio/4d9485123b.mp3"
       },
       {
         "meaning": "泰铢",
         "thai": "บาท",
-        "pinyin": "bàat"
+        "pinyin": "bàat",
+        "audio": "word-audio/36346b7102.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9409,7 +10324,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "四十九",
         "thai": "สี่สิบเก้า",
-        "pinyin": "sìi-sìp-gâao"
+        "pinyin": "sìi-sìp-gâao",
+        "audio": "word-audio/30e0788455.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9430,32 +10346,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "朋友",
         "thai": "เพื่อน",
-        "pinyin": "phûuean"
+        "pinyin": "phûuean",
+        "audio": "word-audio/50f037b5d9.mp3"
       },
       {
         "meaning": "四十九",
         "thai": "สี่สิบเก้า",
-        "pinyin": "sìi-sìp-gâao"
+        "pinyin": "sìi-sìp-gâao",
+        "audio": "word-audio/30e0788455.mp3"
       },
       {
         "meaning": "人",
         "thai": "คน",
-        "pinyin": "khon"
+        "pinyin": "khon",
+        "audio": "word-audio/98ac1686cf.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9475,7 +10397,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "五十",
         "thai": "ห้าสิบ",
-        "pinyin": "hâa-sìp"
+        "pinyin": "hâa-sìp",
+        "audio": "word-audio/b04bae1b5e.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9497,32 +10420,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "钱",
         "thai": "เงิน",
-        "pinyin": "ngoen"
+        "pinyin": "ngoen",
+        "audio": "word-audio/27c7e48b23.mp3"
       },
       {
         "meaning": "五十",
         "thai": "ห้าสิบ",
-        "pinyin": "hâa-sìp"
+        "pinyin": "hâa-sìp",
+        "audio": "word-audio/b04bae1b5e.mp3"
       },
       {
         "meaning": "泰铢",
         "thai": "บาท",
-        "pinyin": "bàat"
+        "pinyin": "bàat",
+        "audio": "word-audio/36346b7102.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9542,7 +10471,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "五十一",
         "thai": "ห้าสิบเอ็ด",
-        "pinyin": "hâa-sìp-èt"
+        "pinyin": "hâa-sìp-èt",
+        "audio": "word-audio/9d460a6494.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9564,32 +10494,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "书",
         "thai": "หนังสือ",
-        "pinyin": "nǎng-sǔue"
+        "pinyin": "nǎng-sǔue",
+        "audio": "word-audio/c400fe56af.mp3"
       },
       {
         "meaning": "五十一",
         "thai": "ห้าสิบเอ็ด",
-        "pinyin": "hâa-sìp-èt"
+        "pinyin": "hâa-sìp-èt",
+        "audio": "word-audio/9d460a6494.mp3"
       },
       {
         "meaning": "本 / 册",
         "thai": "เล่ม",
-        "pinyin": "lêm"
+        "pinyin": "lêm",
+        "audio": "word-audio/1627e89872.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9609,7 +10545,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "八十",
         "thai": "แปดสิบ",
-        "pinyin": "bpàet-sìp"
+        "pinyin": "bpàet-sìp",
+        "audio": "word-audio/68ca6a8f11.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9629,32 +10566,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "钱",
         "thai": "เงิน",
-        "pinyin": "ngoen"
+        "pinyin": "ngoen",
+        "audio": "word-audio/27c7e48b23.mp3"
       },
       {
         "meaning": "八十",
         "thai": "แปดสิบ",
-        "pinyin": "bpàet-sìp"
+        "pinyin": "bpàet-sìp",
+        "audio": "word-audio/68ca6a8f11.mp3"
       },
       {
         "meaning": "泰铢",
         "thai": "บาท",
-        "pinyin": "bàat"
+        "pinyin": "bàat",
+        "audio": "word-audio/36346b7102.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9674,7 +10617,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "八十一",
         "thai": "แปดสิบเอ็ด",
-        "pinyin": "bpàet-sìp-èt"
+        "pinyin": "bpàet-sìp-èt",
+        "audio": "word-audio/46de363c80.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9694,32 +10638,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "书",
         "thai": "หนังสือ",
-        "pinyin": "nǎng-sǔue"
+        "pinyin": "nǎng-sǔue",
+        "audio": "word-audio/c400fe56af.mp3"
       },
       {
         "meaning": "八十一",
         "thai": "แปดสิบเอ็ด",
-        "pinyin": "bpàet-sìp-èt"
+        "pinyin": "bpàet-sìp-èt",
+        "audio": "word-audio/46de363c80.mp3"
       },
       {
         "meaning": "本 / 册",
         "thai": "เล่ม",
-        "pinyin": "lêm"
+        "pinyin": "lêm",
+        "audio": "word-audio/1627e89872.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9739,7 +10689,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "一百",
         "thai": "หนึ่งร้อย",
-        "pinyin": "nʉ̀ng-rɔ́ɔi"
+        "pinyin": "nʉ̀ng-rɔ́ɔi",
+        "audio": "word-audio/d6631f6ead.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9760,32 +10711,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "钱",
         "thai": "เงิน",
-        "pinyin": "ngoen"
+        "pinyin": "ngoen",
+        "audio": "word-audio/27c7e48b23.mp3"
       },
       {
         "meaning": "一百",
         "thai": "หนึ่งร้อย",
-        "pinyin": "nʉ̀ng-rɔ́ɔi"
+        "pinyin": "nʉ̀ng-rɔ́ɔi",
+        "audio": "word-audio/d6631f6ead.mp3"
       },
       {
         "meaning": "泰铢",
         "thai": "บาท",
-        "pinyin": "bàat"
+        "pinyin": "bàat",
+        "audio": "word-audio/36346b7102.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9805,7 +10762,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "两百",
         "thai": "สองร้อย",
-        "pinyin": "sǎawng-rɔ́ɔi"
+        "pinyin": "sǎawng-rɔ́ɔi",
+        "audio": "word-audio/3b98780f50.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9826,32 +10784,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "钱",
         "thai": "เงิน",
-        "pinyin": "ngoen"
+        "pinyin": "ngoen",
+        "audio": "word-audio/27c7e48b23.mp3"
       },
       {
         "meaning": "两百",
         "thai": "สองร้อย",
-        "pinyin": "sǎawng-rɔ́ɔi"
+        "pinyin": "sǎawng-rɔ́ɔi",
+        "audio": "word-audio/3b98780f50.mp3"
       },
       {
         "meaning": "泰铢",
         "thai": "บาท",
-        "pinyin": "bàat"
+        "pinyin": "bàat",
+        "audio": "word-audio/36346b7102.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9871,7 +10835,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "一千",
         "thai": "หนึ่งพัน",
-        "pinyin": "nʉ̀ng-phan"
+        "pinyin": "nʉ̀ng-phan",
+        "audio": "word-audio/8cc9f2fc95.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9891,32 +10856,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "钱",
         "thai": "เงิน",
-        "pinyin": "ngoen"
+        "pinyin": "ngoen",
+        "audio": "word-audio/27c7e48b23.mp3"
       },
       {
         "meaning": "一千",
         "thai": "หนึ่งพัน",
-        "pinyin": "nʉ̀ng-phan"
+        "pinyin": "nʉ̀ng-phan",
+        "audio": "word-audio/8cc9f2fc95.mp3"
       },
       {
         "meaning": "泰铢",
         "thai": "บาท",
-        "pinyin": "bàat"
+        "pinyin": "bàat",
+        "audio": "word-audio/36346b7102.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9936,7 +10907,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "一万",
         "thai": "หนึ่งหมื่น",
-        "pinyin": "nʉ̀ng-mùuen"
+        "pinyin": "nʉ̀ng-mùuen",
+        "audio": "word-audio/4bcdf4c45e.mp3"
       }
     ],
     "pronunciationRules": [
@@ -9956,32 +10928,38 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "钱",
         "thai": "เงิน",
-        "pinyin": "ngoen"
+        "pinyin": "ngoen",
+        "audio": "word-audio/27c7e48b23.mp3"
       },
       {
         "meaning": "一万",
         "thai": "หนึ่งหมื่น",
-        "pinyin": "nʉ̀ng-mùuen"
+        "pinyin": "nʉ̀ng-mùuen",
+        "audio": "word-audio/4bcdf4c45e.mp3"
       },
       {
         "meaning": "泰铢",
         "thai": "บาท",
-        "pinyin": "bàat"
+        "pinyin": "bàat",
+        "audio": "word-audio/36346b7102.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -10001,7 +10979,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "鸡蛋",
         "thai": "ไข่",
-        "pinyin": "khài"
+        "pinyin": "khài",
+        "audio": "word-audio/5a078ee12f.mp3"
       }
     ],
     "pronunciationRules": [
@@ -10022,22 +11001,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我（男性用）",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "吃",
         "thai": "กิน",
-        "pinyin": "gin"
+        "pinyin": "gin",
+        "audio": "word-audio/f75afbf51f.mp3"
       },
       {
         "meaning": "鸡蛋",
         "thai": "ไข่",
-        "pinyin": "khài"
+        "pinyin": "khài",
+        "audio": "word-audio/5a078ee12f.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -10057,7 +11040,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "旧字 ฃ，只用于认识字母；瓶子的现代常用写法是 ขวด",
         "thai": "ขวด",
-        "pinyin": "khùat"
+        "pinyin": "khùat",
+        "audio": "word-audio/4403490c2d.mp3"
       }
     ],
     "pronunciationRules": [
@@ -10078,17 +11062,20 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "瓶子",
         "thai": "ขวด",
-        "pinyin": "khùat"
+        "pinyin": "khùat",
+        "audio": "word-audio/4403490c2d.mp3"
       },
       {
         "meaning": "在",
         "thai": "อยู่",
-        "pinyin": "yùu"
+        "pinyin": "yùu",
+        "audio": "word-audio/906ad03eb0.mp3"
       },
       {
         "meaning": "这里",
         "thai": "ที่นี่",
-        "pinyin": "thîi-nîi"
+        "pinyin": "thîi-nîi",
+        "audio": "word-audio/ef29d7d8b4.mp3"
       }
     ],
     "pronunciationRules": [
@@ -10108,7 +11095,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ฉัน",
-        "pinyin": "chǎn"
+        "pinyin": "chǎn",
+        "audio": "word-audio/011539b90d.mp3"
       }
     ],
     "pronunciationRules": [
@@ -10129,12 +11117,14 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我",
         "thai": "ฉัน",
-        "pinyin": "chǎn"
+        "pinyin": "chǎn",
+        "audio": "word-audio/011539b90d.mp3"
       },
       {
         "meaning": "很好 / 状态好",
         "thai": "สบายดี",
-        "pinyin": "sà-baai dii"
+        "pinyin": "sà-baai dii",
+        "audio": "word-audio/d34a46e071.mp3"
       }
     ],
     "pronunciationRules": [
@@ -10154,7 +11144,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "基础",
         "thai": "ฐาน",
-        "pinyin": "thǎan"
+        "pinyin": "thǎan",
+        "audio": "word-audio/cd75a0fc3e.mp3"
       }
     ],
     "pronunciationRules": [
@@ -10175,17 +11166,20 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "基础",
         "thai": "ฐาน",
-        "pinyin": "thǎan"
+        "pinyin": "thǎan",
+        "audio": "word-audio/cd75a0fc3e.mp3"
       },
       {
         "meaning": "这个",
         "thai": "นี้",
-        "pinyin": "níi"
+        "pinyin": "níi",
+        "audio": "word-audio/a92b237a0e.mp3"
       },
       {
         "meaning": "好",
         "thai": "ดี",
-        "pinyin": "dii"
+        "pinyin": "dii",
+        "audio": "word-audio/f0e9044c19.mp3"
       }
     ],
     "pronunciationRules": [
@@ -10205,7 +11199,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "袋子",
         "thai": "ถุง",
-        "pinyin": "thǔng"
+        "pinyin": "thǔng",
+        "audio": "word-audio/12482644ee.mp3"
       }
     ],
     "pronunciationRules": [
@@ -10226,22 +11221,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "袋子",
         "thai": "ถุง",
-        "pinyin": "thǔng"
+        "pinyin": "thǔng",
+        "audio": "word-audio/12482644ee.mp3"
       },
       {
         "meaning": "这个",
         "thai": "นี้",
-        "pinyin": "níi"
+        "pinyin": "níi",
+        "audio": "word-audio/a92b237a0e.mp3"
       },
       {
         "meaning": "属于 / 的",
         "thai": "ของ",
-        "pinyin": "khǎawng"
+        "pinyin": "khǎawng",
+        "audio": "word-audio/e6346d1ff0.mp3"
       },
       {
         "meaning": "我（男性用）",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       }
     ],
     "pronunciationRules": [
@@ -10261,7 +11260,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我（男性用）",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       }
     ],
     "pronunciationRules": [
@@ -10282,12 +11282,14 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我（男性用）",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "名字 / 叫",
         "thai": "ชื่อ",
-        "pinyin": "chʉ̂ʉ"
+        "pinyin": "chʉ̂ʉ",
+        "audio": "word-audio/0b1fcfc407.mp3"
       },
       {
         "meaning": "Lucas",
@@ -10297,7 +11299,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -10317,7 +11320,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "雨",
         "thai": "ฝน",
-        "pinyin": "fǒn"
+        "pinyin": "fǒn",
+        "audio": "word-audio/8edad26cc8.mp3"
       }
     ],
     "pronunciationRules": [
@@ -10338,17 +11342,20 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "雨",
         "thai": "ฝน",
-        "pinyin": "fǒn"
+        "pinyin": "fǒn",
+        "audio": "word-audio/8edad26cc8.mp3"
       },
       {
         "meaning": "落下 / 下雨",
         "thai": "ตก",
-        "pinyin": "tòk"
+        "pinyin": "tòk",
+        "audio": "word-audio/03e801afa4.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -10368,7 +11375,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "亭子",
         "thai": "ศาลา",
-        "pinyin": "sǎa-laa"
+        "pinyin": "sǎa-laa",
+        "audio": "word-audio/b32e4837c9.mp3"
       }
     ],
     "pronunciationRules": [
@@ -10389,17 +11397,20 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "亭子",
         "thai": "ศาลา",
-        "pinyin": "sǎa-laa"
+        "pinyin": "sǎa-laa",
+        "audio": "word-audio/b32e4837c9.mp3"
       },
       {
         "meaning": "在",
         "thai": "อยู่",
-        "pinyin": "yùu"
+        "pinyin": "yùu",
+        "audio": "word-audio/906ad03eb0.mp3"
       },
       {
         "meaning": "这里",
         "thai": "ที่นี่",
-        "pinyin": "thîi-nîi"
+        "pinyin": "thîi-nîi",
+        "audio": "word-audio/ef29d7d8b4.mp3"
       }
     ],
     "pronunciationRules": [
@@ -10419,7 +11430,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "隐士",
         "thai": "ฤๅษี",
-        "pinyin": "rʉʉ-sǐi"
+        "pinyin": "rʉʉ-sǐi",
+        "audio": "word-audio/134f029808.mp3"
       }
     ],
     "pronunciationRules": [
@@ -10440,22 +11452,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "隐士",
         "thai": "ฤๅษี",
-        "pinyin": "rʉʉ-sǐi"
+        "pinyin": "rʉʉ-sǐi",
+        "audio": "word-audio/134f029808.mp3"
       },
       {
         "meaning": "在",
         "thai": "อยู่",
-        "pinyin": "yùu"
+        "pinyin": "yùu",
+        "audio": "word-audio/906ad03eb0.mp3"
       },
       {
         "meaning": "在……里面",
         "thai": "ใน",
-        "pinyin": "nai"
+        "pinyin": "nai",
+        "audio": "word-audio/80e99ae4e1.mp3"
       },
       {
         "meaning": "森林",
         "thai": "ป่า",
-        "pinyin": "bpàa"
+        "pinyin": "bpàa",
+        "audio": "word-audio/01e9087ae5.mp3"
       }
     ],
     "pronunciationRules": [
@@ -10475,7 +11491,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "很好 / 状态好",
         "thai": "สบายดี",
-        "pinyin": "sà-baai dii"
+        "pinyin": "sà-baai dii",
+        "audio": "word-audio/d34a46e071.mp3"
       }
     ],
     "pronunciationRules": [
@@ -10496,17 +11513,20 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我（男性用）",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "很好 / 状态好",
         "thai": "สบายดี",
-        "pinyin": "sà-baai dii"
+        "pinyin": "sà-baai dii",
+        "audio": "word-audio/d34a46e071.mp3"
       },
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "pronunciationRules": [
@@ -10526,22 +11546,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我（男性用）",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "有",
         "thai": "มี",
-        "pinyin": "mii"
+        "pinyin": "mii",
+        "audio": "word-audio/5e79e325ba.mp3"
       },
       {
         "meaning": "五",
         "thai": "ห้า",
-        "pinyin": "hâa"
+        "pinyin": "hâa",
+        "audio": "word-audio/8af79cb3e9.mp3"
       },
       {
         "meaning": "个",
         "thai": "อัน",
-        "pinyin": "an"
+        "pinyin": "an",
+        "audio": "word-audio/497940c143.mp3"
       }
     ],
     "pronunciationRules": [
@@ -10565,7 +11589,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "你好 / 打招呼",
         "thai": "สวัสดี",
-        "pinyin": "sà-wàt-dii"
+        "pinyin": "sà-wàt-dii",
+        "audio": "word-audio/c7bcb12d8b.mp3"
       }
     ],
     "id": "thai-356",
@@ -10586,7 +11611,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "id": "thai-357",
@@ -10606,7 +11632,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "女性礼貌结尾",
         "thai": "ค่ะ",
-        "pinyin": "khâ"
+        "pinyin": "khâ",
+        "audio": "word-audio/fbd3f12059.mp3"
       }
     ],
     "id": "thai-358",
@@ -10626,7 +11653,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "是 / 对",
         "thai": "ใช่",
-        "pinyin": "châi"
+        "pinyin": "châi",
+        "audio": "word-audio/2d09568c10.mp3"
       }
     ],
     "id": "thai-359",
@@ -10646,12 +11674,14 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "不",
         "thai": "ไม่",
-        "pinyin": "mâi"
+        "pinyin": "mâi",
+        "audio": "word-audio/d73fba748e.mp3"
       },
       {
         "meaning": "是 / 对",
         "thai": "ใช่",
-        "pinyin": "châi"
+        "pinyin": "châi",
+        "audio": "word-audio/2d09568c10.mp3"
       }
     ],
     "id": "thai-360",
@@ -10675,12 +11705,14 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "我（男性用）",
         "thai": "ผม",
-        "pinyin": "phǒm"
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
       },
       {
         "meaning": "名字 / 叫",
         "thai": "ชื่อ",
-        "pinyin": "chʉ̂ʉ"
+        "pinyin": "chʉ̂ʉ",
+        "audio": "word-audio/0b1fcfc407.mp3"
       },
       {
         "meaning": "名字 Lucas",
@@ -10690,7 +11722,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "男性礼貌结尾",
         "thai": "ครับ",
-        "pinyin": "khráp"
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
     "id": "thai-361",
@@ -10710,17 +11743,20 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "你",
         "thai": "คุณ",
-        "pinyin": "khun"
+        "pinyin": "khun",
+        "audio": "word-audio/2f5855175b.mp3"
       },
       {
         "meaning": "名字 / 叫",
         "thai": "ชื่อ",
-        "pinyin": "chʉ̂ʉ"
+        "pinyin": "chʉ̂ʉ",
+        "audio": "word-audio/0b1fcfc407.mp3"
       },
       {
         "meaning": "什么",
         "thai": "อะไร",
-        "pinyin": "a-rai"
+        "pinyin": "a-rai",
+        "audio": "word-audio/b63888f232.mp3"
       }
     ],
     "id": "thai-362",
@@ -10743,12 +11779,14 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "很好 / 状态好",
         "thai": "สบายดี",
-        "pinyin": "sà-baai dii"
+        "pinyin": "sà-baai dii",
+        "audio": "word-audio/d34a46e071.mp3"
       },
       {
         "meaning": "吗 / 疑问语气",
         "thai": "ไหม",
-        "pinyin": "mái"
+        "pinyin": "mái",
+        "audio": "word-audio/4a80f2d016.mp3"
       }
     ],
     "id": "thai-363",
@@ -10769,7 +11807,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "很好 / 状态好",
         "thai": "สบายดี",
-        "pinyin": "sà-baai dii"
+        "pinyin": "sà-baai dii",
+        "audio": "word-audio/d34a46e071.mp3"
       }
     ],
     "id": "thai-364",
@@ -10790,17 +11829,20 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "然后 / 那么",
         "thai": "แล้ว",
-        "pinyin": "láew"
+        "pinyin": "láew",
+        "audio": "word-audio/354ea34dd5.mp3"
       },
       {
         "meaning": "你",
         "thai": "คุณ",
-        "pinyin": "khun"
+        "pinyin": "khun",
+        "audio": "word-audio/2f5855175b.mp3"
       },
       {
         "meaning": "呢 / 反问语气",
         "thai": "ล่ะ",
-        "pinyin": "lâ"
+        "pinyin": "lâ",
+        "audio": "word-audio/87c765302e.mp3"
       }
     ],
     "id": "thai-365",
@@ -10822,7 +11864,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "对不起",
         "thai": "ขอโทษ",
-        "pinyin": "khǎaw thôot"
+        "pinyin": "khǎaw thôot",
+        "audio": "word-audio/fd047e1679.mp3"
       }
     ],
     "id": "thai-366",
@@ -10842,17 +11885,20 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "不",
         "thai": "ไม่",
-        "pinyin": "mâi"
+        "pinyin": "mâi",
+        "audio": "word-audio/d73fba748e.mp3"
       },
       {
         "meaning": "是 / 在",
         "thai": "เป็น",
-        "pinyin": "pen"
+        "pinyin": "pen",
+        "audio": "word-audio/f15d6f0da2.mp3"
       },
       {
         "meaning": "事 / 什么事",
         "thai": "ไร",
-        "pinyin": "rai"
+        "pinyin": "rai",
+        "audio": "word-audio/eee0e744ab.mp3"
       }
     ],
     "id": "thai-367",
@@ -10872,7 +11918,8 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "再见",
         "thai": "ลาก่อน",
-        "pinyin": "laa-gàawn"
+        "pinyin": "laa-gàawn",
+        "audio": "word-audio/bf0a0836c4.mp3"
       }
     ],
     "id": "thai-368",
@@ -10895,22 +11942,26 @@ window.THAI_AUDIO_APP_ITEMS = [
       {
         "meaning": "很好 / 状态好",
         "thai": "สบายดี",
-        "pinyin": "sà-baai dii"
+        "pinyin": "sà-baai dii",
+        "audio": "word-audio/d34a46e071.mp3"
       },
       {
         "meaning": "然后 / 那么",
         "thai": "แล้ว",
-        "pinyin": "láew"
+        "pinyin": "láew",
+        "audio": "word-audio/354ea34dd5.mp3"
       },
       {
         "meaning": "你",
         "thai": "คุณ",
-        "pinyin": "khun"
+        "pinyin": "khun",
+        "audio": "word-audio/2f5855175b.mp3"
       },
       {
         "meaning": "呢 / 反问语气",
         "thai": "ล่ะ",
-        "pinyin": "lâ"
+        "pinyin": "lâ",
+        "audio": "word-audio/87c765302e.mp3"
       }
     ],
     "id": "thai-369",

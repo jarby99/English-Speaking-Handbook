@@ -256,9 +256,9 @@ select {
 
 .word-list li {
   display: grid;
-  grid-template-columns: minmax(88px, 1fr) minmax(58px, auto) minmax(82px, 1fr);
+  grid-template-columns: minmax(88px, 1fr) minmax(58px, auto) minmax(82px, 1fr) 34px;
   gap: 8px;
-  align-items: baseline;
+  align-items: center;
   font-size: 13px;
   line-height: 1.35;
 }
@@ -277,6 +277,31 @@ select {
 .word-pinyin {
   color: var(--accent-strong);
   font-weight: 700;
+}
+
+.word-play-button {
+  width: 32px;
+  height: 32px;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff8eb;
+  color: var(--accent-strong);
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 1;
+}
+
+.word-play-button:hover,
+.word-play-button:focus {
+  border-color: var(--gold);
+  outline: none;
+}
+
+.word-play-button.is-playing {
+  border-color: var(--accent);
+  background: var(--accent-soft);
 }
 
 .pronunciation-rules {
@@ -329,7 +354,18 @@ select {
   }
 
   .word-list li {
-    grid-template-columns: 1fr;
-    gap: 2px;
+    grid-template-columns: 1fr auto;
+    gap: 4px 8px;
+  }
+
+  .word-meaning,
+  .word-thai,
+  .word-pinyin {
+    grid-column: 1;
+  }
+
+  .word-play-button {
+    grid-column: 2;
+    grid-row: 1 / span 3;
   }
 }

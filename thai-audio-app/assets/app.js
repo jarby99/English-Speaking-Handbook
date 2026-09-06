@@ -11,6 +11,7 @@
 
   let activeAudio = null;
   let activeCard = null;
+  let activeButton = null;
   let repeat = false;
 
   itemCount.textContent = String(meta.count || items.length);
@@ -49,18 +50,24 @@
     if (activeCard) {
       activeCard.classList.remove("is-playing");
     }
+    if (activeButton) {
+      activeButton.classList.remove("is-playing");
+    }
     activeAudio = null;
     activeCard = null;
+    activeButton = null;
   }
 
-  function playItem(item, card) {
+  function playAudio(target, card, button, missingMessage) {
     stopCurrent();
 
-    const audio = new Audio(item.audio);
+    const audio = new Audio(target.audio);
     activeAudio = audio;
     activeCard = card;
+    activeButton = button;
     card.classList.add("is-playing");
-    nowPlaying.textContent = `${item.meaning} | ${item.thai}`;
+    button.classList.add("is-playing");
+    nowPlaying.textContent = `${target.meaning} | ${target.thai}`;
 
     audio.addEventListener("ended", () => {
       if (repeat) {
@@ -69,19 +76,31 @@
         return;
       }
       card.classList.remove("is-playing");
+      button.classList.remove("is-playing");
       activeAudio = null;
       activeCard = null;
+      activeButton = null;
     });
 
     audio.addEventListener("error", () => {
-      nowPlaying.textContent = `音频未找到：${item.thai}`;
+      nowPlaying.textContent = `${missingMessage}：${target.thai}`;
       card.classList.remove("is-playing");
+      button.classList.remove("is-playing");
     });
 
     audio.play().catch(() => {
-      nowPlaying.textContent = "浏览器阻止了播放，请再点击一次泰语卡片";
+      nowPlaying.textContent = "浏览器阻止了播放，请再点击一次播放按钮";
       card.classList.remove("is-playing");
+      button.classList.remove("is-playing");
     });
+  }
+
+  function playItem(item, card) {
+    playAudio(item, card, card.querySelector(".thai-button"), "音频未找到");
+  }
+
+  function playWord(word, card, button) {
+    playAudio(word, card, button, "词块音频未找到");
   }
 
   function render() {
@@ -134,6 +153,20 @@
           pinyin.textContent = word.pinyin;
 
           row.append(meaning, thai, pinyin);
+
+          if (word.audio) {
+            const playButton = document.createElement("button");
+            playButton.type = "button";
+            playButton.className = "word-play-button";
+            playButton.textContent = "▶";
+            playButton.setAttribute("aria-label", `播放词块 ${word.thai}`);
+            playButton.addEventListener("click", (event) => {
+              event.stopPropagation();
+              playWord(word, node, playButton);
+            });
+            row.appendChild(playButton);
+          }
+
           list.appendChild(row);
         });
         breakdown.appendChild(list);
