@@ -29,6 +29,14 @@
           <span>分类</span>
           <select id="categorySelect"></select>
         </label>
+        <label class="speed-box">
+          <span>语速</span>
+          <select id="speedSelect">
+            <option value="1">正常</option>
+            <option value="0.85">慢速</option>
+            <option value="0.7">超慢</option>
+          </select>
+        </label>
         <button id="repeatButton" class="toggle-button" type="button" aria-pressed="false">重复播放：关</button>
       </section>
 
@@ -49,6 +57,14 @@
         <p class="meaning"></p>
         <button class="thai-button" type="button"></button>
         <p class="pinyin"></p>
+        <div class="card-actions">
+          <button class="follow-button" type="button">跟读</button>
+        </div>
+        <div class="guided-word-panel" hidden>
+          <span class="guided-meaning"></span>
+          <span class="guided-thai"></span>
+          <span class="guided-pinyin"></span>
+        </div>
         <div class="word-breakdown"></div>
       </article>
     </template>

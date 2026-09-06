@@ -94,7 +94,7 @@ h1 {
   top: 0;
   z-index: 20;
   display: grid;
-  grid-template-columns: minmax(220px, 1fr) minmax(180px, 260px) auto;
+  grid-template-columns: minmax(220px, 1fr) minmax(170px, 240px) minmax(116px, 150px) auto;
   gap: 12px;
   margin: 18px 0;
   padding: 12px 0;
@@ -103,7 +103,8 @@ h1 {
 }
 
 .search-box,
-.filter-box {
+.filter-box,
+.speed-box {
   display: grid;
   gap: 6px;
   color: var(--muted);
@@ -233,6 +234,65 @@ select {
   line-height: 1.5;
 }
 
+.card-actions {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.follow-button {
+  min-height: 38px;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfaf7;
+  color: var(--accent-strong);
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.follow-button:hover,
+.follow-button:focus {
+  border-color: var(--gold);
+  outline: none;
+}
+
+.follow-button.is-playing {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.guided-word-panel {
+  display: grid;
+  grid-template-columns: minmax(80px, 1fr) minmax(64px, auto) minmax(88px, 1fr);
+  gap: 8px;
+  align-items: center;
+  padding: 10px 12px;
+  border: 1px solid var(--accent-soft);
+  border-radius: 8px;
+  background: #f5fffd;
+  font-size: 14px;
+}
+
+.guided-word-panel[hidden] {
+  display: none;
+}
+
+.guided-meaning {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.guided-thai {
+  color: #16181d;
+  font-family: "Leelawadee UI", "Noto Sans Thai", "Tahoma", sans-serif;
+  font-size: 21px;
+}
+
+.guided-pinyin {
+  color: var(--accent-strong);
+  font-weight: 800;
+}
+
 .word-breakdown {
   margin-top: auto;
   padding-top: 12px;
@@ -304,6 +364,13 @@ select {
   background: var(--accent-soft);
 }
 
+.word-list li.is-reading-current {
+  margin: -3px -4px;
+  padding: 3px 4px;
+  border-radius: 8px;
+  background: var(--accent-soft);
+}
+
 .pronunciation-rules {
   margin-top: 12px;
   padding-top: 10px;
@@ -367,5 +434,9 @@ select {
   .word-play-button {
     grid-column: 2;
     grid-row: 1 / span 3;
+  }
+
+  .guided-word-panel {
+    grid-template-columns: 1fr;
   }
 }

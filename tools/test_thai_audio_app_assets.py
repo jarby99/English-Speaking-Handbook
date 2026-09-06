@@ -57,6 +57,28 @@ def test_frontend_has_word_audio_playback_controls():
     assert "word-play-button" in app_js
 
 
+def test_frontend_has_playback_speed_controls():
+    index_html = (ROOT / "thai-audio-app" / "index.html").read_text(encoding="utf-8")
+    app_js = (ROOT / "thai-audio-app" / "assets" / "app.js").read_text(encoding="utf-8")
+
+    assert 'id="speedSelect"' in index_html
+    assert 'value="0.7"' in index_html
+    assert "getPlaybackRate" in app_js
+    assert ".playbackRate" in app_js
+
+
+def test_frontend_has_guided_reading_controls():
+    app_js = (ROOT / "thai-audio-app" / "assets" / "app.js").read_text(encoding="utf-8")
+    styles = (ROOT / "thai-audio-app" / "assets" / "styles.css").read_text(encoding="utf-8")
+
+    assert "follow-button" in app_js
+    assert "startGuidedReading" in app_js
+    assert "guided-word-panel" in app_js
+    assert "is-reading-current" in app_js
+    assert ".guided-word-panel" in styles
+    assert ".is-reading-current" in styles
+
+
 def test_sentence_that_is_also_the_main_phrase_keeps_split_words():
     builder = load_builder()
     items = builder.collect_items()
