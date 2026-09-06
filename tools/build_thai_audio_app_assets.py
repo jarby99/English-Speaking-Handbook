@@ -332,6 +332,9 @@ def parse_block_records(
         meaning = fields.get("中文意思")
         thai = fields.get("泰语")
         pinyin = fields.get("拉丁拼音读音")
+        sentence = fields.get("简单日常泰语例句")
+        sentence_meaning = fields.get("中文句意")
+        pinyin_parts = BREAKDOWN_PINYIN_RE.findall(breakdown)
         if meaning and thai and pinyin:
             word = {
                 "meaning": meaning,
@@ -339,23 +342,21 @@ def parse_block_records(
                 "pinyin": pinyin.rstrip("."),
             }
             add_word(lexicon, word)
-            add_item(
-                items,
-                seen,
-                add_pronunciation_rules(
-                    {
-                        "source": path.name,
-                        "category": category,
-                        "kind": "词语",
-                        **word,
-                        "words": [word],
-                    }
-                ),
-            )
+            if sentence != thai:
+                add_item(
+                    items,
+                    seen,
+                    add_pronunciation_rules(
+                        {
+                            "source": path.name,
+                            "category": category,
+                            "kind": "词语",
+                            **word,
+                            "words": [word],
+                        }
+                    ),
+                )
 
-        sentence = fields.get("简单日常泰语例句")
-        sentence_meaning = fields.get("中文句意")
-        pinyin_parts = BREAKDOWN_PINYIN_RE.findall(breakdown)
         if sentence and sentence_meaning and pinyin_parts:
             words = parse_breakdown_words(breakdown)
             for word in words:

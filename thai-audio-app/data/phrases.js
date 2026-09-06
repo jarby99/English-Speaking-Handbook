@@ -11575,6 +11575,225 @@ window.THAI_AUDIO_APP_ITEMS = [
     "audio": "audio/355-d0c7431bfa.mp3"
   },
   {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "我也到家了",
+    "thai": "ผมก็ถึงบ้านแล้วครับ",
+    "pinyin": "phǒm gâw thǔeng bâan láew khráp",
+    "words": [
+      {
+        "meaning": "我（男性用）",
+        "thai": "ผม",
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
+      },
+      {
+        "meaning": "也 / 就",
+        "thai": "ก็",
+        "pinyin": "gâw",
+        "audio": "word-audio/d10b03aa27.mp3"
+      },
+      {
+        "meaning": "到达",
+        "thai": "ถึง",
+        "pinyin": "thǔeng",
+        "audio": "word-audio/d0ea986e41.mp3"
+      },
+      {
+        "meaning": "家",
+        "thai": "บ้าน",
+        "pinyin": "bâan",
+        "audio": "word-audio/e36aa72166.mp3"
+      },
+      {
+        "meaning": "已经 / 了",
+        "thai": "แล้ว",
+        "pinyin": "láew",
+        "audio": "word-audio/354ea34dd5.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：â＝降调，á＝高调，ǎ＝升调。 ผม 是高辅音 ผ + 短元音 + m 鼻音结尾，读第 5 调升调 phǒm。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
+    ],
+    "id": "thai-356",
+    "audio": "audio/356-488743ff64.mp3"
+  },
+  {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "到家了",
+    "thai": "ถึงบ้านแล้วครับ",
+    "pinyin": "thǔeng bâan láew khráp",
+    "words": [
+      {
+        "meaning": "到达",
+        "thai": "ถึง",
+        "pinyin": "thǔeng",
+        "audio": "word-audio/d0ea986e41.mp3"
+      },
+      {
+        "meaning": "家",
+        "thai": "บ้าน",
+        "pinyin": "bâan",
+        "audio": "word-audio/e36aa72166.mp3"
+      },
+      {
+        "meaning": "已经 / 了",
+        "thai": "แล้ว",
+        "pinyin": "láew",
+        "audio": "word-audio/354ea34dd5.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：â＝降调，á＝高调，ǎ＝升调。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
+    ],
+    "id": "thai-357",
+    "audio": "audio/357-887913d2a8.mp3"
+  },
+  {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "你洗澡了吗？",
+    "thai": "คุณอาบน้ำแล้วหรือยังครับ",
+    "pinyin": "khun àap náam láew rʉ̌ʉ yang khráp",
+    "words": [
+      {
+        "meaning": "你",
+        "thai": "คุณ",
+        "pinyin": "khun",
+        "audio": "word-audio/2f5855175b.mp3"
+      },
+      {
+        "meaning": "洗澡",
+        "thai": "อาบน้ำ",
+        "pinyin": "àap náam",
+        "audio": "word-audio/bf03edf3c5.mp3"
+      },
+      {
+        "meaning": "已经 / 了",
+        "thai": "แล้ว",
+        "pinyin": "láew",
+        "audio": "word-audio/354ea34dd5.mp3"
+      },
+      {
+        "meaning": "了吗 / 还是还没",
+        "thai": "หรือยัง",
+        "pinyin": "rʉ̌ʉ yang",
+        "audio": "word-audio/7138a5767e.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：à＝低调，á＝高调，ǎ＝升调。 หรือยัง 用来问“已经做了吗 / 还是还没”。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
+    ],
+    "id": "thai-358",
+    "audio": "audio/358-90fca20579.mp3"
+  },
+  {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "洗澡了吗？",
+    "thai": "อาบน้ำแล้วหรือยังครับ",
+    "pinyin": "àap náam láew rʉ̌ʉ yang khráp",
+    "words": [
+      {
+        "meaning": "洗澡",
+        "thai": "อาบน้ำ",
+        "pinyin": "àap náam",
+        "audio": "word-audio/bf03edf3c5.mp3"
+      },
+      {
+        "meaning": "已经 / 了",
+        "thai": "แล้ว",
+        "pinyin": "láew",
+        "audio": "word-audio/354ea34dd5.mp3"
+      },
+      {
+        "meaning": "了吗 / 还是还没",
+        "thai": "หรือยัง",
+        "pinyin": "rʉ̌ʉ yang",
+        "audio": "word-audio/7138a5767e.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：à＝低调，á＝高调，ǎ＝升调。 省略 คุณ 后更口语，意思仍然是问对方“洗澡了吗”。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
+    ],
+    "id": "thai-359",
+    "audio": "audio/359-05ee897f4d.mp3"
+  },
+  {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "我还没有洗澡",
+    "thai": "ผมยังไม่ได้อาบน้ำครับ",
+    "pinyin": "phǒm yang mâi dâai àap náam khráp",
+    "words": [
+      {
+        "meaning": "我（男性用）",
+        "thai": "ผม",
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
+      },
+      {
+        "meaning": "还",
+        "thai": "ยัง",
+        "pinyin": "yang",
+        "audio": "word-audio/567945c6ad.mp3"
+      },
+      {
+        "meaning": "没有 / 没能做某事",
+        "thai": "ไม่ได้",
+        "pinyin": "mâi dâai",
+        "audio": "word-audio/7870ebb563.mp3"
+      },
+      {
+        "meaning": "洗澡",
+        "thai": "อาบน้ำ",
+        "pinyin": "àap náam",
+        "audio": "word-audio/bf03edf3c5.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：à＝低调，â＝降调，á＝高调，ǎ＝升调。 ยัง + ไม่ได้ 表示“还没有做”。 ผม 是高辅音 ผ + 短元音 + m 鼻音结尾，读第 5 调升调 phǒm。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
+    ],
+    "id": "thai-360",
+    "audio": "audio/360-0b1988e9ef.mp3"
+  },
+  {
     "source": "001-beginner-greetings-thanks-names.md",
     "category": "基础问候、感谢和名字",
     "kind": "练习句",
@@ -11593,8 +11812,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/c7bcb12d8b.mp3"
       }
     ],
-    "id": "thai-356",
-    "audio": "audio/356-c7bcb12d8b.mp3"
+    "id": "thai-361",
+    "audio": "audio/361-c7bcb12d8b.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -11615,8 +11834,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
-    "id": "thai-357",
-    "audio": "audio/357-2dce0151d6.mp3"
+    "id": "thai-362",
+    "audio": "audio/362-2dce0151d6.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -11636,8 +11855,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/fbd3f12059.mp3"
       }
     ],
-    "id": "thai-358",
-    "audio": "audio/358-fbd3f12059.mp3"
+    "id": "thai-363",
+    "audio": "audio/363-fbd3f12059.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -11657,8 +11876,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/2d09568c10.mp3"
       }
     ],
-    "id": "thai-359",
-    "audio": "audio/359-2d09568c10.mp3"
+    "id": "thai-364",
+    "audio": "audio/364-2d09568c10.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -11684,8 +11903,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/2d09568c10.mp3"
       }
     ],
-    "id": "thai-360",
-    "audio": "audio/360-193b9f4623.mp3"
+    "id": "thai-365",
+    "audio": "audio/365-193b9f4623.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -11726,8 +11945,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
-    "id": "thai-361",
-    "audio": "audio/361-d22e258125.mp3"
+    "id": "thai-366",
+    "audio": "audio/366-d22e258125.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -11759,8 +11978,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/b63888f232.mp3"
       }
     ],
-    "id": "thai-362",
-    "audio": "audio/362-67a90461c8.mp3"
+    "id": "thai-367",
+    "audio": "audio/367-67a90461c8.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -11789,8 +12008,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/4a80f2d016.mp3"
       }
     ],
-    "id": "thai-363",
-    "audio": "audio/363-633564778a.mp3"
+    "id": "thai-368",
+    "audio": "audio/368-633564778a.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -11811,8 +12030,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/d34a46e071.mp3"
       }
     ],
-    "id": "thai-364",
-    "audio": "audio/364-d34a46e071.mp3"
+    "id": "thai-369",
+    "audio": "audio/369-d34a46e071.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -11845,8 +12064,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/87c765302e.mp3"
       }
     ],
-    "id": "thai-365",
-    "audio": "audio/365-3527fcde76.mp3"
+    "id": "thai-370",
+    "audio": "audio/370-3527fcde76.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -11868,8 +12087,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/fd047e1679.mp3"
       }
     ],
-    "id": "thai-366",
-    "audio": "audio/366-fd047e1679.mp3"
+    "id": "thai-371",
+    "audio": "audio/371-fd047e1679.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -11901,8 +12120,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/eee0e744ab.mp3"
       }
     ],
-    "id": "thai-367",
-    "audio": "audio/367-e0a814cc4f.mp3"
+    "id": "thai-372",
+    "audio": "audio/372-e0a814cc4f.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -11922,8 +12141,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/bf0a0836c4.mp3"
       }
     ],
-    "id": "thai-368",
-    "audio": "audio/368-bf0a0836c4.mp3"
+    "id": "thai-373",
+    "audio": "audio/373-bf0a0836c4.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -11964,12 +12183,12 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/87c765302e.mp3"
       }
     ],
-    "id": "thai-369",
-    "audio": "audio/369-32da8ba114.mp3"
+    "id": "thai-374",
+    "audio": "audio/374-32da8ba114.mp3"
   }
 ];
 window.THAI_AUDIO_APP_META = {
-  count: 369,
+  count: 374,
   voice: "th-TH-PremwadeeNeural",
   format: "中文意思 | 泰语 | 拉丁拼音读音"
 };

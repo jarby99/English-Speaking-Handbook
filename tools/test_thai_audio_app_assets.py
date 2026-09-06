@@ -17,7 +17,7 @@ def load_builder():
 def test_collect_items_adds_audio_to_thai_word_blocks_only():
     builder = load_builder()
     items = builder.collect_items()
-    assert len(items) == 369
+    assert len(items) == 374
 
     thai_words = [
         word
@@ -55,3 +55,19 @@ def test_frontend_has_word_audio_playback_controls():
     app_js = (ROOT / "thai-audio-app" / "assets" / "app.js").read_text(encoding="utf-8")
     assert "playWord" in app_js
     assert "word-play-button" in app_js
+
+
+def test_sentence_that_is_also_the_main_phrase_keeps_split_words():
+    builder = load_builder()
+    items = builder.collect_items()
+    item = next(item for item in items if item["thai"] == "ผมก็ถึงบ้านแล้วครับ")
+
+    assert item["kind"] == "例句"
+    assert [word["thai"] for word in item["words"]] == [
+        "ผม",
+        "ก็",
+        "ถึง",
+        "บ้าน",
+        "แล้ว",
+        "ครับ",
+    ]
