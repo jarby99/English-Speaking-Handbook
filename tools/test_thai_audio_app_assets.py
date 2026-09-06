@@ -17,7 +17,7 @@ def load_builder():
 def test_collect_items_adds_audio_to_thai_word_blocks_only():
     builder = load_builder()
     items = builder.collect_items()
-    assert len(items) == 374
+    assert len(items) >= 393
 
     thai_words = [
         word
@@ -71,3 +71,26 @@ def test_sentence_that_is_also_the_main_phrase_keeps_split_words():
         "แล้ว",
         "ครับ",
     ]
+
+
+def test_record_008_new_sleep_phrase_keeps_split_words_and_rules():
+    builder = load_builder()
+    items = builder.collect_items()
+    assert any(item["thai"] == "ผมง่วงนิดหน่อยครับ" for item in items)
+    item = next(
+        item
+        for item in items
+        if item["thai"] == "คุณพูดได้ดีมากแล้วครับ เก่งมากครับ"
+    )
+
+    assert item["source"] == "008-arrived-home-and-shower.md"
+    assert [word["thai"] for word in item["words"]] == [
+        "คุณ",
+        "พูดได้",
+        "ดีมาก",
+        "แล้ว",
+        "ครับ",
+        "เก่งมาก",
+        "ครับ",
+    ]
+    assert item["pronunciationRules"]

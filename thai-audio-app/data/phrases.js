@@ -681,7 +681,7 @@ window.THAI_AUDIO_APP_ITEMS = [
     ],
     "words": [
       {
-        "meaning": "年长者 / 哥哥姐姐",
+        "meaning": "哥哥姐姐 / 比自己年长亲近的人",
         "thai": "พี่",
         "pinyin": "phîi",
         "audio": "word-audio/2fbbc5027b.mp3"
@@ -863,7 +863,7 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/9f759ed34c.mp3"
       },
       {
-        "meaning": "非常 / 很",
+        "meaning": "很 / 非常",
         "thai": "มาก",
         "pinyin": "mâak",
         "audio": "word-audio/8d2b538d3c.mp3"
@@ -1021,7 +1021,7 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/2f5855175b.mp3"
       },
       {
-        "meaning": "非常 / 很",
+        "meaning": "很 / 非常",
         "thai": "มาก",
         "pinyin": "mâak",
         "audio": "word-audio/8d2b538d3c.mp3"
@@ -11794,6 +11794,735 @@ window.THAI_AUDIO_APP_ITEMS = [
     "audio": "audio/360-0b1988e9ef.mp3"
   },
   {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "我洗完澡了",
+    "thai": "ผมอาบน้ำแล้วครับ",
+    "pinyin": "phǒm àap náam láew khráp",
+    "words": [
+      {
+        "meaning": "我（男性用）",
+        "thai": "ผม",
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
+      },
+      {
+        "meaning": "洗澡",
+        "thai": "อาบน้ำ",
+        "pinyin": "àap náam",
+        "audio": "word-audio/bf03edf3c5.mp3"
+      },
+      {
+        "meaning": "已经 / 了",
+        "thai": "แล้ว",
+        "pinyin": "láew",
+        "audio": "word-audio/354ea34dd5.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：à＝低调，á＝高调，ǎ＝升调。 แล้ว 放在动作后，表示“已经做了 / 完成了”。 ผม 是高辅音 ผ + 短元音 + m 鼻音结尾，读第 5 调升调 phǒm。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
+    ],
+    "id": "thai-361",
+    "audio": "audio/361-c9ec5e00ae.mp3"
+  },
+  {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "我两点洗澡",
+    "thai": "ผมอาบน้ำตอนสองโมงครับ",
+    "pinyin": "phǒm àap náam dtaawn sǎawng moong khráp",
+    "words": [
+      {
+        "meaning": "我（男性用）",
+        "thai": "ผม",
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
+      },
+      {
+        "meaning": "洗澡",
+        "thai": "อาบน้ำ",
+        "pinyin": "àap náam",
+        "audio": "word-audio/bf03edf3c5.mp3"
+      },
+      {
+        "meaning": "在……时候 / 时间点",
+        "thai": "ตอน",
+        "pinyin": "dtaawn",
+        "audio": "word-audio/8fd9dd6e41.mp3"
+      },
+      {
+        "meaning": "二",
+        "thai": "สอง",
+        "pinyin": "sǎawng",
+        "audio": "word-audio/1b6312dfb0.mp3"
+      },
+      {
+        "meaning": "点钟",
+        "thai": "โมง",
+        "pinyin": "moong",
+        "audio": "word-audio/a5e130a362.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：à＝低调，á＝高调，ǎ＝升调。 ตอน + 时间 表示“在某个时间”。 这里先按初学阶段记“ตอนสองโมง”＝两点。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
+    ],
+    "id": "thai-362",
+    "audio": "audio/362-5b3d9d5f97.mp3"
+  },
+  {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "这不就是嘛 / 在这儿啊",
+    "thai": "นี่ไง",
+    "pinyin": "nîi ngai",
+    "words": [
+      {
+        "meaning": "这个 / 这里",
+        "thai": "นี่",
+        "pinyin": "nîi",
+        "audio": "word-audio/59a1a39d77.mp3"
+      },
+      {
+        "meaning": "口语语气词，表示“你看 / 不是嘛”",
+        "thai": "ไง",
+        "pinyin": "ngai",
+        "audio": "word-audio/e99e63e895.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：î＝降调。 นี่ไง 是口语表达，常用来指给别人看：“这不就是嘛 / 在这儿啊”。"
+    ],
+    "id": "thai-363",
+    "audio": "audio/363-1e5fecf2b9.mp3"
+  },
+  {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "你醒了吗？",
+    "thai": "คุณตื่นหรือยังครับ",
+    "pinyin": "khun dtùuen rʉ̌ʉ yang khráp",
+    "words": [
+      {
+        "meaning": "你",
+        "thai": "คุณ",
+        "pinyin": "khun",
+        "audio": "word-audio/2f5855175b.mp3"
+      },
+      {
+        "meaning": "醒 / 起床",
+        "thai": "ตื่น",
+        "pinyin": "dtùuen",
+        "audio": "word-audio/cd7e503780.mp3"
+      },
+      {
+        "meaning": "了吗 / 还是还没",
+        "thai": "หรือยัง",
+        "pinyin": "rʉ̌ʉ yang",
+        "audio": "word-audio/7138a5767e.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：ù＝低调，á＝高调，ǎ＝升调。 หรือยัง 用来问“已经做了吗 / 还是还没”。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
+    ],
+    "id": "thai-364",
+    "audio": "audio/364-0c64ee7a3b.mp3"
+  },
+  {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "醒了吗？",
+    "thai": "ตื่นหรือยังครับ",
+    "pinyin": "dtùuen rʉ̌ʉ yang khráp",
+    "words": [
+      {
+        "meaning": "醒 / 起床",
+        "thai": "ตื่น",
+        "pinyin": "dtùuen",
+        "audio": "word-audio/cd7e503780.mp3"
+      },
+      {
+        "meaning": "了吗 / 还是还没",
+        "thai": "หรือยัง",
+        "pinyin": "rʉ̌ʉ yang",
+        "audio": "word-audio/7138a5767e.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：ù＝低调，á＝高调，ǎ＝升调。 省略 คุณ 后更口语，意思仍然是问对方“醒了吗”。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
+    ],
+    "id": "thai-365",
+    "audio": "audio/365-7e00705181.mp3"
+  },
+  {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "早上我打电话给你的时候，就问：“醒了吗？”",
+    "thai": "เวลาฉันโทรไปหาพี่ตอนเช้า ก็ถามว่า ตื่นหรือยัง",
+    "pinyin": "wee-laa chǎn thoo bpai hǎa phîi dtaawn cháo gâw thǎam wâa dtùuen rʉ̌ʉ yang",
+    "words": [
+      {
+        "meaning": "时间 / 当……的时候",
+        "thai": "เวลา",
+        "pinyin": "wee-laa",
+        "audio": "word-audio/7a2292c5b3.mp3"
+      },
+      {
+        "meaning": "我",
+        "thai": "ฉัน",
+        "pinyin": "chǎn",
+        "audio": "word-audio/011539b90d.mp3"
+      },
+      {
+        "meaning": "打电话",
+        "thai": "โทร",
+        "pinyin": "thoo",
+        "audio": "word-audio/cf0900aad2.mp3"
+      },
+      {
+        "meaning": "去找 / 打给某人",
+        "thai": "ไปหา",
+        "pinyin": "bpai hǎa",
+        "audio": "word-audio/d893e34456.mp3"
+      },
+      {
+        "meaning": "哥哥姐姐 / 比自己年长亲近的人",
+        "thai": "พี่",
+        "pinyin": "phîi",
+        "audio": "word-audio/2fbbc5027b.mp3"
+      },
+      {
+        "meaning": "早上",
+        "thai": "ตอนเช้า",
+        "pinyin": "dtaawn cháo",
+        "audio": "word-audio/d9b8148fc6.mp3"
+      },
+      {
+        "meaning": "就 / 于是",
+        "thai": "ก็",
+        "pinyin": "gâw",
+        "audio": "word-audio/d10b03aa27.mp3"
+      },
+      {
+        "meaning": "问说 / 问道",
+        "thai": "ถามว่า",
+        "pinyin": "thǎam wâa",
+        "audio": "word-audio/9d737b651b.mp3"
+      },
+      {
+        "meaning": "醒了吗",
+        "thai": "ตื่นหรือยัง",
+        "pinyin": "dtùuen rʉ̌ʉ yang",
+        "audio": "word-audio/541a386759.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：ù＝低调，â＝降调，á＝高调，ǎ＝升调。 เวลา 放句首时可理解为“当……的时候”。 ถามว่า 后面接问的内容。 ฉัน 是高辅音 ฉ + 短元音 + n 鼻音结尾，读第 5 调升调 chǎn。"
+    ],
+    "id": "thai-366",
+    "audio": "audio/366-9b123f723f.mp3"
+  },
+  {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "很困 / 非常困",
+    "thai": "ง่วงมาก",
+    "pinyin": "ngûang mâak",
+    "words": [
+      {
+        "meaning": "困 / 想睡",
+        "thai": "ง่วง",
+        "pinyin": "ngûang",
+        "audio": "word-audio/e6437ecef7.mp3"
+      },
+      {
+        "meaning": "很 / 非常",
+        "thai": "มาก",
+        "pinyin": "mâak",
+        "audio": "word-audio/8d2b538d3c.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：û、â＝降调。 มาก 放在形容词后，表示“很 / 非常”。"
+    ],
+    "id": "thai-367",
+    "audio": "audio/367-62370ed54e.mp3"
+  },
+  {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "我很困",
+    "thai": "ผมง่วงมากครับ",
+    "pinyin": "phǒm ngûang mâak khráp",
+    "words": [
+      {
+        "meaning": "我（男性用）",
+        "thai": "ผม",
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
+      },
+      {
+        "meaning": "困 / 想睡",
+        "thai": "ง่วง",
+        "pinyin": "ngûang",
+        "audio": "word-audio/e6437ecef7.mp3"
+      },
+      {
+        "meaning": "很 / 非常",
+        "thai": "มาก",
+        "pinyin": "mâak",
+        "audio": "word-audio/8d2b538d3c.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：û、â＝降调，á＝高调，ǎ＝升调。 ผม 是高辅音 ผ + 短元音 + m 鼻音结尾，读第 5 调升调 phǒm。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
+    ],
+    "id": "thai-368",
+    "audio": "audio/368-98cb43fce4.mp3"
+  },
+  {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "我有点困了",
+    "thai": "ผมง่วงนิดหน่อยครับ",
+    "pinyin": "phǒm ngûang nít nàawy khráp",
+    "words": [
+      {
+        "meaning": "我（男性用）",
+        "thai": "ผม",
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
+      },
+      {
+        "meaning": "困 / 想睡",
+        "thai": "ง่วง",
+        "pinyin": "ngûang",
+        "audio": "word-audio/e6437ecef7.mp3"
+      },
+      {
+        "meaning": "一点点 / 有点",
+        "thai": "นิดหน่อย",
+        "pinyin": "nít nàawy",
+        "audio": "word-audio/a7aef19494.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：ì＝低调，û＝降调，á＝高调，ǎ＝升调。 นิดหน่อย 放在状态后，表示“有点 / 一点点”。 ผม 是高辅音 ผ + 短元音 + m 鼻音结尾，读第 5 调升调 phǒm。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
+    ],
+    "id": "thai-369",
+    "audio": "audio/369-20ea7335e4.mp3"
+  },
+  {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "一起睡觉",
+    "thai": "นอนด้วยกันครับ",
+    "pinyin": "naawn dûai gan khráp",
+    "words": [
+      {
+        "meaning": "睡觉",
+        "thai": "นอน",
+        "pinyin": "naawn",
+        "audio": "word-audio/f61e39bed0.mp3"
+      },
+      {
+        "meaning": "一起",
+        "thai": "ด้วยกัน",
+        "pinyin": "dûai gan",
+        "audio": "word-audio/bc606ed4b8.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：û＝降调，á＝高调。 ด้วยกัน 明确表示“一起”。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
+    ],
+    "id": "thai-370",
+    "audio": "audio/370-f7e607f629.mp3"
+  },
+  {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "我们一起睡觉",
+    "thai": "เรานอนด้วยกันครับ",
+    "pinyin": "rao naawn dûai gan khráp",
+    "words": [
+      {
+        "meaning": "我们",
+        "thai": "เรา",
+        "pinyin": "rao",
+        "audio": "word-audio/f82494e8cd.mp3"
+      },
+      {
+        "meaning": "睡觉",
+        "thai": "นอน",
+        "pinyin": "naawn",
+        "audio": "word-audio/f61e39bed0.mp3"
+      },
+      {
+        "meaning": "一起",
+        "thai": "ด้วยกัน",
+        "pinyin": "dûai gan",
+        "audio": "word-audio/bc606ed4b8.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：û＝降调，á＝高调。 这句话在语境里可能有亲密含义，复习时注意使用场景。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
+    ],
+    "id": "thai-371",
+    "audio": "audio/371-97273670eb.mp3"
+  },
+  {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "一起去睡吧",
+    "thai": "ไปนอนกันครับ",
+    "pinyin": "bpai naawn gan khráp",
+    "words": [
+      {
+        "meaning": "去",
+        "thai": "ไป",
+        "pinyin": "bpai",
+        "audio": "word-audio/ed56a62b35.mp3"
+      },
+      {
+        "meaning": "睡觉",
+        "thai": "นอน",
+        "pinyin": "naawn",
+        "audio": "word-audio/f61e39bed0.mp3"
+      },
+      {
+        "meaning": "一起 / 咱们一起",
+        "thai": "กัน",
+        "pinyin": "gan",
+        "audio": "word-audio/d8dd991d84.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：á＝高调。 กัน 放在动词后，可以表示“咱们一起……”。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
+    ],
+    "id": "thai-372",
+    "audio": "audio/372-d67cb8d1e8.mp3"
+  },
+  {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "等一下",
+    "thai": "เดี๋ยวครับ",
+    "pinyin": "dǐao khráp",
+    "words": [
+      {
+        "meaning": "一下 / 稍后 / 等一下",
+        "thai": "เดี๋ยว",
+        "pinyin": "dǐao",
+        "audio": "word-audio/28da9ff777.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：ǐ＝升调，á＝高调。 เดี๋ยว 可单独表达“等一下 / 稍后”。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
+    ],
+    "id": "thai-373",
+    "audio": "audio/373-03c2020bf1.mp3"
+  },
+  {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "稍等一下",
+    "thai": "รอเดี๋ยวครับ",
+    "pinyin": "raaw dǐao khráp",
+    "words": [
+      {
+        "meaning": "等",
+        "thai": "รอ",
+        "pinyin": "raaw",
+        "audio": "word-audio/971fe1e1b4.mp3"
+      },
+      {
+        "meaning": "一下 / 稍后",
+        "thai": "เดี๋ยว",
+        "pinyin": "dǐao",
+        "audio": "word-audio/28da9ff777.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：ǐ＝升调，á＝高调。 รอ 是“等”，เดี๋ยว 是“一下 / 稍后”。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
+    ],
+    "id": "thai-374",
+    "audio": "audio/374-3f140ace1a.mp3"
+  },
+  {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "等我一下",
+    "thai": "รอผมเดี๋ยวครับ",
+    "pinyin": "raaw phǒm dǐao khráp",
+    "words": [
+      {
+        "meaning": "等",
+        "thai": "รอ",
+        "pinyin": "raaw",
+        "audio": "word-audio/971fe1e1b4.mp3"
+      },
+      {
+        "meaning": "我（男性用）",
+        "thai": "ผม",
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
+      },
+      {
+        "meaning": "一下 / 稍后",
+        "thai": "เดี๋ยว",
+        "pinyin": "dǐao",
+        "audio": "word-audio/28da9ff777.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：ǐ、ǒ＝升调，á＝高调。 ผม 是高辅音 ผ + 短元音 + m 鼻音结尾，读第 5 调升调 phǒm。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
+    ],
+    "id": "thai-375",
+    "audio": "audio/375-dd886cb184.mp3"
+  },
+  {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "就 / 直接 / 一点也",
+    "thai": "เลย",
+    "pinyin": "looei / loei",
+    "words": [
+      {
+        "meaning": "就 / 直接 / 一点也（意思要看句子）",
+        "thai": "เลย",
+        "pinyin": "looei / loei",
+        "audio": "word-audio/f280dff6b7.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "เลย 是很常见的口语词，具体意思要结合前后句。 本次只先记它的声音和常见感觉，不展开更多新句型。"
+    ],
+    "id": "thai-376",
+    "audio": "audio/376-f280dff6b7.mp3"
+  },
+  {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "我还说得不够好",
+    "thai": "ฉันยังพูดได้ไม่ดีพอ",
+    "pinyin": "chǎn yang phûut dâai mâi dii phaaw",
+    "words": [
+      {
+        "meaning": "我",
+        "thai": "ฉัน",
+        "pinyin": "chǎn",
+        "audio": "word-audio/011539b90d.mp3"
+      },
+      {
+        "meaning": "还",
+        "thai": "ยัง",
+        "pinyin": "yang",
+        "audio": "word-audio/567945c6ad.mp3"
+      },
+      {
+        "meaning": "能说 / 说得",
+        "thai": "พูดได้",
+        "pinyin": "phûut dâai",
+        "audio": "word-audio/a0827d00d8.mp3"
+      },
+      {
+        "meaning": "不好",
+        "thai": "ไม่ดี",
+        "pinyin": "mâi dii",
+        "audio": "word-audio/75f750ca12.mp3"
+      },
+      {
+        "meaning": "够 / 足够",
+        "thai": "พอ",
+        "pinyin": "phaaw",
+        "audio": "word-audio/54434e58e3.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：û、â＝降调，ǎ＝升调。 ยัง ... ไม่ ... พอ 表示“还不够……”。 ฉัน 是高辅音 ฉ + 短元音 + n 鼻音结尾，读第 5 调升调 chǎn。"
+    ],
+    "id": "thai-377",
+    "audio": "audio/377-1a8377d3d0.mp3"
+  },
+  {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "你说得已经很好了，很厉害",
+    "thai": "คุณพูดได้ดีมากแล้วครับ เก่งมากครับ",
+    "pinyin": "khun phûut dâai dii mâak láew khráp gèng mâak khráp",
+    "words": [
+      {
+        "meaning": "你",
+        "thai": "คุณ",
+        "pinyin": "khun",
+        "audio": "word-audio/2f5855175b.mp3"
+      },
+      {
+        "meaning": "会说 / 说得",
+        "thai": "พูดได้",
+        "pinyin": "phûut dâai",
+        "audio": "word-audio/a0827d00d8.mp3"
+      },
+      {
+        "meaning": "很好",
+        "thai": "ดีมาก",
+        "pinyin": "dii mâak",
+        "audio": "word-audio/ea60045acf.mp3"
+      },
+      {
+        "meaning": "已经 / 了",
+        "thai": "แล้ว",
+        "pinyin": "láew",
+        "audio": "word-audio/354ea34dd5.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      },
+      {
+        "meaning": "很厉害 / 很棒",
+        "thai": "เก่งมาก",
+        "pinyin": "gèng mâak",
+        "audio": "word-audio/707bc62a00.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：è＝低调，û、â＝降调，á＝高调。 แล้ว 放在这里表示“已经”。 เก่งมาก 是夸对方“很厉害 / 很棒”。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
+    ],
+    "id": "thai-378",
+    "audio": "audio/378-24fb9c3851.mp3"
+  },
+  {
+    "source": "008-arrived-home-and-shower.md",
+    "category": "到家和洗澡问答",
+    "kind": "例句",
+    "meaning": "你说得很厉害",
+    "thai": "พูดเก่งมากครับ",
+    "pinyin": "phûut gèng mâak khráp",
+    "words": [
+      {
+        "meaning": "说",
+        "thai": "พูด",
+        "pinyin": "phûut",
+        "audio": "word-audio/5bc9b7819e.mp3"
+      },
+      {
+        "meaning": "很厉害 / 很会",
+        "thai": "เก่งมาก",
+        "pinyin": "gèng mâak",
+        "audio": "word-audio/707bc62a00.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：è＝低调，û、â＝降调，á＝高调。 พูดเก่งมากครับ 是更口语的夸奖，说对方“很会说 / 说得很厉害”。"
+    ],
+    "id": "thai-379",
+    "audio": "audio/379-63a746390e.mp3"
+  },
+  {
     "source": "001-beginner-greetings-thanks-names.md",
     "category": "基础问候、感谢和名字",
     "kind": "练习句",
@@ -11812,8 +12541,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/c7bcb12d8b.mp3"
       }
     ],
-    "id": "thai-361",
-    "audio": "audio/361-c7bcb12d8b.mp3"
+    "id": "thai-380",
+    "audio": "audio/380-c7bcb12d8b.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -11834,8 +12563,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
-    "id": "thai-362",
-    "audio": "audio/362-2dce0151d6.mp3"
+    "id": "thai-381",
+    "audio": "audio/381-2dce0151d6.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -11855,8 +12584,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/fbd3f12059.mp3"
       }
     ],
-    "id": "thai-363",
-    "audio": "audio/363-fbd3f12059.mp3"
+    "id": "thai-382",
+    "audio": "audio/382-fbd3f12059.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -11876,8 +12605,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/2d09568c10.mp3"
       }
     ],
-    "id": "thai-364",
-    "audio": "audio/364-2d09568c10.mp3"
+    "id": "thai-383",
+    "audio": "audio/383-2d09568c10.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -11903,8 +12632,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/2d09568c10.mp3"
       }
     ],
-    "id": "thai-365",
-    "audio": "audio/365-193b9f4623.mp3"
+    "id": "thai-384",
+    "audio": "audio/384-193b9f4623.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -11945,8 +12674,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
-    "id": "thai-366",
-    "audio": "audio/366-d22e258125.mp3"
+    "id": "thai-385",
+    "audio": "audio/385-d22e258125.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -11978,8 +12707,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/b63888f232.mp3"
       }
     ],
-    "id": "thai-367",
-    "audio": "audio/367-67a90461c8.mp3"
+    "id": "thai-386",
+    "audio": "audio/386-67a90461c8.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -12008,8 +12737,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/4a80f2d016.mp3"
       }
     ],
-    "id": "thai-368",
-    "audio": "audio/368-633564778a.mp3"
+    "id": "thai-387",
+    "audio": "audio/387-633564778a.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -12030,8 +12759,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/d34a46e071.mp3"
       }
     ],
-    "id": "thai-369",
-    "audio": "audio/369-d34a46e071.mp3"
+    "id": "thai-388",
+    "audio": "audio/388-d34a46e071.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -12064,8 +12793,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/87c765302e.mp3"
       }
     ],
-    "id": "thai-370",
-    "audio": "audio/370-3527fcde76.mp3"
+    "id": "thai-389",
+    "audio": "audio/389-3527fcde76.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -12087,8 +12816,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/fd047e1679.mp3"
       }
     ],
-    "id": "thai-371",
-    "audio": "audio/371-fd047e1679.mp3"
+    "id": "thai-390",
+    "audio": "audio/390-fd047e1679.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -12120,8 +12849,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/eee0e744ab.mp3"
       }
     ],
-    "id": "thai-372",
-    "audio": "audio/372-e0a814cc4f.mp3"
+    "id": "thai-391",
+    "audio": "audio/391-e0a814cc4f.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -12141,8 +12870,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/bf0a0836c4.mp3"
       }
     ],
-    "id": "thai-373",
-    "audio": "audio/373-bf0a0836c4.mp3"
+    "id": "thai-392",
+    "audio": "audio/392-bf0a0836c4.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -12183,12 +12912,12 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/87c765302e.mp3"
       }
     ],
-    "id": "thai-374",
-    "audio": "audio/374-32da8ba114.mp3"
+    "id": "thai-393",
+    "audio": "audio/393-32da8ba114.mp3"
   }
 ];
 window.THAI_AUDIO_APP_META = {
-  count: 374,
+  count: 393,
   voice: "th-TH-PremwadeeNeural",
   format: "中文意思 | 泰语 | 拉丁拼音读音"
 };
