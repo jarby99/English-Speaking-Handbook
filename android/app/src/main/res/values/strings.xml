@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">泰语点读练习</string>
+    <string name="title_activity_main">泰语点读练习</string>
+    <string name="package_name">com.jarby99.thaiaudio</string>
+    <string name="custom_url_scheme">com.jarby99.thaiaudio</string>
+</resources>

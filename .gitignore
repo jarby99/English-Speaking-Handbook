@@ -1,0 +1,12 @@
+node_modules/
+npm-debug.log*
+
+__pycache__/
+*.py[cod]
+
+android/.gradle/
+android/build/
+android/app/build/
+android/app/src/main/assets/public/
+*.iml
+*.keystore

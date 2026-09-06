@@ -1,0 +1,258 @@
+:root {
+  --bg: #f6f3ed;
+  --paper: #ffffff;
+  --text: #1f2933;
+  --muted: #5d6875;
+  --line: #ded7ca;
+  --accent: #0f766e;
+  --accent-strong: #0b5f59;
+  --accent-soft: #d8f2ee;
+  --gold: #b7791f;
+  --shadow: 0 14px 32px rgba(31, 41, 51, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans SC", Arial, sans-serif;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+.app-shell {
+  width: min(1180px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 28px 0 48px;
+}
+
+.topbar {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 20px;
+  align-items: end;
+  padding: 26px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+h1 {
+  margin: 0;
+  font-size: 34px;
+  line-height: 1.2;
+}
+
+.subtitle {
+  max-width: 680px;
+  margin: 12px 0 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.stats {
+  min-width: 116px;
+  padding: 16px 18px;
+  text-align: center;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfaf7;
+}
+
+.stats strong {
+  display: block;
+  font-size: 30px;
+  line-height: 1;
+  color: var(--accent-strong);
+}
+
+.stats span {
+  display: block;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) minmax(180px, 260px) auto;
+  gap: 12px;
+  margin: 18px 0;
+}
+
+.search-box,
+.filter-box {
+  display: grid;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+input,
+select,
+.toggle-button {
+  height: 46px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  color: var(--text);
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0 14px;
+}
+
+.toggle-button {
+  align-self: end;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.toggle-button[aria-pressed="true"] {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  font-weight: 700;
+}
+
+.now-playing {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 18px;
+  color: var(--muted);
+}
+
+.now-playing strong {
+  color: var(--text);
+}
+
+.phrase-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+}
+
+.phrase-card {
+  min-height: 238px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 18px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.card-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.kind {
+  padding: 4px 8px;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.source {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.meaning {
+  min-height: 32px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.thai-button {
+  width: 100%;
+  min-height: 92px;
+  padding: 10px 12px 14px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background: #fff8eb;
+  color: #16181d;
+  cursor: pointer;
+  font-family: "Leelawadee UI", "Noto Sans Thai", "Tahoma", sans-serif;
+  font-size: 34px;
+  line-height: 1.35;
+  text-align: center;
+}
+
+.thai-button:hover,
+.thai-button:focus {
+  border-color: var(--gold);
+  outline: none;
+}
+
+.phrase-card.is-playing .thai-button {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.pinyin {
+  margin: auto 0 0;
+  color: var(--accent-strong);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.empty {
+  grid-column: 1 / -1;
+  padding: 28px;
+  text-align: center;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--muted);
+}
+
+@media (max-width: 760px) {
+  .app-shell {
+    width: min(100% - 20px, 1180px);
+    padding-top: 10px;
+  }
+
+  .topbar,
+  .controls {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .thai-button {
+    font-size: 31px;
+  }
+}

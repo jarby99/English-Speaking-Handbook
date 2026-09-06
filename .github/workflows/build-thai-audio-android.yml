@@ -1,0 +1,52 @@
+name: Build Thai Audio Android APK
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/build-thai-audio-android.yml"
+      - "android/**"
+      - "thai-audio-app/**"
+      - "tools/build_thai_audio_app_assets.py"
+      - "capacitor.config.json"
+      - "package.json"
+      - "package-lock.json"
+
+jobs:
+  build-apk:
+    name: Build APK
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install JavaScript dependencies
+        run: npm ci
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Prepare Android assets
+        run: npx cap sync android
+
+      - name: Build debug APK
+        working-directory: android
+        run: |
+          chmod +x ./gradlew
+          ./gradlew assembleDebug
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: thai-audio-practice-debug-apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk

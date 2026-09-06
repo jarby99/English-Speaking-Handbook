@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>泰语点读练习</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">静态 App · 本地预生成音频</p>
+          <h1>泰语点读练习</h1>
+          <p class="subtitle">只收录已经整理过的学习内容。点击每张卡片即可播放泰语音频。</p>
+        </div>
+        <div class="stats" aria-label="学习条目统计">
+          <strong id="itemCount">0</strong>
+          <span>个词句</span>
+        </div>
+      </header>
+
+      <section class="controls" aria-label="筛选和搜索">
+        <label class="search-box">
+          <span>搜索</span>
+          <input id="searchInput" type="search" placeholder="输入中文、泰语或拼音">
+        </label>
+        <label class="filter-box">
+          <span>分类</span>
+          <select id="categorySelect"></select>
+        </label>
+        <button id="repeatButton" class="toggle-button" type="button" aria-pressed="false">重复播放：关</button>
+      </section>
+
+      <section class="now-playing" aria-live="polite">
+        <span>当前播放</span>
+        <strong id="nowPlaying">还没有播放</strong>
+      </section>
+
+      <section id="phraseGrid" class="phrase-grid" aria-label="泰语词句列表"></section>
+    </main>
+
+    <template id="phraseCardTemplate">
+      <article class="phrase-card">
+        <div class="card-head">
+          <span class="kind"></span>
+          <span class="source"></span>
+        </div>
+        <p class="meaning"></p>
+        <button class="thai-button" type="button"></button>
+        <p class="pinyin"></p>
+      </article>
+    </template>
+
+    <script src="data/phrases.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>

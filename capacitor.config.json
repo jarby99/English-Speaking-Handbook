@@ -1,0 +1,9 @@
+{
+  "appId": "com.jarby99.thaiaudio",
+  "appName": "泰语点读练习",
+  "webDir": "thai-audio-app",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}
