@@ -8903,6 +8903,493 @@ window.THAI_AUDIO_APP_ITEMS = [
     "audio": "audio/334-866018d97a.mp3"
   },
   {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "高辅音记忆句",
+    "kind": "词语",
+    "meaning": "鸡蛋",
+    "thai": "ไข่",
+    "pinyin": "khài",
+    "words": [
+      {
+        "meaning": "鸡蛋",
+        "thai": "ไข่",
+        "pinyin": "khài"
+      }
+    ],
+    "id": "thai-335",
+    "audio": "audio/335-5a078ee12f.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "高辅音记忆句",
+    "kind": "例句",
+    "meaning": "我吃鸡蛋",
+    "thai": "ผมกินไข่ครับ",
+    "pinyin": "phǒm gin khài khráp",
+    "words": [
+      {
+        "meaning": "我（男性用）",
+        "thai": "ผม",
+        "pinyin": "phǒm"
+      },
+      {
+        "meaning": "吃",
+        "thai": "กิน",
+        "pinyin": "gin"
+      },
+      {
+        "meaning": "鸡蛋",
+        "thai": "ไข่",
+        "pinyin": "khài"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp"
+      }
+    ],
+    "id": "thai-336",
+    "audio": "audio/336-68c7ab656f.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "高辅音记忆句",
+    "kind": "词语",
+    "meaning": "瓶子（旧字记忆词）",
+    "thai": "ฃวด",
+    "pinyin": "khùuat",
+    "words": [
+      {
+        "meaning": "瓶子（旧字记忆词）",
+        "thai": "ฃวด",
+        "pinyin": "khùuat"
+      }
+    ],
+    "id": "thai-337",
+    "audio": "audio/337-52a0130c98.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "高辅音记忆句",
+    "kind": "例句",
+    "meaning": "瓶子在这里",
+    "thai": "ฃวดอยู่ที่นี่",
+    "pinyin": "khùuat yùu thîi-nîi",
+    "words": [
+      {
+        "meaning": "瓶子（旧字记忆词）",
+        "thai": "ฃวด",
+        "pinyin": "khùuat"
+      },
+      {
+        "meaning": "在",
+        "thai": "อยู่",
+        "pinyin": "yùu"
+      },
+      {
+        "meaning": "这里",
+        "thai": "ที่นี่",
+        "pinyin": "thîi-nîi"
+      }
+    ],
+    "id": "thai-338",
+    "audio": "audio/338-45916d8822.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "高辅音记忆句",
+    "kind": "词语",
+    "meaning": "我",
+    "thai": "ฉัน",
+    "pinyin": "chǎn",
+    "words": [
+      {
+        "meaning": "我",
+        "thai": "ฉัน",
+        "pinyin": "chǎn"
+      }
+    ],
+    "id": "thai-339",
+    "audio": "audio/339-011539b90d.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "高辅音记忆句",
+    "kind": "例句",
+    "meaning": "我很好",
+    "thai": "ฉันสบายดี",
+    "pinyin": "chǎn sà-baai dii",
+    "words": [
+      {
+        "meaning": "我",
+        "thai": "ฉัน",
+        "pinyin": "chǎn"
+      },
+      {
+        "meaning": "很好 / 状态好",
+        "thai": "สบายดี",
+        "pinyin": "sà-baai dii"
+      }
+    ],
+    "id": "thai-340",
+    "audio": "audio/340-6825bda010.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "高辅音记忆句",
+    "kind": "词语",
+    "meaning": "基础",
+    "thai": "ฐาน",
+    "pinyin": "thǎan",
+    "words": [
+      {
+        "meaning": "基础",
+        "thai": "ฐาน",
+        "pinyin": "thǎan"
+      }
+    ],
+    "id": "thai-341",
+    "audio": "audio/341-cd75a0fc3e.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "高辅音记忆句",
+    "kind": "例句",
+    "meaning": "这个基础很好",
+    "thai": "ฐานนี้ดี",
+    "pinyin": "thǎan níi dii",
+    "words": [
+      {
+        "meaning": "基础",
+        "thai": "ฐาน",
+        "pinyin": "thǎan"
+      },
+      {
+        "meaning": "这个",
+        "thai": "นี้",
+        "pinyin": "níi"
+      },
+      {
+        "meaning": "好",
+        "thai": "ดี",
+        "pinyin": "dii"
+      }
+    ],
+    "id": "thai-342",
+    "audio": "audio/342-6a762a8076.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "高辅音记忆句",
+    "kind": "词语",
+    "meaning": "袋子",
+    "thai": "ถุง",
+    "pinyin": "thǔng",
+    "words": [
+      {
+        "meaning": "袋子",
+        "thai": "ถุง",
+        "pinyin": "thǔng"
+      }
+    ],
+    "id": "thai-343",
+    "audio": "audio/343-12482644ee.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "高辅音记忆句",
+    "kind": "例句",
+    "meaning": "这个袋子是我的",
+    "thai": "ถุงนี้ของผม",
+    "pinyin": "thǔng níi khǎawng phǒm",
+    "words": [
+      {
+        "meaning": "袋子",
+        "thai": "ถุง",
+        "pinyin": "thǔng"
+      },
+      {
+        "meaning": "这个",
+        "thai": "นี้",
+        "pinyin": "níi"
+      },
+      {
+        "meaning": "属于 / 的",
+        "thai": "ของ",
+        "pinyin": "khǎawng"
+      },
+      {
+        "meaning": "我（男性用）",
+        "thai": "ผม",
+        "pinyin": "phǒm"
+      }
+    ],
+    "id": "thai-344",
+    "audio": "audio/344-92b2e8af06.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "高辅音记忆句",
+    "kind": "词语",
+    "meaning": "我（男性用）",
+    "thai": "ผม",
+    "pinyin": "phǒm",
+    "words": [
+      {
+        "meaning": "我（男性用）",
+        "thai": "ผม",
+        "pinyin": "phǒm"
+      }
+    ],
+    "id": "thai-345",
+    "audio": "audio/345-da56ad55c1.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "高辅音记忆句",
+    "kind": "例句",
+    "meaning": "我叫 Lucas",
+    "thai": "ผมชื่อ Lucas ครับ",
+    "pinyin": "phǒm chʉ̂ʉ Lucas khráp",
+    "words": [
+      {
+        "meaning": "我（男性用）",
+        "thai": "ผม",
+        "pinyin": "phǒm"
+      },
+      {
+        "meaning": "名字 / 叫",
+        "thai": "ชื่อ",
+        "pinyin": "chʉ̂ʉ"
+      },
+      {
+        "meaning": "Lucas",
+        "thai": "Lucas",
+        "pinyin": "Lucas"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp"
+      }
+    ],
+    "id": "thai-346",
+    "audio": "audio/346-d22e258125.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "高辅音记忆句",
+    "kind": "词语",
+    "meaning": "雨",
+    "thai": "ฝน",
+    "pinyin": "fǒn",
+    "words": [
+      {
+        "meaning": "雨",
+        "thai": "ฝน",
+        "pinyin": "fǒn"
+      }
+    ],
+    "id": "thai-347",
+    "audio": "audio/347-8edad26cc8.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "高辅音记忆句",
+    "kind": "例句",
+    "meaning": "下雨了",
+    "thai": "ฝนตกครับ",
+    "pinyin": "fǒn tòk khráp",
+    "words": [
+      {
+        "meaning": "雨",
+        "thai": "ฝน",
+        "pinyin": "fǒn"
+      },
+      {
+        "meaning": "落下 / 下雨",
+        "thai": "ตก",
+        "pinyin": "tòk"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp"
+      }
+    ],
+    "id": "thai-348",
+    "audio": "audio/348-a0f7c9b721.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "高辅音记忆句",
+    "kind": "词语",
+    "meaning": "亭子",
+    "thai": "ศาลา",
+    "pinyin": "sǎa-laa",
+    "words": [
+      {
+        "meaning": "亭子",
+        "thai": "ศาลา",
+        "pinyin": "sǎa-laa"
+      }
+    ],
+    "id": "thai-349",
+    "audio": "audio/349-b32e4837c9.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "高辅音记忆句",
+    "kind": "例句",
+    "meaning": "亭子在这里",
+    "thai": "ศาลาอยู่ที่นี่",
+    "pinyin": "sǎa-laa yùu thîi-nîi",
+    "words": [
+      {
+        "meaning": "亭子",
+        "thai": "ศาลา",
+        "pinyin": "sǎa-laa"
+      },
+      {
+        "meaning": "在",
+        "thai": "อยู่",
+        "pinyin": "yùu"
+      },
+      {
+        "meaning": "这里",
+        "thai": "ที่นี่",
+        "pinyin": "thîi-nîi"
+      }
+    ],
+    "id": "thai-350",
+    "audio": "audio/350-85313e8bf6.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "高辅音记忆句",
+    "kind": "词语",
+    "meaning": "隐士",
+    "thai": "ฤๅษี",
+    "pinyin": "rʉʉ-sǐi",
+    "words": [
+      {
+        "meaning": "隐士",
+        "thai": "ฤๅษี",
+        "pinyin": "rʉʉ-sǐi"
+      }
+    ],
+    "id": "thai-351",
+    "audio": "audio/351-134f029808.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "高辅音记忆句",
+    "kind": "例句",
+    "meaning": "隐士在森林里",
+    "thai": "ฤๅษีอยู่ในป่า",
+    "pinyin": "rʉʉ-sǐi yùu nai bpàa",
+    "words": [
+      {
+        "meaning": "隐士",
+        "thai": "ฤๅษี",
+        "pinyin": "rʉʉ-sǐi"
+      },
+      {
+        "meaning": "在",
+        "thai": "อยู่",
+        "pinyin": "yùu"
+      },
+      {
+        "meaning": "在……里面",
+        "thai": "ใน",
+        "pinyin": "nai"
+      },
+      {
+        "meaning": "森林",
+        "thai": "ป่า",
+        "pinyin": "bpàa"
+      }
+    ],
+    "id": "thai-352",
+    "audio": "audio/352-218722e5e9.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "高辅音记忆句",
+    "kind": "词语",
+    "meaning": "很好 / 状态好",
+    "thai": "สบายดี",
+    "pinyin": "sà-baai dii",
+    "words": [
+      {
+        "meaning": "很好 / 状态好",
+        "thai": "สบายดี",
+        "pinyin": "sà-baai dii"
+      }
+    ],
+    "id": "thai-353",
+    "audio": "audio/353-d34a46e071.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "高辅音记忆句",
+    "kind": "例句",
+    "meaning": "我很好",
+    "thai": "ผมสบายดีครับ",
+    "pinyin": "phǒm sà-baai dii khráp",
+    "words": [
+      {
+        "meaning": "我（男性用）",
+        "thai": "ผม",
+        "pinyin": "phǒm"
+      },
+      {
+        "meaning": "很好 / 状态好",
+        "thai": "สบายดี",
+        "pinyin": "sà-baai dii"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp"
+      }
+    ],
+    "id": "thai-354",
+    "audio": "audio/354-0307c57f9d.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "高辅音记忆句",
+    "kind": "例句",
+    "meaning": "我有五个",
+    "thai": "ผมมีห้าอัน",
+    "pinyin": "phǒm mii hâa an",
+    "words": [
+      {
+        "meaning": "我（男性用）",
+        "thai": "ผม",
+        "pinyin": "phǒm"
+      },
+      {
+        "meaning": "有",
+        "thai": "มี",
+        "pinyin": "mii"
+      },
+      {
+        "meaning": "五",
+        "thai": "ห้า",
+        "pinyin": "hâa"
+      },
+      {
+        "meaning": "个",
+        "thai": "อัน",
+        "pinyin": "an"
+      }
+    ],
+    "id": "thai-355",
+    "audio": "audio/355-d0c7431bfa.mp3"
+  },
+  {
     "source": "001-beginner-greetings-thanks-names.md",
     "category": "基础问候、感谢和名字",
     "kind": "练习句",
@@ -8916,8 +9403,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "pinyin": "sà-wàt-dii"
       }
     ],
-    "id": "thai-335",
-    "audio": "audio/335-c7bcb12d8b.mp3"
+    "id": "thai-356",
+    "audio": "audio/356-c7bcb12d8b.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -8933,8 +9420,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "pinyin": "khráp"
       }
     ],
-    "id": "thai-336",
-    "audio": "audio/336-2dce0151d6.mp3"
+    "id": "thai-357",
+    "audio": "audio/357-2dce0151d6.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -8950,8 +9437,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "pinyin": "khâ"
       }
     ],
-    "id": "thai-337",
-    "audio": "audio/337-fbd3f12059.mp3"
+    "id": "thai-358",
+    "audio": "audio/358-fbd3f12059.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -8967,8 +9454,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "pinyin": "châi"
       }
     ],
-    "id": "thai-338",
-    "audio": "audio/338-2d09568c10.mp3"
+    "id": "thai-359",
+    "audio": "audio/359-2d09568c10.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -8989,8 +9476,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "pinyin": "châi"
       }
     ],
-    "id": "thai-339",
-    "audio": "audio/339-193b9f4623.mp3"
+    "id": "thai-360",
+    "audio": "audio/360-193b9f4623.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -9021,8 +9508,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "pinyin": "khráp"
       }
     ],
-    "id": "thai-340",
-    "audio": "audio/340-d22e258125.mp3"
+    "id": "thai-361",
+    "audio": "audio/361-d22e258125.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -9048,8 +9535,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "pinyin": "a-rai"
       }
     ],
-    "id": "thai-341",
-    "audio": "audio/341-67a90461c8.mp3"
+    "id": "thai-362",
+    "audio": "audio/362-67a90461c8.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -9070,8 +9557,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "pinyin": "mái"
       }
     ],
-    "id": "thai-342",
-    "audio": "audio/342-633564778a.mp3"
+    "id": "thai-363",
+    "audio": "audio/363-633564778a.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -9087,8 +9574,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "pinyin": "sà-baai dii"
       }
     ],
-    "id": "thai-343",
-    "audio": "audio/343-d34a46e071.mp3"
+    "id": "thai-364",
+    "audio": "audio/364-d34a46e071.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -9114,8 +9601,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "pinyin": "lâ"
       }
     ],
-    "id": "thai-344",
-    "audio": "audio/344-3527fcde76.mp3"
+    "id": "thai-365",
+    "audio": "audio/365-3527fcde76.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -9131,8 +9618,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "pinyin": "khǎaw thôot"
       }
     ],
-    "id": "thai-345",
-    "audio": "audio/345-fd047e1679.mp3"
+    "id": "thai-366",
+    "audio": "audio/366-fd047e1679.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -9158,8 +9645,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "pinyin": "rai"
       }
     ],
-    "id": "thai-346",
-    "audio": "audio/346-e0a814cc4f.mp3"
+    "id": "thai-367",
+    "audio": "audio/367-e0a814cc4f.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -9175,8 +9662,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "pinyin": "laa-gàawn"
       }
     ],
-    "id": "thai-347",
-    "audio": "audio/347-bf0a0836c4.mp3"
+    "id": "thai-368",
+    "audio": "audio/368-bf0a0836c4.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -9207,12 +9694,12 @@ window.THAI_AUDIO_APP_ITEMS = [
         "pinyin": "lâ"
       }
     ],
-    "id": "thai-348",
-    "audio": "audio/348-32da8ba114.mp3"
+    "id": "thai-369",
+    "audio": "audio/369-32da8ba114.mp3"
   }
 ];
 window.THAI_AUDIO_APP_META = {
-  count: 348,
+  count: 369,
   voice: "th-TH-PremwadeeNeural",
   format: "中文意思 | 泰语 | 拉丁拼音读音"
 };
