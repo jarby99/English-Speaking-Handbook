@@ -25,6 +25,10 @@ BREAKDOWN_PINYIN_RE = re.compile(r"\(([^()]+)\)＝")
 BREAKDOWN_WORD_RE = re.compile(r"([^｜]+?)\s*\(([^()]+)\)＝([^｜]+)")
 PIPE_ENTRY_RE = re.compile(r"^\s*(.+?)\s*\|\s*([^|]+?)\s*\|\s*(.+?)\s*$")
 THAI_RE = re.compile(r"[\u0E00-\u0E7F]")
+LOW_TONE_CHARS = set("àèìòùỳÀÈÌÒÙỲ\u0300")
+FALLING_TONE_CHARS = set("âêîôûŷÂÊÎÔÛŶ\u0302")
+HIGH_TONE_CHARS = set("áéíóúýÁÉÍÓÚÝ\u0301")
+RISING_TONE_CHARS = set("ǎěǐǒǔǍĚǏǑǓ\u030c")
 
 MANUAL_WORDS = [
     {"meaning": "你好 / 打招呼", "thai": "สวัสดี", "pinyin": "sà-wàt-dii"},
@@ -174,6 +178,48 @@ def parse_breakdown_words(text: str) -> list[dict]:
     return words
 
 
+def has_any(text: str, chars: set[str]) -> bool:
+    return any(char in chars for char in text)
+
+
+def auto_pronunciation_rules(thai: str, pinyin: str) -> list[str]:
+    rules: list[str] = []
+    if has_any(pinyin, LOW_TONE_CHARS):
+        rules.append("à 这类标记是第 2 调：低调，声音压低。")
+    if has_any(pinyin, FALLING_TONE_CHARS):
+        rules.append("â 这类标记是第 3 调：降调，声音从高往下落。")
+    if has_any(pinyin, HIGH_TONE_CHARS):
+        rules.append("á 这类标记是第 4 调：高调，声音偏高。")
+    if has_any(pinyin, RISING_TONE_CHARS):
+        rules.append("ǎ 这类标记是第 5 调：升调，声音从低往高走。")
+    if "ครับ" in thai:
+        rules.append("ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。")
+    if "ไหม" in thai:
+        rules.append("ไหม | mái 是问句里的“吗”，读高调。")
+    if "ฉัน" in thai:
+        rules.append("ฉัน 上面的 ั 是短元音 a，不是声调符号；ฉ 是高辅音，n 结尾为活音节，所以读升调 chǎn。")
+    if "ไข่" in thai:
+        rules.append("ไข่ 里面的 ่ 是声调符号ไม้เอก；高辅音 ข + ่ 读低调 khài。")
+    if "ห้า" in thai:
+        rules.append("ห้า 里面的 ้ 是声调符号ไม้โท；高辅音 ห + ้ 读降调 hâa。")
+    if "ขวด" in thai:
+        rules.append("ขวด 读 khùat，末尾 ด 是 t 收尾，轻轻收住。")
+
+    return rules or ["先按拉丁拼音读；没有声调标记的音节先平稳读。"]
+
+
+def add_pronunciation_rules(item: dict, explicit_rule: str | None = None) -> dict:
+    if explicit_rule:
+        item["pronunciationRules"] = [explicit_rule.strip()]
+        return item
+
+    rules: list[str] = []
+    for rule in auto_pronunciation_rules(item["thai"], item["pinyin"]):
+        rules.append(rule)
+    item["pronunciationRules"] = rules
+    return item
+
+
 def parse_table_records(path: Path, text: str, items: list[dict], seen: set[tuple[str, str]]) -> None:
     category = category_from_title(text)
     for line in text.splitlines():
@@ -185,17 +231,18 @@ def parse_table_records(path: Path, text: str, items: list[dict], seen: set[tupl
             continue
         if not THAI_RE.search(thai):
             continue
+        item = {
+            "source": path.name,
+            "category": category,
+            "kind": "词句",
+            "meaning": meaning,
+            "thai": thai,
+            "pinyin": pinyin.rstrip("."),
+        }
         add_item(
             items,
             seen,
-            {
-                "source": path.name,
-                "category": category,
-                "kind": "词句",
-                "meaning": meaning,
-                "thai": thai,
-                "pinyin": pinyin.rstrip("."),
-            },
+            add_pronunciation_rules(item),
         )
 
 
@@ -211,6 +258,7 @@ def parse_block_records(
     for block in blocks[1:]:
         fields: dict[str, str] = {}
         breakdown = ""
+        pronunciation_rule = ""
         for raw_line in block.splitlines():
             line = raw_line.strip()
             field = FIELD_RE.match(line)
@@ -218,6 +266,8 @@ def parse_block_records(
                 fields[field.group(1)] = field.group(2).strip()
             elif line.startswith("> 例句拆解："):
                 breakdown = line.split("：", 1)[1].strip()
+            elif line.startswith("> 发音规则提示："):
+                pronunciation_rule = line.split("：", 1)[1].strip()
 
         meaning = fields.get("中文意思")
         thai = fields.get("泰语")
@@ -232,13 +282,15 @@ def parse_block_records(
             add_item(
                 items,
                 seen,
-                {
-                    "source": path.name,
-                    "category": category,
-                    "kind": "词语",
-                    **word,
-                    "words": [word],
-                },
+                add_pronunciation_rules(
+                    {
+                        "source": path.name,
+                        "category": category,
+                        "kind": "词语",
+                        **word,
+                        "words": [word],
+                    }
+                ),
             )
 
         sentence = fields.get("简单日常泰语例句")
@@ -251,15 +303,18 @@ def parse_block_records(
             add_item(
                 items,
                 seen,
-                {
-                    "source": path.name,
-                    "category": category,
-                    "kind": "例句",
-                    "meaning": sentence_meaning.rstrip("。"),
-                    "thai": sentence,
-                    "pinyin": " ".join(pinyin_parts).rstrip("."),
-                    "words": words,
-                },
+                add_pronunciation_rules(
+                    {
+                        "source": path.name,
+                        "category": category,
+                        "kind": "例句",
+                        "meaning": sentence_meaning.rstrip("。"),
+                        "thai": sentence,
+                        "pinyin": " ".join(pinyin_parts).rstrip("."),
+                        "words": words,
+                    },
+                    pronunciation_rule,
+                ),
             )
 
 
@@ -279,17 +334,18 @@ def parse_practice_records(path: Path, text: str, items: list[dict], seen: set[t
                 continue
             meaning, thai, pinyin = [part.strip(" “”。") for part in match.groups()]
             if THAI_RE.search(thai):
+                item = {
+                    "source": path.name,
+                    "category": category,
+                    "kind": "练习句",
+                    "meaning": meaning,
+                    "thai": thai,
+                    "pinyin": pinyin.rstrip("."),
+                }
                 add_item(
                     items,
                     seen,
-                    {
-                        "source": path.name,
-                        "category": category,
-                        "kind": "练习句",
-                        "meaning": meaning,
-                        "thai": thai,
-                        "pinyin": pinyin.rstrip("."),
-                    },
+                    add_pronunciation_rules(item),
                 )
 
 

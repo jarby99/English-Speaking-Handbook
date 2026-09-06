@@ -279,6 +279,22 @@ select {
   font-weight: 700;
 }
 
+.pronunciation-rules {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--line);
+}
+
+.rule-list {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
 .empty {
   grid-column: 1 / -1;
   padding: 28px;

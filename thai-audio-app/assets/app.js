@@ -34,7 +34,8 @@
     const words = (item.words || [])
       .map((word) => [word.meaning, word.thai, word.pinyin].join(" "))
       .join(" ");
-    const haystack = [item.meaning, item.thai, item.pinyin, item.kind, item.category, words]
+    const rules = (item.pronunciationRules || []).join(" ");
+    const haystack = [item.meaning, item.thai, item.pinyin, item.kind, item.category, words, rules]
       .join(" ")
       .toLowerCase();
     return inCategory && haystack.includes(query);
@@ -136,6 +137,27 @@
           list.appendChild(row);
         });
         breakdown.appendChild(list);
+      }
+
+      const rules = item.pronunciationRules || [];
+      if (rules.length > 0) {
+        const ruleBox = document.createElement("div");
+        ruleBox.className = "pronunciation-rules";
+
+        const ruleTitle = document.createElement("p");
+        ruleTitle.className = "breakdown-title";
+        ruleTitle.textContent = "发音规则提示";
+        ruleBox.appendChild(ruleTitle);
+
+        const ruleList = document.createElement("ul");
+        ruleList.className = "rule-list";
+        rules.forEach((rule) => {
+          const row = document.createElement("li");
+          row.textContent = rule;
+          ruleList.appendChild(row);
+        });
+        ruleBox.appendChild(ruleList);
+        breakdown.appendChild(ruleBox);
       }
 
       node.querySelector(".thai-button").addEventListener("click", () => playItem(item, node));
