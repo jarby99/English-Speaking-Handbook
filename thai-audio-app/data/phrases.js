@@ -8955,31 +8955,31 @@ window.THAI_AUDIO_APP_ITEMS = [
     "source": "007-high-consonant-memory-sentences.md",
     "category": "高辅音记忆句",
     "kind": "词语",
-    "meaning": "瓶子（旧字记忆词）",
-    "thai": "ฃวด",
-    "pinyin": "khùuat",
+    "meaning": "旧字 ฃ，只用于认识字母；瓶子的现代常用写法是 ขวด",
+    "thai": "ขวด",
+    "pinyin": "khùat",
     "words": [
       {
-        "meaning": "瓶子（旧字记忆词）",
-        "thai": "ฃวด",
-        "pinyin": "khùuat"
+        "meaning": "旧字 ฃ，只用于认识字母；瓶子的现代常用写法是 ขวด",
+        "thai": "ขวด",
+        "pinyin": "khùat"
       }
     ],
     "id": "thai-337",
-    "audio": "audio/337-52a0130c98.mp3"
+    "audio": "audio/337-4403490c2d.mp3"
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
     "category": "高辅音记忆句",
     "kind": "例句",
     "meaning": "瓶子在这里",
-    "thai": "ฃวดอยู่ที่นี่",
-    "pinyin": "khùuat yùu thîi-nîi",
+    "thai": "ขวดอยู่ที่นี่",
+    "pinyin": "khùat yùu thîi-nîi",
     "words": [
       {
-        "meaning": "瓶子（旧字记忆词）",
-        "thai": "ฃวด",
-        "pinyin": "khùuat"
+        "meaning": "瓶子",
+        "thai": "ขวด",
+        "pinyin": "khùat"
       },
       {
         "meaning": "在",
@@ -8993,7 +8993,7 @@ window.THAI_AUDIO_APP_ITEMS = [
       }
     ],
     "id": "thai-338",
-    "audio": "audio/338-45916d8822.mp3"
+    "audio": "audio/338-5c7f49dab0.mp3"
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
