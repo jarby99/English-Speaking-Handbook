@@ -31,7 +31,10 @@
 
   function matches(item, query, category) {
     const inCategory = category === "全部" || item.category === category;
-    const haystack = [item.meaning, item.thai, item.pinyin, item.kind, item.category]
+    const words = (item.words || [])
+      .map((word) => [word.meaning, word.thai, word.pinyin].join(" "))
+      .join(" ");
+    const haystack = [item.meaning, item.thai, item.pinyin, item.kind, item.category, words]
       .join(" ")
       .toLowerCase();
     return inCategory && haystack.includes(query);
@@ -103,6 +106,38 @@
       node.querySelector(".thai-button").textContent = item.thai;
       node.querySelector(".thai-button").setAttribute("aria-label", `播放 ${item.thai}`);
       node.querySelector(".pinyin").textContent = item.pinyin;
+      const breakdown = node.querySelector(".word-breakdown");
+      const words = item.words || [];
+
+      if (words.length > 0) {
+        const title = document.createElement("p");
+        title.className = "breakdown-title";
+        title.textContent = "词块拆解";
+        breakdown.appendChild(title);
+
+        const list = document.createElement("ul");
+        list.className = "word-list";
+        words.forEach((word) => {
+          const row = document.createElement("li");
+
+          const meaning = document.createElement("span");
+          meaning.className = "word-meaning";
+          meaning.textContent = word.meaning;
+
+          const thai = document.createElement("span");
+          thai.className = "word-thai";
+          thai.textContent = word.thai;
+
+          const pinyin = document.createElement("span");
+          pinyin.className = "word-pinyin";
+          pinyin.textContent = word.pinyin;
+
+          row.append(meaning, thai, pinyin);
+          list.appendChild(row);
+        });
+        breakdown.appendChild(list);
+      }
+
       node.querySelector(".thai-button").addEventListener("click", () => playItem(item, node));
       grid.appendChild(node);
     });

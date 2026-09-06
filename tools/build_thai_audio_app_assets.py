@@ -22,6 +22,99 @@ CATEGORY_LABELS = {
 TABLE_RE = re.compile(r"^\|\s*(.*?)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|")
 FIELD_RE = re.compile(r"^(中文意思|泰语|拉丁拼音读音|简单日常泰语例句|中文句意)：(.+)$")
 BREAKDOWN_PINYIN_RE = re.compile(r"\(([^()]+)\)＝")
+BREAKDOWN_WORD_RE = re.compile(r"([^｜]+?)\s*\(([^()]+)\)＝([^｜]+)")
+PIPE_ENTRY_RE = re.compile(r"^\s*(.+?)\s*\|\s*([^|]+?)\s*\|\s*(.+?)\s*$")
+THAI_RE = re.compile(r"[\u0E00-\u0E7F]")
+
+MANUAL_WORDS = [
+    {"meaning": "你好 / 打招呼", "thai": "สวัสดี", "pinyin": "sà-wàt-dii"},
+    {"meaning": "男性礼貌结尾", "thai": "ครับ", "pinyin": "khráp"},
+    {"meaning": "女性礼貌结尾", "thai": "ค่ะ", "pinyin": "khâ"},
+    {"meaning": "谢谢", "thai": "ขอบคุณ", "pinyin": "khàawp-khun"},
+    {"meaning": "谢谢", "thai": "ขอบคุณ", "pinyin": "khàawp khun"},
+    {"meaning": "是 / 对", "thai": "ใช่", "pinyin": "châi"},
+    {"meaning": "不", "thai": "ไม่", "pinyin": "mâi"},
+    {"meaning": "再见", "thai": "ลาก่อน", "pinyin": "laa-gàawn"},
+    {"meaning": "我（男性用）", "thai": "ผม", "pinyin": "phǒm"},
+    {"meaning": "名字 / 叫", "thai": "ชื่อ", "pinyin": "chʉ̂ʉ"},
+    {"meaning": "名字 / 叫", "thai": "ชื่อ", "pinyin": "chûue"},
+    {"meaning": "名字 Lucas", "thai": "Lucas", "pinyin": "Lucas"},
+    {"meaning": "替换姓名的位置", "thai": "...", "pinyin": "..."},
+    {"meaning": "你", "thai": "คุณ", "pinyin": "khun"},
+    {"meaning": "什么", "thai": "อะไร", "pinyin": "a-rai"},
+    {"meaning": "很好 / 状态好", "thai": "สบายดี", "pinyin": "sà-baai dii"},
+    {"meaning": "吗 / 疑问语气", "thai": "ไหม", "pinyin": "mái"},
+    {"meaning": "然后 / 那么", "thai": "แล้ว", "pinyin": "láew"},
+    {"meaning": "呢 / 反问语气", "thai": "ล่ะ", "pinyin": "lâ"},
+    {"meaning": "对不起", "thai": "ขอโทษ", "pinyin": "khǎaw thôot"},
+    {"meaning": "是 / 在", "thai": "เป็น", "pinyin": "pen"},
+    {"meaning": "事 / 什么事", "thai": "ไร", "pinyin": "rai"},
+    {"meaning": "高兴", "thai": "ยินดี", "pinyin": "yin-dii"},
+    {"meaning": "连接词", "thai": "ที่", "pinyin": "thîi"},
+    {"meaning": "得以 / 能够", "thai": "ได้", "pinyin": "dâai"},
+    {"meaning": "认识某个人", "thai": "รู้จัก", "pinyin": "rúu jàk"},
+    {"meaning": "哪里", "thai": "ไหน", "pinyin": "nǎi"},
+    {"meaning": "来自", "thai": "มาจาก", "pinyin": "maa jàak"},
+    {"meaning": "来", "thai": "มา", "pinyin": "maa"},
+    {"meaning": "从 / 来自", "thai": "จาก", "pinyin": "jàak"},
+    {"meaning": "国家", "thai": "ประเทศ", "pinyin": "bprà-thêet"},
+    {"meaning": "中国", "thai": "จีน", "pinyin": "jiin"},
+    {"meaning": "让语气更自然柔和", "thai": "นะ", "pinyin": "ná"},
+    {"meaning": "幸福", "thai": "ความสุข", "pinyin": "khwaam suk"},
+    {"meaning": "有", "thai": "มี", "pinyin": "mii"},
+    {"meaning": "以……方式 / ……地", "thai": "อย่าง", "pinyin": "yàang"},
+    {"meaning": "年长者 / 哥哥姐姐", "thai": "พี่", "pinyin": "phîi"},
+    {"meaning": "男性", "thai": "ชาย", "pinyin": "chaai"},
+    {"meaning": "年幼者 / 弟弟妹妹", "thai": "น้อง", "pinyin": "nóng"},
+    {"meaning": "女性 / 女孩", "thai": "สาว", "pinyin": "sǎao"},
+    {"meaning": "声音", "thai": "เสียง", "pinyin": "sǐang"},
+    {"meaning": "好听 / 悦耳", "thai": "เพราะ", "pinyin": "phráw"},
+    {"meaning": "非常 / 很", "thai": "มาก", "pinyin": "mâak"},
+    {"meaning": "今天", "thai": "วันนี้", "pinyin": "wan-níi"},
+    {"meaning": "吃", "thai": "กิน", "pinyin": "gin"},
+    {"meaning": "想念", "thai": "คิดถึง", "pinyin": "khít thǔeng"},
+    {"meaning": "爱", "thai": "รัก", "pinyin": "rák"},
+]
+MANUAL_BY_THAI = {}
+for word in MANUAL_WORDS:
+    MANUAL_BY_THAI.setdefault(word["thai"], word)
+PHRASE_WORD_OVERRIDES = {
+    "ไม่ใช่": [MANUAL_BY_THAI["ไม่"], MANUAL_BY_THAI["ใช่"]],
+    "ผมชื่อ ... ครับ": [
+        MANUAL_BY_THAI["ผม"],
+        MANUAL_BY_THAI["ชื่อ"],
+        MANUAL_BY_THAI["..."],
+        MANUAL_BY_THAI["ครับ"],
+    ],
+    "ผมชื่อ Lucas ครับ": [
+        MANUAL_BY_THAI["ผม"],
+        MANUAL_BY_THAI["ชื่อ"],
+        MANUAL_BY_THAI["Lucas"],
+        MANUAL_BY_THAI["ครับ"],
+    ],
+    "คุณชื่ออะไร": [
+        MANUAL_BY_THAI["คุณ"],
+        MANUAL_BY_THAI["ชื่อ"],
+        MANUAL_BY_THAI["อะไร"],
+    ],
+    "สบายดีไหม": [MANUAL_BY_THAI["สบายดี"], MANUAL_BY_THAI["ไหม"]],
+    "แล้วคุณล่ะ": [
+        MANUAL_BY_THAI["แล้ว"],
+        MANUAL_BY_THAI["คุณ"],
+        MANUAL_BY_THAI["ล่ะ"],
+    ],
+    "สบายดี แล้วคุณล่ะ": [
+        MANUAL_BY_THAI["สบายดี"],
+        MANUAL_BY_THAI["แล้ว"],
+        MANUAL_BY_THAI["คุณ"],
+        MANUAL_BY_THAI["ล่ะ"],
+    ],
+    "ไม่เป็นไร": [
+        MANUAL_BY_THAI["ไม่"],
+        MANUAL_BY_THAI["เป็น"],
+        MANUAL_BY_THAI["ไร"],
+    ],
+}
 
 
 def category_from_title(text: str) -> str:
@@ -51,6 +144,36 @@ def add_item(items: list[dict], seen: set[tuple[str, str]], item: dict) -> None:
     items.append(item)
 
 
+def add_word(lexicon: dict[str, dict], word: dict) -> None:
+    thai = word["thai"].strip()
+    if not thai:
+        return
+    lexicon.setdefault(
+        thai,
+        {
+            "meaning": word["meaning"].strip().rstrip("。"),
+            "thai": thai,
+            "pinyin": word["pinyin"].strip().rstrip(".?？"),
+        },
+    )
+
+
+def parse_breakdown_words(text: str) -> list[dict]:
+    words: list[dict] = []
+    for thai, pinyin, meaning in BREAKDOWN_WORD_RE.findall(text):
+        thai = thai.strip()
+        if not thai:
+            continue
+        words.append(
+            {
+                "meaning": meaning.strip().rstrip("。"),
+                "thai": thai,
+                "pinyin": pinyin.strip().rstrip(".?？"),
+            }
+        )
+    return words
+
+
 def parse_table_records(path: Path, text: str, items: list[dict], seen: set[tuple[str, str]]) -> None:
     category = category_from_title(text)
     for line in text.splitlines():
@@ -60,7 +183,7 @@ def parse_table_records(path: Path, text: str, items: list[dict], seen: set[tupl
         meaning, thai, pinyin = [part.strip() for part in match.groups()]
         if meaning in {"中文意思", "---"} or thai == "泰语" or pinyin == "拉丁拼音读音":
             continue
-        if not re.search(r"[\u0E00-\u0E7F]", thai):
+        if not THAI_RE.search(thai):
             continue
         add_item(
             items,
@@ -76,7 +199,13 @@ def parse_table_records(path: Path, text: str, items: list[dict], seen: set[tupl
         )
 
 
-def parse_block_records(path: Path, text: str, items: list[dict], seen: set[tuple[str, str]]) -> None:
+def parse_block_records(
+    path: Path,
+    text: str,
+    items: list[dict],
+    seen: set[tuple[str, str]],
+    lexicon: dict[str, dict],
+) -> None:
     category = category_from_title(text)
     blocks = re.split(r"^###\s+", text, flags=re.MULTILINE)
     for block in blocks[1:]:
@@ -94,6 +223,12 @@ def parse_block_records(path: Path, text: str, items: list[dict], seen: set[tupl
         thai = fields.get("泰语")
         pinyin = fields.get("拉丁拼音读音")
         if meaning and thai and pinyin:
+            word = {
+                "meaning": meaning,
+                "thai": thai,
+                "pinyin": pinyin.rstrip("."),
+            }
+            add_word(lexicon, word)
             add_item(
                 items,
                 seen,
@@ -101,9 +236,8 @@ def parse_block_records(path: Path, text: str, items: list[dict], seen: set[tupl
                     "source": path.name,
                     "category": category,
                     "kind": "词语",
-                    "meaning": meaning,
-                    "thai": thai,
-                    "pinyin": pinyin.rstrip("."),
+                    **word,
+                    "words": [word],
                 },
             )
 
@@ -111,6 +245,9 @@ def parse_block_records(path: Path, text: str, items: list[dict], seen: set[tupl
         sentence_meaning = fields.get("中文句意")
         pinyin_parts = BREAKDOWN_PINYIN_RE.findall(breakdown)
         if sentence and sentence_meaning and pinyin_parts:
+            words = parse_breakdown_words(breakdown)
+            for word in words:
+                add_word(lexicon, word)
             add_item(
                 items,
                 seen,
@@ -121,17 +258,116 @@ def parse_block_records(path: Path, text: str, items: list[dict], seen: set[tupl
                     "meaning": sentence_meaning.rstrip("。"),
                     "thai": sentence,
                     "pinyin": " ".join(pinyin_parts).rstrip("."),
+                    "words": words,
                 },
             )
+
+
+def parse_practice_records(path: Path, text: str, items: list[dict], seen: set[tuple[str, str]]) -> None:
+    category = category_from_title(text)
+    active = False
+    for raw_line in text.splitlines():
+        line = raw_line.strip()
+        if line.startswith("## "):
+            active = line in {"## 本次练习", "## 练习小对话"}
+            continue
+        if not active or not line.startswith("- "):
+            continue
+        for segment in line[2:].split("；"):
+            match = PIPE_ENTRY_RE.match(segment.strip())
+            if not match:
+                continue
+            meaning, thai, pinyin = [part.strip(" “”。") for part in match.groups()]
+            if THAI_RE.search(thai):
+                add_item(
+                    items,
+                    seen,
+                    {
+                        "source": path.name,
+                        "category": category,
+                        "kind": "练习句",
+                        "meaning": meaning,
+                        "thai": thai,
+                        "pinyin": pinyin.rstrip("."),
+                    },
+                )
+
+
+def item_words_from_lexicon(item: dict, lexicon: dict[str, dict]) -> list[dict]:
+    if item.get("words"):
+        return item["words"]
+    if item["thai"] in PHRASE_WORD_OVERRIDES:
+        return PHRASE_WORD_OVERRIDES[item["thai"]]
+
+    thai = item["thai"]
+    words: list[dict] = []
+    index = 0
+    word_keys = sorted(lexicon, key=len, reverse=True)
+    punctuation = set(" \t\r\n,.!?？。……")
+
+    while index < len(thai):
+        char = thai[index]
+        if char in punctuation:
+            index += 1
+            continue
+
+        matched = None
+        for key in word_keys:
+            if thai.startswith(key, index):
+                matched = lexicon[key]
+                break
+
+        if matched:
+            words.append(matched)
+            index += len(matched["thai"])
+            continue
+
+        latin = re.match(r"[A-Za-z]+", thai[index:])
+        if latin:
+            name = latin.group(0)
+            words.append({"meaning": f"名字 {name}", "thai": name, "pinyin": name})
+            index += len(name)
+            continue
+
+        return [
+            {
+                "meaning": item["meaning"],
+                "thai": item["thai"],
+                "pinyin": item["pinyin"],
+            }
+        ]
+
+    return words or [
+        {
+            "meaning": item["meaning"],
+            "thai": item["thai"],
+            "pinyin": item["pinyin"],
+        }
+    ]
+
+
+def annotate_words(items: list[dict], lexicon: dict[str, dict]) -> None:
+    for manual_word in MANUAL_WORDS:
+        add_word(lexicon, manual_word)
+
+    for item in items:
+        item["words"] = item_words_from_lexicon(item, lexicon)
 
 
 def collect_items() -> list[dict]:
     items: list[dict] = []
     seen: set[tuple[str, str]] = set()
+    lexicon: dict[str, dict] = {}
     for path in sorted(RECORD_DIR.glob("*.md")):
         text = path.read_text(encoding="utf-8")
         parse_table_records(path, text, items, seen)
-        parse_block_records(path, text, items, seen)
+        parse_block_records(path, text, items, seen, lexicon)
+
+    for path in sorted(RECORD_DIR.glob("*.md")):
+        text = path.read_text(encoding="utf-8")
+        parse_practice_records(path, text, items, seen)
+
+    annotate_words(items, lexicon)
 
     for index, item in enumerate(items, 1):
         item["id"] = f"thai-{index:03d}"

@@ -90,10 +90,16 @@ h1 {
 }
 
 .controls {
+  position: sticky;
+  top: 0;
+  z-index: 20;
   display: grid;
   grid-template-columns: minmax(220px, 1fr) minmax(180px, 260px) auto;
   gap: 12px;
   margin: 18px 0;
+  padding: 12px 0;
+  background: rgba(246, 243, 237, 0.96);
+  backdrop-filter: blur(10px);
 }
 
 .search-box,
@@ -220,11 +226,57 @@ select {
 }
 
 .pinyin {
-  margin: auto 0 0;
+  margin: 0;
   color: var(--accent-strong);
   font-size: 17px;
   font-weight: 700;
   line-height: 1.5;
+}
+
+.word-breakdown {
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.breakdown-title {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.word-list {
+  display: grid;
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.word-list li {
+  display: grid;
+  grid-template-columns: minmax(88px, 1fr) minmax(58px, auto) minmax(82px, 1fr);
+  gap: 8px;
+  align-items: baseline;
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.word-meaning {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.word-thai {
+  color: #16181d;
+  font-family: "Leelawadee UI", "Noto Sans Thai", "Tahoma", sans-serif;
+  font-size: 18px;
+}
+
+.word-pinyin {
+  color: var(--accent-strong);
+  font-weight: 700;
 }
 
 .empty {
@@ -248,11 +300,20 @@ select {
     grid-template-columns: 1fr;
   }
 
+  .controls {
+    padding: 10px 0;
+  }
+
   h1 {
     font-size: 28px;
   }
 
   .thai-button {
     font-size: 31px;
+  }
+
+  .word-list li {
+    grid-template-columns: 1fr;
+    gap: 2px;
   }
 }
