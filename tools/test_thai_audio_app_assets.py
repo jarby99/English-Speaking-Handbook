@@ -17,7 +17,7 @@ def load_builder():
 def test_collect_items_adds_audio_to_thai_word_blocks_only():
     builder = load_builder()
     items = builder.collect_items()
-    assert len(items) >= 400
+    assert len(items) >= 444
 
     thai_words = [
         word
@@ -124,3 +124,25 @@ def test_record_008_loei_usage_table_is_collected():
 
     assert any(item["thai"] == "ไม่ดีเลย" for item in items)
     assert any(item["thai"] == "ผมง่วง ก็เลยนอน" for item in items)
+
+
+def test_categories_include_document_number_prefixes():
+    builder = load_builder()
+    items = builder.collect_items()
+
+    assert all(item["category"][:3].isdigit() for item in items)
+    assert any(item["category"].startswith("001 ") for item in items)
+    assert any(item["category"].startswith("008 ") for item in items)
+
+
+def test_record_009_body_parts_are_collected_with_examples():
+    builder = load_builder()
+    items = builder.collect_items()
+    head_item = next(item for item in items if item["thai"] == "ผมปวดหัวครับ")
+    hand_item = next(item for item in items if item["thai"] == "นี่คือมือครับ")
+
+    assert head_item["source"] == "009-body-parts.md"
+    assert head_item["category"].startswith("009 ")
+    assert [word["thai"] for word in head_item["words"]] == ["ผม", "ปวด", "หัว", "ครับ"]
+    assert head_item["pronunciationRules"]
+    assert hand_item["source"] == "009-body-parts.md"

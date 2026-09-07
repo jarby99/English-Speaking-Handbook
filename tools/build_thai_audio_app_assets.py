@@ -121,17 +121,21 @@ PHRASE_WORD_OVERRIDES = {
 }
 
 
-def category_from_title(text: str) -> str:
+def category_from_title(path: Path, text: str) -> str:
+    prefix = path.stem.split("-", 1)[0]
     for line in text.splitlines():
         if line.startswith("# "):
             if "：" in line:
                 category = line.split("：", 1)[1].strip()
-                return CATEGORY_LABELS.get(category, category)
+                label = CATEGORY_LABELS.get(category, category)
+                return f"{prefix} {label}" if prefix.isdigit() else label
             if ":" in line:
                 category = line.split(":", 1)[1].strip()
-                return CATEGORY_LABELS.get(category, category)
+                label = CATEGORY_LABELS.get(category, category)
+                return f"{prefix} {label}" if prefix.isdigit() else label
             category = line[2:].strip()
-            return CATEGORY_LABELS.get(category, category)
+            label = CATEGORY_LABELS.get(category, category)
+            return f"{prefix} {label}" if prefix.isdigit() else label
     return "泰语学习"
 
 
@@ -281,7 +285,7 @@ def add_pronunciation_rules(item: dict, explicit_rule: str | None = None) -> dic
 
 
 def parse_table_records(path: Path, text: str, items: list[dict], seen: set[tuple[str, str]]) -> None:
-    category = category_from_title(text)
+    category = category_from_title(path, text)
     for line in text.splitlines():
         match = TABLE_RE.match(line)
         if not match:
@@ -313,7 +317,7 @@ def parse_block_records(
     seen: set[tuple[str, str]],
     lexicon: dict[str, dict],
 ) -> None:
-    category = category_from_title(text)
+    category = category_from_title(path, text)
     blocks = re.split(r"^###\s+", text, flags=re.MULTILINE)
     for block in blocks[1:]:
         fields: dict[str, str] = {}
@@ -380,7 +384,7 @@ def parse_block_records(
 
 
 def parse_practice_records(path: Path, text: str, items: list[dict], seen: set[tuple[str, str]]) -> None:
-    category = category_from_title(text)
+    category = category_from_title(path, text)
     active = False
     for raw_line in text.splitlines():
         line = raw_line.strip()

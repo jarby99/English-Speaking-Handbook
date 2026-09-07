@@ -1,7 +1,7 @@
 window.THAI_AUDIO_APP_ITEMS = [
   {
     "source": "001-beginner-greetings-thanks-names.md",
-    "category": "基础问候、感谢和名字",
+    "category": "001 基础问候、感谢和名字",
     "kind": "词句",
     "meaning": "你好 / 打招呼",
     "thai": "สวัสดี",
@@ -23,7 +23,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
-    "category": "基础问候、感谢和名字",
+    "category": "001 基础问候、感谢和名字",
     "kind": "词句",
     "meaning": "男性礼貌结尾",
     "thai": "ครับ",
@@ -45,7 +45,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
-    "category": "基础问候、感谢和名字",
+    "category": "001 基础问候、感谢和名字",
     "kind": "词句",
     "meaning": "女性礼貌结尾",
     "thai": "ค่ะ",
@@ -66,7 +66,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
-    "category": "基础问候、感谢和名字",
+    "category": "001 基础问候、感谢和名字",
     "kind": "词句",
     "meaning": "谢谢",
     "thai": "ขอบคุณ",
@@ -88,7 +88,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
-    "category": "基础问候、感谢和名字",
+    "category": "001 基础问候、感谢和名字",
     "kind": "词句",
     "meaning": "是 / 对",
     "thai": "ใช่",
@@ -109,7 +109,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
-    "category": "基础问候、感谢和名字",
+    "category": "001 基础问候、感谢和名字",
     "kind": "词句",
     "meaning": "不是 / 不对",
     "thai": "ไม่ใช่",
@@ -136,7 +136,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
-    "category": "基础问候、感谢和名字",
+    "category": "001 基础问候、感谢和名字",
     "kind": "词句",
     "meaning": "再见",
     "thai": "ลาก่อน",
@@ -157,7 +157,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
-    "category": "基础问候、感谢和名字",
+    "category": "001 基础问候、感谢和名字",
     "kind": "词句",
     "meaning": "我叫……（男性说法）",
     "thai": "ผมชื่อ ... ครับ",
@@ -199,7 +199,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
-    "category": "基础问候、感谢和名字",
+    "category": "001 基础问候、感谢和名字",
     "kind": "词句",
     "meaning": "你叫什么名字？",
     "thai": "คุณชื่ออะไร",
@@ -232,7 +232,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
-    "category": "状态问候、道歉和告别",
+    "category": "002 状态问候、道歉和告别",
     "kind": "词句",
     "meaning": "你好吗？",
     "thai": "สบายดีไหม",
@@ -262,7 +262,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
-    "category": "状态问候、道歉和告别",
+    "category": "002 状态问候、道歉和告别",
     "kind": "词句",
     "meaning": "我很好",
     "thai": "สบายดี",
@@ -284,7 +284,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
-    "category": "状态问候、道歉和告别",
+    "category": "002 状态问候、道歉和告别",
     "kind": "词句",
     "meaning": "你呢？",
     "thai": "แล้วคุณล่ะ",
@@ -318,7 +318,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
-    "category": "状态问候、道歉和告别",
+    "category": "002 状态问候、道歉和告别",
     "kind": "词句",
     "meaning": "对不起",
     "thai": "ขอโทษ",
@@ -341,7 +341,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
-    "category": "状态问候、道歉和告别",
+    "category": "002 状态问候、道歉和告别",
     "kind": "词句",
     "meaning": "没关系",
     "thai": "ไม่เป็นไร",
@@ -374,7 +374,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "003-beginner-understanding-introductions-origin.md",
-    "category": "理解、认识和来自哪里",
+    "category": "003 理解、认识和来自哪里",
     "kind": "词句",
     "meaning": "我不明白",
     "thai": "ไม่เข้าใจ",
@@ -401,7 +401,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "003-beginner-understanding-introductions-origin.md",
-    "category": "理解、认识和来自哪里",
+    "category": "003 理解、认识和来自哪里",
     "kind": "词句",
     "meaning": "很高兴认识你",
     "thai": "ยินดีที่ได้รู้จัก",
@@ -442,7 +442,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "003-beginner-understanding-introductions-origin.md",
-    "category": "理解、认识和来自哪里",
+    "category": "003 理解、认识和来自哪里",
     "kind": "词句",
     "meaning": "你来自哪里？",
     "thai": "คุณมาจากไหน",
@@ -476,7 +476,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "003-beginner-understanding-introductions-origin.md",
-    "category": "理解、认识和来自哪里",
+    "category": "003 理解、认识和来自哪里",
     "kind": "词句",
     "meaning": "我来自中国。",
     "thai": "ผมมาจากประเทศจีนครับ",
@@ -526,7 +526,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "003-beginner-understanding-introductions-origin.md",
-    "category": "理解、认识和来自哪里",
+    "category": "003 理解、认识和来自哪里",
     "kind": "词句",
     "meaning": "谢谢",
     "thai": "ขอบคุณครับ",
@@ -556,7 +556,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "003-beginner-understanding-introductions-origin.md",
-    "category": "理解、认识和来自哪里",
+    "category": "003 理解、认识和来自哪里",
     "kind": "词句",
     "meaning": "什么？请再说一遍？",
     "thai": "อะไรนะครับ",
@@ -590,7 +590,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "003-beginner-understanding-introductions-origin.md",
-    "category": "理解、认识和来自哪里",
+    "category": "003 理解、认识和来自哪里",
     "kind": "词句",
     "meaning": "幸福",
     "thai": "ความสุข",
@@ -611,7 +611,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "003-beginner-understanding-introductions-origin.md",
-    "category": "理解、认识和来自哪里",
+    "category": "003 理解、认识和来自哪里",
     "kind": "词句",
     "meaning": "有幸福 / 幸福的状态",
     "thai": "มีความสุข",
@@ -638,7 +638,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "003-beginner-understanding-introductions-origin.md",
-    "category": "理解、认识和来自哪里",
+    "category": "003 理解、认识和来自哪里",
     "kind": "词句",
     "meaning": "幸福地",
     "thai": "อย่างมีความสุข",
@@ -671,7 +671,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "003-beginner-understanding-introductions-origin.md",
-    "category": "理解、认识和来自哪里",
+    "category": "003 理解、认识和来自哪里",
     "kind": "词句",
     "meaning": "哥哥 / 年长男性兄长",
     "thai": "พี่ชาย",
@@ -698,7 +698,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "003-beginner-understanding-introductions-origin.md",
-    "category": "理解、认识和来自哪里",
+    "category": "003 理解、认识和来自哪里",
     "kind": "词句",
     "meaning": "妹妹",
     "thai": "น้องสาว",
@@ -726,7 +726,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "003-beginner-understanding-introductions-origin.md",
-    "category": "理解、认识和来自哪里",
+    "category": "003 理解、认识和来自哪里",
     "kind": "词句",
     "meaning": "中国",
     "thai": "จีน",
@@ -747,7 +747,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "003-beginner-understanding-introductions-origin.md",
-    "category": "理解、认识和来自哪里",
+    "category": "003 理解、认识和来自哪里",
     "kind": "词句",
     "meaning": "你来自哪里？（男性礼貌问法）",
     "thai": "คุณมาจากไหนครับ",
@@ -789,7 +789,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "003-beginner-understanding-introductions-origin.md",
-    "category": "理解、认识和来自哪里",
+    "category": "003 理解、认识和来自哪里",
     "kind": "词句",
     "meaning": "我来自中国。（简洁男性回答）",
     "thai": "ผมมาจากจีนครับ",
@@ -832,7 +832,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "003-beginner-understanding-introductions-origin.md",
-    "category": "理解、认识和来自哪里",
+    "category": "003 理解、认识和来自哪里",
     "kind": "词句",
     "meaning": "你的声音真好听",
     "thai": "เสียงคุณเพราะมากครับ",
@@ -880,7 +880,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "003-beginner-understanding-introductions-origin.md",
-    "category": "理解、认识和来自哪里",
+    "category": "003 理解、认识和来自哪里",
     "kind": "词句",
     "meaning": "你今天吃了什么？",
     "thai": "วันนี้คุณกินอะไรครับ",
@@ -926,7 +926,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "003-beginner-understanding-introductions-origin.md",
-    "category": "理解、认识和来自哪里",
+    "category": "003 理解、认识和来自哪里",
     "kind": "词句",
     "meaning": "害羞 / 不好意思 / 尴尬",
     "thai": "เขิน",
@@ -947,7 +947,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "003-beginner-understanding-introductions-origin.md",
-    "category": "理解、认识和来自哪里",
+    "category": "003 理解、认识和来自哪里",
     "kind": "词句",
     "meaning": "我想你",
     "thai": "ผมคิดถึงคุณครับ",
@@ -989,7 +989,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "003-beginner-understanding-introductions-origin.md",
-    "category": "理解、认识和来自哪里",
+    "category": "003 理解、认识和来自哪里",
     "kind": "词句",
     "meaning": "我非常爱你",
     "thai": "ผมรักคุณมากครับ",
@@ -1038,7 +1038,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "吃",
     "thai": "กิน",
@@ -1059,7 +1059,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我吃水果",
     "thai": "ผมกินผลไม้ครับ",
@@ -1098,7 +1098,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "喝",
     "thai": "ดื่ม",
@@ -1119,7 +1119,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我喝水",
     "thai": "ผมดื่มน้ำครับ",
@@ -1158,7 +1158,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "走",
     "thai": "เดิน",
@@ -1179,7 +1179,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我走路去市场",
     "thai": "ผมเดินไปตลาดครับ",
@@ -1224,7 +1224,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "跑",
     "thai": "วิ่ง",
@@ -1245,7 +1245,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我早上跑步",
     "thai": "ผมวิ่งตอนเช้าครับ",
@@ -1290,7 +1290,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "看",
     "thai": "ดู",
@@ -1311,7 +1311,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我看电视",
     "thai": "ผมดูทีวีครับ",
@@ -1350,7 +1350,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "听",
     "thai": "ฟัง",
@@ -1371,7 +1371,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我听歌",
     "thai": "ผมฟังเพลงครับ",
@@ -1410,7 +1410,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "说",
     "thai": "พูด",
@@ -1431,7 +1431,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我说一点泰语",
     "thai": "ผมพูดภาษาไทยนิดหน่อยครับ",
@@ -1482,7 +1482,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "写",
     "thai": "เขียน",
@@ -1503,7 +1503,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我写名字",
     "thai": "ผมเขียนชื่อครับ",
@@ -1542,7 +1542,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "读",
     "thai": "อ่าน",
@@ -1563,7 +1563,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我读书",
     "thai": "ผมอ่านหนังสือครับ",
@@ -1602,7 +1602,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "买",
     "thai": "ซื้อ",
@@ -1623,7 +1623,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我买水",
     "thai": "ผมซื้อน้ำครับ",
@@ -1662,7 +1662,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "卖",
     "thai": "ขาย",
@@ -1683,7 +1683,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "他卖水果",
     "thai": "เขาขายผลไม้ครับ",
@@ -1722,7 +1722,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "做饭",
     "thai": "ทำอาหาร",
@@ -1743,7 +1743,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我做晚饭",
     "thai": "ผมทำอาหารเย็นครับ",
@@ -1788,7 +1788,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "上班",
     "thai": "ไปทำงาน",
@@ -1809,7 +1809,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我早上去上班",
     "thai": "ผมไปทำงานตอนเช้าครับ",
@@ -1866,7 +1866,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "上学",
     "thai": "ไปโรงเรียน",
@@ -1887,7 +1887,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "孩子去上学",
     "thai": "เด็กไปโรงเรียนครับ",
@@ -1926,7 +1926,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "学习",
     "thai": "เรียน",
@@ -1947,7 +1947,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我学习泰语",
     "thai": "ผมเรียนภาษาไทยครับ",
@@ -1992,7 +1992,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "工作",
     "thai": "ทำงาน",
@@ -2013,7 +2013,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我在家工作",
     "thai": "ผมทำงานที่บ้านครับ",
@@ -2064,7 +2064,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "休息",
     "thai": "พักผ่อน",
@@ -2086,7 +2086,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我晚上休息",
     "thai": "ผมพักผ่อนตอนเย็นครับ",
@@ -2131,7 +2131,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "睡觉",
     "thai": "นอน",
@@ -2152,7 +2152,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我早睡",
     "thai": "ผมนอนเร็วครับ",
@@ -2191,7 +2191,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "洗",
     "thai": "ล้าง",
@@ -2212,7 +2212,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我洗手",
     "thai": "ผมล้างมือครับ",
@@ -2251,7 +2251,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "打扫",
     "thai": "ทำความสะอาด",
@@ -2272,7 +2272,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我打扫房间",
     "thai": "ผมทำความสะอาดห้องครับ",
@@ -2317,7 +2317,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "开",
     "thai": "เปิด",
@@ -2338,7 +2338,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我开门",
     "thai": "ผมเปิดประตูครับ",
@@ -2377,7 +2377,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "关",
     "thai": "ปิด",
@@ -2398,7 +2398,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我关窗",
     "thai": "ผมปิดหน้าต่างครับ",
@@ -2437,7 +2437,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "拿",
     "thai": "หยิบ",
@@ -2458,7 +2458,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我拿杯子",
     "thai": "ผมหยิบแก้วครับ",
@@ -2497,7 +2497,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "放",
     "thai": "วาง",
@@ -2518,7 +2518,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我把书放在桌上",
     "thai": "ผมวางหนังสือบนโต๊ะครับ",
@@ -2569,7 +2569,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "给",
     "thai": "ให้",
@@ -2590,7 +2590,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我给你水",
     "thai": "ผมให้น้ำคุณครับ",
@@ -2635,7 +2635,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "找",
     "thai": "หา",
@@ -2656,7 +2656,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我找钥匙",
     "thai": "ผมหากุญแจครับ",
@@ -2695,7 +2695,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "等",
     "thai": "รอ",
@@ -2716,7 +2716,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我等你",
     "thai": "ผมรอคุณครับ",
@@ -2755,7 +2755,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "帮",
     "thai": "ช่วย",
@@ -2776,7 +2776,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我帮你",
     "thai": "ผมช่วยคุณครับ",
@@ -2815,7 +2815,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "喜欢",
     "thai": "ชอบ",
@@ -2836,7 +2836,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我喜欢咖啡",
     "thai": "ผมชอบกาแฟครับ",
@@ -2875,7 +2875,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "想",
     "thai": "อยาก",
@@ -2896,7 +2896,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我想吃饭",
     "thai": "ผมอยากกินข้าวครับ",
@@ -2941,7 +2941,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "需要",
     "thai": "ต้องการ",
@@ -2962,7 +2962,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我需要水",
     "thai": "ผมต้องการน้ำครับ",
@@ -3001,7 +3001,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "去",
     "thai": "ไป",
@@ -3022,7 +3022,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我去家里",
     "thai": "ผมไปบ้านครับ",
@@ -3061,7 +3061,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "来",
     "thai": "มา",
@@ -3082,7 +3082,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我来这里",
     "thai": "ผมมาที่นี่ครับ",
@@ -3121,7 +3121,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "起床",
     "thai": "ตื่นนอน",
@@ -3142,7 +3142,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我六点起床",
     "thai": "ผมตื่นนอนหกโมงครับ",
@@ -3193,7 +3193,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "洗澡",
     "thai": "อาบน้ำ",
@@ -3215,7 +3215,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我早上洗澡",
     "thai": "ผมอาบน้ำตอนเช้าครับ",
@@ -3266,7 +3266,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "穿衣服",
     "thai": "ใส่เสื้อผ้า",
@@ -3288,7 +3288,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我穿衣服",
     "thai": "ผมใส่เสื้อผ้าครับ",
@@ -3327,7 +3327,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "脱衣服",
     "thai": "ถอดเสื้อผ้า",
@@ -3349,7 +3349,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我脱衣服",
     "thai": "ผมถอดเสื้อผ้าครับ",
@@ -3388,7 +3388,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "坐",
     "thai": "นั่ง",
@@ -3409,7 +3409,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我坐在这里",
     "thai": "ผมนั่งตรงนี้ครับ",
@@ -3454,7 +3454,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "站",
     "thai": "ยืน",
@@ -3475,7 +3475,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我站在家门前",
     "thai": "ผมยืนหน้าบ้านครับ",
@@ -3520,7 +3520,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "进",
     "thai": "เข้า",
@@ -3541,7 +3541,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我进房间",
     "thai": "ผมเข้าห้องครับ",
@@ -3580,7 +3580,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "出",
     "thai": "ออก",
@@ -3601,7 +3601,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我出门",
     "thai": "ผมออกจากบ้านครับ",
@@ -3646,7 +3646,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "回家",
     "thai": "กลับบ้าน",
@@ -3668,7 +3668,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我晚上回家",
     "thai": "ผมกลับบ้านตอนเย็นครับ",
@@ -3719,7 +3719,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "打电话",
     "thai": "โทร",
@@ -3740,7 +3740,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我给你打电话",
     "thai": "ผมโทรหาคุณครับ",
@@ -3785,7 +3785,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "问",
     "thai": "ถาม",
@@ -3806,7 +3806,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我问老师",
     "thai": "ผมถามครูครับ",
@@ -3845,7 +3845,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "回答",
     "thai": "ตอบ",
@@ -3866,7 +3866,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我回答问题",
     "thai": "ผมตอบคำถามครับ",
@@ -3905,7 +3905,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "吃饭",
     "thai": "กินข้าว",
@@ -3926,7 +3926,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我在家吃饭",
     "thai": "ผมกินข้าวที่บ้านครับ",
@@ -3977,7 +3977,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "点菜",
     "thai": "สั่งอาหาร",
@@ -3999,7 +3999,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我点菜",
     "thai": "ผมสั่งอาหารครับ",
@@ -4038,7 +4038,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "付钱",
     "thai": "จ่ายเงิน",
@@ -4059,7 +4059,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我付钱",
     "thai": "ผมจ่ายเงินครับ",
@@ -4098,7 +4098,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "借",
     "thai": "ยืม",
@@ -4119,7 +4119,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我借笔",
     "thai": "ผมยืมปากกาครับ",
@@ -4158,7 +4158,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "还",
     "thai": "คืน",
@@ -4179,7 +4179,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我还书",
     "thai": "ผมคืนหนังสือครับ",
@@ -4218,7 +4218,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "开车",
     "thai": "ขับรถ",
@@ -4240,7 +4240,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我开车去上班",
     "thai": "ผมขับรถไปทำงานครับ",
@@ -4297,7 +4297,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "坐车",
     "thai": "นั่งรถ",
@@ -4319,7 +4319,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我坐车去市场",
     "thai": "ผมนั่งรถไปตลาดครับ",
@@ -4370,7 +4370,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "做",
     "thai": "ทำ",
@@ -4391,7 +4391,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我做作业",
     "thai": "ผมทำการบ้านครับ",
@@ -4430,7 +4430,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "用",
     "thai": "ใช้",
@@ -4451,7 +4451,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我用手机",
     "thai": "ผมใช้โทรศัพท์ครับ",
@@ -4490,7 +4490,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "换",
     "thai": "เปลี่ยน",
@@ -4511,7 +4511,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我换衣服",
     "thai": "ผมเปลี่ยนเสื้อครับ",
@@ -4550,7 +4550,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "记得",
     "thai": "จำได้",
@@ -4571,7 +4571,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我记得你的名字",
     "thai": "ผมจำชื่อคุณได้ครับ",
@@ -4622,7 +4622,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "忘记",
     "thai": "ลืม",
@@ -4643,7 +4643,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我忘了钥匙",
     "thai": "ผมลืมกุญแจครับ",
@@ -4682,7 +4682,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "知道",
     "thai": "รู้",
@@ -4703,7 +4703,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我知道这个词",
     "thai": "ผมรู้คำนี้ครับ",
@@ -4748,7 +4748,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "明白",
     "thai": "เข้าใจ",
@@ -4769,7 +4769,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我明白",
     "thai": "ผมเข้าใจครับ",
@@ -4802,7 +4802,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "会",
     "thai": "เป็น",
@@ -4823,7 +4823,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我会开车",
     "thai": "ผมขับรถเป็นครับ",
@@ -4868,7 +4868,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "能",
     "thai": "สามารถ",
@@ -4890,7 +4890,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我能帮忙",
     "thai": "ผมสามารถช่วยได้ครับ",
@@ -4935,7 +4935,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "要",
     "thai": "เอา",
@@ -4956,7 +4956,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我要水",
     "thai": "ผมเอาน้ำครับ",
@@ -4995,7 +4995,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "可以",
     "thai": "ได้",
@@ -5016,7 +5016,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我可以进去",
     "thai": "ผมเข้าได้ครับ",
@@ -5055,7 +5055,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "不能",
     "thai": "ไม่ได้",
@@ -5076,7 +5076,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我不能去",
     "thai": "ผมไปไม่ได้ครับ",
@@ -5121,7 +5121,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "开始",
     "thai": "เริ่ม",
@@ -5142,7 +5142,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我开始工作",
     "thai": "ผมเริ่มทำงานครับ",
@@ -5187,7 +5187,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "结束",
     "thai": "จบ",
@@ -5208,7 +5208,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "工作结束了",
     "thai": "งานจบแล้วครับ",
@@ -5247,7 +5247,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "玩",
     "thai": "เล่น",
@@ -5268,7 +5268,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我玩游戏",
     "thai": "ผมเล่นเกมครับ",
@@ -5307,7 +5307,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "聊天",
     "thai": "คุย",
@@ -5328,7 +5328,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我和朋友聊天",
     "thai": "ผมคุยกับเพื่อนครับ",
@@ -5373,7 +5373,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "拍照",
     "thai": "ถ่ายรูป",
@@ -5395,7 +5395,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我拍照",
     "thai": "ผมถ่ายรูปครับ",
@@ -5434,7 +5434,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "唱歌",
     "thai": "ร้องเพลง",
@@ -5455,7 +5455,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我唱歌",
     "thai": "ผมร้องเพลงครับ",
@@ -5494,7 +5494,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "跳舞",
     "thai": "เต้นรำ",
@@ -5515,7 +5515,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我跳舞",
     "thai": "ผมเต้นรำครับ",
@@ -5554,7 +5554,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "生病",
     "thai": "ป่วย",
@@ -5575,7 +5575,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我生病了",
     "thai": "ผมป่วยครับ",
@@ -5608,7 +5608,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "买单",
     "thai": "เช็กบิล",
@@ -5629,7 +5629,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我买单",
     "thai": "ผมเช็กบิลครับ",
@@ -5668,7 +5668,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "关机",
     "thai": "ปิดเครื่อง",
@@ -5690,7 +5690,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我关机",
     "thai": "ผมปิดเครื่องครับ",
@@ -5729,7 +5729,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "词语",
     "meaning": "充电",
     "thai": "ชาร์จแบต",
@@ -5751,7 +5751,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "004-daily-common-verbs.md",
-    "category": "日常常用动词",
+    "category": "004 日常常用动词",
     "kind": "例句",
     "meaning": "我给手机充电",
     "thai": "ผมชาร์จแบตโทรศัพท์ครับ",
@@ -5796,7 +5796,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "清晨 / 天刚亮",
     "thai": "เช้ามืด",
@@ -5818,7 +5818,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "我清晨起床",
     "thai": "ผมตื่นเช้ามืดครับ",
@@ -5857,7 +5857,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "早上",
     "thai": "ตอนเช้า",
@@ -5878,7 +5878,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "我早上喝水",
     "thai": "ผมดื่มน้ำตอนเช้าครับ",
@@ -5923,7 +5923,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "上午 / 晚一点的早上",
     "thai": "ตอนสาย",
@@ -5944,7 +5944,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "我上午工作",
     "thai": "ผมทำงานตอนสายครับ",
@@ -5983,7 +5983,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "中午",
     "thai": "ตอนเที่ยง",
@@ -6004,7 +6004,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "我中午吃饭",
     "thai": "ผมกินข้าวตอนเที่ยงครับ",
@@ -6049,7 +6049,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "下午",
     "thai": "ตอนบ่าย",
@@ -6070,7 +6070,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "我下午学习",
     "thai": "ผมเรียนตอนบ่ายครับ",
@@ -6109,7 +6109,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "傍晚",
     "thai": "ตอนเย็น",
@@ -6130,7 +6130,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "我傍晚回家",
     "thai": "ผมกลับบ้านตอนเย็นครับ",
@@ -6175,7 +6175,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "晚上",
     "thai": "ตอนค่ำ",
@@ -6196,7 +6196,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "我晚上读书",
     "thai": "ผมอ่านหนังสือตอนค่ำครับ",
@@ -6241,7 +6241,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "夜里",
     "thai": "กลางคืน",
@@ -6262,7 +6262,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "我夜里睡觉",
     "thai": "ผมนอนกลางคืนครับ",
@@ -6301,7 +6301,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "深夜",
     "thai": "ดึก",
@@ -6322,7 +6322,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "我深夜回家",
     "thai": "ผมกลับบ้านดึกครับ",
@@ -6367,7 +6367,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "半夜 / 午夜",
     "thai": "เที่ยงคืน",
@@ -6388,7 +6388,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "我半夜睡觉",
     "thai": "ผมนอนตอนเที่ยงคืนครับ",
@@ -6427,7 +6427,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "现在",
     "thai": "ตอนนี้",
@@ -6448,7 +6448,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "我现在在家",
     "thai": "ผมอยู่บ้านตอนนี้ครับ",
@@ -6493,7 +6493,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "今天",
     "thai": "วันนี้",
@@ -6514,7 +6514,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "今天我学习泰语",
     "thai": "วันนี้ผมเรียนภาษาไทยครับ",
@@ -6559,7 +6559,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "明天",
     "thai": "พรุ่งนี้",
@@ -6581,7 +6581,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "明天我去上班",
     "thai": "พรุ่งนี้ผมไปทำงานครับ",
@@ -6626,7 +6626,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "昨天",
     "thai": "เมื่อวาน",
@@ -6647,7 +6647,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "昨天我在家吃饭",
     "thai": "เมื่อวานผมกินข้าวที่บ้านครับ",
@@ -6704,7 +6704,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "等一下 / 稍后",
     "thai": "เดี๋ยว",
@@ -6725,7 +6725,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "我稍后给你打电话",
     "thai": "เดี๋ยวผมโทรหาคุณครับ",
@@ -6776,7 +6776,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "前天",
     "thai": "เมื่อวานซืน",
@@ -6797,7 +6797,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "前天我去市场",
     "thai": "เมื่อวานซืนผมไปตลาดครับ",
@@ -6842,7 +6842,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "后天",
     "thai": "มะรืนนี้",
@@ -6863,7 +6863,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "后天我去上班",
     "thai": "มะรืนนี้ผมไปทำงานครับ",
@@ -6908,7 +6908,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "今晚",
     "thai": "คืนนี้",
@@ -6929,7 +6929,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "今晚我在家",
     "thai": "คืนนี้ผมอยู่บ้านครับ",
@@ -6974,7 +6974,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "明天早上",
     "thai": "พรุ่งนี้เช้า",
@@ -6996,7 +6996,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "明天早上我早起",
     "thai": "พรุ่งนี้เช้าผมตื่นเร็วครับ",
@@ -7041,7 +7041,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "早 / 提早",
     "thai": "เร็ว",
@@ -7062,7 +7062,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "我来得早",
     "thai": "ผมมาเร็วครับ",
@@ -7101,7 +7101,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "迟到 / 晚",
     "thai": "สาย",
@@ -7122,7 +7122,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "我来晚了",
     "thai": "ผมมาสายครับ",
@@ -7161,7 +7161,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "小时",
     "thai": "ชั่วโมง",
@@ -7182,7 +7182,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "我学习一个小时",
     "thai": "ผมเรียนหนึ่งชั่วโมงครับ",
@@ -7227,7 +7227,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "分钟",
     "thai": "นาที",
@@ -7248,7 +7248,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "我等五分钟",
     "thai": "ผมรอห้านาทีครับ",
@@ -7293,7 +7293,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "词语",
     "meaning": "几点",
     "thai": "กี่โมง",
@@ -7314,7 +7314,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "005-common-time-words.md",
-    "category": "常用时间词",
+    "category": "005 常用时间词",
     "kind": "例句",
     "meaning": "现在几点？",
     "thai": "ตอนนี้กี่โมงครับ",
@@ -7347,7 +7347,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "零",
     "thai": "ศูนย์",
@@ -7368,7 +7368,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有零泰铢",
     "thai": "ผมมีเงินศูนย์บาทครับ",
@@ -7419,7 +7419,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "一",
     "thai": "หนึ่ง",
@@ -7440,7 +7440,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有一本书",
     "thai": "ผมมีหนังสือหนึ่งเล่มครับ",
@@ -7491,7 +7491,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "二",
     "thai": "สอง",
@@ -7512,7 +7512,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有两支笔",
     "thai": "ผมมีปากกาสองด้ามครับ",
@@ -7563,7 +7563,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "三",
     "thai": "สาม",
@@ -7584,7 +7584,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我吃三顿饭",
     "thai": "ผมกินข้าวสามมื้อครับ",
@@ -7635,7 +7635,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "四",
     "thai": "สี่",
@@ -7656,7 +7656,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有四个杯子",
     "thai": "ผมมีแก้วสี่ใบครับ",
@@ -7707,7 +7707,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "五",
     "thai": "ห้า",
@@ -7729,7 +7729,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "六",
     "thai": "หก",
@@ -7750,7 +7750,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我六点起床",
     "thai": "ผมตื่นหกโมงครับ",
@@ -7795,7 +7795,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "七",
     "thai": "เจ็ด",
@@ -7816,7 +7816,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我七点回家",
     "thai": "ผมกลับบ้านเจ็ดโมงครับ",
@@ -7867,7 +7867,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "八",
     "thai": "แปด",
@@ -7888,7 +7888,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我工作八小时",
     "thai": "ผมทำงานแปดชั่วโมงครับ",
@@ -7933,7 +7933,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "九",
     "thai": "เก้า",
@@ -7954,7 +7954,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我九点开始工作",
     "thai": "ผมเริ่มงานเก้าโมงครับ",
@@ -8005,7 +8005,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "十",
     "thai": "สิบ",
@@ -8026,7 +8026,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有十个朋友",
     "thai": "ผมมีเพื่อนสิบคนครับ",
@@ -8077,7 +8077,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "星期一",
     "thai": "วันจันทร์",
@@ -8098,7 +8098,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "星期一我去上班",
     "thai": "วันจันทร์ผมไปทำงานครับ",
@@ -8143,7 +8143,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "星期二",
     "thai": "วันอังคาร",
@@ -8164,7 +8164,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "星期二我学习泰语",
     "thai": "วันอังคารผมเรียนภาษาไทยครับ",
@@ -8209,7 +8209,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "星期三",
     "thai": "วันพุธ",
@@ -8230,7 +8230,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "星期三我读书",
     "thai": "วันพุธผมอ่านหนังสือครับ",
@@ -8275,7 +8275,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "星期四",
     "thai": "วันพฤหัสบดี",
@@ -8297,7 +8297,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "星期四我在家工作",
     "thai": "วันพฤหัสบดีผมทำงานที่บ้านครับ",
@@ -8348,7 +8348,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "星期五",
     "thai": "วันศุกร์",
@@ -8369,7 +8369,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "星期五我和朋友吃饭",
     "thai": "วันศุกร์ผมกินข้าวกับเพื่อนครับ",
@@ -8426,7 +8426,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "星期六",
     "thai": "วันเสาร์",
@@ -8447,7 +8447,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "星期六我休息",
     "thai": "วันเสาร์ผมพักผ่อนครับ",
@@ -8486,7 +8486,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "星期日",
     "thai": "วันอาทิตย์",
@@ -8507,7 +8507,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "星期日我去市场",
     "thai": "วันอาทิตย์ผมไปตลาดครับ",
@@ -8552,7 +8552,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "十一",
     "thai": "สิบเอ็ด",
@@ -8573,7 +8573,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有十一本书",
     "thai": "ผมมีหนังสือสิบเอ็ดเล่มครับ",
@@ -8624,7 +8624,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "十二",
     "thai": "สิบสอง",
@@ -8646,7 +8646,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有十二支铅笔",
     "thai": "ผมมีดินสอสิบสองแท่งครับ",
@@ -8697,7 +8697,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "十三",
     "thai": "สิบสาม",
@@ -8719,7 +8719,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有十三个朋友",
     "thai": "ผมมีเพื่อนสิบสามคนครับ",
@@ -8770,7 +8770,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "十四",
     "thai": "สิบสี่",
@@ -8791,7 +8791,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我工作十四天",
     "thai": "ผมทำงานสิบสี่วันครับ",
@@ -8836,7 +8836,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "十五",
     "thai": "สิบห้า",
@@ -8859,7 +8859,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我等十五分钟",
     "thai": "ผมรอสิบห้านาทีครับ",
@@ -8904,7 +8904,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "十六",
     "thai": "สิบหก",
@@ -8925,7 +8925,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我十六点回家",
     "thai": "ผมกลับบ้านตอนสิบหกโมงครับ",
@@ -8970,7 +8970,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "十七",
     "thai": "สิบเจ็ด",
@@ -8991,7 +8991,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我十七点起床",
     "thai": "ผมตื่นตอนสิบเจ็ดโมงครับ",
@@ -9036,7 +9036,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "十八",
     "thai": "สิบแปด",
@@ -9057,7 +9057,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我十八岁",
     "thai": "ผมมีอายุสิบแปดปีครับ",
@@ -9102,7 +9102,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "十九",
     "thai": "สิบเก้า",
@@ -9124,7 +9124,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有十九泰铢",
     "thai": "ผมมีเงินสิบเก้าบาทครับ",
@@ -9175,7 +9175,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "二十",
     "thai": "ยี่สิบ",
@@ -9197,7 +9197,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有二十泰铢",
     "thai": "ผมมีเงินยี่สิบบาทครับ",
@@ -9248,7 +9248,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "二十一",
     "thai": "ยี่สิบเอ็ด",
@@ -9270,7 +9270,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我二十一岁",
     "thai": "ผมอายุยี่สิบเอ็ดปีครับ",
@@ -9315,7 +9315,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "二十五",
     "thai": "ยี่สิบห้า",
@@ -9338,7 +9338,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我等二十五分钟",
     "thai": "ผมรอยี่สิบห้านาทีครับ",
@@ -9383,7 +9383,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "二十七",
     "thai": "ยี่สิบเจ็ด",
@@ -9405,7 +9405,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有二十七本书",
     "thai": "ผมมีหนังสือยี่สิบเจ็ดเล่มครับ",
@@ -9456,7 +9456,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "二十九",
     "thai": "ยี่สิบเก้า",
@@ -9478,7 +9478,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有二十九个朋友",
     "thai": "ผมมีเพื่อนยี่สิบเก้าคนครับ",
@@ -9529,7 +9529,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "三十",
     "thai": "สามสิบ",
@@ -9551,7 +9551,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有三十泰铢",
     "thai": "ผมมีเงินสามสิบบาทครับ",
@@ -9602,7 +9602,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "三十一",
     "thai": "สามสิบเอ็ด",
@@ -9624,7 +9624,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有三十一本书",
     "thai": "ผมมีหนังสือสามสิบเอ็ดเล่มครับ",
@@ -9675,7 +9675,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "四十",
     "thai": "สี่สิบ",
@@ -9696,7 +9696,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有四十泰铢",
     "thai": "ผมมีเงินสี่สิบบาทครับ",
@@ -9747,7 +9747,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "四十一",
     "thai": "สี่สิบเอ็ด",
@@ -9768,7 +9768,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有四十一本书",
     "thai": "ผมมีหนังสือสี่สิบเอ็ดเล่มครับ",
@@ -9819,7 +9819,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "四十二",
     "thai": "สี่สิบสอง",
@@ -9841,7 +9841,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有四十二支笔",
     "thai": "ผมมีปากกาสี่สิบสองด้ามครับ",
@@ -9892,7 +9892,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "四十三",
     "thai": "สี่สิบสาม",
@@ -9914,7 +9914,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有四十三个朋友",
     "thai": "ผมมีเพื่อนสี่สิบสามคนครับ",
@@ -9965,7 +9965,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "四十四",
     "thai": "สี่สิบสี่",
@@ -9986,7 +9986,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我工作四十四天",
     "thai": "ผมทำงานสี่สิบสี่วันครับ",
@@ -10031,7 +10031,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "四十五",
     "thai": "สี่สิบห้า",
@@ -10054,7 +10054,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我等四十五分钟",
     "thai": "ผมรอสี่สิบห้านาทีครับ",
@@ -10099,7 +10099,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "四十六",
     "thai": "สี่สิบหก",
@@ -10120,7 +10120,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有四十六支笔",
     "thai": "ผมมีปากกาสี่สิบหกด้ามครับ",
@@ -10171,7 +10171,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "四十七",
     "thai": "สี่สิบเจ็ด",
@@ -10192,7 +10192,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有四十七本书",
     "thai": "ผมมีหนังสือสี่สิบเจ็ดเล่มครับ",
@@ -10243,7 +10243,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "四十八",
     "thai": "สี่สิบแปด",
@@ -10264,7 +10264,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有四十八泰铢",
     "thai": "ผมมีเงินสี่สิบแปดบาทครับ",
@@ -10315,7 +10315,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "四十九",
     "thai": "สี่สิบเก้า",
@@ -10337,7 +10337,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有四十九个朋友",
     "thai": "ผมมีเพื่อนสี่สิบเก้าคนครับ",
@@ -10388,7 +10388,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "五十",
     "thai": "ห้าสิบ",
@@ -10411,7 +10411,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有五十泰铢",
     "thai": "ผมมีเงินห้าสิบบาทครับ",
@@ -10462,7 +10462,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "五十一",
     "thai": "ห้าสิบเอ็ด",
@@ -10485,7 +10485,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有五十一本书",
     "thai": "ผมมีหนังสือห้าสิบเอ็ดเล่มครับ",
@@ -10536,7 +10536,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "八十",
     "thai": "แปดสิบ",
@@ -10557,7 +10557,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有八十泰铢",
     "thai": "ผมมีเงินแปดสิบบาทครับ",
@@ -10608,7 +10608,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "八十一",
     "thai": "แปดสิบเอ็ด",
@@ -10629,7 +10629,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有八十一本书",
     "thai": "ผมมีหนังสือแปดสิบเอ็ดเล่มครับ",
@@ -10680,7 +10680,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "一百",
     "thai": "หนึ่งร้อย",
@@ -10702,7 +10702,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有一百泰铢",
     "thai": "ผมมีเงินหนึ่งร้อยบาทครับ",
@@ -10753,7 +10753,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "两百",
     "thai": "สองร้อย",
@@ -10775,7 +10775,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有两百泰铢",
     "thai": "ผมมีเงินสองร้อยบาทครับ",
@@ -10826,7 +10826,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "一千",
     "thai": "หนึ่งพัน",
@@ -10847,7 +10847,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有一千泰铢",
     "thai": "ผมมีเงินหนึ่งพันบาทครับ",
@@ -10898,7 +10898,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "词语",
     "meaning": "一万",
     "thai": "หนึ่งหมื่น",
@@ -10919,7 +10919,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "006-numbers-and-weekdays.md",
-    "category": "数字和星期",
+    "category": "006 数字和星期",
     "kind": "例句",
     "meaning": "我有一万泰铢",
     "thai": "ผมมีเงินหนึ่งหมื่นบาทครับ",
@@ -10970,7 +10970,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
-    "category": "高辅音记忆句",
+    "category": "007 高辅音记忆句",
     "kind": "词语",
     "meaning": "鸡蛋",
     "thai": "ไข่",
@@ -10992,7 +10992,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
-    "category": "高辅音记忆句",
+    "category": "007 高辅音记忆句",
     "kind": "例句",
     "meaning": "我吃鸡蛋",
     "thai": "ผมกินไข่ครับ",
@@ -11031,7 +11031,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
-    "category": "高辅音记忆句",
+    "category": "007 高辅音记忆句",
     "kind": "词语",
     "meaning": "旧字 ฃ，只用于认识字母；瓶子的现代常用写法是 ขวด",
     "thai": "ขวด",
@@ -11053,7 +11053,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
-    "category": "高辅音记忆句",
+    "category": "007 高辅音记忆句",
     "kind": "例句",
     "meaning": "瓶子在这里",
     "thai": "ขวดอยู่ที่นี่",
@@ -11086,7 +11086,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
-    "category": "高辅音记忆句",
+    "category": "007 高辅音记忆句",
     "kind": "词语",
     "meaning": "我",
     "thai": "ฉัน",
@@ -11108,7 +11108,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
-    "category": "高辅音记忆句",
+    "category": "007 高辅音记忆句",
     "kind": "例句",
     "meaning": "我很好",
     "thai": "ฉันสบายดี",
@@ -11135,7 +11135,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
-    "category": "高辅音记忆句",
+    "category": "007 高辅音记忆句",
     "kind": "词语",
     "meaning": "基础",
     "thai": "ฐาน",
@@ -11157,7 +11157,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
-    "category": "高辅音记忆句",
+    "category": "007 高辅音记忆句",
     "kind": "例句",
     "meaning": "这个基础很好",
     "thai": "ฐานนี้ดี",
@@ -11190,7 +11190,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
-    "category": "高辅音记忆句",
+    "category": "007 高辅音记忆句",
     "kind": "词语",
     "meaning": "袋子",
     "thai": "ถุง",
@@ -11212,7 +11212,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
-    "category": "高辅音记忆句",
+    "category": "007 高辅音记忆句",
     "kind": "例句",
     "meaning": "这个袋子是我的",
     "thai": "ถุงนี้ของผม",
@@ -11251,7 +11251,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
-    "category": "高辅音记忆句",
+    "category": "007 高辅音记忆句",
     "kind": "词语",
     "meaning": "我（男性用）",
     "thai": "ผม",
@@ -11273,7 +11273,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
-    "category": "高辅音记忆句",
+    "category": "007 高辅音记忆句",
     "kind": "例句",
     "meaning": "我叫 Lucas",
     "thai": "ผมชื่อ Lucas ครับ",
@@ -11311,7 +11311,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
-    "category": "高辅音记忆句",
+    "category": "007 高辅音记忆句",
     "kind": "词语",
     "meaning": "雨",
     "thai": "ฝน",
@@ -11333,7 +11333,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
-    "category": "高辅音记忆句",
+    "category": "007 高辅音记忆句",
     "kind": "例句",
     "meaning": "下雨了",
     "thai": "ฝนตกครับ",
@@ -11366,7 +11366,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
-    "category": "高辅音记忆句",
+    "category": "007 高辅音记忆句",
     "kind": "词语",
     "meaning": "亭子",
     "thai": "ศาลา",
@@ -11388,7 +11388,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
-    "category": "高辅音记忆句",
+    "category": "007 高辅音记忆句",
     "kind": "例句",
     "meaning": "亭子在这里",
     "thai": "ศาลาอยู่ที่นี่",
@@ -11421,7 +11421,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
-    "category": "高辅音记忆句",
+    "category": "007 高辅音记忆句",
     "kind": "词语",
     "meaning": "隐士",
     "thai": "ฤๅษี",
@@ -11443,7 +11443,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
-    "category": "高辅音记忆句",
+    "category": "007 高辅音记忆句",
     "kind": "例句",
     "meaning": "隐士在森林里",
     "thai": "ฤๅษีอยู่ในป่า",
@@ -11482,7 +11482,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
-    "category": "高辅音记忆句",
+    "category": "007 高辅音记忆句",
     "kind": "词语",
     "meaning": "很好 / 状态好",
     "thai": "สบายดี",
@@ -11504,7 +11504,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
-    "category": "高辅音记忆句",
+    "category": "007 高辅音记忆句",
     "kind": "例句",
     "meaning": "我很好",
     "thai": "ผมสบายดีครับ",
@@ -11537,7 +11537,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
-    "category": "高辅音记忆句",
+    "category": "007 高辅音记忆句",
     "kind": "例句",
     "meaning": "我有五个",
     "thai": "ผมมีห้าอัน",
@@ -11576,7 +11576,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "词句",
     "meaning": "一点也不好",
     "thai": "ไม่ดีเลย",
@@ -11603,7 +11603,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "词句",
     "meaning": "完全没有",
     "thai": "ไม่มีเลย",
@@ -11636,7 +11636,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "词句",
     "meaning": "直接去 / 去吧",
     "thai": "ไปเลย",
@@ -11663,7 +11663,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "词句",
     "meaning": "吃吧 / 直接吃",
     "thai": "กินเลย",
@@ -11690,7 +11690,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "词句",
     "meaning": "真好 / 非常好",
     "thai": "ดีมากเลย",
@@ -11717,7 +11717,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "词句",
     "meaning": "我困了，所以就睡了",
     "thai": "ผมง่วง ก็เลยนอน",
@@ -11764,7 +11764,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "词句",
     "meaning": "完全不说话",
     "thai": "ไม่พูดเลย",
@@ -11797,7 +11797,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "我也到家了",
     "thai": "ผมก็ถึงบ้านแล้วครับ",
@@ -11848,7 +11848,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "到家了",
     "thai": "ถึงบ้านแล้วครับ",
@@ -11887,7 +11887,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "你洗澡了吗？",
     "thai": "คุณอาบน้ำแล้วหรือยังครับ",
@@ -11932,7 +11932,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "洗澡了吗？",
     "thai": "อาบน้ำแล้วหรือยังครับ",
@@ -11971,7 +11971,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "我还没有洗澡",
     "thai": "ผมยังไม่ได้อาบน้ำครับ",
@@ -12016,7 +12016,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "我洗完澡了",
     "thai": "ผมอาบน้ำแล้วครับ",
@@ -12055,7 +12055,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "我两点洗澡",
     "thai": "ผมอาบน้ำตอนสองโมงครับ",
@@ -12106,7 +12106,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "这不就是嘛 / 在这儿啊",
     "thai": "นี่ไง",
@@ -12133,7 +12133,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "你醒了吗？",
     "thai": "คุณตื่นหรือยังครับ",
@@ -12172,7 +12172,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "醒了吗？",
     "thai": "ตื่นหรือยังครับ",
@@ -12205,7 +12205,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "早上我打电话给你的时候，就问：“醒了吗？”",
     "thai": "เวลาฉันโทรไปหาพี่ตอนเช้า ก็ถามว่า ตื่นหรือยัง",
@@ -12274,7 +12274,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "很困 / 非常困",
     "thai": "ง่วงมาก",
@@ -12301,7 +12301,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "我很困",
     "thai": "ผมง่วงมากครับ",
@@ -12340,7 +12340,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "我有点困了",
     "thai": "ผมง่วงนิดหน่อยครับ",
@@ -12379,7 +12379,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "一起睡觉",
     "thai": "นอนด้วยกันครับ",
@@ -12412,7 +12412,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "我们一起睡觉",
     "thai": "เรานอนด้วยกันครับ",
@@ -12451,7 +12451,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "一起去睡吧",
     "thai": "ไปนอนกันครับ",
@@ -12490,7 +12490,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "等一下",
     "thai": "เดี๋ยวครับ",
@@ -12517,7 +12517,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "稍等一下",
     "thai": "รอเดี๋ยวครับ",
@@ -12550,7 +12550,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "等我一下",
     "thai": "รอผมเดี๋ยวครับ",
@@ -12589,7 +12589,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "就 / 直接 / 一点也",
     "thai": "เลย",
@@ -12610,7 +12610,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "我还说得不够好",
     "thai": "ฉันยังพูดได้ไม่ดีพอ",
@@ -12655,7 +12655,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "你说得已经很好了，很厉害",
     "thai": "คุณพูดได้ดีมากแล้วครับ เก่งมากครับ",
@@ -12712,7 +12712,7 @@ window.THAI_AUDIO_APP_ITEMS = [
   },
   {
     "source": "008-arrived-home-and-shower.md",
-    "category": "到家和洗澡问答",
+    "category": "008 到家和洗澡问答",
     "kind": "例句",
     "meaning": "你说得很厉害",
     "thai": "พูดเก่งมากครับ",
@@ -12744,8 +12744,1293 @@ window.THAI_AUDIO_APP_ITEMS = [
     "audio": "audio/386-63a746390e.mp3"
   },
   {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "词语",
+    "meaning": "头",
+    "thai": "หัว",
+    "pinyin": "hǔa",
+    "words": [
+      {
+        "meaning": "头",
+        "thai": "หัว",
+        "pinyin": "hǔa",
+        "audio": "word-audio/4446b96259.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "ǎ 这类标记是第 5 调：升调，声音从低往高走。"
+    ],
+    "id": "thai-387",
+    "audio": "audio/387-4446b96259.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "例句",
+    "meaning": "我头疼",
+    "thai": "ผมปวดหัวครับ",
+    "pinyin": "phǒm bpùat hǔa khráp",
+    "words": [
+      {
+        "meaning": "我（男性用）",
+        "thai": "ผม",
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
+      },
+      {
+        "meaning": "疼 / 痛",
+        "thai": "ปวด",
+        "pinyin": "bpùat",
+        "audio": "word-audio/70d1de1b2e.mp3"
+      },
+      {
+        "meaning": "头",
+        "thai": "หัว",
+        "pinyin": "hǔa",
+        "audio": "word-audio/4446b96259.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：ù＝低调，ǔ、ǒ＝升调，á＝高调。 ปวดหัว 是常用表达，意思是“头疼”。 หัว 是高辅音 ห，没有声调符号，读第 5 调升调 hǔa。"
+    ],
+    "id": "thai-388",
+    "audio": "audio/388-e49f9129c2.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "词语",
+    "meaning": "头发",
+    "thai": "ผม",
+    "pinyin": "phǒm",
+    "words": [
+      {
+        "meaning": "头发",
+        "thai": "ผม",
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "ǎ 这类标记是第 5 调：升调，声音从低往高走。",
+      "ผม 没有声调符号；ผ 是高辅音，ม 是 m 鼻音结尾，所以是“高辅音 + 短元音 + 鼻音结尾”，读第 5 调升调 phǒm。"
+    ],
+    "id": "thai-389",
+    "audio": "audio/389-da56ad55c1.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "例句",
+    "meaning": "这是头发",
+    "thai": "นี่คือผมครับ",
+    "pinyin": "nîi khuue phǒm khráp",
+    "words": [
+      {
+        "meaning": "这 / 这里",
+        "thai": "นี่",
+        "pinyin": "nîi",
+        "audio": "word-audio/59a1a39d77.mp3"
+      },
+      {
+        "meaning": "是",
+        "thai": "คือ",
+        "pinyin": "khuue",
+        "audio": "word-audio/0ef67cd768.mp3"
+      },
+      {
+        "meaning": "头发",
+        "thai": "ผม",
+        "pinyin": "phǒm",
+        "audio": "word-audio/da56ad55c1.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：î＝降调，ǒ＝升调，á＝高调。 ผม 也可以表示“我（男性用）”，这里作为身体部位时是“头发”。 ผม 是高辅音 ผ + 短元音 + m 鼻音结尾，读第 5 调升调 phǒm。"
+    ],
+    "id": "thai-390",
+    "audio": "audio/390-18f087a7cd.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "词语",
+    "meaning": "脸",
+    "thai": "หน้า",
+    "pinyin": "nâa",
+    "words": [
+      {
+        "meaning": "脸",
+        "thai": "หน้า",
+        "pinyin": "nâa",
+        "audio": "word-audio/c6d432aa6b.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "â 这类标记是第 3 调：降调，声音从高往下落。"
+    ],
+    "id": "thai-391",
+    "audio": "audio/391-c6d432aa6b.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "例句",
+    "meaning": "这是脸",
+    "thai": "นี่คือหน้าครับ",
+    "pinyin": "nîi khuue nâa khráp",
+    "words": [
+      {
+        "meaning": "这 / 这里",
+        "thai": "นี่",
+        "pinyin": "nîi",
+        "audio": "word-audio/59a1a39d77.mp3"
+      },
+      {
+        "meaning": "是",
+        "thai": "คือ",
+        "pinyin": "khuue",
+        "audio": "word-audio/0ef67cd768.mp3"
+      },
+      {
+        "meaning": "脸",
+        "thai": "หน้า",
+        "pinyin": "nâa",
+        "audio": "word-audio/c6d432aa6b.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：î、â＝降调，á＝高调。 หน้า 里的 ้ 是声调符号ไม้โท，读降调 nâa。"
+    ],
+    "id": "thai-392",
+    "audio": "audio/392-5d73ac41d9.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "词语",
+    "meaning": "眼睛",
+    "thai": "ตา",
+    "pinyin": "dtaa",
+    "words": [
+      {
+        "meaning": "眼睛",
+        "thai": "ตา",
+        "pinyin": "dtaa",
+        "audio": "word-audio/f03eb06044.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "先按拉丁拼音读；没有声调标记的音节先平稳读。"
+    ],
+    "id": "thai-393",
+    "audio": "audio/393-f03eb06044.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "例句",
+    "meaning": "这是眼睛",
+    "thai": "นี่คือตาครับ",
+    "pinyin": "nîi khuue dtaa khráp",
+    "words": [
+      {
+        "meaning": "这 / 这里",
+        "thai": "นี่",
+        "pinyin": "nîi",
+        "audio": "word-audio/59a1a39d77.mp3"
+      },
+      {
+        "meaning": "是",
+        "thai": "คือ",
+        "pinyin": "khuue",
+        "audio": "word-audio/0ef67cd768.mp3"
+      },
+      {
+        "meaning": "眼睛",
+        "thai": "ตา",
+        "pinyin": "dtaa",
+        "audio": "word-audio/f03eb06044.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "ตา 没有声调标记，拉丁拼音没有额外声调符号，先平稳读 dtaa。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
+    ],
+    "id": "thai-394",
+    "audio": "audio/394-e8970fb2af.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "词语",
+    "meaning": "耳朵",
+    "thai": "หู",
+    "pinyin": "hǔu",
+    "words": [
+      {
+        "meaning": "耳朵",
+        "thai": "หู",
+        "pinyin": "hǔu",
+        "audio": "word-audio/a50a1b8ba6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "ǎ 这类标记是第 5 调：升调，声音从低往高走。"
+    ],
+    "id": "thai-395",
+    "audio": "audio/395-a50a1b8ba6.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "例句",
+    "meaning": "这是耳朵",
+    "thai": "นี่คือหูครับ",
+    "pinyin": "nîi khuue hǔu khráp",
+    "words": [
+      {
+        "meaning": "这 / 这里",
+        "thai": "นี่",
+        "pinyin": "nîi",
+        "audio": "word-audio/59a1a39d77.mp3"
+      },
+      {
+        "meaning": "是",
+        "thai": "คือ",
+        "pinyin": "khuue",
+        "audio": "word-audio/0ef67cd768.mp3"
+      },
+      {
+        "meaning": "耳朵",
+        "thai": "หู",
+        "pinyin": "hǔu",
+        "audio": "word-audio/a50a1b8ba6.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：î＝降调，ǔ＝升调，á＝高调。 หู 是高辅音 ห + 长元音 uu，没有声调符号，读第 5 调升调 hǔu。"
+    ],
+    "id": "thai-396",
+    "audio": "audio/396-b7de289933.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "词语",
+    "meaning": "鼻子",
+    "thai": "จมูก",
+    "pinyin": "jà-mùuk",
+    "words": [
+      {
+        "meaning": "鼻子",
+        "thai": "จมูก",
+        "pinyin": "jà-mùuk",
+        "audio": "word-audio/5fcc68d773.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "à 这类标记是第 2 调：低调，声音压低。"
+    ],
+    "id": "thai-397",
+    "audio": "audio/397-5fcc68d773.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "例句",
+    "meaning": "这是鼻子",
+    "thai": "นี่คือจมูกครับ",
+    "pinyin": "nîi khuue jà-mùuk khráp",
+    "words": [
+      {
+        "meaning": "这 / 这里",
+        "thai": "นี่",
+        "pinyin": "nîi",
+        "audio": "word-audio/59a1a39d77.mp3"
+      },
+      {
+        "meaning": "是",
+        "thai": "คือ",
+        "pinyin": "khuue",
+        "audio": "word-audio/0ef67cd768.mp3"
+      },
+      {
+        "meaning": "鼻子",
+        "thai": "จมูก",
+        "pinyin": "jà-mùuk",
+        "audio": "word-audio/5fcc68d773.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：à、ù＝低调，î＝降调，á＝高调。 จมูก 分成 jà + mùuk 两段慢慢读，末尾 ก 是 k 收尾，轻轻收住。"
+    ],
+    "id": "thai-398",
+    "audio": "audio/398-77cea35a21.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "词语",
+    "meaning": "嘴",
+    "thai": "ปาก",
+    "pinyin": "bpàak",
+    "words": [
+      {
+        "meaning": "嘴",
+        "thai": "ปาก",
+        "pinyin": "bpàak",
+        "audio": "word-audio/265d9ef5fc.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "à 这类标记是第 2 调：低调，声音压低。"
+    ],
+    "id": "thai-399",
+    "audio": "audio/399-265d9ef5fc.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "例句",
+    "meaning": "这是嘴",
+    "thai": "นี่คือปากครับ",
+    "pinyin": "nîi khuue bpàak khráp",
+    "words": [
+      {
+        "meaning": "这 / 这里",
+        "thai": "นี่",
+        "pinyin": "nîi",
+        "audio": "word-audio/59a1a39d77.mp3"
+      },
+      {
+        "meaning": "是",
+        "thai": "คือ",
+        "pinyin": "khuue",
+        "audio": "word-audio/0ef67cd768.mp3"
+      },
+      {
+        "meaning": "嘴",
+        "thai": "ปาก",
+        "pinyin": "bpàak",
+        "audio": "word-audio/265d9ef5fc.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：à＝低调，î＝降调，á＝高调。 ปาก 末尾 ก 是 k 收尾，末尾轻轻收住。"
+    ],
+    "id": "thai-400",
+    "audio": "audio/400-aee83271ea.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "词语",
+    "meaning": "牙齿",
+    "thai": "ฟัน",
+    "pinyin": "fan",
+    "words": [
+      {
+        "meaning": "牙齿",
+        "thai": "ฟัน",
+        "pinyin": "fan",
+        "audio": "word-audio/1e3ad63523.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "先按拉丁拼音读；没有声调标记的音节先平稳读。"
+    ],
+    "id": "thai-401",
+    "audio": "audio/401-1e3ad63523.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "例句",
+    "meaning": "牙疼",
+    "thai": "ฟันเจ็บครับ",
+    "pinyin": "fan jèp khráp",
+    "words": [
+      {
+        "meaning": "牙齿",
+        "thai": "ฟัน",
+        "pinyin": "fan",
+        "audio": "word-audio/1e3ad63523.mp3"
+      },
+      {
+        "meaning": "疼",
+        "thai": "เจ็บ",
+        "pinyin": "jèp",
+        "audio": "word-audio/0d7ff26fb3.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：è＝低调，á＝高调。 ฟัน 上面的 ั 是短元音 a，不是声调符号。 เจ็บ 末尾 บ 是 p 收尾，末尾轻轻收住。"
+    ],
+    "id": "thai-402",
+    "audio": "audio/402-462238e10c.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "词语",
+    "meaning": "舌头",
+    "thai": "ลิ้น",
+    "pinyin": "lín",
+    "words": [
+      {
+        "meaning": "舌头",
+        "thai": "ลิ้น",
+        "pinyin": "lín",
+        "audio": "word-audio/304c4a78c9.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "á 这类标记是第 4 调：高调，声音偏高。"
+    ],
+    "id": "thai-403",
+    "audio": "audio/403-304c4a78c9.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "例句",
+    "meaning": "这是舌头",
+    "thai": "นี่คือลิ้นครับ",
+    "pinyin": "nîi khuue lín khráp",
+    "words": [
+      {
+        "meaning": "这 / 这里",
+        "thai": "นี่",
+        "pinyin": "nîi",
+        "audio": "word-audio/59a1a39d77.mp3"
+      },
+      {
+        "meaning": "是",
+        "thai": "คือ",
+        "pinyin": "khuue",
+        "audio": "word-audio/0ef67cd768.mp3"
+      },
+      {
+        "meaning": "舌头",
+        "thai": "ลิ้น",
+        "pinyin": "lín",
+        "audio": "word-audio/304c4a78c9.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：í＝高调，î＝降调，á＝高调。 ลิ้น 里的 ้ 是声调符号ไม้โท，读高调 lín。"
+    ],
+    "id": "thai-404",
+    "audio": "audio/404-87ba85c22d.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "词语",
+    "meaning": "脖子",
+    "thai": "คอ",
+    "pinyin": "khaaw",
+    "words": [
+      {
+        "meaning": "脖子",
+        "thai": "คอ",
+        "pinyin": "khaaw",
+        "audio": "word-audio/09c3284aac.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "先按拉丁拼音读；没有声调标记的音节先平稳读。"
+    ],
+    "id": "thai-405",
+    "audio": "audio/405-09c3284aac.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "例句",
+    "meaning": "脖子疼 / 喉咙疼",
+    "thai": "คอเจ็บครับ",
+    "pinyin": "khaaw jèp khráp",
+    "words": [
+      {
+        "meaning": "脖子 / 喉咙",
+        "thai": "คอ",
+        "pinyin": "khaaw",
+        "audio": "word-audio/09c3284aac.mp3"
+      },
+      {
+        "meaning": "疼",
+        "thai": "เจ็บ",
+        "pinyin": "jèp",
+        "audio": "word-audio/0d7ff26fb3.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：è＝低调，á＝高调。 คอ 没有声调标记，先平稳读 khaaw。 คอเจ็บ 常用于表达喉咙疼 / 脖子不舒服。"
+    ],
+    "id": "thai-406",
+    "audio": "audio/406-4d387f6ecb.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "词语",
+    "meaning": "肩膀",
+    "thai": "ไหล่",
+    "pinyin": "lài",
+    "words": [
+      {
+        "meaning": "肩膀",
+        "thai": "ไหล่",
+        "pinyin": "lài",
+        "audio": "word-audio/854d70ac75.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "à 这类标记是第 2 调：低调，声音压低。"
+    ],
+    "id": "thai-407",
+    "audio": "audio/407-854d70ac75.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "例句",
+    "meaning": "这是肩膀",
+    "thai": "นี่คือไหล่ครับ",
+    "pinyin": "nîi khuue lài khráp",
+    "words": [
+      {
+        "meaning": "这 / 这里",
+        "thai": "นี่",
+        "pinyin": "nîi",
+        "audio": "word-audio/59a1a39d77.mp3"
+      },
+      {
+        "meaning": "是",
+        "thai": "คือ",
+        "pinyin": "khuue",
+        "audio": "word-audio/0ef67cd768.mp3"
+      },
+      {
+        "meaning": "肩膀",
+        "thai": "ไหล่",
+        "pinyin": "lài",
+        "audio": "word-audio/854d70ac75.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：à＝低调，î＝降调，á＝高调。 ไหล่ 里的 ่ 是声调符号ไม้เอก，读低调 lài。"
+    ],
+    "id": "thai-408",
+    "audio": "audio/408-f2da281dab.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "词语",
+    "meaning": "手臂",
+    "thai": "แขน",
+    "pinyin": "khǎen",
+    "words": [
+      {
+        "meaning": "手臂",
+        "thai": "แขน",
+        "pinyin": "khǎen",
+        "audio": "word-audio/b6867c2fa6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "ǎ 这类标记是第 5 调：升调，声音从低往高走。"
+    ],
+    "id": "thai-409",
+    "audio": "audio/409-b6867c2fa6.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "例句",
+    "meaning": "这是手臂",
+    "thai": "นี่คือแขนครับ",
+    "pinyin": "nîi khuue khǎen khráp",
+    "words": [
+      {
+        "meaning": "这 / 这里",
+        "thai": "นี่",
+        "pinyin": "nîi",
+        "audio": "word-audio/59a1a39d77.mp3"
+      },
+      {
+        "meaning": "是",
+        "thai": "คือ",
+        "pinyin": "khuue",
+        "audio": "word-audio/0ef67cd768.mp3"
+      },
+      {
+        "meaning": "手臂",
+        "thai": "แขน",
+        "pinyin": "khǎen",
+        "audio": "word-audio/b6867c2fa6.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：ǎ＝升调，î＝降调，á＝高调。 แขน 是高辅音 ข + 长元音 + n 鼻音结尾，没有声调符号，读第 5 调升调 khǎen。"
+    ],
+    "id": "thai-410",
+    "audio": "audio/410-92a281ce51.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "词语",
+    "meaning": "手",
+    "thai": "มือ",
+    "pinyin": "mʉʉ",
+    "words": [
+      {
+        "meaning": "手",
+        "thai": "มือ",
+        "pinyin": "mʉʉ",
+        "audio": "word-audio/c95e274a01.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "先按拉丁拼音读；没有声调标记的音节先平稳读。"
+    ],
+    "id": "thai-411",
+    "audio": "audio/411-c95e274a01.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "例句",
+    "meaning": "这是手",
+    "thai": "นี่คือมือครับ",
+    "pinyin": "nîi khuue mʉʉ khráp",
+    "words": [
+      {
+        "meaning": "这 / 这里",
+        "thai": "นี่",
+        "pinyin": "nîi",
+        "audio": "word-audio/59a1a39d77.mp3"
+      },
+      {
+        "meaning": "是",
+        "thai": "คือ",
+        "pinyin": "khuue",
+        "audio": "word-audio/0ef67cd768.mp3"
+      },
+      {
+        "meaning": "手",
+        "thai": "มือ",
+        "pinyin": "mʉʉ",
+        "audio": "word-audio/c95e274a01.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：î＝降调，á＝高调。 มือ 没有声调标记，先平稳读 mʉʉ。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
+    ],
+    "id": "thai-412",
+    "audio": "audio/412-0eef2eddf7.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "词语",
+    "meaning": "手指",
+    "thai": "นิ้ว",
+    "pinyin": "níu",
+    "words": [
+      {
+        "meaning": "手指",
+        "thai": "นิ้ว",
+        "pinyin": "níu",
+        "audio": "word-audio/7dbb88ac3e.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "á 这类标记是第 4 调：高调，声音偏高。"
+    ],
+    "id": "thai-413",
+    "audio": "audio/413-7dbb88ac3e.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "例句",
+    "meaning": "这是手指",
+    "thai": "นี่คือนิ้วครับ",
+    "pinyin": "nîi khuue níu khráp",
+    "words": [
+      {
+        "meaning": "这 / 这里",
+        "thai": "นี่",
+        "pinyin": "nîi",
+        "audio": "word-audio/59a1a39d77.mp3"
+      },
+      {
+        "meaning": "是",
+        "thai": "คือ",
+        "pinyin": "khuue",
+        "audio": "word-audio/0ef67cd768.mp3"
+      },
+      {
+        "meaning": "手指",
+        "thai": "นิ้ว",
+        "pinyin": "níu",
+        "audio": "word-audio/7dbb88ac3e.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：í＝高调，î＝降调，á＝高调。 นิ้ว 里的 ้ 是声调符号ไม้โท，读高调 níu。"
+    ],
+    "id": "thai-414",
+    "audio": "audio/414-7922a0310a.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "词语",
+    "meaning": "胸口",
+    "thai": "อก",
+    "pinyin": "òk",
+    "words": [
+      {
+        "meaning": "胸口",
+        "thai": "อก",
+        "pinyin": "òk",
+        "audio": "word-audio/874a913416.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "à 这类标记是第 2 调：低调，声音压低。"
+    ],
+    "id": "thai-415",
+    "audio": "audio/415-874a913416.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "例句",
+    "meaning": "这是胸口",
+    "thai": "นี่คืออกครับ",
+    "pinyin": "nîi khuue òk khráp",
+    "words": [
+      {
+        "meaning": "这 / 这里",
+        "thai": "นี่",
+        "pinyin": "nîi",
+        "audio": "word-audio/59a1a39d77.mp3"
+      },
+      {
+        "meaning": "是",
+        "thai": "คือ",
+        "pinyin": "khuue",
+        "audio": "word-audio/0ef67cd768.mp3"
+      },
+      {
+        "meaning": "胸口",
+        "thai": "อก",
+        "pinyin": "òk",
+        "audio": "word-audio/874a913416.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：ò＝低调，î＝降调，á＝高调。 อก 末尾 ก 是 k 收尾，末尾轻轻收住。"
+    ],
+    "id": "thai-416",
+    "audio": "audio/416-b05fed1b2a.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "词语",
+    "meaning": "肚子",
+    "thai": "ท้อง",
+    "pinyin": "tháawng",
+    "words": [
+      {
+        "meaning": "肚子",
+        "thai": "ท้อง",
+        "pinyin": "tháawng",
+        "audio": "word-audio/74ac079fdd.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "á 这类标记是第 4 调：高调，声音偏高。"
+    ],
+    "id": "thai-417",
+    "audio": "audio/417-74ac079fdd.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "例句",
+    "meaning": "肚子疼",
+    "thai": "ท้องเจ็บครับ",
+    "pinyin": "tháawng jèp khráp",
+    "words": [
+      {
+        "meaning": "肚子",
+        "thai": "ท้อง",
+        "pinyin": "tháawng",
+        "audio": "word-audio/74ac079fdd.mp3"
+      },
+      {
+        "meaning": "疼",
+        "thai": "เจ็บ",
+        "pinyin": "jèp",
+        "audio": "word-audio/0d7ff26fb3.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：á＝高调，è＝低调。 ท้อง 里的 ้ 是声调符号ไม้โท，读高调 tháawng。"
+    ],
+    "id": "thai-418",
+    "audio": "audio/418-5ffb2f843d.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "词语",
+    "meaning": "背",
+    "thai": "หลัง",
+    "pinyin": "lǎng",
+    "words": [
+      {
+        "meaning": "背",
+        "thai": "หลัง",
+        "pinyin": "lǎng",
+        "audio": "word-audio/bc74b11a5c.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "ǎ 这类标记是第 5 调：升调，声音从低往高走。"
+    ],
+    "id": "thai-419",
+    "audio": "audio/419-bc74b11a5c.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "例句",
+    "meaning": "背疼",
+    "thai": "หลังเจ็บครับ",
+    "pinyin": "lǎng jèp khráp",
+    "words": [
+      {
+        "meaning": "背",
+        "thai": "หลัง",
+        "pinyin": "lǎng",
+        "audio": "word-audio/bc74b11a5c.mp3"
+      },
+      {
+        "meaning": "疼",
+        "thai": "เจ็บ",
+        "pinyin": "jèp",
+        "audio": "word-audio/0d7ff26fb3.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：ǎ＝升调，è＝低调，á＝高调。 หลัง 里有 ห 作前引字，帮助这个音节读升调 lǎng。"
+    ],
+    "id": "thai-420",
+    "audio": "audio/420-32136cd4d6.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "词语",
+    "meaning": "腰",
+    "thai": "เอว",
+    "pinyin": "eew",
+    "words": [
+      {
+        "meaning": "腰",
+        "thai": "เอว",
+        "pinyin": "eew",
+        "audio": "word-audio/1b54d26c1a.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "先按拉丁拼音读；没有声调标记的音节先平稳读。"
+    ],
+    "id": "thai-421",
+    "audio": "audio/421-1b54d26c1a.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "例句",
+    "meaning": "腰疼",
+    "thai": "เอวเจ็บครับ",
+    "pinyin": "eew jèp khráp",
+    "words": [
+      {
+        "meaning": "腰",
+        "thai": "เอว",
+        "pinyin": "eew",
+        "audio": "word-audio/1b54d26c1a.mp3"
+      },
+      {
+        "meaning": "疼",
+        "thai": "เจ็บ",
+        "pinyin": "jèp",
+        "audio": "word-audio/0d7ff26fb3.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：è＝低调，á＝高调。 เอว 没有声调标记，先平稳读 eew。 เจ็บ 末尾 บ 是 p 收尾，末尾轻轻收住。"
+    ],
+    "id": "thai-422",
+    "audio": "audio/422-26f5c9bb1f.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "词语",
+    "meaning": "腿",
+    "thai": "ขา",
+    "pinyin": "khǎa",
+    "words": [
+      {
+        "meaning": "腿",
+        "thai": "ขา",
+        "pinyin": "khǎa",
+        "audio": "word-audio/e5621333ca.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "ǎ 这类标记是第 5 调：升调，声音从低往高走。"
+    ],
+    "id": "thai-423",
+    "audio": "audio/423-e5621333ca.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "例句",
+    "meaning": "这是腿",
+    "thai": "นี่คือขาครับ",
+    "pinyin": "nîi khuue khǎa khráp",
+    "words": [
+      {
+        "meaning": "这 / 这里",
+        "thai": "นี่",
+        "pinyin": "nîi",
+        "audio": "word-audio/59a1a39d77.mp3"
+      },
+      {
+        "meaning": "是",
+        "thai": "คือ",
+        "pinyin": "khuue",
+        "audio": "word-audio/0ef67cd768.mp3"
+      },
+      {
+        "meaning": "腿",
+        "thai": "ขา",
+        "pinyin": "khǎa",
+        "audio": "word-audio/e5621333ca.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：ǎ＝升调，î＝降调，á＝高调。 ขา 是高辅音 ข + 长元音 aa，没有声调符号，读第 5 调升调 khǎa。"
+    ],
+    "id": "thai-424",
+    "audio": "audio/424-f9023aae74.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "词语",
+    "meaning": "膝盖",
+    "thai": "เข่า",
+    "pinyin": "khào",
+    "words": [
+      {
+        "meaning": "膝盖",
+        "thai": "เข่า",
+        "pinyin": "khào",
+        "audio": "word-audio/d16ea1754c.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "à 这类标记是第 2 调：低调，声音压低。"
+    ],
+    "id": "thai-425",
+    "audio": "audio/425-d16ea1754c.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "例句",
+    "meaning": "膝盖疼",
+    "thai": "เข่าเจ็บครับ",
+    "pinyin": "khào jèp khráp",
+    "words": [
+      {
+        "meaning": "膝盖",
+        "thai": "เข่า",
+        "pinyin": "khào",
+        "audio": "word-audio/d16ea1754c.mp3"
+      },
+      {
+        "meaning": "疼",
+        "thai": "เจ็บ",
+        "pinyin": "jèp",
+        "audio": "word-audio/0d7ff26fb3.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：à、è＝低调，á＝高调。 เข่า 里的 ่ 是声调符号ไม้เอก；高辅音 ข + ่ 读低调 khào。"
+    ],
+    "id": "thai-426",
+    "audio": "audio/426-448367503e.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "词语",
+    "meaning": "脚",
+    "thai": "เท้า",
+    "pinyin": "tháao",
+    "words": [
+      {
+        "meaning": "脚",
+        "thai": "เท้า",
+        "pinyin": "tháao",
+        "audio": "word-audio/88e0b311a4.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "á 这类标记是第 4 调：高调，声音偏高。"
+    ],
+    "id": "thai-427",
+    "audio": "audio/427-88e0b311a4.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "例句",
+    "meaning": "这是脚",
+    "thai": "นี่คือเท้าครับ",
+    "pinyin": "nîi khuue tháao khráp",
+    "words": [
+      {
+        "meaning": "这 / 这里",
+        "thai": "นี่",
+        "pinyin": "nîi",
+        "audio": "word-audio/59a1a39d77.mp3"
+      },
+      {
+        "meaning": "是",
+        "thai": "คือ",
+        "pinyin": "khuue",
+        "audio": "word-audio/0ef67cd768.mp3"
+      },
+      {
+        "meaning": "脚",
+        "thai": "เท้า",
+        "pinyin": "tháao",
+        "audio": "word-audio/88e0b311a4.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：á＝高调，î、â＝降调。 เท้า 里的 ้ 是声调符号ไม้โท，读高调 tháao。"
+    ],
+    "id": "thai-428",
+    "audio": "audio/428-eb1ba77a52.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "词语",
+    "meaning": "脚趾",
+    "thai": "นิ้วเท้า",
+    "pinyin": "níu tháao",
+    "words": [
+      {
+        "meaning": "脚趾",
+        "thai": "นิ้วเท้า",
+        "pinyin": "níu tháao",
+        "audio": "word-audio/031cf5b386.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "á 这类标记是第 4 调：高调，声音偏高。"
+    ],
+    "id": "thai-429",
+    "audio": "audio/429-031cf5b386.mp3"
+  },
+  {
+    "source": "009-body-parts.md",
+    "category": "009 身体部位",
+    "kind": "例句",
+    "meaning": "这是脚趾",
+    "thai": "นี่คือนิ้วเท้าครับ",
+    "pinyin": "nîi khuue níu tháao khráp",
+    "words": [
+      {
+        "meaning": "这 / 这里",
+        "thai": "นี่",
+        "pinyin": "nîi",
+        "audio": "word-audio/59a1a39d77.mp3"
+      },
+      {
+        "meaning": "是",
+        "thai": "คือ",
+        "pinyin": "khuue",
+        "audio": "word-audio/0ef67cd768.mp3"
+      },
+      {
+        "meaning": "脚趾",
+        "thai": "นิ้วเท้า",
+        "pinyin": "níu tháao",
+        "audio": "word-audio/031cf5b386.mp3"
+      },
+      {
+        "meaning": "男性礼貌结尾",
+        "thai": "ครับ",
+        "pinyin": "khráp",
+        "audio": "word-audio/2dce0151d6.mp3"
+      }
+    ],
+    "pronunciationRules": [
+      "按括号里的拉丁拼音声调标记读：í、á＝高调，î、â＝降调。 นิ้วเท้า 由 นิ้ว（手指 / 趾）+ เท้า（脚）组成，合起来是“脚趾”。"
+    ],
+    "id": "thai-430",
+    "audio": "audio/430-47d6f80f49.mp3"
+  },
+  {
     "source": "001-beginner-greetings-thanks-names.md",
-    "category": "基础问候、感谢和名字",
+    "category": "001 基础问候、感谢和名字",
     "kind": "练习句",
     "meaning": "打招呼",
     "thai": "สวัสดี",
@@ -12762,12 +14047,12 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/c7bcb12d8b.mp3"
       }
     ],
-    "id": "thai-387",
-    "audio": "audio/387-c7bcb12d8b.mp3"
+    "id": "thai-431",
+    "audio": "audio/431-c7bcb12d8b.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
-    "category": "基础问候、感谢和名字",
+    "category": "001 基础问候、感谢和名字",
     "kind": "练习句",
     "meaning": "礼貌结尾（男性）",
     "thai": "ครับ",
@@ -12784,12 +14069,12 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
-    "id": "thai-388",
-    "audio": "audio/388-2dce0151d6.mp3"
+    "id": "thai-432",
+    "audio": "audio/432-2dce0151d6.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
-    "category": "基础问候、感谢和名字",
+    "category": "001 基础问候、感谢和名字",
     "kind": "练习句",
     "meaning": "礼貌结尾（女性）",
     "thai": "ค่ะ",
@@ -12805,12 +14090,12 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/fbd3f12059.mp3"
       }
     ],
-    "id": "thai-389",
-    "audio": "audio/389-fbd3f12059.mp3"
+    "id": "thai-433",
+    "audio": "audio/433-fbd3f12059.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
-    "category": "基础问候、感谢和名字",
+    "category": "001 基础问候、感谢和名字",
     "kind": "练习句",
     "meaning": "回答“是 / 对",
     "thai": "ใช่",
@@ -12826,12 +14111,12 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/2d09568c10.mp3"
       }
     ],
-    "id": "thai-390",
-    "audio": "audio/390-2d09568c10.mp3"
+    "id": "thai-434",
+    "audio": "audio/434-2d09568c10.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
-    "category": "基础问候、感谢和名字",
+    "category": "001 基础问候、感谢和名字",
     "kind": "练习句",
     "meaning": "回答“不是 / 不对",
     "thai": "ไม่ใช่",
@@ -12853,12 +14138,12 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/2d09568c10.mp3"
       }
     ],
-    "id": "thai-391",
-    "audio": "audio/391-193b9f4623.mp3"
+    "id": "thai-435",
+    "audio": "audio/435-193b9f4623.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
-    "category": "基础问候、感谢和名字",
+    "category": "001 基础问候、感谢和名字",
     "kind": "练习句",
     "meaning": "自我介绍（男性）",
     "thai": "ผมชื่อ Lucas ครับ",
@@ -12895,12 +14180,12 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
-    "id": "thai-392",
-    "audio": "audio/392-d22e258125.mp3"
+    "id": "thai-436",
+    "audio": "audio/436-d22e258125.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
-    "category": "基础问候、感谢和名字",
+    "category": "001 基础问候、感谢和名字",
     "kind": "练习句",
     "meaning": "询问对方名字",
     "thai": "คุณชื่ออะไร",
@@ -12928,12 +14213,12 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/b63888f232.mp3"
       }
     ],
-    "id": "thai-393",
-    "audio": "audio/393-67a90461c8.mp3"
+    "id": "thai-437",
+    "audio": "audio/437-67a90461c8.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
-    "category": "状态问候、道歉和告别",
+    "category": "002 状态问候、道歉和告别",
     "kind": "练习句",
     "meaning": "询问近况",
     "thai": "สบายดีไหม",
@@ -12958,12 +14243,12 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/4a80f2d016.mp3"
       }
     ],
-    "id": "thai-394",
-    "audio": "audio/394-633564778a.mp3"
+    "id": "thai-438",
+    "audio": "audio/438-633564778a.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
-    "category": "状态问候、道歉和告别",
+    "category": "002 状态问候、道歉和告别",
     "kind": "练习句",
     "meaning": "回答“我很好",
     "thai": "สบายดี",
@@ -12980,12 +14265,12 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/d34a46e071.mp3"
       }
     ],
-    "id": "thai-395",
-    "audio": "audio/395-d34a46e071.mp3"
+    "id": "thai-439",
+    "audio": "audio/439-d34a46e071.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
-    "category": "状态问候、道歉和告别",
+    "category": "002 状态问候、道歉和告别",
     "kind": "练习句",
     "meaning": "反问“你呢？",
     "thai": "แล้วคุณล่ะ",
@@ -13014,12 +14299,12 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/87c765302e.mp3"
       }
     ],
-    "id": "thai-396",
-    "audio": "audio/396-3527fcde76.mp3"
+    "id": "thai-440",
+    "audio": "audio/440-3527fcde76.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
-    "category": "状态问候、道歉和告别",
+    "category": "002 状态问候、道歉和告别",
     "kind": "练习句",
     "meaning": "道歉",
     "thai": "ขอโทษ",
@@ -13037,12 +14322,12 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/fd047e1679.mp3"
       }
     ],
-    "id": "thai-397",
-    "audio": "audio/397-fd047e1679.mp3"
+    "id": "thai-441",
+    "audio": "audio/441-fd047e1679.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
-    "category": "状态问候、道歉和告别",
+    "category": "002 状态问候、道歉和告别",
     "kind": "练习句",
     "meaning": "回应“没关系",
     "thai": "ไม่เป็นไร",
@@ -13070,12 +14355,12 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/eee0e744ab.mp3"
       }
     ],
-    "id": "thai-398",
-    "audio": "audio/398-e0a814cc4f.mp3"
+    "id": "thai-442",
+    "audio": "audio/442-e0a814cc4f.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
-    "category": "状态问候、道歉和告别",
+    "category": "002 状态问候、道歉和告别",
     "kind": "练习句",
     "meaning": "告别",
     "thai": "ลาก่อน",
@@ -13091,12 +14376,12 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/bf0a0836c4.mp3"
       }
     ],
-    "id": "thai-399",
-    "audio": "audio/399-bf0a0836c4.mp3"
+    "id": "thai-443",
+    "audio": "audio/443-bf0a0836c4.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
-    "category": "状态问候、道歉和告别",
+    "category": "002 状态问候、道歉和告别",
     "kind": "练习句",
     "meaning": "我很好。你呢？",
     "thai": "สบายดี แล้วคุณล่ะ",
@@ -13133,12 +14418,12 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/87c765302e.mp3"
       }
     ],
-    "id": "thai-400",
-    "audio": "audio/400-32da8ba114.mp3"
+    "id": "thai-444",
+    "audio": "audio/444-32da8ba114.mp3"
   }
 ];
 window.THAI_AUDIO_APP_META = {
-  count: 400,
+  count: 444,
   voice: "th-TH-PremwadeeNeural",
   format: "中文意思 | 泰语 | 拉丁拼音读音"
 };
