@@ -7,6 +7,9 @@
   const categorySelect = document.querySelector("#categorySelect");
   const speedSelect = document.querySelector("#speedSelect");
   const repeatButton = document.querySelector("#repeatButton");
+  const toneGuideButton = document.querySelector("#toneGuideButton");
+  const toneGuideDialog = document.querySelector("#toneGuideDialog");
+  const toneGuideCloseButton = document.querySelector("#toneGuideCloseButton");
   const nowPlaying = document.querySelector("#nowPlaying");
   const itemCount = document.querySelector("#itemCount");
 
@@ -226,6 +229,23 @@
     playAudio(word, card, button, "词块音频未找到");
   }
 
+  function openToneGuide() {
+    stopCurrent();
+    if (typeof toneGuideDialog.showModal === "function") {
+      toneGuideDialog.showModal();
+      return;
+    }
+    toneGuideDialog.setAttribute("open", "");
+  }
+
+  function closeToneGuide() {
+    if (typeof toneGuideDialog.close === "function") {
+      toneGuideDialog.close();
+      return;
+    }
+    toneGuideDialog.removeAttribute("open");
+  }
+
   function render() {
     const query = searchInput.value.trim().toLowerCase();
     const category = categorySelect.value || "全部";
@@ -338,6 +358,13 @@
     repeat = !repeat;
     repeatButton.setAttribute("aria-pressed", String(repeat));
     repeatButton.textContent = repeat ? "重复播放：开" : "重复播放：关";
+  });
+  toneGuideButton.addEventListener("click", openToneGuide);
+  toneGuideCloseButton.addEventListener("click", closeToneGuide);
+  toneGuideDialog.addEventListener("click", (event) => {
+    if (event.target === toneGuideDialog) {
+      closeToneGuide();
+    }
   });
 
   setupCategories();

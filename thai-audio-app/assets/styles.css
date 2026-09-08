@@ -91,46 +91,114 @@ h1 {
 
 .tone-guide {
   margin: 16px 0 4px;
-  padding: 0;
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: 8px;
 }
 
-.tone-guide summary {
+.tone-guide-button {
+  width: 100%;
   min-height: 48px;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   padding: 0 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
   color: var(--accent-strong);
   cursor: pointer;
   font-weight: 800;
+  text-align: left;
 }
 
-.tone-guide summary::marker {
-  color: var(--gold);
+.tone-guide-button:hover,
+.tone-guide-button:focus {
+  border-color: var(--gold);
+  outline: none;
+}
+
+.tone-guide-dialog {
+  position: fixed;
+  width: min(980px, calc(100vw - 24px));
+  max-height: min(82vh, 720px);
+  margin: auto;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  color: var(--text);
+  box-shadow: var(--shadow);
+}
+
+.tone-guide-dialog::backdrop {
+  background: rgba(31, 41, 51, 0.28);
+}
+
+.tone-guide-panel {
+  max-height: min(82vh, 720px);
+  display: flex;
+  flex-direction: column;
+}
+
+.tone-guide-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.tone-guide-header h2 {
+  margin: 0;
+  color: var(--accent-strong);
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.tone-guide-close {
+  width: 38px;
+  height: 38px;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fbfaf7;
+  color: var(--accent-strong);
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.tone-guide-close:hover,
+.tone-guide-close:focus {
+  border-color: var(--gold);
+  outline: none;
 }
 
 .tone-guide-content {
+  overflow: auto;
   display: grid;
   grid-template-columns: minmax(200px, 0.78fr) minmax(360px, 1.45fr);
   gap: 16px;
   padding: 0 18px 18px;
-  border-top: 1px solid var(--line);
+  overscroll-behavior: contain;
 }
 
 .tone-guide-content section {
   min-width: 0;
 }
 
-.tone-guide h2 {
+.tone-guide-content h2 {
   margin: 16px 0 10px;
   font-size: 15px;
   line-height: 1.35;
 }
 
-.tone-guide ol,
-.tone-guide ul {
+.tone-guide-content ol,
+.tone-guide-content ul {
   display: grid;
   gap: 8px;
   margin: 0;

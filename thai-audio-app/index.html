@@ -20,9 +20,19 @@
         </div>
       </header>
 
-      <details class="tone-guide">
-        <summary>发音规则总表</summary>
-        <div class="tone-guide-content">
+      <section class="tone-guide" aria-label="发音规则入口">
+        <button id="toneGuideButton" class="tone-guide-button" type="button" aria-haspopup="dialog" aria-controls="toneGuideDialog">
+          发音规则总表
+        </button>
+      </section>
+
+      <dialog id="toneGuideDialog" class="tone-guide-dialog" aria-labelledby="toneGuideTitle">
+        <div class="tone-guide-panel">
+          <header class="tone-guide-header">
+            <h2 id="toneGuideTitle">发音规则总表</h2>
+            <button id="toneGuideCloseButton" class="tone-guide-close" type="button" aria-label="关闭发音规则总表">×</button>
+          </header>
+          <div class="tone-guide-content">
           <section>
             <h2>先看三件事</h2>
             <ol>
@@ -93,7 +103,8 @@
             </ul>
           </section>
         </div>
-      </details>
+        </div>
+      </dialog>
 
       <section class="controls" aria-label="筛选和搜索">
         <label class="search-box">

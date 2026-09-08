@@ -79,21 +79,27 @@ def test_frontend_has_guided_reading_controls():
     assert ".is-reading-current" in styles
 
 
-def test_frontend_has_collapsed_tone_rule_summary_above_filters():
+def test_frontend_opens_tone_rule_summary_in_overlay_without_reflowing_cards():
     index_html = (ROOT / "thai-audio-app" / "index.html").read_text(encoding="utf-8")
+    app_js = (ROOT / "thai-audio-app" / "assets" / "app.js").read_text(encoding="utf-8")
     styles = (ROOT / "thai-audio-app" / "assets" / "styles.css").read_text(encoding="utf-8")
 
-    summary_start = index_html.index('<details class="tone-guide"')
+    trigger_start = index_html.index('id="toneGuideButton"')
     controls_start = index_html.index('<section class="controls"')
-    details_opening = index_html[summary_start : index_html.index(">", summary_start)]
 
-    assert summary_start < controls_start
-    assert "open" not in details_opening
+    assert trigger_start < controls_start
+    assert '<details class="tone-guide"' not in index_html
+    assert 'id="toneGuideDialog"' in index_html
+    assert 'aria-haspopup="dialog"' in index_html
     assert "发音规则总表" in index_html
     assert "高辅音 + 活音节" in index_html
     assert "低辅音 + 短元音死音节" in index_html
     assert "活音节" in index_html
     assert "死音节" in index_html
+    assert "showModal" in app_js
+    assert "close()" in app_js
+    assert ".tone-guide-dialog" in styles
+    assert "position: fixed" in styles
     assert ".tone-guide" in styles
 
 
