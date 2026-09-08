@@ -146,3 +146,44 @@ def test_record_009_body_parts_are_collected_with_examples():
     assert [word["thai"] for word in head_item["words"]] == ["ผม", "ปวด", "หัว", "ครับ"]
     assert head_item["pronunciationRules"]
     assert hand_item["source"] == "009-body-parts.md"
+
+
+def test_record_009_rules_explain_tone_reasoning():
+    builder = load_builder()
+    items = builder.collect_items()
+    back_item = next(item for item in items if item["thai"] == "หลังเจ็บครับ")
+    knee_item = next(item for item in items if item["thai"] == "เข่าเจ็บครับ")
+
+    back_rules = " ".join(back_item["pronunciationRules"])
+    knee_rules = " ".join(knee_item["pronunciationRules"])
+
+    assert "原因：" in back_rules
+    assert "辅音类别" in back_rules
+    assert "声调符号" in back_rules
+    assert "活音节" in back_rules
+    assert "第 5 调升调" in back_rules
+    assert "ห 前引字" in back_rules
+
+    assert "原因：" in knee_rules
+    assert "辅音类别" in knee_rules
+    assert "声调符号" in knee_rules
+    assert "ไม้เอก" in knee_rules
+    assert "第 2 调低调" in knee_rules
+
+
+def test_record_009_word_cards_keep_the_detailed_rule():
+    builder = load_builder()
+    items = builder.collect_items()
+    back_word = next(
+        item
+        for item in items
+        if item["source"] == "009-body-parts.md"
+        and item["kind"] == "词语"
+        and item["thai"] == "หลัง"
+    )
+
+    rules = " ".join(back_word["pronunciationRules"])
+    assert "原因：" in rules
+    assert "ห 前引字" in rules
+    assert "活音节" in rules
+    assert "第 5 调升调" in rules
