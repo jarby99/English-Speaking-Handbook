@@ -79,6 +79,24 @@ def test_frontend_has_guided_reading_controls():
     assert ".is-reading-current" in styles
 
 
+def test_frontend_has_collapsed_tone_rule_summary_above_filters():
+    index_html = (ROOT / "thai-audio-app" / "index.html").read_text(encoding="utf-8")
+    styles = (ROOT / "thai-audio-app" / "assets" / "styles.css").read_text(encoding="utf-8")
+
+    summary_start = index_html.index('<details class="tone-guide"')
+    controls_start = index_html.index('<section class="controls"')
+    details_opening = index_html[summary_start : index_html.index(">", summary_start)]
+
+    assert summary_start < controls_start
+    assert "open" not in details_opening
+    assert "发音规则总表" in index_html
+    assert "高辅音 + 活音节" in index_html
+    assert "低辅音 + 短元音死音节" in index_html
+    assert "活音节" in index_html
+    assert "死音节" in index_html
+    assert ".tone-guide" in styles
+
+
 def test_sentence_that_is_also_the_main_phrase_keeps_split_words():
     builder = load_builder()
     items = builder.collect_items()

@@ -89,6 +89,98 @@ h1 {
   font-size: 13px;
 }
 
+.tone-guide {
+  margin: 16px 0 4px;
+  padding: 0;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.tone-guide summary {
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  padding: 0 18px;
+  color: var(--accent-strong);
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.tone-guide summary::marker {
+  color: var(--gold);
+}
+
+.tone-guide-content {
+  display: grid;
+  grid-template-columns: minmax(200px, 0.78fr) minmax(360px, 1.45fr);
+  gap: 16px;
+  padding: 0 18px 18px;
+  border-top: 1px solid var(--line);
+}
+
+.tone-guide-content section {
+  min-width: 0;
+}
+
+.tone-guide h2 {
+  margin: 16px 0 10px;
+  font-size: 15px;
+  line-height: 1.35;
+}
+
+.tone-guide ol,
+.tone-guide ul {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding-left: 20px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.tone-table {
+  display: grid;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tone-table [role="row"] {
+  display: grid;
+  grid-template-columns: minmax(150px, 1fr) minmax(150px, 0.85fr);
+}
+
+.tone-table [role="row"] + [role="row"] {
+  border-top: 1px solid var(--line);
+}
+
+.tone-table span {
+  padding: 9px 11px;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.tone-table [role="columnheader"] {
+  background: #fbfaf7;
+  color: var(--text);
+  font-weight: 800;
+}
+
+.tone-table [role="cell"] {
+  color: var(--muted);
+}
+
+.tone-table [role="cell"]:first-child {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.tone-table.compact [role="row"] {
+  grid-template-columns: minmax(86px, 0.42fr) minmax(220px, 1fr);
+}
+
 .controls {
   position: sticky;
   top: 0;
@@ -406,6 +498,19 @@ select {
   .topbar,
   .controls {
     grid-template-columns: 1fr;
+  }
+
+  .tone-guide-content {
+    grid-template-columns: 1fr;
+  }
+
+  .tone-table [role="row"],
+  .tone-table.compact [role="row"] {
+    grid-template-columns: 1fr;
+  }
+
+  .tone-table span + span {
+    border-top: 1px solid rgba(222, 215, 202, 0.6);
   }
 
   .controls {
