@@ -211,3 +211,43 @@ def test_record_009_word_cards_keep_the_detailed_rule():
     assert "ห 前引字" in rules
     assert "活音节" in rules
     assert "第 5 调升调" in rules
+
+
+def test_record_007_consonant_chart_marks_middle_high_and_low_classes():
+    builder = load_builder()
+    items = builder.collect_items()
+    record_items = [item for item in items if item["source"] == "007-high-consonant-memory-sentences.md"]
+
+    assert any(
+        item["thai"] == "ก"
+        and item["meaning"] == "中辅音：鸡字母"
+        and item["pinyin"] == "gor gai"
+        for item in record_items
+    )
+    assert any(
+        item["thai"] == "ข"
+        and item["meaning"] == "高辅音：蛋字母"
+        and item["pinyin"] == "khor khai"
+        for item in record_items
+    )
+    assert any(
+        item["thai"] == "ค"
+        and item["meaning"] == "低辅音：水牛字母"
+        and item["pinyin"] == "khor khwai"
+        for item in record_items
+    )
+
+
+def test_obsolete_consonant_audio_targets_use_pronounceable_memory_words():
+    builder = load_builder()
+    items = builder.collect_items()
+    targets = builder.collect_audio_targets(items)
+
+    obsolete_letter_targets = [
+        target
+        for target in targets
+        if target["thai"] == "ฃ" and target["audio"].endswith("746142f4fa.mp3")
+    ]
+
+    assert obsolete_letter_targets
+    assert all(target["ttsThai"] == "ขวด" for target in obsolete_letter_targets)

@@ -15,6 +15,10 @@ APP_DIR = ROOT / "thai-audio-app"
 DATA_FILE = APP_DIR / "data" / "phrases.js"
 AUDIO_DIR = APP_DIR / "audio"
 VOICE = "th-TH-PremwadeeNeural"
+TTS_THAI_OVERRIDES = {
+    "ฃ": "ขวด",
+    "ฅ": "คน",
+}
 CATEGORY_LABELS = {
     "Greetings, Thanks, and Names": "基础问候、感谢和名字",
 }
@@ -535,6 +539,7 @@ def collect_audio_targets(items: list[dict]) -> list[dict]:
                 {
                     "meaning": item["meaning"],
                     "thai": item["thai"],
+                    "ttsThai": TTS_THAI_OVERRIDES.get(item["thai"], item["thai"]),
                     "audio": item["audio"],
                 }
             )
@@ -549,6 +554,7 @@ def collect_audio_targets(items: list[dict]) -> list[dict]:
                 {
                     "meaning": word["meaning"],
                     "thai": word["thai"],
+                    "ttsThai": TTS_THAI_OVERRIDES.get(word["thai"], word["thai"]),
                     "audio": audio,
                 }
             )
@@ -572,7 +578,7 @@ async def generate_audio(items: list[dict], overwrite: bool) -> None:
         print(f"[{index}/{len(targets)}] -> {output.relative_to(AUDIO_DIR.parent)}")
         for attempt in range(1, 4):
             try:
-                communicate = edge_tts.Communicate(item["thai"], VOICE)
+                communicate = edge_tts.Communicate(item["ttsThai"], VOICE)
                 await communicate.save(str(output))
                 break
             except Exception as exc:  # noqa: BLE001 - keep batch generation moving.
@@ -584,6 +590,7 @@ async def generate_audio(items: list[dict], overwrite: bool) -> None:
                             "index": index,
                             "meaning": item["meaning"],
                             "thai": item["thai"],
+                            "ttsThai": item["ttsThai"],
                             "audio": item["audio"],
                             "error": str(exc),
                         }
