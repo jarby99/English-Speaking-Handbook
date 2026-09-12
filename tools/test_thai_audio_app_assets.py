@@ -251,3 +251,28 @@ def test_obsolete_consonant_audio_targets_use_pronounceable_memory_words():
 
     assert obsolete_letter_targets
     assert all(target["ttsThai"] == "ขวด" for target in obsolete_letter_targets)
+
+
+def test_record_007_vowel_cards_are_collected_for_audio_practice():
+    builder = load_builder()
+    items = builder.collect_items()
+    record_items = [item for item in items if item["source"] == "007-high-consonant-memory-sentences.md"]
+
+    assert any(
+        item["thai"] == "อะ"
+        and item["meaning"] == "元音：短 a，符号 -ะ"
+        and item["pinyin"] == "a"
+        for item in record_items
+    )
+    assert any(
+        item["thai"] == "อา"
+        and item["meaning"] == "元音：长 aa，符号 -า"
+        and item["pinyin"] == "aa"
+        for item in record_items
+    )
+    assert any(
+        item["thai"] == "เอีย"
+        and item["meaning"] == "元音：复合 ia，符号 เ-ีย"
+        and item["pinyin"] == "ia"
+        for item in record_items
+    )

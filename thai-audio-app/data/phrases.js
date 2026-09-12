@@ -11837,6 +11837,510 @@ window.THAI_AUDIO_APP_ITEMS = [
   {
     "source": "007-high-consonant-memory-sentences.md",
     "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：短 a，符号 -ะ",
+    "thai": "อะ",
+    "pinyin": "a",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "元音：短 a，符号 -ะ",
+        "thai": "อะ",
+        "pinyin": "a",
+        "audio": "word-audio/b51ec2b480.mp3"
+      }
+    ],
+    "id": "thai-379",
+    "audio": "audio/379-b51ec2b480.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：长 aa，符号 -า",
+    "thai": "อา",
+    "pinyin": "aa",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "元音：长 aa，符号 -า",
+        "thai": "อา",
+        "pinyin": "aa",
+        "audio": "word-audio/76e19543f9.mp3"
+      }
+    ],
+    "id": "thai-380",
+    "audio": "audio/380-76e19543f9.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：短 i，符号 -ิ",
+    "thai": "อิ",
+    "pinyin": "i",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "元音：短 i，符号 -ิ",
+        "thai": "อิ",
+        "pinyin": "i",
+        "audio": "word-audio/1128c2e749.mp3"
+      }
+    ],
+    "id": "thai-381",
+    "audio": "audio/381-1128c2e749.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：长 ii，符号 -ี",
+    "thai": "อี",
+    "pinyin": "ii",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "元音：长 ii，符号 -ี",
+        "thai": "อี",
+        "pinyin": "ii",
+        "audio": "word-audio/fb729bc73e.mp3"
+      }
+    ],
+    "id": "thai-382",
+    "audio": "audio/382-fb729bc73e.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：短 ue，符号 -ึ",
+    "thai": "อึ",
+    "pinyin": "ue",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "元音：短 ue，符号 -ึ",
+        "thai": "อึ",
+        "pinyin": "ue",
+        "audio": "word-audio/f2fd5881f9.mp3"
+      }
+    ],
+    "id": "thai-383",
+    "audio": "audio/383-f2fd5881f9.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：长 uue，符号 -ือ",
+    "thai": "อือ",
+    "pinyin": "uue",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "元音：长 uue，符号 -ือ",
+        "thai": "อือ",
+        "pinyin": "uue",
+        "audio": "word-audio/ec7919c33b.mp3"
+      }
+    ],
+    "id": "thai-384",
+    "audio": "audio/384-ec7919c33b.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：短 u，符号 -ุ",
+    "thai": "อุ",
+    "pinyin": "u",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "元音：短 u，符号 -ุ",
+        "thai": "อุ",
+        "pinyin": "u",
+        "audio": "word-audio/d0302fde2c.mp3"
+      }
+    ],
+    "id": "thai-385",
+    "audio": "audio/385-d0302fde2c.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：长 uu，符号 -ู",
+    "thai": "อู",
+    "pinyin": "uu",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "元音：长 uu，符号 -ู",
+        "thai": "อู",
+        "pinyin": "uu",
+        "audio": "word-audio/85574cc613.mp3"
+      }
+    ],
+    "id": "thai-386",
+    "audio": "audio/386-85574cc613.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：短 e，符号 เ-ะ",
+    "thai": "เอะ",
+    "pinyin": "e",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "元音：短 e，符号 เ-ะ",
+        "thai": "เอะ",
+        "pinyin": "e",
+        "audio": "word-audio/3025608615.mp3"
+      }
+    ],
+    "id": "thai-387",
+    "audio": "audio/387-3025608615.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：长 ee，符号 เ-",
+    "thai": "เอ",
+    "pinyin": "ee",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "元音：长 ee，符号 เ-",
+        "thai": "เอ",
+        "pinyin": "ee",
+        "audio": "word-audio/2728543df7.mp3"
+      }
+    ],
+    "id": "thai-388",
+    "audio": "audio/388-2728543df7.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：短 ae，符号 แ-ะ",
+    "thai": "แอะ",
+    "pinyin": "ae",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "元音：短 ae，符号 แ-ะ",
+        "thai": "แอะ",
+        "pinyin": "ae",
+        "audio": "word-audio/d2de254c63.mp3"
+      }
+    ],
+    "id": "thai-389",
+    "audio": "audio/389-d2de254c63.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：长 aae，符号 แ-",
+    "thai": "แอ",
+    "pinyin": "aae",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "元音：长 aae，符号 แ-",
+        "thai": "แอ",
+        "pinyin": "aae",
+        "audio": "word-audio/41ad713c97.mp3"
+      }
+    ],
+    "id": "thai-390",
+    "audio": "audio/390-41ad713c97.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：短 o，符号 โ-ะ",
+    "thai": "โอะ",
+    "pinyin": "o",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "元音：短 o，符号 โ-ะ",
+        "thai": "โอะ",
+        "pinyin": "o",
+        "audio": "word-audio/88ff4df6ad.mp3"
+      }
+    ],
+    "id": "thai-391",
+    "audio": "audio/391-88ff4df6ad.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：长 oo，符号 โ-",
+    "thai": "โอ",
+    "pinyin": "oo",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "元音：长 oo，符号 โ-",
+        "thai": "โอ",
+        "pinyin": "oo",
+        "audio": "word-audio/f524707a60.mp3"
+      }
+    ],
+    "id": "thai-392",
+    "audio": "audio/392-f524707a60.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：短 aw，符号 เ-าะ",
+    "thai": "เอาะ",
+    "pinyin": "aw",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "元音：短 aw，符号 เ-าะ",
+        "thai": "เอาะ",
+        "pinyin": "aw",
+        "audio": "word-audio/d7252559f1.mp3"
+      }
+    ],
+    "id": "thai-393",
+    "audio": "audio/393-d7252559f1.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：长 aaw，符号 -อ",
+    "thai": "ออ",
+    "pinyin": "aaw",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "元音：长 aaw，符号 -อ",
+        "thai": "ออ",
+        "pinyin": "aaw",
+        "audio": "word-audio/26fe038d00.mp3"
+      }
+    ],
+    "id": "thai-394",
+    "audio": "audio/394-26fe038d00.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：短 oe，符号 เ-อะ",
+    "thai": "เออะ",
+    "pinyin": "oe",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "元音：短 oe，符号 เ-อะ",
+        "thai": "เออะ",
+        "pinyin": "oe",
+        "audio": "word-audio/ce8a15abc1.mp3"
+      }
+    ],
+    "id": "thai-395",
+    "audio": "audio/395-ce8a15abc1.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：长 ooe，符号 เ-อ",
+    "thai": "เออ",
+    "pinyin": "ooe",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "元音：长 ooe，符号 เ-อ",
+        "thai": "เออ",
+        "pinyin": "ooe",
+        "audio": "word-audio/36183e5217.mp3"
+      }
+    ],
+    "id": "thai-396",
+    "audio": "audio/396-36183e5217.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：复合 ia，符号 เ-ีย",
+    "thai": "เอีย",
+    "pinyin": "ia",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "元音：复合 ia，符号 เ-ีย",
+        "thai": "เอีย",
+        "pinyin": "ia",
+        "audio": "word-audio/5c939a7613.mp3"
+      }
+    ],
+    "id": "thai-397",
+    "audio": "audio/397-5c939a7613.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：复合 uuea，符号 เ-ือ",
+    "thai": "เอือ",
+    "pinyin": "uuea",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "元音：复合 uuea，符号 เ-ือ",
+        "thai": "เอือ",
+        "pinyin": "uuea",
+        "audio": "word-audio/a8f2bc9e7a.mp3"
+      }
+    ],
+    "id": "thai-398",
+    "audio": "audio/398-a8f2bc9e7a.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：复合 ua，符号 -ัว",
+    "thai": "อัว",
+    "pinyin": "ua",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "元音：复合 ua，符号 -ัว",
+        "thai": "อัว",
+        "pinyin": "ua",
+        "audio": "word-audio/2ea533821f.mp3"
+      }
+    ],
+    "id": "thai-399",
+    "audio": "audio/399-2ea533821f.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：ai，符号 ไ- / ใ-",
+    "thai": "ไอ",
+    "pinyin": "ai",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "元音：ai，符号 ไ- / ใ-",
+        "thai": "ไอ",
+        "pinyin": "ai",
+        "audio": "word-audio/f8bc831dec.mp3"
+      }
+    ],
+    "id": "thai-400",
+    "audio": "audio/400-f8bc831dec.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：ao，符号 เ-า",
+    "thai": "เอา",
+    "pinyin": "ao",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "要",
+        "thai": "เอา",
+        "pinyin": "ao",
+        "audio": "word-audio/bd47c8ff3d.mp3"
+      }
+    ],
+    "id": "thai-401",
+    "audio": "audio/401-bd47c8ff3d.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
+    "kind": "词句",
+    "meaning": "元音：am，符号 -ำ",
+    "thai": "อำ",
+    "pinyin": "am",
+    "pronunciationRules": [
+      "先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"
+    ],
+    "words": [
+      {
+        "meaning": "元音：am，符号 -ำ",
+        "thai": "อำ",
+        "pinyin": "am",
+        "audio": "word-audio/6ec45f2f57.mp3"
+      }
+    ],
+    "id": "thai-402",
+    "audio": "audio/402-6ec45f2f57.mp3"
+  },
+  {
+    "source": "007-high-consonant-memory-sentences.md",
+    "category": "007 泰语辅音、元音和高辅音复习",
     "kind": "词语",
     "meaning": "鸡蛋",
     "thai": "ไข่",
@@ -11852,8 +12356,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "ไข่ 读 khài。原因：辅音类别=高辅音 ข；声调符号=ไม้เอก ่；规则结果=高辅音 + ไม้เอก，读第 2 调低调。句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-379",
-    "audio": "audio/379-5a078ee12f.mp3"
+    "id": "thai-403",
+    "audio": "audio/403-5a078ee12f.mp3"
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
@@ -11891,8 +12395,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "ไข่ 读 khài。原因：辅音类别=高辅音 ข；声调符号=ไม้เอก ่；规则结果=高辅音 + ไม้เอก，读第 2 调低调。句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-380",
-    "audio": "audio/380-68c7ab656f.mp3"
+    "id": "thai-404",
+    "audio": "audio/404-68c7ab656f.mp3"
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
@@ -11912,8 +12416,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "ขวด 读 khùat。原因：辅音类别=高辅音 ข；声调符号=无；音节类型=末尾 ด 是 t 收尾，属于死音节；规则结果=高辅音 + 无声调符号 + 死音节，读第 2 调低调，末尾轻轻收住。"
     ],
-    "id": "thai-381",
-    "audio": "audio/381-4403490c2d.mp3"
+    "id": "thai-405",
+    "audio": "audio/405-4403490c2d.mp3"
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
@@ -11945,8 +12449,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "ขวด 读 khùat。原因：辅音类别=高辅音 ข；声调符号=无；音节类型=末尾 ด 是 t 收尾，属于死音节；规则结果=高辅音 + 无声调符号 + 死音节，读第 2 调低调，末尾轻轻收住。"
     ],
-    "id": "thai-382",
-    "audio": "audio/382-5c7f49dab0.mp3"
+    "id": "thai-406",
+    "audio": "audio/406-5c7f49dab0.mp3"
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
@@ -11966,8 +12470,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "ฉัน 读 chǎn。原因：辅音类别=高辅音 ฉ；声调符号=无，ั 是短元音 a；音节类型=น 是 n 鼻音结尾，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。สบายดี 里的 สะ 是高辅音 ส + 短死音节，读第 2 调低调 sà。"
     ],
-    "id": "thai-383",
-    "audio": "audio/383-011539b90d.mp3"
+    "id": "thai-407",
+    "audio": "audio/407-011539b90d.mp3"
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
@@ -11993,8 +12497,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "ฉัน 读 chǎn。原因：辅音类别=高辅音 ฉ；声调符号=无，ั 是短元音 a；音节类型=น 是 n 鼻音结尾，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。สบายดี 里的 สะ 是高辅音 ส + 短死音节，读第 2 调低调 sà。"
     ],
-    "id": "thai-384",
-    "audio": "audio/384-6825bda010.mp3"
+    "id": "thai-408",
+    "audio": "audio/408-6825bda010.mp3"
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
@@ -12014,8 +12518,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "ฐาน 读 thǎan。原因：辅音类别=高辅音 ฐ；声调符号=无；音节类型=长元音 aa + น 鼻音结尾，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。"
     ],
-    "id": "thai-385",
-    "audio": "audio/385-cd75a0fc3e.mp3"
+    "id": "thai-409",
+    "audio": "audio/409-cd75a0fc3e.mp3"
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
@@ -12047,8 +12551,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "ฐาน 读 thǎan。原因：辅音类别=高辅音 ฐ；声调符号=无；音节类型=长元音 aa + น 鼻音结尾，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。"
     ],
-    "id": "thai-386",
-    "audio": "audio/386-6a762a8076.mp3"
+    "id": "thai-410",
+    "audio": "audio/410-6a762a8076.mp3"
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
@@ -12068,8 +12572,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "ถุง 读 thǔng。原因：辅音类别=高辅音 ถ；声调符号=无；音节类型=ง 是 ng 鼻音结尾，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。ของ 和 ผม 也按高辅音 + 活音节读升调。"
     ],
-    "id": "thai-387",
-    "audio": "audio/387-12482644ee.mp3"
+    "id": "thai-411",
+    "audio": "audio/411-12482644ee.mp3"
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
@@ -12107,8 +12611,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "ถุง 读 thǔng。原因：辅音类别=高辅音 ถ；声调符号=无；音节类型=ง 是 ng 鼻音结尾，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。ของ 和 ผม 也按高辅音 + 活音节读升调。"
     ],
-    "id": "thai-388",
-    "audio": "audio/388-92b2e8af06.mp3"
+    "id": "thai-412",
+    "audio": "audio/412-92b2e8af06.mp3"
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
@@ -12128,8 +12632,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "ผม 读 phǒm。原因：辅音类别=高辅音 ผ；声调符号=无；音节类型=ม 是 m 鼻音结尾，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-389",
-    "audio": "audio/389-da56ad55c1.mp3"
+    "id": "thai-413",
+    "audio": "audio/413-da56ad55c1.mp3"
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
@@ -12166,8 +12670,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "ผม 读 phǒm。原因：辅音类别=高辅音 ผ；声调符号=无；音节类型=ม 是 m 鼻音结尾，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-390",
-    "audio": "audio/390-d22e258125.mp3"
+    "id": "thai-414",
+    "audio": "audio/414-d22e258125.mp3"
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
@@ -12187,8 +12691,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "ฝน 读 fǒn。原因：辅音类别=高辅音 ฝ；声调符号=无；音节类型=น 是 n 鼻音结尾，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-391",
-    "audio": "audio/391-8edad26cc8.mp3"
+    "id": "thai-415",
+    "audio": "audio/415-8edad26cc8.mp3"
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
@@ -12220,8 +12724,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "ฝน 读 fǒn。原因：辅音类别=高辅音 ฝ；声调符号=无；音节类型=น 是 n 鼻音结尾，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-392",
-    "audio": "audio/392-a0f7c9b721.mp3"
+    "id": "thai-416",
+    "audio": "audio/416-a0f7c9b721.mp3"
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
@@ -12241,8 +12745,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "ศาลา 的 ศา 读 sǎa。原因：辅音类别=高辅音 ศ；声调符号=无；音节类型=长元音 aa 的开音节，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。"
     ],
-    "id": "thai-393",
-    "audio": "audio/393-b32e4837c9.mp3"
+    "id": "thai-417",
+    "audio": "audio/417-b32e4837c9.mp3"
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
@@ -12274,8 +12778,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "ศาลา 的 ศา 读 sǎa。原因：辅音类别=高辅音 ศ；声调符号=无；音节类型=长元音 aa 的开音节，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。"
     ],
-    "id": "thai-394",
-    "audio": "audio/394-85313e8bf6.mp3"
+    "id": "thai-418",
+    "audio": "audio/418-85313e8bf6.mp3"
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
@@ -12295,8 +12799,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "ฤๅษี 的 ษี 读 sǐi。原因：辅音类别=高辅音 ษ；声调符号=无；音节类型=长元音 ii 的开音节，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。"
     ],
-    "id": "thai-395",
-    "audio": "audio/395-134f029808.mp3"
+    "id": "thai-419",
+    "audio": "audio/419-134f029808.mp3"
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
@@ -12334,8 +12838,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "ฤๅษี 的 ษี 读 sǐi。原因：辅音类别=高辅音 ษ；声调符号=无；音节类型=长元音 ii 的开音节，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。"
     ],
-    "id": "thai-396",
-    "audio": "audio/396-218722e5e9.mp3"
+    "id": "thai-420",
+    "audio": "audio/420-218722e5e9.mp3"
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
@@ -12355,8 +12859,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "สบายดี 里的 สะ 读 sà。原因：辅音类别=高辅音 ส；声调符号=无；音节类型=短元音、无尾辅音的死音节；规则结果=高辅音 + 无声调符号 + 短死音节，读第 2 调低调。ผม 是高辅音 + 活音节，读第 5 调升调 phǒm。"
     ],
-    "id": "thai-397",
-    "audio": "audio/397-d34a46e071.mp3"
+    "id": "thai-421",
+    "audio": "audio/421-d34a46e071.mp3"
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
@@ -12388,8 +12892,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "สบายดี 里的 สะ 读 sà。原因：辅音类别=高辅音 ส；声调符号=无；音节类型=短元音、无尾辅音的死音节；规则结果=高辅音 + 无声调符号 + 短死音节，读第 2 调低调。ผม 是高辅音 + 活音节，读第 5 调升调 phǒm。"
     ],
-    "id": "thai-398",
-    "audio": "audio/398-0307c57f9d.mp3"
+    "id": "thai-422",
+    "audio": "audio/422-0307c57f9d.mp3"
   },
   {
     "source": "007-high-consonant-memory-sentences.md",
@@ -12427,8 +12931,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "ห้า 读 hâa。原因：辅音类别=高辅音 ห；声调符号=ไม้โท ้；规则结果=高辅音 + ไม้โท，读第 3 调降调。ผม 是高辅音 + 活音节，读第 5 调升调 phǒm。"
     ],
-    "id": "thai-399",
-    "audio": "audio/399-d0c7431bfa.mp3"
+    "id": "thai-423",
+    "audio": "audio/423-d0c7431bfa.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -12454,8 +12958,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/f280dff6b7.mp3"
       }
     ],
-    "id": "thai-400",
-    "audio": "audio/400-02f8be4188.mp3"
+    "id": "thai-424",
+    "audio": "audio/424-02f8be4188.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -12487,8 +12991,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/f280dff6b7.mp3"
       }
     ],
-    "id": "thai-401",
-    "audio": "audio/401-f9069568bb.mp3"
+    "id": "thai-425",
+    "audio": "audio/425-f9069568bb.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -12514,8 +13018,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/f280dff6b7.mp3"
       }
     ],
-    "id": "thai-402",
-    "audio": "audio/402-65dd0b075b.mp3"
+    "id": "thai-426",
+    "audio": "audio/426-65dd0b075b.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -12541,8 +13045,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/f280dff6b7.mp3"
       }
     ],
-    "id": "thai-403",
-    "audio": "audio/403-b412d71ec2.mp3"
+    "id": "thai-427",
+    "audio": "audio/427-b412d71ec2.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -12568,8 +13072,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/f280dff6b7.mp3"
       }
     ],
-    "id": "thai-404",
-    "audio": "audio/404-a687dd7798.mp3"
+    "id": "thai-428",
+    "audio": "audio/428-a687dd7798.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -12614,8 +13118,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/f61e39bed0.mp3"
       }
     ],
-    "id": "thai-405",
-    "audio": "audio/405-420e142f87.mp3"
+    "id": "thai-429",
+    "audio": "audio/429-420e142f87.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -12647,8 +13151,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/f280dff6b7.mp3"
       }
     ],
-    "id": "thai-406",
-    "audio": "audio/406-da6d49aa24.mp3"
+    "id": "thai-430",
+    "audio": "audio/430-da6d49aa24.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -12698,8 +13202,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "按括号里的拉丁拼音声调标记读：â＝降调，á＝高调，ǎ＝升调。 ผม 是高辅音 ผ + 短元音 + m 鼻音结尾，读第 5 调升调 phǒm。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-407",
-    "audio": "audio/407-488743ff64.mp3"
+    "id": "thai-431",
+    "audio": "audio/431-488743ff64.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -12737,8 +13241,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "按括号里的拉丁拼音声调标记读：â＝降调，á＝高调，ǎ＝升调。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-408",
-    "audio": "audio/408-887913d2a8.mp3"
+    "id": "thai-432",
+    "audio": "audio/432-887913d2a8.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -12782,8 +13286,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "按括号里的拉丁拼音声调标记读：à＝低调，á＝高调，ǎ＝升调。 หรือยัง 用来问“已经做了吗 / 还是还没”。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-409",
-    "audio": "audio/409-90fca20579.mp3"
+    "id": "thai-433",
+    "audio": "audio/433-90fca20579.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -12821,8 +13325,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "按括号里的拉丁拼音声调标记读：à＝低调，á＝高调，ǎ＝升调。 省略 คุณ 后更口语，意思仍然是问对方“洗澡了吗”。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-410",
-    "audio": "audio/410-05ee897f4d.mp3"
+    "id": "thai-434",
+    "audio": "audio/434-05ee897f4d.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -12866,8 +13370,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "按括号里的拉丁拼音声调标记读：à＝低调，â＝降调，á＝高调，ǎ＝升调。 ยัง + ไม่ได้ 表示“还没有做”。 ผม 是高辅音 ผ + 短元音 + m 鼻音结尾，读第 5 调升调 phǒm。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-411",
-    "audio": "audio/411-0b1988e9ef.mp3"
+    "id": "thai-435",
+    "audio": "audio/435-0b1988e9ef.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -12905,8 +13409,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "按括号里的拉丁拼音声调标记读：à＝低调，á＝高调，ǎ＝升调。 แล้ว 放在动作后，表示“已经做了 / 完成了”。 ผม 是高辅音 ผ + 短元音 + m 鼻音结尾，读第 5 调升调 phǒm。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-412",
-    "audio": "audio/412-c9ec5e00ae.mp3"
+    "id": "thai-436",
+    "audio": "audio/436-c9ec5e00ae.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -12956,8 +13460,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "按括号里的拉丁拼音声调标记读：à＝低调，á＝高调，ǎ＝升调。 ตอน + 时间 表示“在某个时间”。 这里先按初学阶段记“ตอนสองโมง”＝两点。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-413",
-    "audio": "audio/413-5b3d9d5f97.mp3"
+    "id": "thai-437",
+    "audio": "audio/437-5b3d9d5f97.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -12983,8 +13487,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "按括号里的拉丁拼音声调标记读：î＝降调。 นี่ไง 是口语表达，常用来指给别人看：“这不就是嘛 / 在这儿啊”。"
     ],
-    "id": "thai-414",
-    "audio": "audio/414-1e5fecf2b9.mp3"
+    "id": "thai-438",
+    "audio": "audio/438-1e5fecf2b9.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -13022,8 +13526,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "按括号里的拉丁拼音声调标记读：ù＝低调，á＝高调，ǎ＝升调。 หรือยัง 用来问“已经做了吗 / 还是还没”。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-415",
-    "audio": "audio/415-0c64ee7a3b.mp3"
+    "id": "thai-439",
+    "audio": "audio/439-0c64ee7a3b.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -13055,8 +13559,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "按括号里的拉丁拼音声调标记读：ù＝低调，á＝高调，ǎ＝升调。 省略 คุณ 后更口语，意思仍然是问对方“醒了吗”。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-416",
-    "audio": "audio/416-7e00705181.mp3"
+    "id": "thai-440",
+    "audio": "audio/440-7e00705181.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -13124,8 +13628,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "按括号里的拉丁拼音声调标记读：ù＝低调，â＝降调，á＝高调，ǎ＝升调。 เวลา 放句首时可理解为“当……的时候”。 ถามว่า 后面接问的内容。 ฉัน 是高辅音 ฉ + 短元音 + n 鼻音结尾，读第 5 调升调 chǎn。"
     ],
-    "id": "thai-417",
-    "audio": "audio/417-9b123f723f.mp3"
+    "id": "thai-441",
+    "audio": "audio/441-9b123f723f.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -13151,8 +13655,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "按括号里的拉丁拼音声调标记读：û、â＝降调。 มาก 放在形容词后，表示“很 / 非常”。"
     ],
-    "id": "thai-418",
-    "audio": "audio/418-62370ed54e.mp3"
+    "id": "thai-442",
+    "audio": "audio/442-62370ed54e.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -13190,8 +13694,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "按括号里的拉丁拼音声调标记读：û、â＝降调，á＝高调，ǎ＝升调。 ผม 是高辅音 ผ + 短元音 + m 鼻音结尾，读第 5 调升调 phǒm。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-419",
-    "audio": "audio/419-98cb43fce4.mp3"
+    "id": "thai-443",
+    "audio": "audio/443-98cb43fce4.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -13229,8 +13733,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "按括号里的拉丁拼音声调标记读：ì＝低调，û＝降调，á＝高调，ǎ＝升调。 นิดหน่อย 放在状态后，表示“有点 / 一点点”。 ผม 是高辅音 ผ + 短元音 + m 鼻音结尾，读第 5 调升调 phǒm。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-420",
-    "audio": "audio/420-20ea7335e4.mp3"
+    "id": "thai-444",
+    "audio": "audio/444-20ea7335e4.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -13262,8 +13766,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "按括号里的拉丁拼音声调标记读：û＝降调，á＝高调。 ด้วยกัน 明确表示“一起”。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-421",
-    "audio": "audio/421-f7e607f629.mp3"
+    "id": "thai-445",
+    "audio": "audio/445-f7e607f629.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -13301,8 +13805,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "按括号里的拉丁拼音声调标记读：û＝降调，á＝高调。 这句话在语境里可能有亲密含义，复习时注意使用场景。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-422",
-    "audio": "audio/422-97273670eb.mp3"
+    "id": "thai-446",
+    "audio": "audio/446-97273670eb.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -13340,8 +13844,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "按括号里的拉丁拼音声调标记读：á＝高调。 กัน 放在动词后，可以表示“咱们一起……”。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-423",
-    "audio": "audio/423-d67cb8d1e8.mp3"
+    "id": "thai-447",
+    "audio": "audio/447-d67cb8d1e8.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -13367,8 +13871,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "按括号里的拉丁拼音声调标记读：ǐ＝升调，á＝高调。 เดี๋ยว 可单独表达“等一下 / 稍后”。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-424",
-    "audio": "audio/424-03c2020bf1.mp3"
+    "id": "thai-448",
+    "audio": "audio/448-03c2020bf1.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -13400,8 +13904,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "按括号里的拉丁拼音声调标记读：ǐ＝升调，á＝高调。 รอ 是“等”，เดี๋ยว 是“一下 / 稍后”。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-425",
-    "audio": "audio/425-3f140ace1a.mp3"
+    "id": "thai-449",
+    "audio": "audio/449-3f140ace1a.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -13439,8 +13943,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "按括号里的拉丁拼音声调标记读：ǐ、ǒ＝升调，á＝高调。 ผม 是高辅音 ผ + 短元音 + m 鼻音结尾，读第 5 调升调 phǒm。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-426",
-    "audio": "audio/426-dd886cb184.mp3"
+    "id": "thai-450",
+    "audio": "audio/450-dd886cb184.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -13460,8 +13964,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "เลย 是很常见的口语词，具体意思要结合前后句。 本次只先记它的声音和常见感觉，不展开更多新句型。"
     ],
-    "id": "thai-427",
-    "audio": "audio/427-f280dff6b7.mp3"
+    "id": "thai-451",
+    "audio": "audio/451-f280dff6b7.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -13505,8 +14009,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "按括号里的拉丁拼音声调标记读：û、â＝降调，ǎ＝升调。 ยัง ... ไม่ ... พอ 表示“还不够……”。 ฉัน 是高辅音 ฉ + 短元音 + n 鼻音结尾，读第 5 调升调 chǎn。"
     ],
-    "id": "thai-428",
-    "audio": "audio/428-1a8377d3d0.mp3"
+    "id": "thai-452",
+    "audio": "audio/452-1a8377d3d0.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -13562,8 +14066,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "按括号里的拉丁拼音声调标记读：è＝低调，û、â＝降调，á＝高调。 แล้ว 放在这里表示“已经”。 เก่งมาก 是夸对方“很厉害 / 很棒”。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-429",
-    "audio": "audio/429-24fb9c3851.mp3"
+    "id": "thai-453",
+    "audio": "audio/453-24fb9c3851.mp3"
   },
   {
     "source": "008-arrived-home-and-shower.md",
@@ -13595,8 +14099,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "按括号里的拉丁拼音声调标记读：è＝低调，û、â＝降调，á＝高调。 พูดเก่งมากครับ 是更口语的夸奖，说对方“很会说 / 说得很厉害”。"
     ],
-    "id": "thai-430",
-    "audio": "audio/430-63a746390e.mp3"
+    "id": "thai-454",
+    "audio": "audio/454-63a746390e.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -13616,8 +14120,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：ù＝低调，ǔ、ǒ＝升调，á＝高调。 หัว 读 hǔa。原因：辅音类别=高辅音 ห；声调符号=无；音节类型=长元音 ua 的开音节，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。 ปวดหัว 是常用表达，意思是“头疼”。"
     ],
-    "id": "thai-431",
-    "audio": "audio/431-4446b96259.mp3"
+    "id": "thai-455",
+    "audio": "audio/455-4446b96259.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -13655,8 +14159,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：ù＝低调，ǔ、ǒ＝升调，á＝高调。 หัว 读 hǔa。原因：辅音类别=高辅音 ห；声调符号=无；音节类型=长元音 ua 的开音节，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。 ปวดหัว 是常用表达，意思是“头疼”。"
     ],
-    "id": "thai-432",
-    "audio": "audio/432-e49f9129c2.mp3"
+    "id": "thai-456",
+    "audio": "audio/456-e49f9129c2.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -13676,8 +14180,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：î＝降调，ǒ＝升调，á＝高调。 ผม 读 phǒm。原因：辅音类别=高辅音 ผ；声调符号=无；音节类型=ม 是 m 鼻音结尾，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。 ผม 也可以表示“我（男性用）”，这里作为身体部位时是“头发”。"
     ],
-    "id": "thai-433",
-    "audio": "audio/433-da56ad55c1.mp3"
+    "id": "thai-457",
+    "audio": "audio/457-da56ad55c1.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -13715,8 +14219,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：î＝降调，ǒ＝升调，á＝高调。 ผม 读 phǒm。原因：辅音类别=高辅音 ผ；声调符号=无；音节类型=ม 是 m 鼻音结尾，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。 ผม 也可以表示“我（男性用）”，这里作为身体部位时是“头发”。"
     ],
-    "id": "thai-434",
-    "audio": "audio/434-18f087a7cd.mp3"
+    "id": "thai-458",
+    "audio": "audio/458-18f087a7cd.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -13736,8 +14240,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：î、â＝降调，á＝高调。 หน้า 读 nâa。原因：辅音类别=ห 前引字让 น 按高辅音规则处理；声调符号=ไม้โท ้；音节类型=长元音 aa 的开音节，属于活音节；规则结果=高辅音 + ไม้โท，读第 3 调降调。"
     ],
-    "id": "thai-435",
-    "audio": "audio/435-c6d432aa6b.mp3"
+    "id": "thai-459",
+    "audio": "audio/459-c6d432aa6b.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -13775,8 +14279,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：î、â＝降调，á＝高调。 หน้า 读 nâa。原因：辅音类别=ห 前引字让 น 按高辅音规则处理；声调符号=ไม้โท ้；音节类型=长元音 aa 的开音节，属于活音节；规则结果=高辅音 + ไม้โท，读第 3 调降调。"
     ],
-    "id": "thai-436",
-    "audio": "audio/436-5d73ac41d9.mp3"
+    "id": "thai-460",
+    "audio": "audio/460-5d73ac41d9.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -13796,8 +14300,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "ตา 读 dtaa，拉丁拼音没有额外声调符号，先平稳读。原因：辅音类别=中辅音 ต；声调符号=无；音节类型=长元音 aa 的开音节，属于活音节；规则结果=中辅音 + 无声调符号 + 活音节，读第 1 调中平调。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-437",
-    "audio": "audio/437-f03eb06044.mp3"
+    "id": "thai-461",
+    "audio": "audio/461-f03eb06044.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -13835,8 +14339,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "ตา 读 dtaa，拉丁拼音没有额外声调符号，先平稳读。原因：辅音类别=中辅音 ต；声调符号=无；音节类型=长元音 aa 的开音节，属于活音节；规则结果=中辅音 + 无声调符号 + 活音节，读第 1 调中平调。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-438",
-    "audio": "audio/438-e8970fb2af.mp3"
+    "id": "thai-462",
+    "audio": "audio/462-e8970fb2af.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -13856,8 +14360,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：î＝降调，ǔ＝升调，á＝高调。 หู 读 hǔu。原因：辅音类别=高辅音 ห；声调符号=无；音节类型=长元音 uu 的开音节，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。"
     ],
-    "id": "thai-439",
-    "audio": "audio/439-a50a1b8ba6.mp3"
+    "id": "thai-463",
+    "audio": "audio/463-a50a1b8ba6.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -13895,8 +14399,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：î＝降调，ǔ＝升调，á＝高调。 หู 读 hǔu。原因：辅音类别=高辅音 ห；声调符号=无；音节类型=长元音 uu 的开音节，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。"
     ],
-    "id": "thai-440",
-    "audio": "audio/440-b7de289933.mp3"
+    "id": "thai-464",
+    "audio": "audio/464-b7de289933.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -13916,8 +14420,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：à、ù＝低调，î＝降调，á＝高调。 จมูก 分成 jà + mùuk 两段慢慢读。จ 这一段读 jà，原因：辅音类别=中辅音 จ；声调符号=无；音节类型=短元音、无尾辅音的死音节；规则结果=中辅音 + 无声调符号 + 死音节，读第 2 调低调。末尾 ก 是 k 收尾，轻轻收住。"
     ],
-    "id": "thai-441",
-    "audio": "audio/441-5fcc68d773.mp3"
+    "id": "thai-465",
+    "audio": "audio/465-5fcc68d773.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -13955,8 +14459,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：à、ù＝低调，î＝降调，á＝高调。 จมูก 分成 jà + mùuk 两段慢慢读。จ 这一段读 jà，原因：辅音类别=中辅音 จ；声调符号=无；音节类型=短元音、无尾辅音的死音节；规则结果=中辅音 + 无声调符号 + 死音节，读第 2 调低调。末尾 ก 是 k 收尾，轻轻收住。"
     ],
-    "id": "thai-442",
-    "audio": "audio/442-77cea35a21.mp3"
+    "id": "thai-466",
+    "audio": "audio/466-77cea35a21.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -13976,8 +14480,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：à＝低调，î＝降调，á＝高调。 ปาก 读 bpàak。原因：辅音类别=中辅音 ป；声调符号=无；音节类型=末尾 ก 是 k 收尾，属于死音节；规则结果=中辅音 + 无声调符号 + 死音节，读第 2 调低调，末尾轻轻收住。"
     ],
-    "id": "thai-443",
-    "audio": "audio/443-265d9ef5fc.mp3"
+    "id": "thai-467",
+    "audio": "audio/467-265d9ef5fc.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14015,8 +14519,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：à＝低调，î＝降调，á＝高调。 ปาก 读 bpàak。原因：辅音类别=中辅音 ป；声调符号=无；音节类型=末尾 ก 是 k 收尾，属于死音节；规则结果=中辅音 + 无声调符号 + 死音节，读第 2 调低调，末尾轻轻收住。"
     ],
-    "id": "thai-444",
-    "audio": "audio/444-aee83271ea.mp3"
+    "id": "thai-468",
+    "audio": "audio/468-aee83271ea.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14036,8 +14540,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：è＝低调，á＝高调。 ฟัน 读 fan，原因：辅音类别=低辅音 ฟ；声调符号=无，ั 是短元音 a，不是声调符号；音节类型=น 是 n 鼻音结尾，属于活音节；规则结果=低辅音 + 无声调符号 + 活音节，读第 1 调中平调。 เจ็บ 末尾 บ 是 p 收尾，末尾轻轻收住。"
     ],
-    "id": "thai-445",
-    "audio": "audio/445-1e3ad63523.mp3"
+    "id": "thai-469",
+    "audio": "audio/469-1e3ad63523.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14069,8 +14573,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：è＝低调，á＝高调。 ฟัน 读 fan，原因：辅音类别=低辅音 ฟ；声调符号=无，ั 是短元音 a，不是声调符号；音节类型=น 是 n 鼻音结尾，属于活音节；规则结果=低辅音 + 无声调符号 + 活音节，读第 1 调中平调。 เจ็บ 末尾 บ 是 p 收尾，末尾轻轻收住。"
     ],
-    "id": "thai-446",
-    "audio": "audio/446-462238e10c.mp3"
+    "id": "thai-470",
+    "audio": "audio/470-462238e10c.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14090,8 +14594,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：í＝高调，î＝降调，á＝高调。 ลิ้น 读 lín。原因：辅音类别=低辅音 ล；声调符号=ไม้โท ้；音节类型=น 是 n 鼻音结尾，属于活音节；规则结果=低辅音 + ไม้โท，读第 4 调高调。"
     ],
-    "id": "thai-447",
-    "audio": "audio/447-304c4a78c9.mp3"
+    "id": "thai-471",
+    "audio": "audio/471-304c4a78c9.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14129,8 +14633,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：í＝高调，î＝降调，á＝高调。 ลิ้น 读 lín。原因：辅音类别=低辅音 ล；声调符号=ไม้โท ้；音节类型=น 是 n 鼻音结尾，属于活音节；规则结果=低辅音 + ไม้โท，读第 4 调高调。"
     ],
-    "id": "thai-448",
-    "audio": "audio/448-87ba85c22d.mp3"
+    "id": "thai-472",
+    "audio": "audio/472-87ba85c22d.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14150,8 +14654,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：è＝低调，á＝高调。 คอ 读 khaaw，先平稳读。原因：辅音类别=低辅音 ค；声调符号=无；音节类型=长元音 aaw 的开音节，属于活音节；规则结果=低辅音 + 无声调符号 + 活音节，读第 1 调中平调。 คอเจ็บ 常用于表达喉咙疼 / 脖子不舒服。"
     ],
-    "id": "thai-449",
-    "audio": "audio/449-09c3284aac.mp3"
+    "id": "thai-473",
+    "audio": "audio/473-09c3284aac.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14183,8 +14687,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：è＝低调，á＝高调。 คอ 读 khaaw，先平稳读。原因：辅音类别=低辅音 ค；声调符号=无；音节类型=长元音 aaw 的开音节，属于活音节；规则结果=低辅音 + 无声调符号 + 活音节，读第 1 调中平调。 คอเจ็บ 常用于表达喉咙疼 / 脖子不舒服。"
     ],
-    "id": "thai-450",
-    "audio": "audio/450-4d387f6ecb.mp3"
+    "id": "thai-474",
+    "audio": "audio/474-4d387f6ecb.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14204,8 +14708,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：à＝低调，î＝降调，á＝高调。 ไหล่ 读 lài。原因：辅音类别=ห 前引字让 ล 按高辅音规则处理；声调符号=ไม้เอก ่；规则结果=高辅音 + ไม้เอก，读第 2 调低调。"
     ],
-    "id": "thai-451",
-    "audio": "audio/451-854d70ac75.mp3"
+    "id": "thai-475",
+    "audio": "audio/475-854d70ac75.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14243,8 +14747,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：à＝低调，î＝降调，á＝高调。 ไหล่ 读 lài。原因：辅音类别=ห 前引字让 ล 按高辅音规则处理；声调符号=ไม้เอก ่；规则结果=高辅音 + ไม้เอก，读第 2 调低调。"
     ],
-    "id": "thai-452",
-    "audio": "audio/452-f2da281dab.mp3"
+    "id": "thai-476",
+    "audio": "audio/476-f2da281dab.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14264,8 +14768,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：ǎ＝升调，î＝降调，á＝高调。 แขน 读 khǎen。原因：辅音类别=高辅音 ข；声调符号=无；音节类型=น 是 n 鼻音结尾，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。"
     ],
-    "id": "thai-453",
-    "audio": "audio/453-b6867c2fa6.mp3"
+    "id": "thai-477",
+    "audio": "audio/477-b6867c2fa6.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14303,8 +14807,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：ǎ＝升调，î＝降调，á＝高调。 แขน 读 khǎen。原因：辅音类别=高辅音 ข；声调符号=无；音节类型=น 是 n 鼻音结尾，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。"
     ],
-    "id": "thai-454",
-    "audio": "audio/454-92a281ce51.mp3"
+    "id": "thai-478",
+    "audio": "audio/478-92a281ce51.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14324,8 +14828,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：î＝降调，á＝高调。 มือ 读 mʉʉ，先平稳读。原因：辅音类别=低辅音 ม；声调符号=无；音节类型=长元音 ʉʉ 的开音节，属于活音节；规则结果=低辅音 + 无声调符号 + 活音节，读第 1 调中平调。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-455",
-    "audio": "audio/455-c95e274a01.mp3"
+    "id": "thai-479",
+    "audio": "audio/479-c95e274a01.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14363,8 +14867,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：î＝降调，á＝高调。 มือ 读 mʉʉ，先平稳读。原因：辅音类别=低辅音 ม；声调符号=无；音节类型=长元音 ʉʉ 的开音节，属于活音节；规则结果=低辅音 + 无声调符号 + 活音节，读第 1 调中平调。 句末 ครับ | khráp 是男性礼貌结尾，末尾轻轻收在 p。"
     ],
-    "id": "thai-456",
-    "audio": "audio/456-0eef2eddf7.mp3"
+    "id": "thai-480",
+    "audio": "audio/480-0eef2eddf7.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14384,8 +14888,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：í＝高调，î＝降调，á＝高调。 นิ้ว 读 níu。原因：辅音类别=低辅音 น；声调符号=ไม้โท ้；音节类型=长元音 iu，属于活音节；规则结果=低辅音 + ไม้โท，读第 4 调高调。"
     ],
-    "id": "thai-457",
-    "audio": "audio/457-7dbb88ac3e.mp3"
+    "id": "thai-481",
+    "audio": "audio/481-7dbb88ac3e.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14423,8 +14927,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：í＝高调，î＝降调，á＝高调。 นิ้ว 读 níu。原因：辅音类别=低辅音 น；声调符号=ไม้โท ้；音节类型=长元音 iu，属于活音节；规则结果=低辅音 + ไม้โท，读第 4 调高调。"
     ],
-    "id": "thai-458",
-    "audio": "audio/458-7922a0310a.mp3"
+    "id": "thai-482",
+    "audio": "audio/482-7922a0310a.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14444,8 +14948,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：ò＝低调，î＝降调，á＝高调。 อก 读 òk。原因：辅音类别=中辅音 อ；声调符号=无；音节类型=短元音 + ก k 收尾，属于死音节；规则结果=中辅音 + 无声调符号 + 死音节，读第 2 调低调，末尾轻轻收住。"
     ],
-    "id": "thai-459",
-    "audio": "audio/459-874a913416.mp3"
+    "id": "thai-483",
+    "audio": "audio/483-874a913416.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14483,8 +14987,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：ò＝低调，î＝降调，á＝高调。 อก 读 òk。原因：辅音类别=中辅音 อ；声调符号=无；音节类型=短元音 + ก k 收尾，属于死音节；规则结果=中辅音 + 无声调符号 + 死音节，读第 2 调低调，末尾轻轻收住。"
     ],
-    "id": "thai-460",
-    "audio": "audio/460-b05fed1b2a.mp3"
+    "id": "thai-484",
+    "audio": "audio/484-b05fed1b2a.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14504,8 +15008,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：á＝高调，è＝低调。 ท้อง 读 tháawng。原因：辅音类别=低辅音 ท；声调符号=ไม้โท ้；音节类型=ง 是 ng 鼻音结尾，属于活音节；规则结果=低辅音 + ไม้โท，读第 4 调高调。"
     ],
-    "id": "thai-461",
-    "audio": "audio/461-74ac079fdd.mp3"
+    "id": "thai-485",
+    "audio": "audio/485-74ac079fdd.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14537,8 +15041,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：á＝高调，è＝低调。 ท้อง 读 tháawng。原因：辅音类别=低辅音 ท；声调符号=ไม้โท ้；音节类型=ง 是 ng 鼻音结尾，属于活音节；规则结果=低辅音 + ไม้โท，读第 4 调高调。"
     ],
-    "id": "thai-462",
-    "audio": "audio/462-5ffb2f843d.mp3"
+    "id": "thai-486",
+    "audio": "audio/486-5ffb2f843d.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14558,8 +15062,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：ǎ＝升调，è＝低调，á＝高调。 หลัง 读 lǎng。原因：辅音类别=ห 前引字让 ล 按高辅音规则处理；声调符号=无；音节类型=ง 是 ng 鼻音结尾，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。"
     ],
-    "id": "thai-463",
-    "audio": "audio/463-bc74b11a5c.mp3"
+    "id": "thai-487",
+    "audio": "audio/487-bc74b11a5c.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14591,8 +15095,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：ǎ＝升调，è＝低调，á＝高调。 หลัง 读 lǎng。原因：辅音类别=ห 前引字让 ล 按高辅音规则处理；声调符号=无；音节类型=ง 是 ng 鼻音结尾，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。"
     ],
-    "id": "thai-464",
-    "audio": "audio/464-32136cd4d6.mp3"
+    "id": "thai-488",
+    "audio": "audio/488-32136cd4d6.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14612,8 +15116,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：è＝低调，á＝高调。 เอว 读 eew，先平稳读。原因：辅音类别=中辅音 อ；声调符号=无；音节类型=ว 是半元音尾，属于活音节；规则结果=中辅音 + 无声调符号 + 活音节，读第 1 调中平调。 เจ็บ 末尾 บ 是 p 收尾，末尾轻轻收住。"
     ],
-    "id": "thai-465",
-    "audio": "audio/465-1b54d26c1a.mp3"
+    "id": "thai-489",
+    "audio": "audio/489-1b54d26c1a.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14645,8 +15149,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：è＝低调，á＝高调。 เอว 读 eew，先平稳读。原因：辅音类别=中辅音 อ；声调符号=无；音节类型=ว 是半元音尾，属于活音节；规则结果=中辅音 + 无声调符号 + 活音节，读第 1 调中平调。 เจ็บ 末尾 บ 是 p 收尾，末尾轻轻收住。"
     ],
-    "id": "thai-466",
-    "audio": "audio/466-26f5c9bb1f.mp3"
+    "id": "thai-490",
+    "audio": "audio/490-26f5c9bb1f.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14666,8 +15170,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：ǎ＝升调，î＝降调，á＝高调。 ขา 读 khǎa。原因：辅音类别=高辅音 ข；声调符号=无；音节类型=长元音 aa 的开音节，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。"
     ],
-    "id": "thai-467",
-    "audio": "audio/467-e5621333ca.mp3"
+    "id": "thai-491",
+    "audio": "audio/491-e5621333ca.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14705,8 +15209,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：ǎ＝升调，î＝降调，á＝高调。 ขา 读 khǎa。原因：辅音类别=高辅音 ข；声调符号=无；音节类型=长元音 aa 的开音节，属于活音节；规则结果=高辅音 + 无声调符号 + 活音节，读第 5 调升调。"
     ],
-    "id": "thai-468",
-    "audio": "audio/468-f9023aae74.mp3"
+    "id": "thai-492",
+    "audio": "audio/492-f9023aae74.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14726,8 +15230,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：à、è＝低调，á＝高调。 เข่า 读 khào。原因：辅音类别=高辅音 ข；声调符号=ไม้เอก ่；音节类型=长元音 ao 的开音节，属于活音节；规则结果=高辅音 + ไม้เอก，读第 2 调低调。"
     ],
-    "id": "thai-469",
-    "audio": "audio/469-d16ea1754c.mp3"
+    "id": "thai-493",
+    "audio": "audio/493-d16ea1754c.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14759,8 +15263,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：à、è＝低调，á＝高调。 เข่า 读 khào。原因：辅音类别=高辅音 ข；声调符号=ไม้เอก ่；音节类型=长元音 ao 的开音节，属于活音节；规则结果=高辅音 + ไม้เอก，读第 2 调低调。"
     ],
-    "id": "thai-470",
-    "audio": "audio/470-448367503e.mp3"
+    "id": "thai-494",
+    "audio": "audio/494-448367503e.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14780,8 +15284,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：á＝高调，î、â＝降调。 เท้า 读 tháao。原因：辅音类别=低辅音 ท；声调符号=ไม้โท ้；音节类型=长元音 ao 的开音节，属于活音节；规则结果=低辅音 + ไม้โท，读第 4 调高调。"
     ],
-    "id": "thai-471",
-    "audio": "audio/471-88e0b311a4.mp3"
+    "id": "thai-495",
+    "audio": "audio/495-88e0b311a4.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14819,8 +15323,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：á＝高调，î、â＝降调。 เท้า 读 tháao。原因：辅音类别=低辅音 ท；声调符号=ไม้โท ้；音节类型=长元音 ao 的开音节，属于活音节；规则结果=低辅音 + ไม้โท，读第 4 调高调。"
     ],
-    "id": "thai-472",
-    "audio": "audio/472-eb1ba77a52.mp3"
+    "id": "thai-496",
+    "audio": "audio/496-eb1ba77a52.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14840,8 +15344,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：í、á＝高调，î、â＝降调。 นิ้ว 读 níu，原因：低辅音 น + ไม้โท ้，读第 4 调高调。 เท้า 读 tháao，原因：低辅音 ท + ไม้โท ้，读第 4 调高调。 นิ้วเท้า 由 นิ้ว（手指 / 趾）+ เท้า（脚）组成，合起来是“脚趾”。"
     ],
-    "id": "thai-473",
-    "audio": "audio/473-031cf5b386.mp3"
+    "id": "thai-497",
+    "audio": "audio/497-031cf5b386.mp3"
   },
   {
     "source": "009-body-parts.md",
@@ -14879,8 +15383,8 @@ window.THAI_AUDIO_APP_ITEMS = [
     "pronunciationRules": [
       "快速读音：í、á＝高调，î、â＝降调。 นิ้ว 读 níu，原因：低辅音 น + ไม้โท ้，读第 4 调高调。 เท้า 读 tháao，原因：低辅音 ท + ไม้โท ้，读第 4 调高调。 นิ้วเท้า 由 นิ้ว（手指 / 趾）+ เท้า（脚）组成，合起来是“脚趾”。"
     ],
-    "id": "thai-474",
-    "audio": "audio/474-47d6f80f49.mp3"
+    "id": "thai-498",
+    "audio": "audio/498-47d6f80f49.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -14901,8 +15405,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/c7bcb12d8b.mp3"
       }
     ],
-    "id": "thai-475",
-    "audio": "audio/475-c7bcb12d8b.mp3"
+    "id": "thai-499",
+    "audio": "audio/499-c7bcb12d8b.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -14923,8 +15427,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
-    "id": "thai-476",
-    "audio": "audio/476-2dce0151d6.mp3"
+    "id": "thai-500",
+    "audio": "audio/500-2dce0151d6.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -14944,8 +15448,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/fbd3f12059.mp3"
       }
     ],
-    "id": "thai-477",
-    "audio": "audio/477-fbd3f12059.mp3"
+    "id": "thai-501",
+    "audio": "audio/501-fbd3f12059.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -14965,8 +15469,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/2d09568c10.mp3"
       }
     ],
-    "id": "thai-478",
-    "audio": "audio/478-2d09568c10.mp3"
+    "id": "thai-502",
+    "audio": "audio/502-2d09568c10.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -14992,8 +15496,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/2d09568c10.mp3"
       }
     ],
-    "id": "thai-479",
-    "audio": "audio/479-193b9f4623.mp3"
+    "id": "thai-503",
+    "audio": "audio/503-193b9f4623.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -15032,8 +15536,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/2dce0151d6.mp3"
       }
     ],
-    "id": "thai-480",
-    "audio": "audio/480-d22e258125.mp3"
+    "id": "thai-504",
+    "audio": "audio/504-d22e258125.mp3"
   },
   {
     "source": "001-beginner-greetings-thanks-names.md",
@@ -15065,8 +15569,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/b63888f232.mp3"
       }
     ],
-    "id": "thai-481",
-    "audio": "audio/481-67a90461c8.mp3"
+    "id": "thai-505",
+    "audio": "audio/505-67a90461c8.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -15094,8 +15598,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/4a80f2d016.mp3"
       }
     ],
-    "id": "thai-482",
-    "audio": "audio/482-633564778a.mp3"
+    "id": "thai-506",
+    "audio": "audio/506-633564778a.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -15116,8 +15620,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/d34a46e071.mp3"
       }
     ],
-    "id": "thai-483",
-    "audio": "audio/483-d34a46e071.mp3"
+    "id": "thai-507",
+    "audio": "audio/507-d34a46e071.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -15149,8 +15653,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/87c765302e.mp3"
       }
     ],
-    "id": "thai-484",
-    "audio": "audio/484-3527fcde76.mp3"
+    "id": "thai-508",
+    "audio": "audio/508-3527fcde76.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -15171,8 +15675,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/fd047e1679.mp3"
       }
     ],
-    "id": "thai-485",
-    "audio": "audio/485-fd047e1679.mp3"
+    "id": "thai-509",
+    "audio": "audio/509-fd047e1679.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -15204,8 +15708,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/eee0e744ab.mp3"
       }
     ],
-    "id": "thai-486",
-    "audio": "audio/486-e0a814cc4f.mp3"
+    "id": "thai-510",
+    "audio": "audio/510-e0a814cc4f.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -15225,8 +15729,8 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/bf0a0836c4.mp3"
       }
     ],
-    "id": "thai-487",
-    "audio": "audio/487-bf0a0836c4.mp3"
+    "id": "thai-511",
+    "audio": "audio/511-bf0a0836c4.mp3"
   },
   {
     "source": "002-beginner-wellbeing-apology-farewell.md",
@@ -15265,12 +15769,12 @@ window.THAI_AUDIO_APP_ITEMS = [
         "audio": "word-audio/87c765302e.mp3"
       }
     ],
-    "id": "thai-488",
-    "audio": "audio/488-32da8ba114.mp3"
+    "id": "thai-512",
+    "audio": "audio/512-32da8ba114.mp3"
   }
 ];
 window.THAI_AUDIO_APP_META = {
-  count: 488,
+  count: 512,
   voice: "th-TH-PremwadeeNeural",
   format: "中文意思 | 泰语 | 拉丁拼音读音"
 };
