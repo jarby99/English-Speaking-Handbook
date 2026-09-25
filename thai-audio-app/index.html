@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>泰语点读练习</title>
+    <title>多语言点读练习</title>
     <link rel="stylesheet" href="assets/styles.css">
   </head>
   <body>
@@ -11,8 +11,8 @@
       <header class="topbar">
         <div>
           <p class="eyebrow">静态 App · 本地预生成音频</p>
-          <h1>泰语点读练习</h1>
-          <p class="subtitle">只收录已经整理过的学习内容。点击每张卡片即可播放泰语音频。</p>
+          <h1>多语言点读练习</h1>
+          <p class="subtitle">只收录已经整理过的学习内容。先选择语言，再点击卡片播放音频。</p>
         </div>
         <div class="stats" aria-label="学习条目统计">
           <strong id="itemCount">0</strong>
@@ -33,6 +33,7 @@
             <button id="toneGuideCloseButton" class="tone-guide-close" type="button" aria-label="关闭发音规则总表">×</button>
           </header>
           <div class="tone-guide-content">
+          <div class="language-guide" data-language="thai">
           <section>
             <h2>先看三件事</h2>
             <ol>
@@ -102,6 +103,46 @@
               <li>死音节：短元音无尾音，或 p/t/k 收尾，声音要短促收住。</li>
             </ul>
           </section>
+          </div>
+          <div class="language-guide" data-language="indonesian" hidden>
+          <section>
+            <h2>先看三件事</h2>
+            <ol>
+              <li>印尼语基本按拉丁字母拼读，先慢读音节，再连读。</li>
+              <li>重点听清清音和浊音：g/k、d/t、b/p。</li>
+              <li>注意词序，不要把中文“的”的顺序直接搬到印尼语。</li>
+            </ol>
+          </section>
+          <section>
+            <h2>清音 / 浊音</h2>
+            <div class="tone-table compact" role="table" aria-label="印尼语清浊音规则">
+              <div role="row">
+                <span role="columnheader">对比</span>
+                <span role="columnheader">初学先记</span>
+              </div>
+              <div role="row">
+                <span role="cell">g / k</span>
+                <span role="cell">g 是浊音，声带震动更强；k 是清音</span>
+              </div>
+              <div role="row">
+                <span role="cell">d / t</span>
+                <span role="cell">d 是浊音；t 是清音</span>
+              </div>
+              <div role="row">
+                <span role="cell">b / p</span>
+                <span role="cell">b 是浊音；p 是清音</span>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2>词序</h2>
+            <ul>
+              <li>“有钱的人”是 orang kaya，不说 kaya orang。</li>
+              <li>“印尼人”是 Orang Indonesia。</li>
+              <li>“中国人”按本次材料先记 orang China，不说 China orang。</li>
+            </ul>
+          </section>
+          </div>
         </div>
         </div>
       </dialog>
@@ -109,7 +150,11 @@
       <section class="controls" aria-label="筛选和搜索">
         <label class="search-box">
           <span>搜索</span>
-          <input id="searchInput" type="search" placeholder="输入中文、泰语或拼音">
+          <input id="searchInput" type="search" placeholder="输入中文、目标语言或读音">
+        </label>
+        <label class="filter-box">
+          <span>语言</span>
+          <select id="languageSelect"></select>
         </label>
         <label class="filter-box">
           <span>分类</span>

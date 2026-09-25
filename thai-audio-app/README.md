@@ -1,10 +1,13 @@
-# 泰语点读练习 App
+# 多语言点读练习 App
 
-这是一个静态 App，用本地数据和本地预生成 MP3 音频做泰语点读练习。
+这是一个静态 App，用本地数据和本地预生成 MP3 音频做多语言点读练习。目前支持泰语和印尼语。
 
 打开 `index.html` 即可使用。
 
-数据来源：`learning-records/thai/*.md`，不包含 `learning-records/thai/TikTok/`。
+数据来源：
+
+- `learning-records/thai/*.md`，不包含 `learning-records/thai/TikTok/`
+- `learning-records/indonesian/*.md`
 
 重新生成数据和音频：
 

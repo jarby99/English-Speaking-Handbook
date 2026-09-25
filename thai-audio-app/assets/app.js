@@ -4,11 +4,13 @@
   const grid = document.querySelector("#phraseGrid");
   const template = document.querySelector("#phraseCardTemplate");
   const searchInput = document.querySelector("#searchInput");
+  const languageSelect = document.querySelector("#languageSelect");
   const categorySelect = document.querySelector("#categorySelect");
   const speedSelect = document.querySelector("#speedSelect");
   const repeatButton = document.querySelector("#repeatButton");
   const toneGuideButton = document.querySelector("#toneGuideButton");
   const toneGuideDialog = document.querySelector("#toneGuideDialog");
+  const toneGuideTitle = document.querySelector("#toneGuideTitle");
   const toneGuideCloseButton = document.querySelector("#toneGuideCloseButton");
   const nowPlaying = document.querySelector("#nowPlaying");
   const itemCount = document.querySelector("#itemCount");
@@ -22,15 +24,48 @@
   let guidedRunId = 0;
   let repeat = false;
 
-  itemCount.textContent = String(meta.count || items.length);
+  const languageLabels = Object.fromEntries(
+    (meta.languages || []).map((language) => [language.id, language.label])
+  );
 
-  function uniqueCategories() {
-    return ["全部", ...Array.from(new Set(items.map((item) => item.category)))];
+  function itemTarget(item) {
+    return item.target || item.thai;
+  }
+
+  function uniqueLanguages() {
+    const languages = Array.from(new Set(items.map((item) => item.language || "thai")));
+    return languages.length > 0 ? languages : ["thai"];
+  }
+
+  function languageLabel(language) {
+    return languageLabels[language] || language;
+  }
+
+  function currentLanguage() {
+    return languageSelect.value || uniqueLanguages()[0];
+  }
+
+  function itemsForLanguage(language) {
+    return items.filter((item) => (item.language || "thai") === language);
+  }
+
+  function setupLanguages() {
+    languageSelect.innerHTML = "";
+    uniqueLanguages().forEach((language) => {
+      const option = document.createElement("option");
+      option.value = language;
+      option.textContent = languageLabel(language);
+      languageSelect.appendChild(option);
+    });
+  }
+
+  function uniqueCategories(language) {
+    return ["全部", ...Array.from(new Set(itemsForLanguage(language).map((item) => item.category)))];
   }
 
   function setupCategories() {
     categorySelect.innerHTML = "";
-    uniqueCategories().forEach((category) => {
+    uniqueCategories(currentLanguage()).forEach((category) => {
       const option = document.createElement("option");
       option.value = category;
       option.textContent = category;
@@ -38,16 +73,17 @@
     });
   }
 
-  function matches(item, query, category) {
+  function matches(item, query, language, category) {
+    const inLanguage = (item.language || "thai") === language;
     const inCategory = category === "全部" || item.category === category;
     const words = (item.words || [])
-      .map((word) => [word.meaning, word.thai, word.pinyin].join(" "))
+      .map((word) => [word.meaning, itemTarget(word), word.pinyin].join(" "))
       .join(" ");
     const rules = (item.pronunciationRules || []).join(" ");
-    const haystack = [item.meaning, item.thai, item.pinyin, item.kind, item.category, words, rules]
+    const haystack = [item.meaning, itemTarget(item), item.pinyin, item.kind, item.category, words, rules]
       .join(" ")
       .toLowerCase();
-    return inCategory && haystack.includes(query);
+    return inLanguage && inCategory && haystack.includes(query);
   }
 
   function getPlaybackRate() {
@@ -114,7 +150,7 @@
     audio.playbackRate = getPlaybackRate();
     card.classList.add("is-playing");
     button.classList.add("is-playing");
-    nowPlaying.textContent = `${target.meaning} | ${target.thai}`;
+    nowPlaying.textContent = `${target.meaning} | ${itemTarget(target)}`;
 
     return new Promise((resolve) => {
       audio.addEventListener("ended", () => {
@@ -132,7 +168,7 @@
       });
 
       audio.addEventListener("error", () => {
-        nowPlaying.textContent = `${missingMessage}：${target.thai}`;
+        nowPlaying.textContent = `${missingMessage}：${itemTarget(target)}`;
         card.classList.remove("is-playing");
         button.classList.remove("is-playing");
         resolve(false);
@@ -155,7 +191,7 @@
   function showGuidedWord(panel, word) {
     panel.hidden = false;
     panel.querySelector(".guided-meaning").textContent = word.meaning;
-    panel.querySelector(".guided-thai").textContent = word.thai;
+    panel.querySelector(".guided-thai").textContent = itemTarget(word);
     panel.querySelector(".guided-pinyin").textContent = word.pinyin;
   }
 
@@ -190,7 +226,7 @@
     activeGuidedPanel = panel;
     followButton.classList.add("is-playing");
 
-    nowPlaying.textContent = `跟读整句 | ${item.thai}`;
+    nowPlaying.textContent = `跟读整句 | ${itemTarget(item)}`;
     await playTarget(item, card, thaiButton, "音频未找到", { allowRepeat: false });
     if (runId !== guidedRunId) return;
 
@@ -201,7 +237,7 @@
       const row = wordRows[index];
       showGuidedWord(panel, word);
       markCurrentWord(row);
-      nowPlaying.textContent = `跟读词块 ${index + 1}/${words.length} | ${word.thai}`;
+      nowPlaying.textContent = `跟读词块 ${index + 1}/${words.length} | ${itemTarget(word)}`;
       if (word.audio) {
         const wordButton = row ? row.querySelector(".word-play-button") : followButton;
         await playTarget(word, card, wordButton || followButton, "词块音频未找到", {
@@ -213,11 +249,11 @@
     }
 
     markCurrentWord(null);
-    nowPlaying.textContent = `跟读整句复习 | ${item.thai}`;
+    nowPlaying.textContent = `跟读整句复习 | ${itemTarget(item)}`;
     await playTarget(item, card, thaiButton, "音频未找到", { allowRepeat: false });
     if (runId !== guidedRunId) return;
 
-    nowPlaying.textContent = `跟读完成 | ${item.thai}`;
+    nowPlaying.textContent = `跟读完成 | ${itemTarget(item)}`;
     clearGuidedReading();
   }
 
@@ -246,12 +282,25 @@
     toneGuideDialog.removeAttribute("open");
   }
 
+  function updateLanguageGuide() {
+    const language = currentLanguage();
+    document.querySelectorAll(".language-guide").forEach((guide) => {
+      guide.hidden = guide.dataset.language !== language;
+    });
+    toneGuideButton.textContent = `${languageLabel(language)}发音规则`;
+    toneGuideTitle.textContent = `${languageLabel(language)}发音规则总表`;
+  }
+
   function render() {
     const query = searchInput.value.trim().toLowerCase();
+    const language = currentLanguage();
     const category = categorySelect.value || "全部";
-    const visibleItems = items.filter((item) => matches(item, query, category));
+    const languageItems = itemsForLanguage(language);
+    const visibleItems = items.filter((item) => matches(item, query, language, category));
 
     grid.innerHTML = "";
+    itemCount.textContent = String(query || category !== "全部" ? visibleItems.length : languageItems.length);
+    updateLanguageGuide();
 
     if (visibleItems.length === 0) {
       const empty = document.createElement("p");
@@ -266,8 +315,8 @@
       node.querySelector(".kind").textContent = item.kind;
       node.querySelector(".source").textContent = item.source;
       node.querySelector(".meaning").textContent = item.meaning;
-      node.querySelector(".thai-button").textContent = item.thai;
-      node.querySelector(".thai-button").setAttribute("aria-label", `播放 ${item.thai}`);
+      node.querySelector(".thai-button").textContent = itemTarget(item);
+      node.querySelector(".thai-button").setAttribute("aria-label", `播放 ${itemTarget(item)}`);
       node.querySelector(".pinyin").textContent = item.pinyin;
       const breakdown = node.querySelector(".word-breakdown");
       const words = item.words || [];
@@ -290,7 +339,7 @@
 
           const thai = document.createElement("span");
           thai.className = "word-thai";
-          thai.textContent = word.thai;
+          thai.textContent = itemTarget(word);
 
           const pinyin = document.createElement("span");
           pinyin.className = "word-pinyin";
@@ -303,7 +352,7 @@
             playButton.type = "button";
             playButton.className = "word-play-button";
             playButton.textContent = "▶";
-            playButton.setAttribute("aria-label", `播放词块 ${word.thai}`);
+            playButton.setAttribute("aria-label", `播放词块 ${itemTarget(word)}`);
             playButton.addEventListener("click", (event) => {
               event.stopPropagation();
               playWord(word, node, playButton);
@@ -350,6 +399,11 @@
     stopCurrent();
     render();
   });
+  languageSelect.addEventListener("change", () => {
+    stopCurrent();
+    setupCategories();
+    render();
+  });
   categorySelect.addEventListener("change", () => {
     stopCurrent();
     render();
@@ -367,6 +421,7 @@
     }
   });
 
+  setupLanguages();
   setupCategories();
   render();
 })();

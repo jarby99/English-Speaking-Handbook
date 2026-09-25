@@ -1,8 +1,8 @@
 {
-  "name": "english-speaking-handbook-thai-audio-app",
+  "name": "english-speaking-handbook-audio-app",
   "version": "1.0.0",
   "private": true,
-  "description": "Static Thai audio practice app packaged for Android.",
+  "description": "Static multilingual audio practice app packaged for Android.",
   "scripts": {
     "android:sync": "cap sync android",
     "android:build:debug": "cd android && ./gradlew assembleDebug"

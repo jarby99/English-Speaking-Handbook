@@ -67,6 +67,40 @@ def test_frontend_has_playback_speed_controls():
     assert ".playbackRate" in app_js
 
 
+def test_collect_items_separates_thai_and_indonesian_records():
+    builder = load_builder()
+    items = builder.collect_items()
+
+    thai_item = next(item for item in items if item["thai"] == "สวัสดี")
+    indonesian_item = next(item for item in items if item["target"] == "Saya makan nasi.")
+
+    assert thai_item["language"] == "thai"
+    assert thai_item["id"].startswith("thai-")
+    assert thai_item["category"].startswith("001 ")
+
+    assert indonesian_item["language"] == "indonesian"
+    assert indonesian_item["id"].startswith("indonesian-")
+    assert indonesian_item["source"] == "001-basic-pronunciation-pronouns-sentences.md"
+    assert indonesian_item["category"] == "001 基础发音、代词和简单句"
+    assert indonesian_item["meaning"] == "我吃米饭"
+    assert indonesian_item["pinyin"] == "sa-ya ma-kan na-si"
+    assert [word["target"] for word in indonesian_item["words"]] == ["Saya", "makan", "nasi"]
+    assert indonesian_item["audio"].startswith("audio/indonesian/")
+    assert all(word["audio"].startswith("word-audio/indonesian/") for word in indonesian_item["words"])
+
+
+def test_frontend_has_language_filter_before_category_filter():
+    index_html = (ROOT / "thai-audio-app" / "index.html").read_text(encoding="utf-8")
+    app_js = (ROOT / "thai-audio-app" / "assets" / "app.js").read_text(encoding="utf-8")
+
+    language_start = index_html.index('id="languageSelect"')
+    category_start = index_html.index('id="categorySelect"')
+
+    assert language_start < category_start
+    assert "languageSelect" in app_js
+    assert "setupLanguages" in app_js
+
+
 def test_frontend_has_guided_reading_controls():
     app_js = (ROOT / "thai-audio-app" / "assets" / "app.js").read_text(encoding="utf-8")
     styles = (ROOT / "thai-audio-app" / "assets" / "styles.css").read_text(encoding="utf-8")

@@ -1,4 +1,4 @@
-"""Build static data and MP3 files for the Thai audio app."""
+"""Build static data and MP3 files for the multilingual audio app."""
 
 from __future__ import annotations
 
@@ -10,11 +10,28 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-RECORD_DIR = ROOT / "learning-records" / "thai"
+RECORD_ROOT = ROOT / "learning-records"
+THAI_RECORD_DIR = RECORD_ROOT / "thai"
 APP_DIR = ROOT / "thai-audio-app"
 DATA_FILE = APP_DIR / "data" / "phrases.js"
 AUDIO_DIR = APP_DIR / "audio"
 VOICE = "th-TH-PremwadeeNeural"
+LANGUAGES = {
+    "thai": {
+        "label": "泰语",
+        "record_dir": THAI_RECORD_DIR,
+        "target_field": "泰语",
+        "roman_field": "拉丁拼音读音",
+        "voice": VOICE,
+    },
+    "indonesian": {
+        "label": "印尼语",
+        "record_dir": RECORD_ROOT / "indonesian",
+        "target_field": "印尼语",
+        "roman_field": "拉丁读音",
+        "voice": "id-ID-ArdiNeural",
+    },
+}
 TTS_THAI_OVERRIDES = {
     "ฃ": "ขวด",
     "ฅ": "คน",
@@ -24,7 +41,7 @@ CATEGORY_LABELS = {
 }
 
 TABLE_RE = re.compile(r"^\|\s*(.*?)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|")
-FIELD_RE = re.compile(r"^(中文意思|泰语|拉丁拼音读音|简单日常泰语例句|中文句意)：(.+)$")
+FIELD_RE = re.compile(r"^(中文意思|泰语|印尼语|拉丁拼音读音|拉丁读音|简单日常泰语例句|简单日常印尼语例句|中文句意)：(.+)$")
 BREAKDOWN_PINYIN_RE = re.compile(r"\(([^()]+)\)＝")
 BREAKDOWN_WORD_RE = re.compile(r"([^｜]+?)\s*\(([^()]+)\)＝([^｜]+)")
 PIPE_ENTRY_RE = re.compile(r"^\s*(.+?)\s*\|\s*([^|]+?)\s*\|\s*(.+?)\s*$")
@@ -143,18 +160,56 @@ def category_from_title(path: Path, text: str) -> str:
     return "泰语学习"
 
 
-def audio_filename(index: int, thai: str) -> str:
-    digest = hashlib.sha1(thai.encode("utf-8")).hexdigest()[:10]
-    return f"{index:03d}-{digest}.mp3"
+def language_config(language: str) -> dict:
+    return LANGUAGES[language]
 
 
-def word_audio_filename(thai: str) -> str:
-    digest = hashlib.sha1(thai.encode("utf-8")).hexdigest()[:10]
-    return f"word-audio/{digest}.mp3"
+def record_dir(language: str) -> Path:
+    return language_config(language)["record_dir"]
+
+
+def target_field(language: str) -> str:
+    return language_config(language)["target_field"]
+
+
+def roman_field(language: str) -> str:
+    return language_config(language)["roman_field"]
+
+
+def target_has_language_text(language: str, target: str) -> bool:
+    if language == "thai":
+        return bool(THAI_RE.search(target))
+    return bool(re.search(r"[A-Za-z]", target))
+
+
+def normalize_item(language: str, item: dict) -> dict:
+    target = item.get("target", item.get("thai", "")).strip()
+    item["language"] = language
+    item["target"] = target
+    # Keep the historical key so existing tests and UI code can migrate gradually.
+    item["thai"] = target
+    return item
+
+
+def audio_filename(language: str, index: int, target: str) -> str:
+    digest_source = target if language == "thai" else f"{language}:{target}"
+    digest = hashlib.sha1(digest_source.encode("utf-8")).hexdigest()[:10]
+    name = f"{index:03d}-{digest}.mp3"
+    if language == "thai":
+        return name
+    return f"{language}/{name}"
+
+
+def word_audio_filename(language: str, target: str) -> str:
+    digest_source = target if language == "thai" else f"{language}:{target}"
+    digest = hashlib.sha1(digest_source.encode("utf-8")).hexdigest()[:10]
+    if language == "thai":
+        return f"word-audio/{digest}.mp3"
+    return f"word-audio/{language}/{digest}.mp3"
 
 
 def add_item(items: list[dict], seen: set[tuple[str, str]], item: dict) -> None:
-    key = (item["thai"], item["meaning"])
+    key = (item["language"], item["target"], item["meaning"])
     if key in seen:
         return
     seen.add(key)
@@ -162,14 +217,15 @@ def add_item(items: list[dict], seen: set[tuple[str, str]], item: dict) -> None:
 
 
 def add_word(lexicon: dict[str, dict], word: dict) -> None:
-    thai = word["thai"].strip()
-    if not thai:
+    target = word.get("target", word.get("thai", "")).strip()
+    if not target:
         return
     lexicon.setdefault(
-        thai,
+        target,
         {
             "meaning": word["meaning"].strip().rstrip("。"),
-            "thai": thai,
+            "target": target,
+            "thai": target,
             "pinyin": word["pinyin"].strip().rstrip(".?？"),
         },
     )
@@ -177,14 +233,15 @@ def add_word(lexicon: dict[str, dict], word: dict) -> None:
 
 def parse_breakdown_words(text: str) -> list[dict]:
     words: list[dict] = []
-    for thai, pinyin, meaning in BREAKDOWN_WORD_RE.findall(text):
-        thai = thai.strip()
-        if not thai:
+    for target, pinyin, meaning in BREAKDOWN_WORD_RE.findall(text):
+        target = target.strip()
+        if not target:
             continue
         words.append(
             {
                 "meaning": meaning.strip().rstrip("。"),
-                "thai": thai,
+                "target": target,
+                "thai": target,
                 "pinyin": pinyin.strip().rstrip(".?？"),
             }
         )
@@ -283,37 +340,53 @@ def auto_pronunciation_rules(thai: str, pinyin: str) -> list[str]:
     return rules or ["先按拉丁拼音读；如果要判断泰语本身声调，再看辅音类别、声调符号，以及这个音节是活音节还是死音节。"]
 
 
+def auto_indonesian_pronunciation_rules(target: str, pinyin: str) -> list[str]:
+    rules = ["印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。"]
+    lowered = target.lower()
+    if any(pair in lowered for pair in ("ga", "ka", "gu", "ku", "g", "k")):
+        rules.append("注意 g / k 清浊对比：g 是浊音，声带震动更强；k 是清音，声带震动更弱。")
+    if any(pair in lowered for pair in ("da", "ta", "di", "ti", "d", "t")):
+        rules.append("注意 d / t 清浊对比：d 是浊音，t 是清音。")
+    if any(pair in lowered for pair in ("ba", "pa", "bu", "pu", "b", "p")):
+        rules.append("注意 b / p 清浊对比：b 是浊音，p 是清音。")
+    return rules
+
+
 def add_pronunciation_rules(item: dict, explicit_rule: str | None = None) -> dict:
     if explicit_rule:
         item["pronunciationRules"] = [explicit_rule.strip()]
         return item
 
-    rules: list[str] = []
-    for rule in auto_pronunciation_rules(item["thai"], item["pinyin"]):
-        rules.append(rule)
+    if item["language"] == "thai":
+        rules = list(auto_pronunciation_rules(item["target"], item["pinyin"]))
+    else:
+        rules = list(auto_indonesian_pronunciation_rules(item["target"], item["pinyin"]))
     item["pronunciationRules"] = rules
     return item
 
 
-def parse_table_records(path: Path, text: str, items: list[dict], seen: set[tuple[str, str]]) -> None:
+def parse_table_records(language: str, path: Path, text: str, items: list[dict], seen: set[tuple[str, str]]) -> None:
     category = category_from_title(path, text)
     for line in text.splitlines():
         match = TABLE_RE.match(line)
         if not match:
             continue
-        meaning, thai, pinyin = [part.strip() for part in match.groups()]
-        if meaning in {"中文意思", "---"} or thai == "泰语" or pinyin == "拉丁拼音读音":
+        meaning, target, pinyin = [part.strip() for part in match.groups()]
+        if meaning in {"中文意思", "---"} or target in {"泰语", "印尼语"} or pinyin in {"拉丁拼音读音", "拉丁读音"}:
             continue
-        if not THAI_RE.search(thai):
+        if not target_has_language_text(language, target):
             continue
-        item = {
-            "source": path.name,
-            "category": category,
-            "kind": "词句",
-            "meaning": meaning,
-            "thai": thai,
-            "pinyin": pinyin.rstrip("."),
-        }
+        item = normalize_item(
+            language,
+            {
+                "source": path.name,
+                "category": category,
+                "kind": "词句",
+                "meaning": meaning,
+                "target": target,
+                "pinyin": pinyin.rstrip("."),
+            },
+        )
         add_item(
             items,
             seen,
@@ -322,6 +395,7 @@ def parse_table_records(path: Path, text: str, items: list[dict], seen: set[tupl
 
 
 def parse_block_records(
+    language: str,
     path: Path,
     text: str,
     items: list[dict],
@@ -345,31 +419,35 @@ def parse_block_records(
                 pronunciation_rule = line.split("：", 1)[1].strip()
 
         meaning = fields.get("中文意思")
-        thai = fields.get("泰语")
-        pinyin = fields.get("拉丁拼音读音")
-        sentence = fields.get("简单日常泰语例句")
+        target = fields.get(target_field(language))
+        pinyin = fields.get(roman_field(language))
+        sentence = fields.get(f"简单日常{language_config(language)['label']}例句")
         sentence_meaning = fields.get("中文句意")
         pinyin_parts = BREAKDOWN_PINYIN_RE.findall(breakdown)
-        if meaning and thai and pinyin:
+        if meaning and target and pinyin:
             word = {
                 "meaning": meaning,
-                "thai": thai,
+                "target": target,
+                "thai": target,
                 "pinyin": pinyin.rstrip("."),
             }
             add_word(lexicon, word)
-            if sentence != thai:
-                explicit_word_rule = pronunciation_rule if pronunciation_rule and thai in pronunciation_rule else None
+            if sentence != target:
+                explicit_word_rule = pronunciation_rule if pronunciation_rule and target in pronunciation_rule else None
                 add_item(
                     items,
                     seen,
                     add_pronunciation_rules(
-                        {
-                            "source": path.name,
-                            "category": category,
-                            "kind": "词语",
-                            **word,
-                            "words": [word],
-                        },
+                        normalize_item(
+                            language,
+                            {
+                                "source": path.name,
+                                "category": category,
+                                "kind": "词语",
+                                **word,
+                                "words": [word],
+                            },
+                        ),
                         explicit_word_rule,
                     ),
                 )
@@ -382,21 +460,24 @@ def parse_block_records(
                 items,
                 seen,
                 add_pronunciation_rules(
-                    {
-                        "source": path.name,
-                        "category": category,
-                        "kind": "例句",
-                        "meaning": sentence_meaning.rstrip("。"),
-                        "thai": sentence,
-                        "pinyin": " ".join(pinyin_parts).rstrip("."),
-                        "words": words,
-                    },
+                    normalize_item(
+                        language,
+                        {
+                            "source": path.name,
+                            "category": category,
+                            "kind": "例句",
+                            "meaning": sentence_meaning.rstrip("。"),
+                            "target": sentence,
+                            "pinyin": " ".join(pinyin_parts).rstrip("."),
+                            "words": words,
+                        },
+                    ),
                     pronunciation_rule,
                 ),
             )
 
 
-def parse_practice_records(path: Path, text: str, items: list[dict], seen: set[tuple[str, str]]) -> None:
+def parse_practice_records(language: str, path: Path, text: str, items: list[dict], seen: set[tuple[str, str]]) -> None:
     category = category_from_title(path, text)
     active = False
     for raw_line in text.splitlines():
@@ -410,16 +491,19 @@ def parse_practice_records(path: Path, text: str, items: list[dict], seen: set[t
             match = PIPE_ENTRY_RE.match(segment.strip())
             if not match:
                 continue
-            meaning, thai, pinyin = [part.strip(" “”。") for part in match.groups()]
-            if THAI_RE.search(thai):
-                item = {
-                    "source": path.name,
-                    "category": category,
-                    "kind": "练习句",
-                    "meaning": meaning,
-                    "thai": thai,
-                    "pinyin": pinyin.rstrip("."),
-                }
+            meaning, target, pinyin = [part.strip(" “”。") for part in match.groups()]
+            if target_has_language_text(language, target):
+                item = normalize_item(
+                    language,
+                    {
+                        "source": path.name,
+                        "category": category,
+                        "kind": "练习句",
+                        "meaning": meaning,
+                        "target": target,
+                        "pinyin": pinyin.rstrip("."),
+                    },
+                )
                 add_item(
                     items,
                     seen,
@@ -430,43 +514,44 @@ def parse_practice_records(path: Path, text: str, items: list[dict], seen: set[t
 def item_words_from_lexicon(item: dict, lexicon: dict[str, dict]) -> list[dict]:
     if item.get("words"):
         return item["words"]
-    if item["thai"] in PHRASE_WORD_OVERRIDES:
+    if item["language"] == "thai" and item["target"] in PHRASE_WORD_OVERRIDES:
         return PHRASE_WORD_OVERRIDES[item["thai"]]
 
-    thai = item["thai"]
+    target = item["target"]
     words: list[dict] = []
     index = 0
     word_keys = sorted(lexicon, key=len, reverse=True)
     punctuation = set(" \t\r\n,.!?？。……")
 
-    while index < len(thai):
-        char = thai[index]
+    while index < len(target):
+        char = target[index]
         if char in punctuation:
             index += 1
             continue
 
         matched = None
         for key in word_keys:
-            if thai.startswith(key, index):
+            if target.startswith(key, index):
                 matched = lexicon[key]
                 break
 
         if matched:
             words.append(matched)
-            index += len(matched["thai"])
+            index += len(matched["target"])
             continue
 
-        latin = re.match(r"[A-Za-z]+", thai[index:])
+        latin = re.match(r"[A-Za-z]+", target[index:])
         if latin:
             name = latin.group(0)
-            words.append({"meaning": f"名字 {name}", "thai": name, "pinyin": name})
+            words.append({"meaning": f"名字 {name}", "target": name, "thai": name, "pinyin": name})
             index += len(name)
             continue
 
         return [
             {
                 "meaning": item["meaning"],
-                "thai": item["thai"],
+                "target": item["target"],
+                "thai": item["target"],
                 "pinyin": item["pinyin"],
             }
         ]
@@ -474,47 +559,66 @@ def item_words_from_lexicon(item: dict, lexicon: dict[str, dict]) -> list[dict]:
     return words or [
         {
             "meaning": item["meaning"],
-            "thai": item["thai"],
+            "target": item["target"],
+            "thai": item["target"],
             "pinyin": item["pinyin"],
         }
     ]
 
 
-def annotate_words(items: list[dict], lexicon: dict[str, dict]) -> None:
-    for manual_word in MANUAL_WORDS:
-        add_word(lexicon, manual_word)
+def annotate_words(language: str, items: list[dict], lexicon: dict[str, dict]) -> None:
+    if language == "thai":
+        for manual_word in MANUAL_WORDS:
+            add_word(lexicon, manual_word)
 
     for item in items:
         item["words"] = item_words_from_lexicon(item, lexicon)
         for word in item["words"]:
-            if THAI_RE.search(word["thai"]):
-                word["audio"] = word_audio_filename(word["thai"])
+            word.setdefault("target", word["thai"])
+            word.setdefault("thai", word["target"])
+            if target_has_language_text(language, word["target"]):
+                word["audio"] = word_audio_filename(language, word["target"])
+
+
+def collect_language_items(language: str) -> list[dict]:
+    items: list[dict] = []
+    seen: set[tuple[str, str, str]] = set()
+    lexicon: dict[str, dict] = {}
+    directory = record_dir(language)
+    if not directory.exists():
+        return []
+    for path in sorted(directory.glob("*.md")):
+        text = path.read_text(encoding="utf-8")
+        parse_table_records(language, path, text, items, seen)
+        parse_block_records(language, path, text, items, seen, lexicon)
+
+    for path in sorted(directory.glob("*.md")):
+        text = path.read_text(encoding="utf-8")
+        parse_practice_records(language, path, text, items, seen)
+
+    annotate_words(language, items, lexicon)
+
+    for index, item in enumerate(items, 1):
+        item["id"] = f"{language}-{index:03d}"
+        item["audio"] = f"audio/{audio_filename(language, index, item['target'])}"
+    return items
 
 
 def collect_items() -> list[dict]:
     items: list[dict] = []
-    seen: set[tuple[str, str]] = set()
-    lexicon: dict[str, dict] = {}
-    for path in sorted(RECORD_DIR.glob("*.md")):
-        text = path.read_text(encoding="utf-8")
-        parse_table_records(path, text, items, seen)
-        parse_block_records(path, text, items, seen, lexicon)
-
-    for path in sorted(RECORD_DIR.glob("*.md")):
-        text = path.read_text(encoding="utf-8")
-        parse_practice_records(path, text, items, seen)
-
-    annotate_words(items, lexicon)
-
-    for index, item in enumerate(items, 1):
-        item["id"] = f"thai-{index:03d}"
-        item["audio"] = f"audio/{audio_filename(index, item['thai'])}"
+    for language in LANGUAGES:
+        items.extend(collect_language_items(language))
     return items
 
 
 def write_data(items: list[dict]) -> None:
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     payload = json.dumps(items, ensure_ascii=False, indent=2)
+    languages = [
+        {"id": key, "label": config["label"]}
+        for key, config in LANGUAGES.items()
+        if any(item["language"] == key for item in items)
+    ]
     DATA_FILE.write_text(
         "window.THAI_AUDIO_APP_ITEMS = "
         + payload
@@ -522,7 +626,8 @@ def write_data(items: list[dict]) -> None:
         + "window.THAI_AUDIO_APP_META = {\n"
         + f"  count: {len(items)},\n"
         + f"  voice: {json.dumps(VOICE)},\n"
-        + "  format: \"中文意思 | 泰语 | 拉丁拼音读音\"\n"
+        + f"  languages: {json.dumps(languages, ensure_ascii=False)},\n"
+        + "  format: \"中文意思 | 目标语言 | 拉丁读音\"\n"
         + "};\n",
         encoding="utf-8",
     )
@@ -535,11 +640,16 @@ def collect_audio_targets(items: list[dict]) -> list[dict]:
     for item in items:
         if item["audio"] not in seen_audio:
             seen_audio.add(item["audio"])
+            tts_target = TTS_THAI_OVERRIDES.get(item["target"], item["target"]) if item["language"] == "thai" else item["target"]
             targets.append(
                 {
                     "meaning": item["meaning"],
                     "thai": item["thai"],
-                    "ttsThai": TTS_THAI_OVERRIDES.get(item["thai"], item["thai"]),
+                    "target": item["target"],
+                    "ttsThai": tts_target,
+                    "ttsTarget": tts_target,
+                    "language": item["language"],
+                    "voice": language_config(item["language"])["voice"],
                     "audio": item["audio"],
                 }
             )
@@ -550,11 +660,17 @@ def collect_audio_targets(items: list[dict]) -> list[dict]:
             if not audio or audio in seen_audio:
                 continue
             seen_audio.add(audio)
+            language = item["language"]
+            tts_target = TTS_THAI_OVERRIDES.get(word["target"], word["target"]) if language == "thai" else word["target"]
             targets.append(
                 {
                     "meaning": word["meaning"],
                     "thai": word["thai"],
-                    "ttsThai": TTS_THAI_OVERRIDES.get(word["thai"], word["thai"]),
+                    "target": word["target"],
+                    "ttsThai": tts_target,
+                    "ttsTarget": tts_target,
+                    "language": language,
+                    "voice": language_config(language)["voice"],
                     "audio": audio,
                 }
             )
@@ -578,7 +694,7 @@ async def generate_audio(items: list[dict], overwrite: bool) -> None:
         print(f"[{index}/{len(targets)}] -> {output.relative_to(AUDIO_DIR.parent)}")
         for attempt in range(1, 4):
             try:
-                communicate = edge_tts.Communicate(item["ttsThai"], VOICE)
+                communicate = edge_tts.Communicate(item["ttsTarget"], item["voice"])
                 await communicate.save(str(output))
                 break
             except Exception as exc:  # noqa: BLE001 - keep batch generation moving.
@@ -590,7 +706,11 @@ async def generate_audio(items: list[dict], overwrite: bool) -> None:
                             "index": index,
                             "meaning": item["meaning"],
                             "thai": item["thai"],
+                            "target": item["target"],
                             "ttsThai": item["ttsThai"],
+                            "ttsTarget": item["ttsTarget"],
+                            "language": item["language"],
+                            "voice": item["voice"],
                             "audio": item["audio"],
                             "error": str(exc),
                         }
