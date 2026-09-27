@@ -20207,10 +20207,2637 @@ window.THAI_AUDIO_APP_ITEMS = [
     ],
     "id": "indonesian-035",
     "audio": "audio/indonesian/035-cba7c73964.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "喝",
+    "target": "minum",
+    "thai": "minum",
+    "pinyin": "mi-num",
+    "words": [
+      {
+        "meaning": "喝",
+        "target": "minum",
+        "thai": "minum",
+        "pinyin": "mi-num",
+        "audio": "word-audio/indonesian/7a339785c7.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "minum 先按 mi-num 分成两个音节慢读；m 和 n 都要读清楚。"
+    ],
+    "id": "indonesian-036",
+    "audio": "audio/indonesian/036-7a339785c7.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "我想喝水",
+    "target": "Saya mau minum air.",
+    "pinyin": "sa-ya mau mi-num a-ir",
+    "words": [
+      {
+        "meaning": "我",
+        "target": "Saya",
+        "thai": "Saya",
+        "pinyin": "sa-ya",
+        "audio": "word-audio/indonesian/d54ef0689a.mp3"
+      },
+      {
+        "meaning": "想 / 想要",
+        "target": "mau",
+        "thai": "mau",
+        "pinyin": "mau",
+        "audio": "word-audio/indonesian/51d5ec0108.mp3"
+      },
+      {
+        "meaning": "喝",
+        "target": "minum",
+        "thai": "minum",
+        "pinyin": "mi-num",
+        "audio": "word-audio/indonesian/7a339785c7.mp3"
+      },
+      {
+        "meaning": "水",
+        "target": "air",
+        "thai": "air",
+        "pinyin": "a-ir",
+        "audio": "word-audio/indonesian/9cd9f42b20.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Saya mau minum air.",
+    "pronunciationRules": [
+      "minum 先按 mi-num 分成两个音节慢读；m 和 n 都要读清楚。"
+    ],
+    "id": "indonesian-037",
+    "audio": "audio/indonesian/037-6946ce00ac.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "水",
+    "target": "air",
+    "thai": "air",
+    "pinyin": "a-ir",
+    "words": [
+      {
+        "meaning": "水",
+        "target": "air",
+        "thai": "air",
+        "pinyin": "a-ir",
+        "audio": "word-audio/indonesian/9cd9f42b20.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "air 在这里按 a-ir 分开读，不要按英语 air 的读法读。"
+    ],
+    "id": "indonesian-038",
+    "audio": "audio/indonesian/038-9cd9f42b20.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "牛奶",
+    "target": "susu",
+    "thai": "susu",
+    "pinyin": "su-su",
+    "words": [
+      {
+        "meaning": "牛奶",
+        "target": "susu",
+        "thai": "susu",
+        "pinyin": "su-su",
+        "audio": "word-audio/indonesian/024370302b.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "susu 是两个相同音节 su-su，先慢读再连起来。"
+    ],
+    "id": "indonesian-039",
+    "audio": "audio/indonesian/039-024370302b.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "我喝牛奶",
+    "target": "Saya minum susu.",
+    "pinyin": "sa-ya mi-num su-su",
+    "words": [
+      {
+        "meaning": "我",
+        "target": "Saya",
+        "thai": "Saya",
+        "pinyin": "sa-ya",
+        "audio": "word-audio/indonesian/d54ef0689a.mp3"
+      },
+      {
+        "meaning": "喝",
+        "target": "minum",
+        "thai": "minum",
+        "pinyin": "mi-num",
+        "audio": "word-audio/indonesian/7a339785c7.mp3"
+      },
+      {
+        "meaning": "牛奶",
+        "target": "susu",
+        "thai": "susu",
+        "pinyin": "su-su",
+        "audio": "word-audio/indonesian/024370302b.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Saya minum susu.",
+    "pronunciationRules": [
+      "susu 是两个相同音节 su-su，先慢读再连起来。"
+    ],
+    "id": "indonesian-040",
+    "audio": "audio/indonesian/040-4f3cd002e0.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "甜的",
+    "target": "manis",
+    "thai": "manis",
+    "pinyin": "ma-nis",
+    "words": [
+      {
+        "meaning": "甜的",
+        "target": "manis",
+        "thai": "manis",
+        "pinyin": "ma-nis",
+        "audio": "word-audio/indonesian/f201eb5be8.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "manis 按 ma-nis 分开读；最后的 s 要轻轻收住。"
+    ],
+    "id": "indonesian-041",
+    "audio": "audio/indonesian/041-f201eb5be8.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "甜牛奶",
+    "target": "susu manis",
+    "pinyin": "su-su ma-nis",
+    "words": [
+      {
+        "meaning": "牛奶",
+        "target": "susu",
+        "thai": "susu",
+        "pinyin": "su-su",
+        "audio": "word-audio/indonesian/024370302b.mp3"
+      },
+      {
+        "meaning": "甜的",
+        "target": "manis",
+        "thai": "manis",
+        "pinyin": "ma-nis",
+        "audio": "word-audio/indonesian/f201eb5be8.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "susu manis",
+    "pronunciationRules": [
+      "manis 按 ma-nis 分开读；最后的 s 要轻轻收住。"
+    ],
+    "id": "indonesian-042",
+    "audio": "audio/indonesian/042-cec080249a.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "玩",
+    "target": "main",
+    "thai": "main",
+    "pinyin": "ma-in",
+    "words": [
+      {
+        "meaning": "玩",
+        "target": "main",
+        "thai": "main",
+        "pinyin": "ma-in",
+        "audio": "word-audio/indonesian/350d93aed1.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "main 按 ma-in 分开读，不要和英文 main 的读法混在一起。"
+    ],
+    "id": "indonesian-043",
+    "audio": "audio/indonesian/043-350d93aed1.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "我玩手机",
+    "target": "Saya main hape.",
+    "pinyin": "sa-ya ma-in ha-pé",
+    "words": [
+      {
+        "meaning": "我",
+        "target": "Saya",
+        "thai": "Saya",
+        "pinyin": "sa-ya",
+        "audio": "word-audio/indonesian/d54ef0689a.mp3"
+      },
+      {
+        "meaning": "玩",
+        "target": "main",
+        "thai": "main",
+        "pinyin": "ma-in",
+        "audio": "word-audio/indonesian/350d93aed1.mp3"
+      },
+      {
+        "meaning": "手机",
+        "target": "hape",
+        "thai": "hape",
+        "pinyin": "ha-pé",
+        "audio": "word-audio/indonesian/35184f51a5.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Saya main hape.",
+    "pronunciationRules": [
+      "main 按 ma-in 分开读，不要和英文 main 的读法混在一起。"
+    ],
+    "id": "indonesian-044",
+    "audio": "audio/indonesian/044-7d95855df6.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "手机",
+    "target": "hape",
+    "thai": "hape",
+    "pinyin": "ha-pé",
+    "words": [
+      {
+        "meaning": "手机",
+        "target": "hape",
+        "thai": "hape",
+        "pinyin": "ha-pé",
+        "audio": "word-audio/indonesian/35184f51a5.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "hape 里 e 按重音 é 读，先按 ha-pé 分开读。"
+    ],
+    "id": "indonesian-045",
+    "audio": "audio/indonesian/045-35184f51a5.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "在",
+    "target": "di",
+    "thai": "di",
+    "pinyin": "di",
+    "words": [
+      {
+        "meaning": "在",
+        "target": "di",
+        "thai": "di",
+        "pinyin": "di",
+        "audio": "word-audio/indonesian/83b757e162.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "di 是介词，表示“在”；d 是浊音，和 t 的清音区分开。"
+    ],
+    "id": "indonesian-046",
+    "audio": "audio/indonesian/046-83b757e162.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "我在中国",
+    "target": "Saya di China.",
+    "pinyin": "sa-ya di Chi-na",
+    "words": [
+      {
+        "meaning": "我",
+        "target": "Saya",
+        "thai": "Saya",
+        "pinyin": "sa-ya",
+        "audio": "word-audio/indonesian/d54ef0689a.mp3"
+      },
+      {
+        "meaning": "在",
+        "target": "di",
+        "thai": "di",
+        "pinyin": "di",
+        "audio": "word-audio/indonesian/83b757e162.mp3"
+      },
+      {
+        "meaning": "中国",
+        "target": "China",
+        "thai": "China",
+        "pinyin": "Chi-na",
+        "audio": "word-audio/indonesian/c600b13267.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Saya di China.",
+    "pronunciationRules": [
+      "di 是介词，表示“在”；d 是浊音，和 t 的清音区分开。"
+    ],
+    "id": "indonesian-047",
+    "audio": "audio/indonesian/047-c56725a386.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "去 / 到",
+    "target": "ke",
+    "thai": "ke",
+    "pinyin": "ke",
+    "words": [
+      {
+        "meaning": "去 / 到",
+        "target": "ke",
+        "thai": "ke",
+        "pinyin": "ke",
+        "audio": "word-audio/indonesian/42dfd8dc10.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "ke 是介词，表示“去 / 到”；k 是清音，先轻短读清楚。"
+    ],
+    "id": "indonesian-048",
+    "audio": "audio/indonesian/048-42dfd8dc10.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "我去办公室",
+    "target": "Saya ke kantor.",
+    "pinyin": "sa-ya ke kan-tor",
+    "words": [
+      {
+        "meaning": "我",
+        "target": "Saya",
+        "thai": "Saya",
+        "pinyin": "sa-ya",
+        "audio": "word-audio/indonesian/d54ef0689a.mp3"
+      },
+      {
+        "meaning": "去 / 到",
+        "target": "ke",
+        "thai": "ke",
+        "pinyin": "ke",
+        "audio": "word-audio/indonesian/42dfd8dc10.mp3"
+      },
+      {
+        "meaning": "办公室",
+        "target": "kantor",
+        "thai": "kantor",
+        "pinyin": "kan-tor",
+        "audio": "word-audio/indonesian/d3397cb30b.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Saya ke kantor.",
+    "pronunciationRules": [
+      "ke 是介词，表示“去 / 到”；k 是清音，先轻短读清楚。"
+    ],
+    "id": "indonesian-049",
+    "audio": "audio/indonesian/049-482aea3fe3.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "办公室",
+    "target": "kantor",
+    "thai": "kantor",
+    "pinyin": "kan-tor",
+    "words": [
+      {
+        "meaning": "办公室",
+        "target": "kantor",
+        "thai": "kantor",
+        "pinyin": "kan-tor",
+        "audio": "word-audio/indonesian/d3397cb30b.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "kantor 先按 kan-tor 分成两个音节读；k 是清音。"
+    ],
+    "id": "indonesian-050",
+    "audio": "audio/indonesian/050-d3397cb30b.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "我们（包括听话者）",
+    "target": "kita",
+    "thai": "kita",
+    "pinyin": "ki-ta",
+    "words": [
+      {
+        "meaning": "我们（包括听话者）",
+        "target": "kita",
+        "thai": "kita",
+        "pinyin": "ki-ta",
+        "audio": "word-audio/indonesian/277e1e0a40.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "kita 表示“我们”，包含正在听你说话的人；k 是清音，t 是清音。"
+    ],
+    "id": "indonesian-051",
+    "audio": "audio/indonesian/051-277e1e0a40.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "我们喝水",
+    "target": "Kita minum air.",
+    "pinyin": "ki-ta mi-num a-ir",
+    "words": [
+      {
+        "meaning": "我们（包括听话者）",
+        "target": "Kita",
+        "thai": "Kita",
+        "pinyin": "ki-ta",
+        "audio": "word-audio/indonesian/cd1486aecd.mp3"
+      },
+      {
+        "meaning": "喝",
+        "target": "minum",
+        "thai": "minum",
+        "pinyin": "mi-num",
+        "audio": "word-audio/indonesian/7a339785c7.mp3"
+      },
+      {
+        "meaning": "水",
+        "target": "air",
+        "thai": "air",
+        "pinyin": "a-ir",
+        "audio": "word-audio/indonesian/9cd9f42b20.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Kita minum air.",
+    "pronunciationRules": [
+      "kita 表示“我们”，包含正在听你说话的人；k 是清音，t 是清音。"
+    ],
+    "id": "indonesian-052",
+    "audio": "audio/indonesian/052-5c7f361317.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "我们（不包括听话者）",
+    "target": "kami",
+    "thai": "kami",
+    "pinyin": "ka-mi",
+    "words": [
+      {
+        "meaning": "我们（不包括听话者）",
+        "target": "kami",
+        "thai": "kami",
+        "pinyin": "ka-mi",
+        "audio": "word-audio/indonesian/0ba228e1b8.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "kami 表示“我们”，但不包括正在听你说话的人；先按 ka-mi 分开读。"
+    ],
+    "id": "indonesian-053",
+    "audio": "audio/indonesian/053-0ba228e1b8.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "我们来自中国",
+    "target": "Kami dari China.",
+    "pinyin": "ka-mi da-ri Chi-na",
+    "words": [
+      {
+        "meaning": "我们（不包括听话者）",
+        "target": "Kami",
+        "thai": "Kami",
+        "pinyin": "ka-mi",
+        "audio": "word-audio/indonesian/fc3f56033c.mp3"
+      },
+      {
+        "meaning": "来自 / 从",
+        "target": "dari",
+        "thai": "dari",
+        "pinyin": "da-ri",
+        "audio": "word-audio/indonesian/176a6d7e57.mp3"
+      },
+      {
+        "meaning": "中国",
+        "target": "China",
+        "thai": "China",
+        "pinyin": "Chi-na",
+        "audio": "word-audio/indonesian/c600b13267.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Kami dari China.",
+    "pronunciationRules": [
+      "kami 表示“我们”，但不包括正在听你说话的人；先按 ka-mi 分开读。"
+    ],
+    "id": "indonesian-054",
+    "audio": "audio/indonesian/054-b051ce45f1.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "你们",
+    "target": "kalian",
+    "thai": "kalian",
+    "pinyin": "ka-li-an",
+    "words": [
+      {
+        "meaning": "你们",
+        "target": "kalian",
+        "thai": "kalian",
+        "pinyin": "ka-li-an",
+        "audio": "word-audio/indonesian/e5075c5db3.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "kalian 按 ka-li-an 分成三个音节慢读；k 是清音。"
+    ],
+    "id": "indonesian-055",
+    "audio": "audio/indonesian/055-e5075c5db3.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "你们喜欢吃米饭",
+    "target": "Kalian suka makan nasi.",
+    "pinyin": "ka-li-an su-ka ma-kan na-si",
+    "words": [
+      {
+        "meaning": "你们",
+        "target": "Kalian",
+        "thai": "Kalian",
+        "pinyin": "ka-li-an",
+        "audio": "word-audio/indonesian/7cd28c6929.mp3"
+      },
+      {
+        "meaning": "喜欢",
+        "target": "suka",
+        "thai": "suka",
+        "pinyin": "su-ka",
+        "audio": "word-audio/indonesian/5eca512cb2.mp3"
+      },
+      {
+        "meaning": "吃",
+        "target": "makan",
+        "thai": "makan",
+        "pinyin": "ma-kan",
+        "audio": "word-audio/indonesian/cbb0427a0a.mp3"
+      },
+      {
+        "meaning": "米饭",
+        "target": "nasi",
+        "thai": "nasi",
+        "pinyin": "na-si",
+        "audio": "word-audio/indonesian/3e1681eef2.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Kalian suka makan nasi.",
+    "pronunciationRules": [
+      "kalian 按 ka-li-an 分成三个音节慢读；k 是清音。"
+    ],
+    "id": "indonesian-056",
+    "audio": "audio/indonesian/056-150d0b62c9.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "我是小明，来自中国",
+    "target": "Saya Xiaoming, dari China.",
+    "pinyin": "sa-ya Xiao-ming da-ri Chi-na",
+    "words": [
+      {
+        "meaning": "我",
+        "target": "Saya",
+        "thai": "Saya",
+        "pinyin": "sa-ya",
+        "audio": "word-audio/indonesian/d54ef0689a.mp3"
+      },
+      {
+        "meaning": "小明",
+        "target": "Xiaoming",
+        "thai": "Xiaoming",
+        "pinyin": "Xiao-ming",
+        "audio": "word-audio/indonesian/1acac0f189.mp3"
+      },
+      {
+        "meaning": "来自 / 从",
+        "target": "dari",
+        "thai": "dari",
+        "pinyin": "da-ri",
+        "audio": "word-audio/indonesian/176a6d7e57.mp3"
+      },
+      {
+        "meaning": "中国",
+        "target": "China",
+        "thai": "China",
+        "pinyin": "Chi-na",
+        "audio": "word-audio/indonesian/c600b13267.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Saya Xiaoming, dari China.",
+    "pronunciationRules": [
+      "dari 的 d 是浊音，不要读成 tari；这是自我介绍句，先按词块慢读。"
+    ],
+    "id": "indonesian-057",
+    "audio": "audio/indonesian/057-34ec64f2e2.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "学习",
+    "target": "belajar",
+    "thai": "belajar",
+    "pinyin": "be-la-jar",
+    "words": [
+      {
+        "meaning": "学习",
+        "target": "belajar",
+        "thai": "belajar",
+        "pinyin": "be-la-jar",
+        "audio": "word-audio/indonesian/798a2068c5.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "belajar 按 be-la-jar 分成三个音节慢读；j 要按印尼语拼读习惯记，不按英语 j 去读。"
+    ],
+    "id": "indonesian-058",
+    "audio": "audio/indonesian/058-798a2068c5.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "我喜欢学习印尼语",
+    "target": "Saya suka belajar bahasa Indonesia.",
+    "pinyin": "sa-ya su-ka be-la-jar ba-ha-sa In-do-ne-sia",
+    "words": [
+      {
+        "meaning": "我",
+        "target": "Saya",
+        "thai": "Saya",
+        "pinyin": "sa-ya",
+        "audio": "word-audio/indonesian/d54ef0689a.mp3"
+      },
+      {
+        "meaning": "喜欢",
+        "target": "suka",
+        "thai": "suka",
+        "pinyin": "su-ka",
+        "audio": "word-audio/indonesian/5eca512cb2.mp3"
+      },
+      {
+        "meaning": "学习",
+        "target": "belajar",
+        "thai": "belajar",
+        "pinyin": "be-la-jar",
+        "audio": "word-audio/indonesian/798a2068c5.mp3"
+      },
+      {
+        "meaning": "印尼语",
+        "target": "bahasa Indonesia",
+        "thai": "bahasa Indonesia",
+        "pinyin": "ba-ha-sa In-do-ne-sia",
+        "audio": "word-audio/indonesian/3c17765223.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Saya suka belajar bahasa Indonesia.",
+    "pronunciationRules": [
+      "belajar 按 be-la-jar 分成三个音节慢读；j 要按印尼语拼读习惯记，不按英语 j 去读。"
+    ],
+    "id": "indonesian-059",
+    "audio": "audio/indonesian/059-c359044d69.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "语言 / 语",
+    "target": "bahasa",
+    "thai": "bahasa",
+    "pinyin": "ba-ha-sa",
+    "words": [
+      {
+        "meaning": "语言 / 语",
+        "target": "bahasa",
+        "thai": "bahasa",
+        "pinyin": "ba-ha-sa",
+        "audio": "word-audio/indonesian/94bebd5854.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "bahasa 按 ba-ha-sa 分成三个音节读；h 要轻轻读出来。"
+    ],
+    "id": "indonesian-060",
+    "audio": "audio/indonesian/060-94bebd5854.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "印尼语",
+    "target": "bahasa Indonesia",
+    "thai": "bahasa Indonesia",
+    "pinyin": "ba-ha-sa In-do-ne-sia",
+    "words": [
+      {
+        "meaning": "印尼语",
+        "target": "bahasa Indonesia",
+        "thai": "bahasa Indonesia",
+        "pinyin": "ba-ha-sa In-do-ne-sia",
+        "audio": "word-audio/indonesian/3c17765223.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "bahasa Indonesia 是“印尼语”；先分成 bahasa 和 Indonesia 两块读，再连成完整短语。"
+    ],
+    "id": "indonesian-061",
+    "audio": "audio/indonesian/061-3c17765223.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "哥哥 / 姐姐",
+    "target": "kakak",
+    "thai": "kakak",
+    "pinyin": "ka-kak",
+    "words": [
+      {
+        "meaning": "哥哥 / 姐姐",
+        "target": "kakak",
+        "thai": "kakak",
+        "pinyin": "ka-kak",
+        "audio": "word-audio/indonesian/13fa027efd.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。",
+      "注意 g / k 清浊对比：g 是浊音，声带震动更强；k 是清音，声带震动更弱。"
+    ],
+    "id": "indonesian-062",
+    "audio": "audio/indonesian/062-13fa027efd.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "你好，哥哥 / 姐姐",
+    "target": "Halo, kakak.",
+    "pinyin": "ha-lo ka-kak",
+    "words": [
+      {
+        "meaning": "你好",
+        "target": "Halo",
+        "thai": "Halo",
+        "pinyin": "ha-lo",
+        "audio": "word-audio/indonesian/0e47d5b32a.mp3"
+      },
+      {
+        "meaning": "哥哥 / 姐姐",
+        "target": "kakak",
+        "thai": "kakak",
+        "pinyin": "ka-kak",
+        "audio": "word-audio/indonesian/13fa027efd.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Halo, kakak.",
+    "pronunciationRules": [
+      "本次材料提示：词尾 k 往往轻轻收住，不要读成很明显的 ka；先按 ka-kak 慢读。"
+    ],
+    "id": "indonesian-063",
+    "audio": "audio/indonesian/063-0bdc4f9fe4.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "你好",
+    "target": "Halo",
+    "thai": "Halo",
+    "pinyin": "ha-lo",
+    "words": [
+      {
+        "meaning": "你好",
+        "target": "Halo",
+        "thai": "Halo",
+        "pinyin": "ha-lo",
+        "audio": "word-audio/indonesian/0e47d5b32a.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "Halo 按 ha-lo 分成两个音节读；h 要轻轻读出来。"
+    ],
+    "id": "indonesian-064",
+    "audio": "audio/indonesian/064-0e47d5b32a.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "你好！",
+    "target": "Halo!",
+    "pinyin": "ha-lo",
+    "words": [
+      {
+        "meaning": "你好",
+        "target": "Halo",
+        "thai": "Halo",
+        "pinyin": "ha-lo",
+        "audio": "word-audio/indonesian/0e47d5b32a.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Halo!",
+    "pronunciationRules": [
+      "Halo 按 ha-lo 分成两个音节读；h 要轻轻读出来。"
+    ],
+    "id": "indonesian-065",
+    "audio": "audio/indonesian/065-b5eb5a5ec7.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "你好吗？",
+    "target": "Apa kabar?",
+    "pinyin": "a-pa ka-bar",
+    "words": [
+      {
+        "meaning": "什么 / 怎么样",
+        "target": "Apa",
+        "thai": "Apa",
+        "pinyin": "a-pa",
+        "audio": "word-audio/indonesian/b55c492957.mp3"
+      },
+      {
+        "meaning": "消息 / 情况",
+        "target": "kabar",
+        "thai": "kabar",
+        "pinyin": "ka-bar",
+        "audio": "word-audio/indonesian/e6af5fec53.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Apa kabar?",
+    "pronunciationRules": [
+      "Apa kabar 是问候句，先按 a-pa ka-bar 分词慢读，再连起来读。"
+    ],
+    "id": "indonesian-066",
+    "audio": "audio/indonesian/066-76b2251465.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "我很好",
+    "target": "Saya baik.",
+    "pinyin": "sa-ya ba-ik",
+    "words": [
+      {
+        "meaning": "我",
+        "target": "Saya",
+        "thai": "Saya",
+        "pinyin": "sa-ya",
+        "audio": "word-audio/indonesian/d54ef0689a.mp3"
+      },
+      {
+        "meaning": "好",
+        "target": "baik",
+        "thai": "baik",
+        "pinyin": "ba-ik",
+        "audio": "word-audio/indonesian/39826c5020.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Saya baik.",
+    "pronunciationRules": [
+      "baik 按 ba-ik 分开读；词尾 k 轻轻收住，不要读成 ka。"
+    ],
+    "id": "indonesian-067",
+    "audio": "audio/indonesian/067-cdebb45e8f.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "你怎么样呢？",
+    "target": "Kamu bagaimana?",
+    "pinyin": "ka-mu ba-gai-ma-na",
+    "words": [
+      {
+        "meaning": "你",
+        "target": "Kamu",
+        "thai": "Kamu",
+        "pinyin": "ka-mu",
+        "audio": "word-audio/indonesian/f0d23d4d28.mp3"
+      },
+      {
+        "meaning": "怎么样",
+        "target": "bagaimana",
+        "thai": "bagaimana",
+        "pinyin": "ba-gai-ma-na",
+        "audio": "word-audio/indonesian/48f6d371df.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Kamu bagaimana?",
+    "pronunciationRules": [
+      "bagaimana 音节较多，先按 ba-gai-ma-na 慢读，再放进整句里。"
+    ],
+    "id": "indonesian-068",
+    "audio": "audio/indonesian/068-0a13eabe9e.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "我也很好",
+    "target": "Saya juga baik.",
+    "pinyin": "sa-ya ju-ga ba-ik",
+    "words": [
+      {
+        "meaning": "我",
+        "target": "Saya",
+        "thai": "Saya",
+        "pinyin": "sa-ya",
+        "audio": "word-audio/indonesian/d54ef0689a.mp3"
+      },
+      {
+        "meaning": "也",
+        "target": "juga",
+        "thai": "juga",
+        "pinyin": "ju-ga",
+        "audio": "word-audio/indonesian/56c96beb1d.mp3"
+      },
+      {
+        "meaning": "好",
+        "target": "baik",
+        "thai": "baik",
+        "pinyin": "ba-ik",
+        "audio": "word-audio/indonesian/39826c5020.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Saya juga baik.",
+    "pronunciationRules": [
+      "juga 按 ju-ga 分开读；baik 的词尾 k 轻轻收住。"
+    ],
+    "id": "indonesian-069",
+    "audio": "audio/indonesian/069-3d08a7cf2a.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "谢谢",
+    "target": "terima kasih",
+    "thai": "terima kasih",
+    "pinyin": "te-ri-ma ka-sih",
+    "words": [
+      {
+        "meaning": "谢谢",
+        "target": "terima kasih",
+        "thai": "terima kasih",
+        "pinyin": "te-ri-ma ka-sih",
+        "audio": "word-audio/indonesian/8156e2b0ba.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "terima kasih 先分成 te-ri-ma 和 ka-sih 两块读；词尾 h 轻轻读出来。"
+    ],
+    "id": "indonesian-070",
+    "audio": "audio/indonesian/070-8156e2b0ba.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "谢谢",
+    "target": "terima kasih.",
+    "pinyin": "te-ri-ma ka-sih",
+    "words": [
+      {
+        "meaning": "谢谢",
+        "target": "terima kasih",
+        "thai": "terima kasih",
+        "pinyin": "te-ri-ma ka-sih",
+        "audio": "word-audio/indonesian/8156e2b0ba.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "terima kasih.",
+    "pronunciationRules": [
+      "terima kasih 先分成 te-ri-ma 和 ka-sih 两块读；词尾 h 轻轻读出来。"
+    ],
+    "id": "indonesian-071",
+    "audio": "audio/indonesian/071-dc666b6ff9.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "谢谢（口语简短）",
+    "target": "makasih",
+    "thai": "makasih",
+    "pinyin": "ma-ka-sih",
+    "words": [
+      {
+        "meaning": "谢谢（口语简短）",
+        "target": "makasih",
+        "thai": "makasih",
+        "pinyin": "ma-ka-sih",
+        "audio": "word-audio/indonesian/848b4f2361.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "makasih 是更口语、简短的说法；词尾 h 轻轻读出来。"
+    ],
+    "id": "indonesian-072",
+    "audio": "audio/indonesian/072-848b4f2361.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "谢谢",
+    "target": "makasih.",
+    "pinyin": "ma-ka-sih",
+    "words": [
+      {
+        "meaning": "谢谢",
+        "target": "makasih",
+        "thai": "makasih",
+        "pinyin": "ma-ka-sih",
+        "audio": "word-audio/indonesian/848b4f2361.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "makasih.",
+    "pronunciationRules": [
+      "makasih 是更口语、简短的说法；词尾 h 轻轻读出来。"
+    ],
+    "id": "indonesian-073",
+    "audio": "audio/indonesian/073-6609fa6f4c.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "对不起",
+    "target": "maaf",
+    "thai": "maaf",
+    "pinyin": "ma-af",
+    "words": [
+      {
+        "meaning": "对不起",
+        "target": "maaf",
+        "thai": "maaf",
+        "pinyin": "ma-af",
+        "audio": "word-audio/indonesian/8e2d2d827c.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "maaf 按 ma-af 分开读；本次材料提示，词尾 f 要完整读出来。"
+    ],
+    "id": "indonesian-074",
+    "audio": "audio/indonesian/074-8e2d2d827c.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "对不起",
+    "target": "maaf.",
+    "pinyin": "ma-af",
+    "words": [
+      {
+        "meaning": "对不起",
+        "target": "maaf",
+        "thai": "maaf",
+        "pinyin": "ma-af",
+        "audio": "word-audio/indonesian/8e2d2d827c.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "maaf.",
+    "pronunciationRules": [
+      "maaf 按 ma-af 分开读；本次材料提示，词尾 f 要完整读出来。"
+    ],
+    "id": "indonesian-075",
+    "audio": "audio/indonesian/075-a42401fea7.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "不客气",
+    "target": "sama-sama",
+    "thai": "sama-sama",
+    "pinyin": "sa-ma sa-ma",
+    "words": [
+      {
+        "meaning": "不客气",
+        "target": "sama-sama",
+        "thai": "sama-sama",
+        "pinyin": "sa-ma sa-ma",
+        "audio": "word-audio/indonesian/0ba015905f.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "sama-sama 是重复结构，先慢读两遍 sa-ma，再连起来。"
+    ],
+    "id": "indonesian-076",
+    "audio": "audio/indonesian/076-0ba015905f.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "不客气",
+    "target": "sama-sama.",
+    "pinyin": "sa-ma sa-ma",
+    "words": [
+      {
+        "meaning": "不客气",
+        "target": "sama-sama",
+        "thai": "sama-sama",
+        "pinyin": "sa-ma sa-ma",
+        "audio": "word-audio/indonesian/0ba015905f.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "sama-sama.",
+    "pronunciationRules": [
+      "sama-sama 是重复结构，先慢读两遍 sa-ma，再连起来。"
+    ],
+    "id": "indonesian-077",
+    "audio": "audio/indonesian/077-8860f1aade.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "没关系",
+    "target": "tidak apa-apa",
+    "thai": "tidak apa-apa",
+    "pinyin": "ti-dak a-pa a-pa",
+    "words": [
+      {
+        "meaning": "没关系",
+        "target": "tidak apa-apa",
+        "thai": "tidak apa-apa",
+        "pinyin": "ti-dak a-pa a-pa",
+        "audio": "word-audio/indonesian/9c96f5e30f.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。",
+      "注意 g / k 清浊对比：g 是浊音，声带震动更强；k 是清音，声带震动更弱。",
+      "注意 d / t 清浊对比：d 是浊音，t 是清音。",
+      "注意 b / p 清浊对比：b 是浊音，p 是清音。"
+    ],
+    "id": "indonesian-078",
+    "audio": "audio/indonesian/078-9c96f5e30f.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "没关系",
+    "target": "tidak apa-apa.",
+    "pinyin": "ti-dak a-pa a-pa",
+    "words": [
+      {
+        "meaning": "不",
+        "target": "tidak",
+        "thai": "tidak",
+        "pinyin": "ti-dak",
+        "audio": "word-audio/indonesian/845bdb32bc.mp3"
+      },
+      {
+        "meaning": "什么事 / 关系",
+        "target": "apa-apa",
+        "thai": "apa-apa",
+        "pinyin": "a-pa a-pa",
+        "audio": "word-audio/indonesian/9125348843.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "tidak apa-apa.",
+    "pronunciationRules": [
+      "tidak 的词尾 k 轻轻收住；apa-apa 是重复结构。"
+    ],
+    "id": "indonesian-079",
+    "audio": "audio/indonesian/079-1540392505.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "没关系（口语）",
+    "target": "gapapa",
+    "thai": "gapapa",
+    "pinyin": "ga-pa-pa",
+    "words": [
+      {
+        "meaning": "没关系（口语）",
+        "target": "gapapa",
+        "thai": "gapapa",
+        "pinyin": "ga-pa-pa",
+        "audio": "word-audio/indonesian/8cb146e422.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "gapapa 是口语简化说法，先按 ga-pa-pa 三个音节慢读。"
+    ],
+    "id": "indonesian-080",
+    "audio": "audio/indonesian/080-8cb146e422.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "没关系",
+    "target": "gapapa.",
+    "pinyin": "ga-pa-pa",
+    "words": [
+      {
+        "meaning": "没关系",
+        "target": "gapapa",
+        "thai": "gapapa",
+        "pinyin": "ga-pa-pa",
+        "audio": "word-audio/indonesian/8cb146e422.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "gapapa.",
+    "pronunciationRules": [
+      "gapapa 是口语简化说法，先按 ga-pa-pa 三个音节慢读。"
+    ],
+    "id": "indonesian-081",
+    "audio": "audio/indonesian/081-7c6b07fcf1.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "词语",
+    "meaning": "平安 / 祝愿",
+    "target": "Selamat",
+    "thai": "Selamat",
+    "pinyin": "se-la-mat",
+    "words": [
+      {
+        "meaning": "平安 / 祝愿",
+        "target": "Selamat",
+        "thai": "Selamat",
+        "pinyin": "se-la-mat",
+        "audio": "word-audio/indonesian/ddfd0d04b5.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "Selamat 常和时间词一起组成问候；先按 se-la-mat 分音节读。"
+    ],
+    "id": "indonesian-082",
+    "audio": "audio/indonesian/082-ddfd0d04b5.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "早上好",
+    "target": "Selamat pagi.",
+    "pinyin": "se-la-mat pa-gi",
+    "words": [
+      {
+        "meaning": "平安 / 祝愿",
+        "target": "Selamat",
+        "thai": "Selamat",
+        "pinyin": "se-la-mat",
+        "audio": "word-audio/indonesian/ddfd0d04b5.mp3"
+      },
+      {
+        "meaning": "早上",
+        "target": "pagi",
+        "thai": "pagi",
+        "pinyin": "pa-gi",
+        "audio": "word-audio/indonesian/438308e20b.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Selamat pagi.",
+    "pronunciationRules": [
+      "Selamat 常和时间词一起组成问候；先按 se-la-mat 分音节读。"
+    ],
+    "id": "indonesian-083",
+    "audio": "audio/indonesian/083-501317f88a.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "中午 / 白天好",
+    "target": "Selamat siang.",
+    "pinyin": "se-la-mat si-ang",
+    "words": [
+      {
+        "meaning": "平安 / 祝愿",
+        "target": "Selamat",
+        "thai": "Selamat",
+        "pinyin": "se-la-mat",
+        "audio": "word-audio/indonesian/ddfd0d04b5.mp3"
+      },
+      {
+        "meaning": "中午 / 白天",
+        "target": "siang",
+        "thai": "siang",
+        "pinyin": "si-ang",
+        "audio": "word-audio/indonesian/31376f89c9.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Selamat siang.",
+    "pronunciationRules": [
+      "siang 按 si-ang 分开读，ng 是鼻音收尾。"
+    ],
+    "id": "indonesian-084",
+    "audio": "audio/indonesian/084-a39b7d5576.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "下午好",
+    "target": "Selamat sore.",
+    "pinyin": "se-la-mat so-re",
+    "words": [
+      {
+        "meaning": "平安 / 祝愿",
+        "target": "Selamat",
+        "thai": "Selamat",
+        "pinyin": "se-la-mat",
+        "audio": "word-audio/indonesian/ddfd0d04b5.mp3"
+      },
+      {
+        "meaning": "下午",
+        "target": "sore",
+        "thai": "sore",
+        "pinyin": "so-re",
+        "audio": "word-audio/indonesian/8c09fb9c17.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Selamat sore.",
+    "pronunciationRules": [
+      "sore 按 so-re 分成两个音节读。"
+    ],
+    "id": "indonesian-085",
+    "audio": "audio/indonesian/085-3a5437d42a.mp3"
+  },
+  {
+    "source": "001-basic-pronunciation-pronouns-sentences.md",
+    "category": "001 基础发音、代词和简单句",
+    "kind": "例句",
+    "meaning": "晚上好",
+    "target": "Selamat malam.",
+    "pinyin": "se-la-mat ma-lam",
+    "words": [
+      {
+        "meaning": "平安 / 祝愿",
+        "target": "Selamat",
+        "thai": "Selamat",
+        "pinyin": "se-la-mat",
+        "audio": "word-audio/indonesian/ddfd0d04b5.mp3"
+      },
+      {
+        "meaning": "晚上",
+        "target": "malam",
+        "thai": "malam",
+        "pinyin": "ma-lam",
+        "audio": "word-audio/indonesian/164c543f97.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Selamat malam.",
+    "pronunciationRules": [
+      "malam 按 ma-lam 分成两个音节读。"
+    ],
+    "id": "indonesian-086",
+    "audio": "audio/indonesian/086-998bda5d1a.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Aa",
+    "target": "a",
+    "pinyin": "a",
+    "language": "indonesian",
+    "thai": "a",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。"
+    ],
+    "words": [
+      {
+        "meaning": "名字 a",
+        "target": "a",
+        "thai": "a",
+        "pinyin": "a",
+        "audio": "word-audio/indonesian/61366cc80e.mp3"
+      }
+    ],
+    "id": "indonesian-087",
+    "audio": "audio/indonesian/087-61366cc80e.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Bb",
+    "target": "bé",
+    "pinyin": "be",
+    "language": "indonesian",
+    "thai": "bé",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。",
+      "注意 b / p 清浊对比：b 是浊音，p 是清音。"
+    ],
+    "words": [
+      {
+        "meaning": "Bb",
+        "target": "bé",
+        "thai": "bé",
+        "pinyin": "be",
+        "audio": "word-audio/indonesian/59ee6edb65.mp3"
+      }
+    ],
+    "id": "indonesian-088",
+    "audio": "audio/indonesian/088-59ee6edb65.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Cc",
+    "target": "cé",
+    "pinyin": "ce",
+    "language": "indonesian",
+    "thai": "cé",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。"
+    ],
+    "words": [
+      {
+        "meaning": "Cc",
+        "target": "cé",
+        "thai": "cé",
+        "pinyin": "ce",
+        "audio": "word-audio/indonesian/f3209245c0.mp3"
+      }
+    ],
+    "id": "indonesian-089",
+    "audio": "audio/indonesian/089-f3209245c0.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Dd",
+    "target": "dé",
+    "pinyin": "de",
+    "language": "indonesian",
+    "thai": "dé",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。",
+      "注意 d / t 清浊对比：d 是浊音，t 是清音。"
+    ],
+    "words": [
+      {
+        "meaning": "Dd",
+        "target": "dé",
+        "thai": "dé",
+        "pinyin": "de",
+        "audio": "word-audio/indonesian/8ac5e670a2.mp3"
+      }
+    ],
+    "id": "indonesian-090",
+    "audio": "audio/indonesian/090-8ac5e670a2.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Ff",
+    "target": "éf",
+    "pinyin": "ef",
+    "language": "indonesian",
+    "thai": "éf",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。"
+    ],
+    "words": [
+      {
+        "meaning": "Ff",
+        "target": "éf",
+        "thai": "éf",
+        "pinyin": "ef",
+        "audio": "word-audio/indonesian/cec334978a.mp3"
+      }
+    ],
+    "id": "indonesian-091",
+    "audio": "audio/indonesian/091-cec334978a.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Gg",
+    "target": "gé",
+    "pinyin": "ge",
+    "language": "indonesian",
+    "thai": "gé",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。",
+      "注意 g / k 清浊对比：g 是浊音，声带震动更强；k 是清音，声带震动更弱。"
+    ],
+    "words": [
+      {
+        "meaning": "Gg",
+        "target": "gé",
+        "thai": "gé",
+        "pinyin": "ge",
+        "audio": "word-audio/indonesian/802cffba3a.mp3"
+      }
+    ],
+    "id": "indonesian-092",
+    "audio": "audio/indonesian/092-802cffba3a.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Hh",
+    "target": "ha",
+    "pinyin": "ha",
+    "language": "indonesian",
+    "thai": "ha",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。"
+    ],
+    "words": [
+      {
+        "meaning": "名字 ha",
+        "target": "ha",
+        "thai": "ha",
+        "pinyin": "ha",
+        "audio": "word-audio/indonesian/72dbf60bb7.mp3"
+      }
+    ],
+    "id": "indonesian-093",
+    "audio": "audio/indonesian/093-72dbf60bb7.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Ii",
+    "target": "i",
+    "pinyin": "i",
+    "language": "indonesian",
+    "thai": "i",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。"
+    ],
+    "words": [
+      {
+        "meaning": "名字 i",
+        "target": "i",
+        "thai": "i",
+        "pinyin": "i",
+        "audio": "word-audio/indonesian/35cc14aa02.mp3"
+      }
+    ],
+    "id": "indonesian-094",
+    "audio": "audio/indonesian/094-35cc14aa02.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Jj",
+    "target": "jé",
+    "pinyin": "je",
+    "language": "indonesian",
+    "thai": "jé",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。"
+    ],
+    "words": [
+      {
+        "meaning": "Jj",
+        "target": "jé",
+        "thai": "jé",
+        "pinyin": "je",
+        "audio": "word-audio/indonesian/59f085b618.mp3"
+      }
+    ],
+    "id": "indonesian-095",
+    "audio": "audio/indonesian/095-59f085b618.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Kk",
+    "target": "ka",
+    "pinyin": "ka",
+    "language": "indonesian",
+    "thai": "ka",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。",
+      "注意 g / k 清浊对比：g 是浊音，声带震动更强；k 是清音，声带震动更弱。"
+    ],
+    "words": [
+      {
+        "meaning": "ka",
+        "target": "ka",
+        "thai": "ka",
+        "pinyin": "ka",
+        "audio": "word-audio/indonesian/ac0f5b3b60.mp3"
+      }
+    ],
+    "id": "indonesian-096",
+    "audio": "audio/indonesian/096-ac0f5b3b60.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Ll",
+    "target": "él",
+    "pinyin": "el",
+    "language": "indonesian",
+    "thai": "él",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。"
+    ],
+    "words": [
+      {
+        "meaning": "Ll",
+        "target": "él",
+        "thai": "él",
+        "pinyin": "el",
+        "audio": "word-audio/indonesian/f13c544d60.mp3"
+      }
+    ],
+    "id": "indonesian-097",
+    "audio": "audio/indonesian/097-f13c544d60.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Mm",
+    "target": "ém",
+    "pinyin": "em",
+    "language": "indonesian",
+    "thai": "ém",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。"
+    ],
+    "words": [
+      {
+        "meaning": "Mm",
+        "target": "ém",
+        "thai": "ém",
+        "pinyin": "em",
+        "audio": "word-audio/indonesian/965e106af8.mp3"
+      }
+    ],
+    "id": "indonesian-098",
+    "audio": "audio/indonesian/098-965e106af8.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Nn",
+    "target": "én",
+    "pinyin": "en",
+    "language": "indonesian",
+    "thai": "én",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。"
+    ],
+    "words": [
+      {
+        "meaning": "Nn",
+        "target": "én",
+        "thai": "én",
+        "pinyin": "en",
+        "audio": "word-audio/indonesian/0752dcb94f.mp3"
+      }
+    ],
+    "id": "indonesian-099",
+    "audio": "audio/indonesian/099-0752dcb94f.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Oo",
+    "target": "o",
+    "pinyin": "o",
+    "language": "indonesian",
+    "thai": "o",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。"
+    ],
+    "words": [
+      {
+        "meaning": "名字 o",
+        "target": "o",
+        "thai": "o",
+        "pinyin": "o",
+        "audio": "word-audio/indonesian/0662626bfd.mp3"
+      }
+    ],
+    "id": "indonesian-100",
+    "audio": "audio/indonesian/100-0662626bfd.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Pp",
+    "target": "pé",
+    "pinyin": "pe",
+    "language": "indonesian",
+    "thai": "pé",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。",
+      "注意 b / p 清浊对比：b 是浊音，p 是清音。"
+    ],
+    "words": [
+      {
+        "meaning": "Pp",
+        "target": "pé",
+        "thai": "pé",
+        "pinyin": "pe",
+        "audio": "word-audio/indonesian/6e3c39c014.mp3"
+      }
+    ],
+    "id": "indonesian-101",
+    "audio": "audio/indonesian/101-6e3c39c014.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Qq",
+    "target": "ki",
+    "pinyin": "ki",
+    "language": "indonesian",
+    "thai": "ki",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。",
+      "注意 g / k 清浊对比：g 是浊音，声带震动更强；k 是清音，声带震动更弱。"
+    ],
+    "words": [
+      {
+        "meaning": "名字 ki",
+        "target": "ki",
+        "thai": "ki",
+        "pinyin": "ki",
+        "audio": "word-audio/indonesian/439e1a9af3.mp3"
+      }
+    ],
+    "id": "indonesian-102",
+    "audio": "audio/indonesian/102-439e1a9af3.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Rr",
+    "target": "ér",
+    "pinyin": "er",
+    "language": "indonesian",
+    "thai": "ér",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。"
+    ],
+    "words": [
+      {
+        "meaning": "Rr",
+        "target": "ér",
+        "thai": "ér",
+        "pinyin": "er",
+        "audio": "word-audio/indonesian/8d00fb305d.mp3"
+      }
+    ],
+    "id": "indonesian-103",
+    "audio": "audio/indonesian/103-8d00fb305d.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Ss",
+    "target": "és",
+    "pinyin": "es",
+    "language": "indonesian",
+    "thai": "és",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。"
+    ],
+    "words": [
+      {
+        "meaning": "Ss",
+        "target": "és",
+        "thai": "és",
+        "pinyin": "es",
+        "audio": "word-audio/indonesian/3b7859e25c.mp3"
+      }
+    ],
+    "id": "indonesian-104",
+    "audio": "audio/indonesian/104-3b7859e25c.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Tt",
+    "target": "té",
+    "pinyin": "te",
+    "language": "indonesian",
+    "thai": "té",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。",
+      "注意 d / t 清浊对比：d 是浊音，t 是清音。"
+    ],
+    "words": [
+      {
+        "meaning": "Tt",
+        "target": "té",
+        "thai": "té",
+        "pinyin": "te",
+        "audio": "word-audio/indonesian/b8907a3702.mp3"
+      }
+    ],
+    "id": "indonesian-105",
+    "audio": "audio/indonesian/105-b8907a3702.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Uu",
+    "target": "u",
+    "pinyin": "u",
+    "language": "indonesian",
+    "thai": "u",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。"
+    ],
+    "words": [
+      {
+        "meaning": "名字 u",
+        "target": "u",
+        "thai": "u",
+        "pinyin": "u",
+        "audio": "word-audio/indonesian/172520e813.mp3"
+      }
+    ],
+    "id": "indonesian-106",
+    "audio": "audio/indonesian/106-172520e813.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Vv",
+    "target": "fé",
+    "pinyin": "fe",
+    "language": "indonesian",
+    "thai": "fé",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。"
+    ],
+    "words": [
+      {
+        "meaning": "Vv",
+        "target": "fé",
+        "thai": "fé",
+        "pinyin": "fe",
+        "audio": "word-audio/indonesian/f87fcde398.mp3"
+      }
+    ],
+    "id": "indonesian-107",
+    "audio": "audio/indonesian/107-f87fcde398.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Ww",
+    "target": "wé",
+    "pinyin": "we",
+    "language": "indonesian",
+    "thai": "wé",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。"
+    ],
+    "words": [
+      {
+        "meaning": "Ww",
+        "target": "wé",
+        "thai": "wé",
+        "pinyin": "we",
+        "audio": "word-audio/indonesian/872048deaa.mp3"
+      }
+    ],
+    "id": "indonesian-108",
+    "audio": "audio/indonesian/108-872048deaa.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Xx",
+    "target": "éks",
+    "pinyin": "eks",
+    "language": "indonesian",
+    "thai": "éks",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。",
+      "注意 g / k 清浊对比：g 是浊音，声带震动更强；k 是清音，声带震动更弱。"
+    ],
+    "words": [
+      {
+        "meaning": "Xx",
+        "target": "éks",
+        "thai": "éks",
+        "pinyin": "eks",
+        "audio": "word-audio/indonesian/51ea8e4011.mp3"
+      }
+    ],
+    "id": "indonesian-109",
+    "audio": "audio/indonesian/109-51ea8e4011.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Yy",
+    "target": "yé",
+    "pinyin": "ye",
+    "language": "indonesian",
+    "thai": "yé",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。"
+    ],
+    "words": [
+      {
+        "meaning": "Yy",
+        "target": "yé",
+        "thai": "yé",
+        "pinyin": "ye",
+        "audio": "word-audio/indonesian/c066f6fa2f.mp3"
+      }
+    ],
+    "id": "indonesian-110",
+    "audio": "audio/indonesian/110-c066f6fa2f.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词句",
+    "meaning": "Zz",
+    "target": "zét",
+    "pinyin": "zet",
+    "language": "indonesian",
+    "thai": "zét",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。",
+      "注意 d / t 清浊对比：d 是浊音，t 是清音。"
+    ],
+    "words": [
+      {
+        "meaning": "Zz",
+        "target": "zét",
+        "thai": "zét",
+        "pinyin": "zet",
+        "audio": "word-audio/indonesian/618ec746cf.mp3"
+      }
+    ],
+    "id": "indonesian-111",
+    "audio": "audio/indonesian/111-618ec746cf.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词语",
+    "meaning": "元音字母",
+    "target": "A, E, I, O, U",
+    "thai": "A, E, I, O, U",
+    "pinyin": "a, é / ê, i, o, u",
+    "words": [
+      {
+        "meaning": "元音字母",
+        "target": "A, E, I, O, U",
+        "thai": "A, E, I, O, U",
+        "pinyin": "a, é / ê, i, o, u",
+        "audio": "word-audio/indonesian/7a7104118e.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。"
+    ],
+    "id": "indonesian-112",
+    "audio": "audio/indonesian/112-7a7104118e.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词语",
+    "meaning": "容易混淆的清音和浊音",
+    "target": "p / b, t / d, k / g",
+    "thai": "p / b, t / d, k / g",
+    "pinyin": "pé / bé, té / dé, ka / gé",
+    "words": [
+      {
+        "meaning": "容易混淆的清音和浊音",
+        "target": "p / b, t / d, k / g",
+        "thai": "p / b, t / d, k / g",
+        "pinyin": "pé / bé, té / dé, ka / gé",
+        "audio": "word-audio/indonesian/9b4fa2b62d.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。",
+      "注意 g / k 清浊对比：g 是浊音，声带震动更强；k 是清音，声带震动更弱。",
+      "注意 d / t 清浊对比：d 是浊音，t 是清音。",
+      "注意 b / p 清浊对比：b 是浊音，p 是清音。"
+    ],
+    "id": "indonesian-113",
+    "audio": "audio/indonesian/113-9b4fa2b62d.mp3"
+  },
+  {
+    "source": "002-alphabet.md",
+    "category": "002 字母表",
+    "kind": "词语",
+    "meaning": "R 的大舌音",
+    "target": "Rr",
+    "thai": "Rr",
+    "pinyin": "ér",
+    "words": [
+      {
+        "meaning": "R 的大舌音",
+        "target": "Rr",
+        "thai": "Rr",
+        "pinyin": "ér",
+        "audio": "word-audio/indonesian/e5b5d006e9.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。"
+    ],
+    "id": "indonesian-114",
+    "audio": "audio/indonesian/114-e5b5d006e9.mp3"
+  },
+  {
+    "source": "003-tense-markers.md",
+    "category": "003 时态标记",
+    "kind": "词句",
+    "meaning": "完成 / 已经",
+    "target": "Saya sudah makan.",
+    "pinyin": "sa-ya su-dah ma-kan",
+    "language": "indonesian",
+    "thai": "Saya sudah makan.",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。",
+      "注意 g / k 清浊对比：g 是浊音，声带震动更强；k 是清音，声带震动更弱。",
+      "注意 d / t 清浊对比：d 是浊音，t 是清音。"
+    ],
+    "words": [
+      {
+        "meaning": "我（书面 / 中性）",
+        "target": "Saya",
+        "thai": "Saya",
+        "pinyin": "sa-ya",
+        "audio": "word-audio/indonesian/d54ef0689a.mp3"
+      },
+      {
+        "meaning": "已经 / 完成了",
+        "target": "sudah",
+        "thai": "sudah",
+        "pinyin": "su-dah",
+        "audio": "word-audio/indonesian/7b6e339eec.mp3"
+      },
+      {
+        "meaning": "吃",
+        "target": "makan",
+        "thai": "makan",
+        "pinyin": "ma-kan",
+        "audio": "word-audio/indonesian/cbb0427a0a.mp3"
+      }
+    ],
+    "id": "indonesian-115",
+    "audio": "audio/indonesian/115-a3a32ef093.mp3"
+  },
+  {
+    "source": "003-tense-markers.md",
+    "category": "003 时态标记",
+    "kind": "词句",
+    "meaning": "正在进行",
+    "target": "Saya sedang makan.",
+    "pinyin": "sa-ya se-dang ma-kan",
+    "language": "indonesian",
+    "thai": "Saya sedang makan.",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。",
+      "注意 g / k 清浊对比：g 是浊音，声带震动更强；k 是清音，声带震动更弱。",
+      "注意 d / t 清浊对比：d 是浊音，t 是清音。"
+    ],
+    "words": [
+      {
+        "meaning": "我（书面 / 中性）",
+        "target": "Saya",
+        "thai": "Saya",
+        "pinyin": "sa-ya",
+        "audio": "word-audio/indonesian/d54ef0689a.mp3"
+      },
+      {
+        "meaning": "正在",
+        "target": "sedang",
+        "thai": "sedang",
+        "pinyin": "se-dang",
+        "audio": "word-audio/indonesian/21e88e83e4.mp3"
+      },
+      {
+        "meaning": "吃",
+        "target": "makan",
+        "thai": "makan",
+        "pinyin": "ma-kan",
+        "audio": "word-audio/indonesian/cbb0427a0a.mp3"
+      }
+    ],
+    "id": "indonesian-116",
+    "audio": "audio/indonesian/116-78e35eebf7.mp3"
+  },
+  {
+    "source": "003-tense-markers.md",
+    "category": "003 时态标记",
+    "kind": "词句",
+    "meaning": "还没有 / 未完成",
+    "target": "Saya belum makan.",
+    "pinyin": "sa-ya be-lum ma-kan",
+    "language": "indonesian",
+    "thai": "Saya belum makan.",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。",
+      "注意 g / k 清浊对比：g 是浊音，声带震动更强；k 是清音，声带震动更弱。",
+      "注意 b / p 清浊对比：b 是浊音，p 是清音。"
+    ],
+    "words": [
+      {
+        "meaning": "我（书面 / 中性）",
+        "target": "Saya",
+        "thai": "Saya",
+        "pinyin": "sa-ya",
+        "audio": "word-audio/indonesian/d54ef0689a.mp3"
+      },
+      {
+        "meaning": "还没有 / 未完成",
+        "target": "belum",
+        "thai": "belum",
+        "pinyin": "be-lum",
+        "audio": "word-audio/indonesian/612c38565e.mp3"
+      },
+      {
+        "meaning": "吃",
+        "target": "makan",
+        "thai": "makan",
+        "pinyin": "ma-kan",
+        "audio": "word-audio/indonesian/cbb0427a0a.mp3"
+      }
+    ],
+    "id": "indonesian-117",
+    "audio": "audio/indonesian/117-5e04df84ec.mp3"
+  },
+  {
+    "source": "003-tense-markers.md",
+    "category": "003 时态标记",
+    "kind": "词句",
+    "meaning": "一般现在 / 零时态",
+    "target": "Saya makan.",
+    "pinyin": "sa-ya ma-kan",
+    "language": "indonesian",
+    "thai": "Saya makan.",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。",
+      "注意 g / k 清浊对比：g 是浊音，声带震动更强；k 是清音，声带震动更弱。"
+    ],
+    "words": [
+      {
+        "meaning": "一般现在时 / 零时态",
+        "target": "Saya makan.",
+        "thai": "Saya makan.",
+        "pinyin": "sa-ya ma-kan",
+        "audio": "word-audio/indonesian/d7aef529de.mp3"
+      }
+    ],
+    "id": "indonesian-118",
+    "audio": "audio/indonesian/118-d7aef529de.mp3"
+  },
+  {
+    "source": "003-tense-markers.md",
+    "category": "003 时态标记",
+    "kind": "词句",
+    "meaning": "将来",
+    "target": "Saya akan makan.",
+    "pinyin": "sa-ya a-kan ma-kan",
+    "language": "indonesian",
+    "thai": "Saya akan makan.",
+    "pronunciationRules": [
+      "印尼语一般按拉丁字母拼读；先按拉丁读音分音节慢读，再连起来读。",
+      "注意 g / k 清浊对比：g 是浊音，声带震动更强；k 是清音，声带震动更弱。"
+    ],
+    "words": [
+      {
+        "meaning": "我（书面 / 中性）",
+        "target": "Saya",
+        "thai": "Saya",
+        "pinyin": "sa-ya",
+        "audio": "word-audio/indonesian/d54ef0689a.mp3"
+      },
+      {
+        "meaning": "将要 / 将会",
+        "target": "akan",
+        "thai": "akan",
+        "pinyin": "a-kan",
+        "audio": "word-audio/indonesian/a62ff35f46.mp3"
+      },
+      {
+        "meaning": "吃",
+        "target": "makan",
+        "thai": "makan",
+        "pinyin": "ma-kan",
+        "audio": "word-audio/indonesian/cbb0427a0a.mp3"
+      }
+    ],
+    "id": "indonesian-119",
+    "audio": "audio/indonesian/119-46edcb281b.mp3"
+  },
+  {
+    "source": "003-tense-markers.md",
+    "category": "003 时态标记",
+    "kind": "词语",
+    "meaning": "已经 / 完成了",
+    "target": "sudah",
+    "thai": "sudah",
+    "pinyin": "su-dah",
+    "words": [
+      {
+        "meaning": "已经 / 完成了",
+        "target": "sudah",
+        "thai": "sudah",
+        "pinyin": "su-dah",
+        "audio": "word-audio/indonesian/7b6e339eec.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "sudah 按 su-dah 分成两个音节读；词尾 h 要轻轻读出来。"
+    ],
+    "id": "indonesian-120",
+    "audio": "audio/indonesian/120-7b6e339eec.mp3"
+  },
+  {
+    "source": "003-tense-markers.md",
+    "category": "003 时态标记",
+    "kind": "例句",
+    "meaning": "我吃完饭了 / 我已经吃饭了",
+    "target": "Saya sudah makan.",
+    "pinyin": "sa-ya su-dah ma-kan",
+    "words": [
+      {
+        "meaning": "我",
+        "target": "Saya",
+        "thai": "Saya",
+        "pinyin": "sa-ya",
+        "audio": "word-audio/indonesian/d54ef0689a.mp3"
+      },
+      {
+        "meaning": "已经 / 完成了",
+        "target": "sudah",
+        "thai": "sudah",
+        "pinyin": "su-dah",
+        "audio": "word-audio/indonesian/7b6e339eec.mp3"
+      },
+      {
+        "meaning": "吃",
+        "target": "makan",
+        "thai": "makan",
+        "pinyin": "ma-kan",
+        "audio": "word-audio/indonesian/cbb0427a0a.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Saya sudah makan.",
+    "pronunciationRules": [
+      "sudah 按 su-dah 分成两个音节读；词尾 h 要轻轻读出来。"
+    ],
+    "id": "indonesian-121",
+    "audio": "audio/indonesian/121-a3a32ef093.mp3"
+  },
+  {
+    "source": "003-tense-markers.md",
+    "category": "003 时态标记",
+    "kind": "词语",
+    "meaning": "正在",
+    "target": "sedang",
+    "thai": "sedang",
+    "pinyin": "se-dang",
+    "words": [
+      {
+        "meaning": "正在",
+        "target": "sedang",
+        "thai": "sedang",
+        "pinyin": "se-dang",
+        "audio": "word-audio/indonesian/21e88e83e4.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "sedang 按 se-dang 分成两个音节读；ng 是鼻音收尾。"
+    ],
+    "id": "indonesian-122",
+    "audio": "audio/indonesian/122-21e88e83e4.mp3"
+  },
+  {
+    "source": "003-tense-markers.md",
+    "category": "003 时态标记",
+    "kind": "例句",
+    "meaning": "我正在吃饭",
+    "target": "Saya sedang makan.",
+    "pinyin": "sa-ya se-dang ma-kan",
+    "words": [
+      {
+        "meaning": "我",
+        "target": "Saya",
+        "thai": "Saya",
+        "pinyin": "sa-ya",
+        "audio": "word-audio/indonesian/d54ef0689a.mp3"
+      },
+      {
+        "meaning": "正在",
+        "target": "sedang",
+        "thai": "sedang",
+        "pinyin": "se-dang",
+        "audio": "word-audio/indonesian/21e88e83e4.mp3"
+      },
+      {
+        "meaning": "吃",
+        "target": "makan",
+        "thai": "makan",
+        "pinyin": "ma-kan",
+        "audio": "word-audio/indonesian/cbb0427a0a.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Saya sedang makan.",
+    "pronunciationRules": [
+      "sedang 按 se-dang 分成两个音节读；ng 是鼻音收尾。"
+    ],
+    "id": "indonesian-123",
+    "audio": "audio/indonesian/123-78e35eebf7.mp3"
+  },
+  {
+    "source": "003-tense-markers.md",
+    "category": "003 时态标记",
+    "kind": "词语",
+    "meaning": "还没有 / 未完成",
+    "target": "belum",
+    "thai": "belum",
+    "pinyin": "be-lum",
+    "words": [
+      {
+        "meaning": "还没有 / 未完成",
+        "target": "belum",
+        "thai": "belum",
+        "pinyin": "be-lum",
+        "audio": "word-audio/indonesian/612c38565e.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "belum 按 be-lum 分成两个音节读；m 要收清楚。"
+    ],
+    "id": "indonesian-124",
+    "audio": "audio/indonesian/124-612c38565e.mp3"
+  },
+  {
+    "source": "003-tense-markers.md",
+    "category": "003 时态标记",
+    "kind": "例句",
+    "meaning": "我还没有吃饭",
+    "target": "Saya belum makan.",
+    "pinyin": "sa-ya be-lum ma-kan",
+    "words": [
+      {
+        "meaning": "我",
+        "target": "Saya",
+        "thai": "Saya",
+        "pinyin": "sa-ya",
+        "audio": "word-audio/indonesian/d54ef0689a.mp3"
+      },
+      {
+        "meaning": "还没有",
+        "target": "belum",
+        "thai": "belum",
+        "pinyin": "be-lum",
+        "audio": "word-audio/indonesian/612c38565e.mp3"
+      },
+      {
+        "meaning": "吃",
+        "target": "makan",
+        "thai": "makan",
+        "pinyin": "ma-kan",
+        "audio": "word-audio/indonesian/cbb0427a0a.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Saya belum makan.",
+    "pronunciationRules": [
+      "belum 按 be-lum 分成两个音节读；m 要收清楚。"
+    ],
+    "id": "indonesian-125",
+    "audio": "audio/indonesian/125-5e04df84ec.mp3"
+  },
+  {
+    "source": "003-tense-markers.md",
+    "category": "003 时态标记",
+    "kind": "词语",
+    "meaning": "将要 / 将会",
+    "target": "akan",
+    "thai": "akan",
+    "pinyin": "a-kan",
+    "words": [
+      {
+        "meaning": "将要 / 将会",
+        "target": "akan",
+        "thai": "akan",
+        "pinyin": "a-kan",
+        "audio": "word-audio/indonesian/a62ff35f46.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "pronunciationRules": [
+      "akan 按 a-kan 分成两个音节读；k 是清音。"
+    ],
+    "id": "indonesian-126",
+    "audio": "audio/indonesian/126-a62ff35f46.mp3"
+  },
+  {
+    "source": "003-tense-markers.md",
+    "category": "003 时态标记",
+    "kind": "例句",
+    "meaning": "我将要吃饭",
+    "target": "Saya akan makan.",
+    "pinyin": "sa-ya a-kan ma-kan",
+    "words": [
+      {
+        "meaning": "我",
+        "target": "Saya",
+        "thai": "Saya",
+        "pinyin": "sa-ya",
+        "audio": "word-audio/indonesian/d54ef0689a.mp3"
+      },
+      {
+        "meaning": "将要 / 将会",
+        "target": "akan",
+        "thai": "akan",
+        "pinyin": "a-kan",
+        "audio": "word-audio/indonesian/a62ff35f46.mp3"
+      },
+      {
+        "meaning": "吃",
+        "target": "makan",
+        "thai": "makan",
+        "pinyin": "ma-kan",
+        "audio": "word-audio/indonesian/cbb0427a0a.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Saya akan makan.",
+    "pronunciationRules": [
+      "akan 按 a-kan 分成两个音节读；k 是清音。"
+    ],
+    "id": "indonesian-127",
+    "audio": "audio/indonesian/127-46edcb281b.mp3"
+  },
+  {
+    "source": "003-tense-markers.md",
+    "category": "003 时态标记",
+    "kind": "例句",
+    "meaning": "我吃饭",
+    "target": "Saya makan.",
+    "pinyin": "sa-ya ma-kan",
+    "words": [
+      {
+        "meaning": "我",
+        "target": "Saya",
+        "thai": "Saya",
+        "pinyin": "sa-ya",
+        "audio": "word-audio/indonesian/d54ef0689a.mp3"
+      },
+      {
+        "meaning": "吃",
+        "target": "makan",
+        "thai": "makan",
+        "pinyin": "ma-kan",
+        "audio": "word-audio/indonesian/cbb0427a0a.mp3"
+      }
+    ],
+    "language": "indonesian",
+    "thai": "Saya makan.",
+    "pronunciationRules": [
+      "这里没有加时间标记，动词 makan 不变化；根据上下文理解为“我吃饭 / 我吃饭这件事”。"
+    ],
+    "id": "indonesian-128",
+    "audio": "audio/indonesian/128-d7aef529de.mp3"
   }
 ];
 window.THAI_AUDIO_APP_META = {
-  count: 571,
+  count: 664,
   voice: "th-TH-PremwadeeNeural",
   languages: [{"id": "thai", "label": "泰语"}, {"id": "indonesian", "label": "印尼语"}],
   format: "中文意思 | 目标语言 | 拉丁读音"
