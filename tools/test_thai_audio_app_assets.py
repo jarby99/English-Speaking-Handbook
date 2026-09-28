@@ -105,6 +105,27 @@ def test_english_starter_lesson_has_required_memory_dialogue_and_words():
     assert any(line["text"].startswith("Are you ready") for line in lesson["dialogue"])
 
 
+def test_collect_items_includes_english_lesson_with_track_and_scenario():
+    builder = load_builder()
+    items = builder.collect_items()
+    lesson = next(item for item in items if item["language"] == "english" and item["kind"] == "lesson")
+
+    assert lesson["track"] == "cet4"
+    assert lesson["category"].startswith("001 ")
+    assert lesson["targetWords"][0]["word"] == "prepare"
+    assert lesson["words"][0]["target"] == "prepare"
+    assert lesson["audio"].startswith("audio/english/")
+    assert lesson["dialogue"][0]["audio"].startswith("audio/english/")
+
+
+def test_english_word_audio_paths_are_language_scoped():
+    builder = load_builder()
+    items = builder.collect_items()
+    lesson = next(item for item in items if item["language"] == "english" and item["kind"] == "lesson")
+
+    assert all(word["audio"].startswith("word-audio/english/") for word in lesson["words"])
+
+
 def test_collect_items_adds_audio_to_thai_word_blocks_only():
     builder = load_builder()
     items = builder.collect_items()

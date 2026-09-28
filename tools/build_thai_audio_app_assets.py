@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import asyncio
 import hashlib
+import importlib.util
 import json
 import re
 from pathlib import Path
@@ -30,6 +31,13 @@ LANGUAGES = {
         "target_field": "印尼语",
         "roman_field": "拉丁读音",
         "voice": "id-ID-ArdiNeural",
+    },
+    "english": {
+        "label": "英语",
+        "record_dir": RECORD_ROOT / "english",
+        "target_field": "English",
+        "roman_field": "IPA",
+        "voice": "en-US-JennyNeural",
     },
 }
 TTS_THAI_OVERRIDES = {
@@ -158,6 +166,15 @@ def category_from_title(path: Path, text: str) -> str:
             label = CATEGORY_LABELS.get(category, category)
             return f"{prefix} {label}" if prefix.isdigit() else label
     return "泰语学习"
+
+
+def load_english_parser():
+    spec = importlib.util.spec_from_file_location("english_lesson_parser", ROOT / "tools" / "english_lesson_parser.py")
+    if spec is None or spec.loader is None:
+        raise RuntimeError("Unable to load English lesson parser")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
 
 
 def language_config(language: str) -> dict:
@@ -580,6 +597,71 @@ def annotate_words(language: str, items: list[dict], lexicon: dict[str, dict]) -
                 word["audio"] = word_audio_filename(language, word["target"])
 
 
+def english_category_from_lesson(path: Path, lesson: dict) -> str:
+    prefix = path.stem.split("-", 1)[0]
+    label = lesson.get("categoryLabel") or lesson.get("category") or "English"
+    return f"{prefix} {label}" if prefix.isdigit() else label
+
+
+def english_word_from_target(word: dict) -> dict:
+    return {
+        "meaning": word["meaning_zh"],
+        "target": word["word"],
+        "thai": word["word"],
+        "pinyin": word["ipa"],
+        "partOfSpeech": word["part_of_speech"],
+        "collocations": word.get("collocations", []),
+        "audio": word_audio_filename("english", word["word"]),
+    }
+
+
+def collect_english_items() -> list[dict]:
+    directory = record_dir("english")
+    if not directory.exists():
+        return []
+
+    parser = load_english_parser()
+    items: list[dict] = []
+    for path in sorted(directory.glob("*.md")):
+        text = path.read_text(encoding="utf-8")
+        lesson = parser.parse_english_lesson(path, text)
+        errors = parser.validate_english_lesson(lesson, path.name)
+        if errors:
+            raise ValueError("\n".join(errors))
+
+        words = [english_word_from_target(word) for word in lesson["targetWords"]]
+        target = " ".join(f"{line['speaker']}: {line['text']}" for line in lesson["dialogue"])
+        item = {
+            "id": lesson["id"],
+            "language": "english",
+            "kind": "lesson",
+            "source": lesson["source"],
+            "category": english_category_from_lesson(path, lesson),
+            "meaning": lesson["title"],
+            "target": target,
+            "thai": target,
+            "pinyin": f"{lesson['track'].upper()} | {lesson['difficulty']}",
+            "track": lesson["track"],
+            "difficulty": lesson["difficulty"],
+            "title": lesson["title"],
+            "scenarioMemoryText": lesson["scenarioMemoryText"],
+            "scenarioMemory": lesson["scenarioMemory"],
+            "targetWords": lesson["targetWords"],
+            "dialogue": lesson["dialogue"],
+            "reviewPrompt": lesson["reviewPrompt"],
+            "words": words,
+        }
+        items.append(item)
+
+    for index, item in enumerate(items, 1):
+        item["id"] = f"english-{index:03d}"
+        item["audio"] = f"audio/{audio_filename('english', index, item['target'])}"
+        for dialogue_index, line in enumerate(item["dialogue"], 1):
+            line["audio"] = f"audio/{audio_filename('english', index * 100 + dialogue_index, line['text'])}"
+
+    return items
+
+
 def collect_language_items(language: str) -> list[dict]:
     items: list[dict] = []
     seen: set[tuple[str, str, str]] = set()
@@ -607,7 +689,10 @@ def collect_language_items(language: str) -> list[dict]:
 def collect_items() -> list[dict]:
     items: list[dict] = []
     for language in LANGUAGES:
-        items.extend(collect_language_items(language))
+        if language == "english":
+            items.extend(collect_english_items())
+        else:
+            items.extend(collect_language_items(language))
     return items
 
 
@@ -671,6 +756,25 @@ def collect_audio_targets(items: list[dict]) -> list[dict]:
                     "ttsTarget": tts_target,
                     "language": language,
                     "voice": language_config(language)["voice"],
+                    "audio": audio,
+                }
+            )
+
+    for item in items:
+        for line in item.get("dialogue", []):
+            audio = line.get("audio")
+            if not audio or audio in seen_audio:
+                continue
+            seen_audio.add(audio)
+            targets.append(
+                {
+                    "meaning": line.get("meaning_zh", item["meaning"]),
+                    "thai": line["text"],
+                    "target": line["text"],
+                    "ttsThai": line["text"],
+                    "ttsTarget": line["text"],
+                    "language": item["language"],
+                    "voice": language_config(item["language"])["voice"],
                     "audio": audio,
                 }
             )
