@@ -573,6 +573,35 @@ select {
   font-weight: 700;
 }
 
+.collocation-list {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.lesson-review-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.review-state-button {
+  min-height: 34px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfaf7;
+  color: var(--accent-strong);
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.review-state-button[aria-pressed="true"] {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
 .dialogue-list {
   display: grid;
   gap: 8px;

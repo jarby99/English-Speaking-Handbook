@@ -156,14 +156,23 @@ def validate_english_lesson(lesson: dict[str, Any], source: str) -> list[str]:
     target_words = lesson.get("targetWords") or []
     if not target_words:
         errors.append(f"{source}: missing targetWords")
+    elif not 8 <= len(target_words) <= 15:
+        errors.append(f"{source}: targetWords must contain 8 to 15 words")
 
     for index, word in enumerate(target_words, start=1):
         for field in ["word", "ipa", "meaning_zh", "part_of_speech"]:
             if not word.get(field):
                 errors.append(f"{source}: targetWords[{index}] missing {field}")
 
-    if not lesson.get("scenarioMemoryText") or not lesson.get("scenarioMemory"):
+    scenario_hits = lesson.get("scenarioMemory") or []
+    if not lesson.get("scenarioMemoryText") or not scenario_hits:
         errors.append(f"{source}: missing scenarioMemory")
+    else:
+        target_set = {word.get("word") for word in target_words if word.get("word")}
+        scenario_set = {hit.get("word") for hit in scenario_hits if hit.get("word")}
+        missing = sorted(target_set - scenario_set)
+        if missing:
+            errors.append(f"{source}: scenarioMemory missing target words: {', '.join(missing)}")
 
     if not lesson.get("dialogue"):
         errors.append(f"{source}: missing dialogue")

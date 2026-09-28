@@ -23127,10 +23127,729 @@ window.THAI_AUDIO_APP_ITEMS = [
       }
     ],
     "audio": "audio/english/001-47ac339c2c.mp3"
+  },
+  {
+    "id": "english-002",
+    "language": "english",
+    "kind": "lesson",
+    "source": "002-cet6-social-issues.md",
+    "category": "002 社会问题",
+    "meaning": "社区问题讨论",
+    "target": "A: We need to identify the main problem first. B: I agree. Then we can analyze each factor carefully. A: If everyone can cooperate, we may find a practical solution. B: That would reduce conflict and promote better communication. A: In the end, we can achieve agreement.",
+    "thai": "A: We need to identify the main problem first. B: I agree. Then we can analyze each factor carefully. A: If everyone can cooperate, we may find a practical solution. B: That would reduce conflict and promote better communication. A: In the end, we can achieve agreement.",
+    "pinyin": "CET6 | advanced",
+    "track": "cet6",
+    "difficulty": "advanced",
+    "title": "社区问题讨论",
+    "scenarioMemoryText": "我们讨论社区问题时先 identify 主要矛盾，再 analyze 背后的 factor。如果大家 cooperate，并提出 practical 的 solution，就能 reduce 冲突，promote 更好的 communication，最后 achieve 共识。",
+    "scenarioMemory": [
+      {
+        "word": "identify",
+        "start": 11,
+        "end": 19,
+        "ipa": "/aɪˈdentɪfaɪ/",
+        "meaning_zh": "识别；确认"
+      },
+      {
+        "word": "analyze",
+        "start": 27,
+        "end": 34,
+        "ipa": "/ˈænəlaɪz/",
+        "meaning_zh": "分析"
+      },
+      {
+        "word": "factor",
+        "start": 39,
+        "end": 45,
+        "ipa": "/ˈfæktər/",
+        "meaning_zh": "因素"
+      },
+      {
+        "word": "cooperate",
+        "start": 51,
+        "end": 60,
+        "ipa": "/koʊˈɑːpəreɪt/",
+        "meaning_zh": "合作"
+      },
+      {
+        "word": "practical",
+        "start": 65,
+        "end": 74,
+        "ipa": "/ˈpræktɪkl/",
+        "meaning_zh": "实际的；可行的"
+      },
+      {
+        "word": "solution",
+        "start": 77,
+        "end": 85,
+        "ipa": "/səˈluːʃn/",
+        "meaning_zh": "解决办法"
+      },
+      {
+        "word": "reduce",
+        "start": 89,
+        "end": 95,
+        "ipa": "/rɪˈduːs/",
+        "meaning_zh": "减少"
+      },
+      {
+        "word": "promote",
+        "start": 99,
+        "end": 106,
+        "ipa": "/prəˈmoʊt/",
+        "meaning_zh": "促进"
+      },
+      {
+        "word": "communication",
+        "start": 111,
+        "end": 124,
+        "ipa": "/kəˌmjuːnɪˈkeɪʃn/",
+        "meaning_zh": "沟通；交流"
+      },
+      {
+        "word": "achieve",
+        "start": 128,
+        "end": 135,
+        "ipa": "/əˈtʃiːv/",
+        "meaning_zh": "实现；达到"
+      }
+    ],
+    "targetWords": [
+      {
+        "word": "identify",
+        "ipa": "/aɪˈdentɪfaɪ/",
+        "meaning_zh": "识别；确认",
+        "part_of_speech": "v.",
+        "collocations": [
+          "identify a problem",
+          "identify the cause"
+        ]
+      },
+      {
+        "word": "analyze",
+        "ipa": "/ˈænəlaɪz/",
+        "meaning_zh": "分析",
+        "part_of_speech": "v.",
+        "collocations": [
+          "analyze the situation",
+          "analyze data"
+        ]
+      },
+      {
+        "word": "factor",
+        "ipa": "/ˈfæktər/",
+        "meaning_zh": "因素",
+        "part_of_speech": "n.",
+        "collocations": [
+          "key factor",
+          "important factor"
+        ]
+      },
+      {
+        "word": "cooperate",
+        "ipa": "/koʊˈɑːpəreɪt/",
+        "meaning_zh": "合作",
+        "part_of_speech": "v.",
+        "collocations": [
+          "cooperate with others",
+          "cooperate closely"
+        ]
+      },
+      {
+        "word": "practical",
+        "ipa": "/ˈpræktɪkl/",
+        "meaning_zh": "实际的；可行的",
+        "part_of_speech": "adj.",
+        "collocations": [
+          "practical solution",
+          "practical advice"
+        ]
+      },
+      {
+        "word": "solution",
+        "ipa": "/səˈluːʃn/",
+        "meaning_zh": "解决办法",
+        "part_of_speech": "n.",
+        "collocations": [
+          "find a solution",
+          "offer a solution"
+        ]
+      },
+      {
+        "word": "reduce",
+        "ipa": "/rɪˈduːs/",
+        "meaning_zh": "减少",
+        "part_of_speech": "v.",
+        "collocations": [
+          "reduce conflict",
+          "reduce pressure"
+        ]
+      },
+      {
+        "word": "promote",
+        "ipa": "/prəˈmoʊt/",
+        "meaning_zh": "促进",
+        "part_of_speech": "v.",
+        "collocations": [
+          "promote communication",
+          "promote development"
+        ]
+      },
+      {
+        "word": "communication",
+        "ipa": "/kəˌmjuːnɪˈkeɪʃn/",
+        "meaning_zh": "沟通；交流",
+        "part_of_speech": "n.",
+        "collocations": [
+          "effective communication",
+          "improve communication"
+        ]
+      },
+      {
+        "word": "achieve",
+        "ipa": "/əˈtʃiːv/",
+        "meaning_zh": "实现；达到",
+        "part_of_speech": "v.",
+        "collocations": [
+          "achieve a goal",
+          "achieve agreement"
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "We need to identify the main problem first.",
+        "meaning_zh": "我们需要先确认主要问题。",
+        "audio": "audio/english/201-e1d98e77fe.mp3"
+      },
+      {
+        "speaker": "B",
+        "text": "I agree. Then we can analyze each factor carefully.",
+        "meaning_zh": "我同意。然后我们可以仔细分析每个因素。",
+        "audio": "audio/english/202-c64ba96de4.mp3"
+      },
+      {
+        "speaker": "A",
+        "text": "If everyone can cooperate, we may find a practical solution.",
+        "meaning_zh": "如果每个人都能合作，我们可能会找到可行的解决办法。",
+        "audio": "audio/english/203-e4b8936064.mp3"
+      },
+      {
+        "speaker": "B",
+        "text": "That would reduce conflict and promote better communication.",
+        "meaning_zh": "那会减少冲突，并促进更好的沟通。",
+        "audio": "audio/english/204-4f804b52c7.mp3"
+      },
+      {
+        "speaker": "A",
+        "text": "In the end, we can achieve agreement.",
+        "meaning_zh": "最后，我们可以达成共识。",
+        "audio": "audio/english/205-392a747fe3.mp3"
+      }
+    ],
+    "reviewPrompt": "先记社会问题词群，再用对话练习分析问题和提出方案。",
+    "words": [
+      {
+        "meaning": "识别；确认",
+        "target": "identify",
+        "thai": "identify",
+        "pinyin": "/aɪˈdentɪfaɪ/",
+        "partOfSpeech": "v.",
+        "collocations": [
+          "identify a problem",
+          "identify the cause"
+        ],
+        "audio": "word-audio/english/bd322012d5.mp3"
+      },
+      {
+        "meaning": "分析",
+        "target": "analyze",
+        "thai": "analyze",
+        "pinyin": "/ˈænəlaɪz/",
+        "partOfSpeech": "v.",
+        "collocations": [
+          "analyze the situation",
+          "analyze data"
+        ],
+        "audio": "word-audio/english/0feea64c14.mp3"
+      },
+      {
+        "meaning": "因素",
+        "target": "factor",
+        "thai": "factor",
+        "pinyin": "/ˈfæktər/",
+        "partOfSpeech": "n.",
+        "collocations": [
+          "key factor",
+          "important factor"
+        ],
+        "audio": "word-audio/english/e7baae184a.mp3"
+      },
+      {
+        "meaning": "合作",
+        "target": "cooperate",
+        "thai": "cooperate",
+        "pinyin": "/koʊˈɑːpəreɪt/",
+        "partOfSpeech": "v.",
+        "collocations": [
+          "cooperate with others",
+          "cooperate closely"
+        ],
+        "audio": "word-audio/english/fe9e38eb2d.mp3"
+      },
+      {
+        "meaning": "实际的；可行的",
+        "target": "practical",
+        "thai": "practical",
+        "pinyin": "/ˈpræktɪkl/",
+        "partOfSpeech": "adj.",
+        "collocations": [
+          "practical solution",
+          "practical advice"
+        ],
+        "audio": "word-audio/english/68b3f89adc.mp3"
+      },
+      {
+        "meaning": "解决办法",
+        "target": "solution",
+        "thai": "solution",
+        "pinyin": "/səˈluːʃn/",
+        "partOfSpeech": "n.",
+        "collocations": [
+          "find a solution",
+          "offer a solution"
+        ],
+        "audio": "word-audio/english/a7d412ee09.mp3"
+      },
+      {
+        "meaning": "减少",
+        "target": "reduce",
+        "thai": "reduce",
+        "pinyin": "/rɪˈduːs/",
+        "partOfSpeech": "v.",
+        "collocations": [
+          "reduce conflict",
+          "reduce pressure"
+        ],
+        "audio": "word-audio/english/a6dc2620d4.mp3"
+      },
+      {
+        "meaning": "促进",
+        "target": "promote",
+        "thai": "promote",
+        "pinyin": "/prəˈmoʊt/",
+        "partOfSpeech": "v.",
+        "collocations": [
+          "promote communication",
+          "promote development"
+        ],
+        "audio": "word-audio/english/405a23a78c.mp3"
+      },
+      {
+        "meaning": "沟通；交流",
+        "target": "communication",
+        "thai": "communication",
+        "pinyin": "/kəˌmjuːnɪˈkeɪʃn/",
+        "partOfSpeech": "n.",
+        "collocations": [
+          "effective communication",
+          "improve communication"
+        ],
+        "audio": "word-audio/english/428ffcc413.mp3"
+      },
+      {
+        "meaning": "实现；达到",
+        "target": "achieve",
+        "thai": "achieve",
+        "pinyin": "/əˈtʃiːv/",
+        "partOfSpeech": "v.",
+        "collocations": [
+          "achieve a goal",
+          "achieve agreement"
+        ],
+        "audio": "word-audio/english/af1a98e779.mp3"
+      }
+    ],
+    "audio": "audio/english/002-03a980ebaf.mp3"
+  },
+  {
+    "id": "english-003",
+    "language": "english",
+    "kind": "lesson",
+    "source": "003-ielts-environment.md",
+    "category": "003 环境与城市",
+    "meaning": "城市环保规划",
+    "target": "A: How does urbanization affect the environment? B: It often increases pollution, so cities need sustainable policy. A: Should governments invest more in public transport? B: Yes. They should also protect natural resources and encourage people to recycle. A: That can improve the quality of life and balance growth with nature.",
+    "thai": "A: How does urbanization affect the environment? B: It often increases pollution, so cities need sustainable policy. A: Should governments invest more in public transport? B: Yes. They should also protect natural resources and encourage people to recycle. A: That can improve the quality of life and balance growth with nature.",
+    "pinyin": "IELTS | academic",
+    "track": "ielts",
+    "difficulty": "academic",
+    "title": "城市环保规划",
+    "scenarioMemoryText": "雅思讨论城市环保时，可以先说 urbanization 带来 pollution，再强调 sustainable 的 policy。政府需要 invest 公共交通，protect 自然 resource，encourage 居民 recycle，从而 improve 生活 quality，并 balance 经济和环境。",
+    "scenarioMemory": [
+      {
+        "word": "urbanization",
+        "start": 15,
+        "end": 27,
+        "ipa": "/ˌɜːrbənəˈzeɪʃn/",
+        "meaning_zh": "城市化"
+      },
+      {
+        "word": "pollution",
+        "start": 31,
+        "end": 40,
+        "ipa": "/pəˈluːʃn/",
+        "meaning_zh": "污染"
+      },
+      {
+        "word": "sustainable",
+        "start": 45,
+        "end": 56,
+        "ipa": "/səˈsteɪnəbl/",
+        "meaning_zh": "可持续的"
+      },
+      {
+        "word": "policy",
+        "start": 59,
+        "end": 65,
+        "ipa": "/ˈpɑːləsi/",
+        "meaning_zh": "政策"
+      },
+      {
+        "word": "invest",
+        "start": 71,
+        "end": 77,
+        "ipa": "/ɪnˈvest/",
+        "meaning_zh": "投资"
+      },
+      {
+        "word": "protect",
+        "start": 83,
+        "end": 90,
+        "ipa": "/prəˈtekt/",
+        "meaning_zh": "保护"
+      },
+      {
+        "word": "resource",
+        "start": 94,
+        "end": 102,
+        "ipa": "/ˈriːsɔːrs/",
+        "meaning_zh": "资源"
+      },
+      {
+        "word": "encourage",
+        "start": 103,
+        "end": 112,
+        "ipa": "/ɪnˈkɜːrɪdʒ/",
+        "meaning_zh": "鼓励"
+      },
+      {
+        "word": "recycle",
+        "start": 116,
+        "end": 123,
+        "ipa": "/ˌriːˈsaɪkl/",
+        "meaning_zh": "回收利用"
+      },
+      {
+        "word": "quality",
+        "start": 138,
+        "end": 145,
+        "ipa": "/ˈkwɑːləti/",
+        "meaning_zh": "质量"
+      },
+      {
+        "word": "balance",
+        "start": 148,
+        "end": 155,
+        "ipa": "/ˈbæləns/",
+        "meaning_zh": "平衡"
+      }
+    ],
+    "targetWords": [
+      {
+        "word": "urbanization",
+        "ipa": "/ˌɜːrbənəˈzeɪʃn/",
+        "meaning_zh": "城市化",
+        "part_of_speech": "n.",
+        "collocations": [
+          "rapid urbanization",
+          "urbanization process"
+        ]
+      },
+      {
+        "word": "pollution",
+        "ipa": "/pəˈluːʃn/",
+        "meaning_zh": "污染",
+        "part_of_speech": "n.",
+        "collocations": [
+          "air pollution",
+          "reduce pollution"
+        ]
+      },
+      {
+        "word": "sustainable",
+        "ipa": "/səˈsteɪnəbl/",
+        "meaning_zh": "可持续的",
+        "part_of_speech": "adj.",
+        "collocations": [
+          "sustainable development",
+          "sustainable policy"
+        ]
+      },
+      {
+        "word": "policy",
+        "ipa": "/ˈpɑːləsi/",
+        "meaning_zh": "政策",
+        "part_of_speech": "n.",
+        "collocations": [
+          "public policy",
+          "environmental policy"
+        ]
+      },
+      {
+        "word": "invest",
+        "ipa": "/ɪnˈvest/",
+        "meaning_zh": "投资",
+        "part_of_speech": "v.",
+        "collocations": [
+          "invest in transport",
+          "invest money"
+        ]
+      },
+      {
+        "word": "protect",
+        "ipa": "/prəˈtekt/",
+        "meaning_zh": "保护",
+        "part_of_speech": "v.",
+        "collocations": [
+          "protect nature",
+          "protect resources"
+        ]
+      },
+      {
+        "word": "resource",
+        "ipa": "/ˈriːsɔːrs/",
+        "meaning_zh": "资源",
+        "part_of_speech": "n.",
+        "collocations": [
+          "natural resource",
+          "limited resource"
+        ]
+      },
+      {
+        "word": "encourage",
+        "ipa": "/ɪnˈkɜːrɪdʒ/",
+        "meaning_zh": "鼓励",
+        "part_of_speech": "v.",
+        "collocations": [
+          "encourage people",
+          "encourage recycling"
+        ]
+      },
+      {
+        "word": "recycle",
+        "ipa": "/ˌriːˈsaɪkl/",
+        "meaning_zh": "回收利用",
+        "part_of_speech": "v.",
+        "collocations": [
+          "recycle waste",
+          "recycle paper"
+        ]
+      },
+      {
+        "word": "quality",
+        "ipa": "/ˈkwɑːləti/",
+        "meaning_zh": "质量",
+        "part_of_speech": "n.",
+        "collocations": [
+          "quality of life",
+          "improve quality"
+        ]
+      },
+      {
+        "word": "balance",
+        "ipa": "/ˈbæləns/",
+        "meaning_zh": "平衡",
+        "part_of_speech": "v./n.",
+        "collocations": [
+          "balance economy and environment",
+          "keep a balance"
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "How does urbanization affect the environment?",
+        "meaning_zh": "城市化如何影响环境？",
+        "audio": "audio/english/301-c92760eebb.mp3"
+      },
+      {
+        "speaker": "B",
+        "text": "It often increases pollution, so cities need sustainable policy.",
+        "meaning_zh": "它经常增加污染，所以城市需要可持续政策。",
+        "audio": "audio/english/302-206b6e559c.mp3"
+      },
+      {
+        "speaker": "A",
+        "text": "Should governments invest more in public transport?",
+        "meaning_zh": "政府应该更多投资公共交通吗？",
+        "audio": "audio/english/303-f3811a0c46.mp3"
+      },
+      {
+        "speaker": "B",
+        "text": "Yes. They should also protect natural resources and encourage people to recycle.",
+        "meaning_zh": "应该。他们也应该保护自然资源，并鼓励人们回收利用。",
+        "audio": "audio/english/304-9423db0623.mp3"
+      },
+      {
+        "speaker": "A",
+        "text": "That can improve the quality of life and balance growth with nature.",
+        "meaning_zh": "那可以提高生活质量，并平衡发展和自然。",
+        "audio": "audio/english/305-76f3eba7de.mp3"
+      }
+    ],
+    "reviewPrompt": "先用中文情景理解雅思环保话题，再跟读英文观点表达。",
+    "words": [
+      {
+        "meaning": "城市化",
+        "target": "urbanization",
+        "thai": "urbanization",
+        "pinyin": "/ˌɜːrbənəˈzeɪʃn/",
+        "partOfSpeech": "n.",
+        "collocations": [
+          "rapid urbanization",
+          "urbanization process"
+        ],
+        "audio": "word-audio/english/b790de06e4.mp3"
+      },
+      {
+        "meaning": "污染",
+        "target": "pollution",
+        "thai": "pollution",
+        "pinyin": "/pəˈluːʃn/",
+        "partOfSpeech": "n.",
+        "collocations": [
+          "air pollution",
+          "reduce pollution"
+        ],
+        "audio": "word-audio/english/89f25c4c6f.mp3"
+      },
+      {
+        "meaning": "可持续的",
+        "target": "sustainable",
+        "thai": "sustainable",
+        "pinyin": "/səˈsteɪnəbl/",
+        "partOfSpeech": "adj.",
+        "collocations": [
+          "sustainable development",
+          "sustainable policy"
+        ],
+        "audio": "word-audio/english/439412ad89.mp3"
+      },
+      {
+        "meaning": "政策",
+        "target": "policy",
+        "thai": "policy",
+        "pinyin": "/ˈpɑːləsi/",
+        "partOfSpeech": "n.",
+        "collocations": [
+          "public policy",
+          "environmental policy"
+        ],
+        "audio": "word-audio/english/11610a1a22.mp3"
+      },
+      {
+        "meaning": "投资",
+        "target": "invest",
+        "thai": "invest",
+        "pinyin": "/ɪnˈvest/",
+        "partOfSpeech": "v.",
+        "collocations": [
+          "invest in transport",
+          "invest money"
+        ],
+        "audio": "word-audio/english/068d10fa7a.mp3"
+      },
+      {
+        "meaning": "保护",
+        "target": "protect",
+        "thai": "protect",
+        "pinyin": "/prəˈtekt/",
+        "partOfSpeech": "v.",
+        "collocations": [
+          "protect nature",
+          "protect resources"
+        ],
+        "audio": "word-audio/english/256851c61f.mp3"
+      },
+      {
+        "meaning": "资源",
+        "target": "resource",
+        "thai": "resource",
+        "pinyin": "/ˈriːsɔːrs/",
+        "partOfSpeech": "n.",
+        "collocations": [
+          "natural resource",
+          "limited resource"
+        ],
+        "audio": "word-audio/english/f3660be0de.mp3"
+      },
+      {
+        "meaning": "鼓励",
+        "target": "encourage",
+        "thai": "encourage",
+        "pinyin": "/ɪnˈkɜːrɪdʒ/",
+        "partOfSpeech": "v.",
+        "collocations": [
+          "encourage people",
+          "encourage recycling"
+        ],
+        "audio": "word-audio/english/072ab22f5d.mp3"
+      },
+      {
+        "meaning": "回收利用",
+        "target": "recycle",
+        "thai": "recycle",
+        "pinyin": "/ˌriːˈsaɪkl/",
+        "partOfSpeech": "v.",
+        "collocations": [
+          "recycle waste",
+          "recycle paper"
+        ],
+        "audio": "word-audio/english/453b0541dc.mp3"
+      },
+      {
+        "meaning": "质量",
+        "target": "quality",
+        "thai": "quality",
+        "pinyin": "/ˈkwɑːləti/",
+        "partOfSpeech": "n.",
+        "collocations": [
+          "quality of life",
+          "improve quality"
+        ],
+        "audio": "word-audio/english/3a0e32e0b5.mp3"
+      },
+      {
+        "meaning": "平衡",
+        "target": "balance",
+        "thai": "balance",
+        "pinyin": "/ˈbæləns/",
+        "partOfSpeech": "v./n.",
+        "collocations": [
+          "balance economy and environment",
+          "keep a balance"
+        ],
+        "audio": "word-audio/english/63012a340d.mp3"
+      }
+    ],
+    "audio": "audio/english/003-17082c0f22.mp3"
   }
 ];
 window.THAI_AUDIO_APP_META = {
-  count: 665,
+  count: 667,
   voice: "th-TH-PremwadeeNeural",
   languages: [{"id": "thai", "label": "泰语"}, {"id": "indonesian", "label": "印尼语"}, {"id": "english", "label": "英语"}],
   format: "中文意思 | 目标语言 | 拉丁读音"

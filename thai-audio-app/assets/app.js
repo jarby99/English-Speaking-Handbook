@@ -28,9 +28,30 @@
   const languageLabels = Object.fromEntries(
     (meta.languages || []).map((language) => [language.id, language.label])
   );
+  const reviewStorageKey = "englishScenarioReviewState";
 
   function itemTarget(item) {
     return item.target || item.thai;
+  }
+
+  function loadReviewState() {
+    try {
+      return JSON.parse(window.localStorage.getItem(reviewStorageKey) || "{}");
+    } catch {
+      return {};
+    }
+  }
+
+  function saveReviewState(state) {
+    window.localStorage.setItem(reviewStorageKey, JSON.stringify(state));
+  }
+
+  function toggleReviewState(itemId, key, button) {
+    const state = loadReviewState();
+    state[itemId] = state[itemId] || {};
+    state[itemId][key] = !state[itemId][key];
+    saveReviewState(state);
+    button.setAttribute("aria-pressed", String(state[itemId][key]));
   }
 
   function uniqueLanguages() {
@@ -358,6 +379,13 @@
         row.appendChild(part);
       }
 
+      if ((word.collocations || []).length > 0) {
+        const collocations = document.createElement("span");
+        collocations.className = "collocation-list";
+        collocations.textContent = word.collocations.join(" / ");
+        row.appendChild(collocations);
+      }
+
       if (word.audio) {
         const playButton = document.createElement("button");
         playButton.type = "button";
@@ -499,6 +527,23 @@
     playAll.textContent = "整段跟读";
     playAll.addEventListener("click", () => playAudio(item, node, playAll, "整段音频未找到"));
 
+    const reviewState = loadReviewState()[item.id] || {};
+    const reviewControls = document.createElement("div");
+    reviewControls.className = "lesson-review-controls";
+    [
+      ["known", "已掌握"],
+      ["review", "待复习"],
+      ["favorite", "收藏"],
+    ].forEach(([key, label]) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "review-state-button";
+      button.textContent = label;
+      button.setAttribute("aria-pressed", String(Boolean(reviewState[key])));
+      button.addEventListener("click", () => toggleReviewState(item.id, key, button));
+      reviewControls.appendChild(button);
+    });
+
     const wordTitle = document.createElement("p");
     wordTitle.className = "breakdown-title";
     wordTitle.textContent = "词块拆解";
@@ -531,7 +576,7 @@
       dialogueList.appendChild(row);
     });
 
-    node.append(head, title, meta, scenarioTitle, renderScenarioMemory(item), playAll, wordTitle, wordList, dialogueTitle, dialogueList);
+    node.append(head, title, meta, scenarioTitle, renderScenarioMemory(item), playAll, reviewControls, wordTitle, wordList, dialogueTitle, dialogueList);
     return node;
   }
 

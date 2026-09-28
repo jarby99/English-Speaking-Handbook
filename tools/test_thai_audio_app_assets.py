@@ -92,6 +92,32 @@ def test_validate_english_lesson_requires_scenario_ipa_and_dialogue():
     assert "dialogue" in message
 
 
+def test_validate_english_lesson_requires_word_count_and_scenario_coverage():
+    parser = load_english_parser()
+    lesson = {
+        "id": "broken-coverage",
+        "language": "english",
+        "track": "cet4",
+        "category": "campus-study",
+        "categoryLabel": "校园学习",
+        "difficulty": "core",
+        "title": "坏示例",
+        "scenarioMemoryText": "我只记 prepare。",
+        "scenarioMemory": [{"word": "prepare", "start": 3, "end": 10}],
+        "targetWords": [
+            {"word": "prepare", "ipa": "/prɪˈper/", "meaning_zh": "准备", "part_of_speech": "v."},
+            {"word": "review", "ipa": "/rɪˈvjuː/", "meaning_zh": "复习", "part_of_speech": "v."},
+        ],
+        "dialogue": [{"speaker": "A", "text": "I prepare.", "meaning_zh": "我准备。"}],
+        "reviewPrompt": "",
+    }
+
+    message = " ".join(parser.validate_english_lesson(lesson, "broken-coverage.md"))
+
+    assert "8 to 15" in message
+    assert "scenarioMemory missing target words" in message
+
+
 def test_english_starter_lesson_has_required_memory_dialogue_and_words():
     parser = load_english_parser()
     path = ROOT / "learning-records" / "english" / "001-cet4-campus-study.md"
@@ -103,6 +129,19 @@ def test_english_starter_lesson_has_required_memory_dialogue_and_words():
     assert len(lesson["targetWords"]) == 8
     assert "prepare" in lesson["scenarioMemoryText"]
     assert any(line["text"].startswith("Are you ready") for line in lesson["dialogue"])
+
+
+def test_english_starter_lessons_cover_cet4_cet6_and_ielts_tracks():
+    parser = load_english_parser()
+    directory = ROOT / "learning-records" / "english"
+    tracks = set()
+    for path in directory.glob("*.md"):
+        lesson = parser.parse_english_lesson(path, path.read_text(encoding="utf-8"))
+        errors = parser.validate_english_lesson(lesson, path.name)
+        assert errors == []
+        tracks.add(lesson["track"])
+
+    assert {"cet4", "cet6", "ielts"}.issubset(tracks)
 
 
 def test_collect_items_includes_english_lesson_with_track_and_scenario():
@@ -136,7 +175,10 @@ def test_frontend_has_english_lesson_layout_and_track_filter():
     assert "renderPhraseCard" in app_js
     assert "scenario-memory" in app_js
     assert "dialogue-play-button" in app_js
+    assert "lesson-review-controls" in app_js
+    assert "localStorage" in app_js
     assert ".scenario-token" in styles
+    assert ".collocation-list" in styles
 
 
 def test_frontend_search_includes_english_dialogue_and_scenario():
