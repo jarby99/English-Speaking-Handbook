@@ -92,6 +92,19 @@ def test_validate_english_lesson_requires_scenario_ipa_and_dialogue():
     assert "dialogue" in message
 
 
+def test_english_starter_lesson_has_required_memory_dialogue_and_words():
+    parser = load_english_parser()
+    path = ROOT / "learning-records" / "english" / "001-cet4-campus-study.md"
+
+    lesson = parser.parse_english_lesson(path, path.read_text(encoding="utf-8"))
+    errors = parser.validate_english_lesson(lesson, path.name)
+
+    assert errors == []
+    assert len(lesson["targetWords"]) == 8
+    assert "prepare" in lesson["scenarioMemoryText"]
+    assert any(line["text"].startswith("Are you ready") for line in lesson["dialogue"])
+
+
 def test_collect_items_adds_audio_to_thai_word_blocks_only():
     builder = load_builder()
     items = builder.collect_items()
