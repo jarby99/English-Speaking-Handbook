@@ -3,6 +3,7 @@ npm-debug.log*
 
 __pycache__/
 *.py[cod]
+.superpowers/
 
 android/.gradle/
 android/build/

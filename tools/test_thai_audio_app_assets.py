@@ -14,6 +14,84 @@ def load_builder():
     return module
 
 
+def load_english_parser():
+    spec = importlib.util.spec_from_file_location(
+        "english_lesson_parser", ROOT / "tools" / "english_lesson_parser.py"
+    )
+    assert spec and spec.loader
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def test_parse_english_lesson_collects_scenario_words_and_dialogue(tmp_path):
+    parser = load_english_parser()
+    path = tmp_path / "001-cet4-campus-study.md"
+    text = """# CET-4 Campus Study
+
+```yaml
+id: cet4-campus-study-001
+language: english
+track: cet4
+category: campus-study
+category_label_zh: 校园学习
+difficulty: core
+title_zh: 考试准备
+scenario_memory_zh: 我先 prepare 学习计划，再 review 重点内容。
+target_words:
+  - word: prepare
+    ipa: /prɪˈper/
+    meaning_zh: 准备
+    part_of_speech: v.
+    collocations:
+      - prepare for an exam
+  - word: review
+    ipa: /rɪˈvjuː/
+    meaning_zh: 复习
+    part_of_speech: v.
+dialogue:
+  - speaker: A
+    text: Are you ready for the exam?
+    meaning_zh: 你准备好考试了吗？
+review_prompt_zh: 先听整段对话，再逐句跟读。
+```
+"""
+
+    lesson = parser.parse_english_lesson(path, text)
+
+    assert lesson["language"] == "english"
+    assert lesson["track"] == "cet4"
+    assert lesson["scenarioMemory"][0]["word"] == "prepare"
+    assert lesson["targetWords"][0]["ipa"] == "/prɪˈper/"
+    assert lesson["dialogue"][0]["speaker"] == "A"
+
+
+def test_validate_english_lesson_requires_scenario_ipa_and_dialogue():
+    parser = load_english_parser()
+    errors = parser.validate_english_lesson(
+        {
+            "id": "broken",
+            "language": "english",
+            "track": "cet4",
+            "category": "campus-study",
+            "categoryLabel": "校园学习",
+            "difficulty": "core",
+            "title": "坏示例",
+            "scenarioMemoryText": "",
+            "scenarioMemory": [],
+            "targetWords": [{"word": "prepare", "meaning_zh": "准备", "part_of_speech": "v."}],
+            "dialogue": [],
+            "reviewPrompt": "",
+        },
+        "broken.md",
+    )
+
+    message = " ".join(errors)
+    assert "scenarioMemory" in message
+    assert "ipa" in message
+    assert "dialogue" in message
+
+
 def test_collect_items_adds_audio_to_thai_word_blocks_only():
     builder = load_builder()
     items = builder.collect_items()
