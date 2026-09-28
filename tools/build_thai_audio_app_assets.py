@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import csv
 import hashlib
 import importlib.util
 import json
@@ -17,6 +18,7 @@ APP_DIR = ROOT / "thai-audio-app"
 DATA_FILE = APP_DIR / "data" / "phrases.js"
 AUDIO_DIR = APP_DIR / "audio"
 VOICE = "th-TH-PremwadeeNeural"
+MAX_AUDIO_CONCURRENCY = 6
 LANGUAGES = {
     "thai": {
         "label": "泰语",
@@ -615,6 +617,83 @@ def english_word_from_target(word: dict) -> dict:
     }
 
 
+def normalize_english_phonetic(phonetic: str) -> str:
+    phonetic = phonetic.strip()
+    if not phonetic:
+        return ""
+    if phonetic.startswith("/") and phonetic.endswith("/"):
+        return phonetic
+    return f"/{phonetic}/"
+
+
+def normalize_english_translation(translation: str) -> str:
+    translation = translation.replace("\\n", "\n")
+    parts = [part.strip(" ;") for part in re.split(r"[\r\n]+", translation) if part.strip(" ;")]
+    return "；".join(parts)
+
+
+def english_wordbank_category(path: Path) -> str:
+    stem = path.stem.lower()
+    if stem.startswith("cet4"):
+        return "010 四级完整词库"
+    if stem.startswith("cet6"):
+        return "011 六级完整词库"
+    if stem.startswith("ielts"):
+        return "012 雅思完整词库"
+    return "010 英语词库"
+
+
+def parse_english_wordbank_csv(path: Path) -> list[dict]:
+    track = path.stem.split("-", 1)[0].lower()
+    category = english_wordbank_category(path)
+    items: list[dict] = []
+    with path.open("r", encoding="utf-8", newline="") as handle:
+        reader = csv.DictReader(handle)
+        for row_index, row in enumerate(reader, 1):
+            word = (row.get("word") or "").strip()
+            meaning = normalize_english_translation(row.get("translation") or "")
+            if not word or not meaning:
+                continue
+
+            phonetic = normalize_english_phonetic(row.get("phonetic") or "")
+            item = {
+                "id": f"english-wordbank-{track}-{row_index:04d}",
+                "language": "english",
+                "kind": "word",
+                "source": path.name,
+                "category": category,
+                "meaning": meaning,
+                "target": word,
+                "thai": word,
+                "pinyin": phonetic,
+                "track": track,
+                "difficulty": "wordbank",
+                "title": word,
+                "partOfSpeech": (row.get("pos") or "").strip(),
+                "tags": (row.get("tag") or "").split(),
+                "audio": f"audio/{audio_filename('english', row_index, word)}",
+            }
+            items.append(item)
+    return items
+
+
+def collect_english_wordbank_items() -> list[dict]:
+    directory = record_dir("english") / "wordbanks"
+    if not directory.exists():
+        return []
+
+    items: list[dict] = []
+    seen: set[tuple[str, str]] = set()
+    for path in sorted(directory.glob("*.csv")):
+        for item in parse_english_wordbank_csv(path):
+            key = (item["track"], item["target"].lower())
+            if key in seen:
+                continue
+            seen.add(key)
+            items.append(item)
+    return items
+
+
 def collect_english_items() -> list[dict]:
     directory = record_dir("english")
     if not directory.exists():
@@ -658,6 +737,8 @@ def collect_english_items() -> list[dict]:
         item["audio"] = f"audio/{audio_filename('english', index, item['target'])}"
         for dialogue_index, line in enumerate(item["dialogue"], 1):
             line["audio"] = f"audio/{audio_filename('english', index * 100 + dialogue_index, line['text'])}"
+
+    items.extend(collect_english_wordbank_items())
 
     return items
 
@@ -788,39 +869,44 @@ async def generate_audio(items: list[dict], overwrite: bool) -> None:
     AUDIO_DIR.mkdir(parents=True, exist_ok=True)
     targets = collect_audio_targets(items)
     failures: list[dict] = []
-    for index, item in enumerate(targets, 1):
+    semaphore = asyncio.Semaphore(MAX_AUDIO_CONCURRENCY)
+
+    async def generate_one(index: int, item: dict) -> None:
         output = APP_DIR / item["audio"]
         output.parent.mkdir(parents=True, exist_ok=True)
         if output.exists() and output.stat().st_size > 0 and not overwrite:
-            continue
+            return
         if output.exists() and output.stat().st_size == 0:
             output.unlink()
-        print(f"[{index}/{len(targets)}] -> {output.relative_to(AUDIO_DIR.parent)}")
-        for attempt in range(1, 4):
-            try:
-                communicate = edge_tts.Communicate(item["ttsTarget"], item["voice"])
-                await communicate.save(str(output))
-                break
-            except Exception as exc:  # noqa: BLE001 - keep batch generation moving.
-                if output.exists():
-                    output.unlink()
-                if attempt == 3:
-                    failures.append(
-                        {
-                            "index": index,
-                            "meaning": item["meaning"],
-                            "thai": item["thai"],
-                            "target": item["target"],
-                            "ttsThai": item["ttsThai"],
-                            "ttsTarget": item["ttsTarget"],
-                            "language": item["language"],
-                            "voice": item["voice"],
-                            "audio": item["audio"],
-                            "error": str(exc),
-                        }
-                    )
-                else:
-                    await asyncio.sleep(1.5 * attempt)
+        async with semaphore:
+            print(f"[{index}/{len(targets)}] -> {output.relative_to(AUDIO_DIR.parent)}", flush=True)
+            for attempt in range(1, 4):
+                try:
+                    communicate = edge_tts.Communicate(item["ttsTarget"], item["voice"])
+                    await communicate.save(str(output))
+                    break
+                except Exception as exc:  # noqa: BLE001 - keep batch generation moving.
+                    if output.exists():
+                        output.unlink()
+                    if attempt == 3:
+                        failures.append(
+                            {
+                                "index": index,
+                                "meaning": item["meaning"],
+                                "thai": item["thai"],
+                                "target": item["target"],
+                                "ttsThai": item["ttsThai"],
+                                "ttsTarget": item["ttsTarget"],
+                                "language": item["language"],
+                                "voice": item["voice"],
+                                "audio": item["audio"],
+                                "error": str(exc),
+                            }
+                        )
+                    else:
+                        await asyncio.sleep(1.5 * attempt)
+
+    await asyncio.gather(*(generate_one(index, item) for index, item in enumerate(targets, 1)))
 
     if failures:
         failure_file = APP_DIR / "audio-generation-failures.json"

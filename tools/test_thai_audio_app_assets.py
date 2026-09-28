@@ -165,6 +165,42 @@ def test_english_word_audio_paths_are_language_scoped():
     assert all(word["audio"].startswith("word-audio/english/") for word in lesson["words"])
 
 
+def test_parse_english_wordbank_csv_creates_cet4_word_cards(tmp_path):
+    builder = load_builder()
+    source = tmp_path / "cet4-sample.csv"
+    source.write_text(
+        "word,phonetic,translation,pos,tag,bnc,frq\n"
+        "abroad,\u0259'br\u0254:d,\u5728\u56fd\u5916\\n\u5230\u6d77\u5916,adv.,cet4,1234,2345\n"
+        "absent,'\u00e6bs\u0259nt,\u7f3a\u5e2d\u7684; \u4e0d\u5728\u7684,adj.,cet4 zk,2345,3456\n",
+        encoding="utf-8",
+    )
+
+    items = builder.parse_english_wordbank_csv(source)
+
+    assert len(items) == 2
+    assert items[0]["language"] == "english"
+    assert items[0]["track"] == "cet4"
+    assert items[0]["kind"] == "word"
+    assert items[0]["target"] == "abroad"
+    assert items[0]["pinyin"] == "/\u0259'br\u0254:d/"
+    assert items[0]["meaning"] == "\u5728\u56fd\u5916\uff1b\u5230\u6d77\u5916"
+    assert items[0]["audio"].startswith("audio/english/")
+
+
+def test_collect_items_includes_full_cet4_wordbank():
+    builder = load_builder()
+    items = builder.collect_items()
+    cet4_wordbank_items = [
+        item
+        for item in items
+        if item["language"] == "english" and item.get("track") == "cet4" and item["kind"] == "word"
+    ]
+
+    assert len(cet4_wordbank_items) == 3849
+    assert any(item["target"] == "abandon" for item in cet4_wordbank_items)
+    assert all(item["source"] == "cet4-ecdict.csv" for item in cet4_wordbank_items)
+
+
 def test_frontend_has_english_lesson_layout_and_track_filter():
     index_html = (ROOT / "thai-audio-app" / "index.html").read_text(encoding="utf-8")
     app_js = (ROOT / "thai-audio-app" / "assets" / "app.js").read_text(encoding="utf-8")
@@ -189,6 +225,23 @@ def test_frontend_search_includes_english_dialogue_and_scenario():
     assert "dialogue" in app_js
     assert "dialogueText" in app_js
     assert "scenarioText" in app_js
+
+
+def test_frontend_limits_large_english_wordbank_rendering_with_load_more():
+    app_js = (ROOT / "thai-audio-app" / "assets" / "app.js").read_text(encoding="utf-8")
+    styles = (ROOT / "thai-audio-app" / "assets" / "styles.css").read_text(encoding="utf-8")
+
+    assert "renderLimit" in app_js
+    assert "loadMoreButton" in app_js
+    assert "visibleItems.slice(0, renderLimit)" in app_js
+    assert ".load-more-button" in styles
+
+
+def test_audio_generation_uses_bounded_concurrency_for_large_wordbanks():
+    builder_source = SCRIPT.read_text(encoding="utf-8")
+
+    assert "asyncio.Semaphore" in builder_source
+    assert "MAX_AUDIO_CONCURRENCY" in builder_source
 
 
 def test_collect_items_adds_audio_to_thai_word_blocks_only():

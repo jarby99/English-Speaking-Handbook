@@ -29,6 +29,8 @@
     (meta.languages || []).map((language) => [language.id, language.label])
   );
   const reviewStorageKey = "englishScenarioReviewState";
+  const renderBatchSize = 160;
+  let renderLimit = renderBatchSize;
 
   function itemTarget(item) {
     return item.target || item.thai;
@@ -52,6 +54,10 @@
     state[itemId][key] = !state[itemId][key];
     saveReviewState(state);
     button.setAttribute("aria-pressed", String(state[itemId][key]));
+  }
+
+  function resetRenderLimit() {
+    renderLimit = renderBatchSize;
   }
 
   function uniqueLanguages() {
@@ -589,7 +595,9 @@
     const visibleItems = items.filter((item) => matches(item, query, language, category, track));
 
     grid.innerHTML = "";
-    itemCount.textContent = String(query || category !== "全部" || track !== "all" ? visibleItems.length : languageItems.length);
+    const totalCount = query || category !== "全部" || track !== "all" ? visibleItems.length : languageItems.length;
+    const renderItems = visibleItems.slice(0, renderLimit);
+    itemCount.textContent = renderItems.length < totalCount ? `${renderItems.length}/${totalCount}` : String(totalCount);
     updateTrackFilterVisibility();
     updateLanguageGuide();
 
@@ -601,21 +609,35 @@
       return;
     }
 
-    visibleItems.forEach((item) => {
+    renderItems.forEach((item) => {
       if ((item.language || "thai") === "english" && item.kind === "lesson") {
         grid.appendChild(renderEnglishLessonCard(item));
         return;
       }
       grid.appendChild(renderPhraseCard(item));
     });
+
+    if (renderItems.length < visibleItems.length) {
+      const loadMoreButton = document.createElement("button");
+      loadMoreButton.type = "button";
+      loadMoreButton.className = "load-more-button";
+      loadMoreButton.textContent = `显示更多（还有 ${visibleItems.length - renderItems.length} 个）`;
+      loadMoreButton.addEventListener("click", () => {
+        renderLimit += renderBatchSize;
+        render();
+      });
+      grid.appendChild(loadMoreButton);
+    }
   }
 
   searchInput.addEventListener("input", () => {
     stopCurrent();
+    resetRenderLimit();
     render();
   });
   languageSelect.addEventListener("change", () => {
     stopCurrent();
+    resetRenderLimit();
     setupCategories();
     updateTrackFilterVisibility();
     render();
@@ -623,11 +645,13 @@
   if (trackSelect) {
     trackSelect.addEventListener("change", () => {
       stopCurrent();
+      resetRenderLimit();
       render();
     });
   }
   categorySelect.addEventListener("change", () => {
     stopCurrent();
+    resetRenderLimit();
     render();
   });
   repeatButton.addEventListener("click", () => {
