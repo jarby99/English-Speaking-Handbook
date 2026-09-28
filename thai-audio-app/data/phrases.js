@@ -22834,11 +22834,304 @@ window.THAI_AUDIO_APP_ITEMS = [
     ],
     "id": "indonesian-128",
     "audio": "audio/indonesian/128-d7aef529de.mp3"
+  },
+  {
+    "id": "english-001",
+    "language": "english",
+    "kind": "lesson",
+    "source": "001-cet4-campus-study.md",
+    "category": "001 校园学习",
+    "meaning": "考试准备",
+    "target": "A: Are you ready for the exam? B: Not yet. I still need to review more. A: Don't put too much pressure on yourself. B: I know, but I want to improve my result. A: Try to make your study plan more efficient. B: Good idea. That will make me feel more confident.",
+    "thai": "A: Are you ready for the exam? B: Not yet. I still need to review more. A: Don't put too much pressure on yourself. B: I know, but I want to improve my result. A: Try to make your study plan more efficient. B: Good idea. That will make me feel more confident.",
+    "pinyin": "CET4 | core",
+    "track": "cet4",
+    "difficulty": "core",
+    "title": "考试准备",
+    "scenarioMemoryText": "我准备考试时先 prepare 学习计划，再 review 重点内容。虽然 exam 前有 pressure，但只要方法 efficient，我就能 improve 成绩，看到 result 时也会更 confident。",
+    "scenarioMemory": [
+      {
+        "word": "prepare",
+        "start": 8,
+        "end": 15,
+        "ipa": "/prɪˈper/",
+        "meaning_zh": "准备"
+      },
+      {
+        "word": "review",
+        "start": 23,
+        "end": 29,
+        "ipa": "/rɪˈvjuː/",
+        "meaning_zh": "复习；回顾"
+      },
+      {
+        "word": "exam",
+        "start": 38,
+        "end": 42,
+        "ipa": "/ɪɡˈzæm/",
+        "meaning_zh": "考试"
+      },
+      {
+        "word": "pressure",
+        "start": 46,
+        "end": 54,
+        "ipa": "/ˈpreʃər/",
+        "meaning_zh": "压力"
+      },
+      {
+        "word": "efficient",
+        "start": 61,
+        "end": 70,
+        "ipa": "/ɪˈfɪʃnt/",
+        "meaning_zh": "有效率的"
+      },
+      {
+        "word": "improve",
+        "start": 75,
+        "end": 82,
+        "ipa": "/ɪmˈpruːv/",
+        "meaning_zh": "提高；改善"
+      },
+      {
+        "word": "result",
+        "start": 89,
+        "end": 95,
+        "ipa": "/rɪˈzʌlt/",
+        "meaning_zh": "结果；成绩"
+      },
+      {
+        "word": "confident",
+        "start": 101,
+        "end": 110,
+        "ipa": "/ˈkɑːnfɪdənt/",
+        "meaning_zh": "有信心的"
+      }
+    ],
+    "targetWords": [
+      {
+        "word": "prepare",
+        "ipa": "/prɪˈper/",
+        "meaning_zh": "准备",
+        "part_of_speech": "v.",
+        "collocations": [
+          "prepare for an exam",
+          "prepare a study plan"
+        ]
+      },
+      {
+        "word": "review",
+        "ipa": "/rɪˈvjuː/",
+        "meaning_zh": "复习；回顾",
+        "part_of_speech": "v./n.",
+        "collocations": [
+          "review notes",
+          "review the key points"
+        ]
+      },
+      {
+        "word": "exam",
+        "ipa": "/ɪɡˈzæm/",
+        "meaning_zh": "考试",
+        "part_of_speech": "n.",
+        "collocations": [
+          "take an exam",
+          "pass an exam"
+        ]
+      },
+      {
+        "word": "pressure",
+        "ipa": "/ˈpreʃər/",
+        "meaning_zh": "压力",
+        "part_of_speech": "n.",
+        "collocations": [
+          "under pressure",
+          "exam pressure"
+        ]
+      },
+      {
+        "word": "improve",
+        "ipa": "/ɪmˈpruːv/",
+        "meaning_zh": "提高；改善",
+        "part_of_speech": "v.",
+        "collocations": [
+          "improve grades",
+          "improve English"
+        ]
+      },
+      {
+        "word": "result",
+        "ipa": "/rɪˈzʌlt/",
+        "meaning_zh": "结果；成绩",
+        "part_of_speech": "n.",
+        "collocations": [
+          "exam result",
+          "get a good result"
+        ]
+      },
+      {
+        "word": "efficient",
+        "ipa": "/ɪˈfɪʃnt/",
+        "meaning_zh": "有效率的",
+        "part_of_speech": "adj.",
+        "collocations": [
+          "efficient method",
+          "efficient study plan"
+        ]
+      },
+      {
+        "word": "confident",
+        "ipa": "/ˈkɑːnfɪdənt/",
+        "meaning_zh": "有信心的",
+        "part_of_speech": "adj.",
+        "collocations": [
+          "feel confident",
+          "be confident about something"
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Are you ready for the exam?",
+        "meaning_zh": "你准备好考试了吗？",
+        "audio": "audio/english/101-6c0b542b32.mp3"
+      },
+      {
+        "speaker": "B",
+        "text": "Not yet. I still need to review more.",
+        "meaning_zh": "还没有。我还需要多复习。",
+        "audio": "audio/english/102-c555a514ff.mp3"
+      },
+      {
+        "speaker": "A",
+        "text": "Don't put too much pressure on yourself.",
+        "meaning_zh": "不要给自己太大压力。",
+        "audio": "audio/english/103-24a0a7b655.mp3"
+      },
+      {
+        "speaker": "B",
+        "text": "I know, but I want to improve my result.",
+        "meaning_zh": "我知道，但是我想提高我的成绩。",
+        "audio": "audio/english/104-e039c054b8.mp3"
+      },
+      {
+        "speaker": "A",
+        "text": "Try to make your study plan more efficient.",
+        "meaning_zh": "试着让你的学习计划更有效率。",
+        "audio": "audio/english/105-d5815b7c7d.mp3"
+      },
+      {
+        "speaker": "B",
+        "text": "Good idea. That will make me feel more confident.",
+        "meaning_zh": "好主意。那会让我更有信心。",
+        "audio": "audio/english/106-667698cbb7.mp3"
+      }
+    ],
+    "reviewPrompt": "先读中文情景串记，再听单词，最后跟读英文对话。",
+    "words": [
+      {
+        "meaning": "准备",
+        "target": "prepare",
+        "thai": "prepare",
+        "pinyin": "/prɪˈper/",
+        "partOfSpeech": "v.",
+        "collocations": [
+          "prepare for an exam",
+          "prepare a study plan"
+        ],
+        "audio": "word-audio/english/4215fb6384.mp3"
+      },
+      {
+        "meaning": "复习；回顾",
+        "target": "review",
+        "thai": "review",
+        "pinyin": "/rɪˈvjuː/",
+        "partOfSpeech": "v./n.",
+        "collocations": [
+          "review notes",
+          "review the key points"
+        ],
+        "audio": "word-audio/english/94cf065fb7.mp3"
+      },
+      {
+        "meaning": "考试",
+        "target": "exam",
+        "thai": "exam",
+        "pinyin": "/ɪɡˈzæm/",
+        "partOfSpeech": "n.",
+        "collocations": [
+          "take an exam",
+          "pass an exam"
+        ],
+        "audio": "word-audio/english/e77152ef78.mp3"
+      },
+      {
+        "meaning": "压力",
+        "target": "pressure",
+        "thai": "pressure",
+        "pinyin": "/ˈpreʃər/",
+        "partOfSpeech": "n.",
+        "collocations": [
+          "under pressure",
+          "exam pressure"
+        ],
+        "audio": "word-audio/english/3c45212109.mp3"
+      },
+      {
+        "meaning": "提高；改善",
+        "target": "improve",
+        "thai": "improve",
+        "pinyin": "/ɪmˈpruːv/",
+        "partOfSpeech": "v.",
+        "collocations": [
+          "improve grades",
+          "improve English"
+        ],
+        "audio": "word-audio/english/086ee54f84.mp3"
+      },
+      {
+        "meaning": "结果；成绩",
+        "target": "result",
+        "thai": "result",
+        "pinyin": "/rɪˈzʌlt/",
+        "partOfSpeech": "n.",
+        "collocations": [
+          "exam result",
+          "get a good result"
+        ],
+        "audio": "word-audio/english/bd0e5aafe5.mp3"
+      },
+      {
+        "meaning": "有效率的",
+        "target": "efficient",
+        "thai": "efficient",
+        "pinyin": "/ɪˈfɪʃnt/",
+        "partOfSpeech": "adj.",
+        "collocations": [
+          "efficient method",
+          "efficient study plan"
+        ],
+        "audio": "word-audio/english/330d03fe2d.mp3"
+      },
+      {
+        "meaning": "有信心的",
+        "target": "confident",
+        "thai": "confident",
+        "pinyin": "/ˈkɑːnfɪdənt/",
+        "partOfSpeech": "adj.",
+        "collocations": [
+          "feel confident",
+          "be confident about something"
+        ],
+        "audio": "word-audio/english/927036db31.mp3"
+      }
+    ],
+    "audio": "audio/english/001-47ac339c2c.mp3"
   }
 ];
 window.THAI_AUDIO_APP_META = {
-  count: 664,
+  count: 665,
   voice: "th-TH-PremwadeeNeural",
-  languages: [{"id": "thai", "label": "泰语"}, {"id": "indonesian", "label": "印尼语"}],
+  languages: [{"id": "thai", "label": "泰语"}, {"id": "indonesian", "label": "印尼语"}, {"id": "english", "label": "英语"}],
   format: "中文意思 | 目标语言 | 拉丁读音"
 };
