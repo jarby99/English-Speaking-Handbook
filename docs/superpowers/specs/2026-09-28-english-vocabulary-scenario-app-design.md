@@ -30,12 +30,37 @@ Each lesson should contain:
 - Difficulty level: beginner, core, advanced, academic, or high-value writing/speaking replacement.
 - Topic category: campus, daily life, travel, work, technology, environment, health, economy, society, education, emotion, personality, opinion, chart writing, IELTS speaking, IELTS listening, IELTS reading, IELTS writing.
 - 8 to 15 related target words.
+- One Chinese scenario memory paragraph that embeds the target English words inline and highlights them.
 - One short scene dialogue using the target words.
 - Word breakdown with Chinese meaning, IPA, part of speech, collocations, and audio.
 - Sentence breakdown with Chinese translation and audio.
 - A short review prompt.
 
 Words should be grouped by meaning and use case first, then sorted by difficulty inside the group.
+
+## Scenario Memory Format
+
+Each word group lesson should start with a Chinese memory paragraph in the style of a short real-life story. Target English words appear inside the Chinese sentences and are visually highlighted.
+
+Example:
+
+```text
+我今天去食堂打饭，encounter 了一件烦心事。
+饭卡余额突然 vanish，我 hesitate 着该如何处理。
+我 inquire 收银员，她 perceive 到我的困惑，让我去服务台 clarify。
+```
+
+This is the first reading layer. It lets the learner understand the scene before moving to full English output.
+
+The required lesson order is:
+
+1. Chinese scenario memory paragraph with highlighted English words.
+2. Target word breakdown with IPA, Chinese meaning, part of speech, and audio.
+3. Full English scene dialogue using the same word group.
+4. Sentence translation and sentence audio.
+5. Follow-reading and review controls.
+
+The Chinese scenario paragraph should be self-written for the app. It should not copy short-video captions, textbook passages, or paid vocabulary materials.
 
 ## Difficulty Ordering
 
@@ -103,6 +128,9 @@ Word group:
 - efficient /ɪˈfɪʃnt/ 有效率的
 - confident /ˈkɑːnfɪdənt/ 有信心的
 
+Chinese scenario memory:
+我准备考试时先 prepare 学习计划，再 review 重点内容。虽然 exam 前有 pressure，但只要方法 efficient，我就能 improve 成绩，也会更 confident。
+
 Scene dialogue:
 A: Are you ready for the exam?
 B: Not yet. I still need to review more.
@@ -140,6 +168,7 @@ target_words:
     ipa: /rɪˈvjuː/
     meaning_zh: 复习
     part_of_speech: v./n.
+scenario_memory_zh: 我准备考试时先 prepare 学习计划，再 review 重点内容。虽然 exam 前有 pressure，但只要方法 efficient，我就能 improve 成绩，也会更 confident。
 dialogue:
   - speaker: A
     text: Are you ready for the exam?
