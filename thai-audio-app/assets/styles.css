@@ -254,7 +254,7 @@ h1 {
   top: 0;
   z-index: 20;
   display: grid;
-  grid-template-columns: minmax(220px, 1fr) minmax(170px, 240px) minmax(116px, 150px) auto;
+  grid-template-columns: minmax(220px, 1fr) minmax(128px, 170px) minmax(112px, 140px) minmax(170px, 240px) minmax(116px, 150px) auto;
   gap: 12px;
   margin: 18px 0;
   padding: 12px 0;
@@ -531,6 +531,104 @@ select {
   background: var(--accent-soft);
 }
 
+.english-lesson-card {
+  min-height: 0;
+  gap: 12px;
+}
+
+.scenario-memory {
+  margin: 0;
+  padding: 13px 14px;
+  border: 1px solid #eadfcb;
+  border-radius: 8px;
+  background: #fff8eb;
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 650;
+  line-height: 1.8;
+}
+
+.scenario-token {
+  display: inline-block;
+  margin: 0 2px;
+  padding: 0 5px;
+  border-radius: 5px;
+  background: #fff176;
+  color: #1f2933;
+  font-weight: 900;
+}
+
+.lesson-word-list {
+  max-height: 330px;
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.lesson-word-list li {
+  grid-template-columns: minmax(74px, 0.9fr) minmax(86px, 0.8fr) minmax(104px, 1fr) minmax(38px, auto) 34px;
+}
+
+.word-part {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.dialogue-list {
+  display: grid;
+  gap: 8px;
+}
+
+.dialogue-row {
+  display: grid;
+  grid-template-columns: 1fr 34px;
+  gap: 4px 10px;
+  align-items: center;
+  padding: 9px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfaf7;
+}
+
+.dialogue-text,
+.dialogue-meaning {
+  grid-column: 1;
+  margin: 0;
+  line-height: 1.45;
+}
+
+.dialogue-text {
+  color: var(--text);
+  font-weight: 800;
+}
+
+.dialogue-meaning {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.dialogue-play-button {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  width: 32px;
+  height: 32px;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff8eb;
+  color: var(--accent-strong);
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 1;
+}
+
+.dialogue-play-button:hover,
+.dialogue-play-button:focus,
+.dialogue-play-button.is-playing {
+  border-color: var(--accent);
+  outline: none;
+}
+
 .pronunciation-rules {
   margin-top: 12px;
   padding-top: 10px;
@@ -600,13 +698,18 @@ select {
 
   .word-meaning,
   .word-thai,
-  .word-pinyin {
+  .word-pinyin,
+  .word-part {
     grid-column: 1;
+  }
+
+  .lesson-word-list li {
+    grid-template-columns: 1fr auto;
   }
 
   .word-play-button {
     grid-column: 2;
-    grid-row: 1 / span 3;
+    grid-row: 1 / span 4;
   }
 
   .guided-word-panel {

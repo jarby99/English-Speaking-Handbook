@@ -126,6 +126,29 @@ def test_english_word_audio_paths_are_language_scoped():
     assert all(word["audio"].startswith("word-audio/english/") for word in lesson["words"])
 
 
+def test_frontend_has_english_lesson_layout_and_track_filter():
+    index_html = (ROOT / "thai-audio-app" / "index.html").read_text(encoding="utf-8")
+    app_js = (ROOT / "thai-audio-app" / "assets" / "app.js").read_text(encoding="utf-8")
+    styles = (ROOT / "thai-audio-app" / "assets" / "styles.css").read_text(encoding="utf-8")
+
+    assert 'id="trackSelect"' in index_html
+    assert "renderEnglishLessonCard" in app_js
+    assert "renderPhraseCard" in app_js
+    assert "scenario-memory" in app_js
+    assert "dialogue-play-button" in app_js
+    assert ".scenario-token" in styles
+
+
+def test_frontend_search_includes_english_dialogue_and_scenario():
+    app_js = (ROOT / "thai-audio-app" / "assets" / "app.js").read_text(encoding="utf-8")
+
+    assert "scenarioMemoryText" in app_js
+    assert "targetWords" in app_js
+    assert "dialogue" in app_js
+    assert "dialogueText" in app_js
+    assert "scenarioText" in app_js
+
+
 def test_collect_items_adds_audio_to_thai_word_blocks_only():
     builder = load_builder()
     items = builder.collect_items()
